@@ -1,0 +1,25 @@
+name: data-tendermint
+on:
+  schedule:
+    - cron: 1 */4 * * *
+  workflow_dispatch: {}
+  push:
+    paths:
+      - .github/workflows/flat.yml
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.10.x
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://rest.bd.evmos.org:1317/cosmos/bank/v1beta1/balances/evmos1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8974jnh
+          downloaded_filename: evmos-community-pool.json
+          postprocess: process-pool.js
+
