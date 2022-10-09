@@ -1,5 +1,4 @@
 {
-    "method": "get",
     "headers": {
         "cookies": "mp_312b6c5fadb9a88d98dc1fb38de5d900_mixpanel=%7B%22distinct_id%22%3A%20%22180dcfe03883d2-0c6514add12d43-14333270-240000-180dcfe0389129e%22%2C%22%24device_id%22%3A%20%22180dcfe03883d2-0c6514add12d43-14333270-240000-180dcfe0389129e%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; connect.sid=s%3AvE7ll7pEGzFzwlblBvgFYoIF_e_OsjJz.d333vMZYbwDgA8lzwZxlu7r2DNWhsR8FQX66SFK1Kfk; __cuid=529c722008b64596806f8deb433528ec; heroku-session-affinity=AECDaANoA24IAWY2IP7///8HYgAD9GtiAADWKmEDbAAAAANtAAAABXdlYi4xbQAAAAV3ZWIuMm0AAAAFd2ViLjNqSifJjEvrw9JBkuqhUTQ4loQV57o_; amp_fef1e8=b7bf0721-eff4-417b-b699-806d610c0f5fR...1get9cp2c.1get9e8mc.48.i.4q; mp_993ca6dd7df2ccdc2a5d2b116c0e18c5_mixpanel=%7B%22distinct_id%22%3A%20%22180e68eea5e1444-062dcbc75f3484-14333270-1fa400-180e68eea5f1214%22%2C%22%24device_id%22%3A%20%22180e68eea5e1444-062dcbc75f3484-14333270-1fa400-180e68eea5f1214%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22%24search_engine%22%3A%20%22google%22%7D"
     }

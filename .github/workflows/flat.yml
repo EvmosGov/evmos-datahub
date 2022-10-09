@@ -31,7 +31,7 @@ jobs:
         with:
           http_url: https://commonwealth.im/api/communityStats?chain=evmos
           downloaded_filename: evmos-commonwealth-unprocessed.json
-          axios_config: config/axios.json
+          axios_config: axios.json
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
