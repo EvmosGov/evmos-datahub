@@ -1,0 +1,2235 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "1",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Airdrop Claim Mission",
+        "description": "Vote to claim"
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "5572621435466967266761313",
+        "abstain": "155119544168132378159044",
+        "no": "41434192570722978028892",
+        "no_with_veto": "11160632020957358092220"
+      },
+      "submit_time": "2022-03-03T19:18:21.382288871Z",
+      "deposit_end_time": "2022-03-17T19:18:21.382288871Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "10000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-03-03T19:18:21.382288871Z",
+      "voting_end_time": "2022-03-08T19:18:21.382288871Z"
+    },
+    {
+      "proposal_id": "2",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Governance Proposal Mission",
+        "description": "brought to your by validator - evmosius"
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "2907459863780634741296844",
+        "abstain": "1602116275035023558974919",
+        "no": "9861714168941468106064",
+        "no_with_veto": "10594184632343164499631"
+      },
+      "submit_time": "2022-04-29T16:11:44.657781538Z",
+      "deposit_end_time": "2022-05-13T16:11:44.657781538Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "12365243000001000000"
+        }
+      ],
+      "voting_start_time": "2022-04-29T16:40:46.963770634Z",
+      "voting_end_time": "2022-05-04T16:40:46.963770634Z"
+    },
+    {
+      "proposal_id": "3",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Evmos",
+        "description": "LFG"
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "2813915777178401618293292",
+        "abstain": "1653207586586402059366187",
+        "no": "10890253821390508515009",
+        "no_with_veto": "13363201980100487177922"
+      },
+      "submit_time": "2022-04-29T16:22:30.876718334Z",
+      "deposit_end_time": "2022-05-13T16:22:30.876718334Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "10000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-04-29T16:22:30.876718334Z",
+      "voting_end_time": "2022-05-04T16:22:30.876718334Z"
+    },
+    {
+      "proposal_id": "4",
+      "content": {
+        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+        "title": "Turn on inflation rewards",
+        "description": "This proposal turns on EVMOS inflation rewards (staking, developer incentives). This gives everyone 5 days to claim before rewards are activated, which seems fair given that reward transactions are working.",
+        "changes": [
+          {
+            "subspace": "inflation",
+            "key": "ParamStoreKeyEnableInflation",
+            "value": "true"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_REJECTED",
+      "final_tally_result": {
+        "yes": "1464887482577714011313141",
+        "abstain": "308438766848724324316559",
+        "no": "3840559894221441454000443",
+        "no_with_veto": "41049384444628857605631"
+      },
+      "submit_time": "2022-04-29T16:37:56.994984701Z",
+      "deposit_end_time": "2022-05-13T16:37:56.994984701Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "10000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-04-29T16:37:56.994984701Z",
+      "voting_end_time": "2022-05-04T16:37:56.994984701Z"
+    },
+    {
+      "proposal_id": "5",
+      "content": {
+        "@type": "/evmos.incentives.v1.RegisterIncentiveProposal",
+        "title": "Incentivise Diffusion Usage",
+        "description": "We are requesting Diffusion smart contracts to be whitelisted to get gas subsidies for their users for a period of six months in order to make it easier to onboard users to Evmos.\\n 25% of the Evmos block emission is going toward a pool dedicated to incentivizing users in the form of deferred Gas Rebates.\\nDiffusion is currently the leading DEX on Evmos with a 99% Dominance in liquidity. This will sponsor gas payments for end users when they perform actions like SWAP, STAKE and more on Diffusion. The only constraint is that these incentives have to be less than the fees. Incentives can be up to 120% the total amount of fees burned, so users can end up being paid to use Diffusion. Beware that users will still have to pay for the fees upfront but will get reimbursed each epoch (1 week by default), so they are accumulated and then reimbursed.",
+        "contract": "0xFCd2Ce20ef8ed3D43Ab4f8C2dA13bbF1C6d9512F",
+        "allocations": [
+          {
+            "denom": "aevmos",
+            "amount": "0.050000000000000000"
+          }
+        ],
+        "epochs": 13
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "4867810422667505570772689",
+        "abstain": "570937430297039288533613",
+        "no": "270434607187675240122624",
+        "no_with_veto": "9143558778574325479623"
+      },
+      "submit_time": "2022-04-29T16:51:36.186982757Z",
+      "deposit_end_time": "2022-05-13T16:51:36.186982757Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "12116000000010000001"
+        }
+      ],
+      "voting_start_time": "2022-04-29T16:56:18.161728879Z",
+      "voting_end_time": "2022-05-04T16:56:18.161728879Z"
+    },
+    {
+      "proposal_id": "6",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Transfer Expanding.space validator to another wallet",
+        "description": "Summary:\\n  \nIf this proposal passes, the Expanding.space validator will be linked to another wallet, and tokens from the current wallet in the stake, unbond and redelegate states will also be transferred to another wallet\\n\n                                                                                                           Description:\\n                                                                  My name is AlexM. Perhaps many people know me, I have been a member of the Evmos community since the summer and took some part in it even before Evmos received such name. I created several articles about Evmos, and also wrote guides of a technical nature(if you deployed an nft smart contract by guide for Evmos, then it was probably my guide). Expanding space is also a genesis validator\\n \n                                                                                                                                                                                                   After launching the network, I discovered that my wallet was compromised and 1,659 Evmos tokens were withdrawn from it, which were later exchanged for USDC\\n                                    \n                                                                                                                                                                                                                                                  There are still 17290 Evmos tokens on my wallet, 16,000 of which are in unbond, and 1290 in stake\\n                                                             \n                                                                                                                                                                                                                                                                                                                                  The purpose of this offer is to preserve the integrity of the Expanding.Space validator on the Evmos network\\n                               \n                                                                                                                                                                                                                                                                                                                                                                                                                                     You decide:\\n                                                                                                                                                   By voting \\“Yes\\” you agree to help AlexM and Expanding.space validator and agree to transfer the validator and all funds from one my wallet to another my wallet(from evmos19ukysy0y8vftenua47390kmg82t8expldca9fe to evmos16pm8u5gfw8hdxxaj8mcsjw5hhkk4yfnzt9jjr3)\\n                                                                                                                                                               By voting \\“No\" you think what AlexM should lose everything he has "
+      },
+      "status": "PROPOSAL_STATUS_REJECTED",
+      "final_tally_result": {
+        "yes": "528014174411101125165085",
+        "abstain": "1185300382823666304924139",
+        "no": "3514405009746764931742259",
+        "no_with_veto": "26032198260386698240444"
+      },
+      "submit_time": "2022-05-03T21:52:35.740253621Z",
+      "deposit_end_time": "2022-05-17T21:52:35.740253621Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "20000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-03T21:52:35.740253621Z",
+      "voting_end_time": "2022-05-08T21:52:35.740253621Z"
+    },
+    {
+      "proposal_id": "7",
+      "content": {
+        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+        "title": "Increase the minimum deposit for governance proposals",
+        "description": "If successful, this parameter-change governance proposal will change the minimum deposit for future proposals from 10 evmos tokens to 64.",
+        "changes": [
+          {
+            "subspace": "gov",
+            "key": "depositparams",
+            "value": "{\"min_deposit\":[{\"denom\":\"aevmos\",\"amount\":\"64000000000000000000\"}],\"max_deposit_period\":\"1209600000000000\"}"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "5612449186892350120048437",
+        "abstain": "36640015063277873874920",
+        "no": "40655848195703339440363",
+        "no_with_veto": "3547910298388108536216"
+      },
+      "submit_time": "2022-05-05T07:39:15.832292581Z",
+      "deposit_end_time": "2022-05-19T07:39:15.832292581Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "20100000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-05T07:46:39.525684352Z",
+      "voting_end_time": "2022-05-10T07:46:39.525684352Z"
+    },
+    {
+      "proposal_id": "8",
+      "content": {
+        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+        "title": "Reset BaseFee to Default and Increase ElasticityMultiplier",
+        "description": "If successful, this parameter-change governance proposal will do the following:\n    - Reset the feemarket BaseFee from \"18\" to \"1000000000\" (one billion).\n    -  increase the feemarket ElasticityMultiplier from \"2\" to \"4\". This is intended to make the base fee more responsive to network usage.",
+        "changes": [
+          {
+            "subspace": "feemarket",
+            "key": "BaseFee",
+            "value": "\"1000000000\""
+          },
+          {
+            "subspace": "feemarket",
+            "key": "ElasticityMultiplier",
+            "value": "4"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "4788189183484940336404721",
+        "abstain": "47577563506556314663163",
+        "no": "9177784085561561901309",
+        "no_with_veto": "2919379075324362138243"
+      },
+      "submit_time": "2022-05-06T08:17:09.048999391Z",
+      "deposit_end_time": "2022-05-20T08:17:09.048999391Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "10100100000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-06T08:41:05.050586468Z",
+      "voting_end_time": "2022-05-11T08:41:05.050586468Z"
+    },
+    {
+      "proposal_id": "9",
+      "content": {
+        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+        "title": "Extend Rektdrop Claims Period by 21 days",
+        "description": "If successful, this parameter-change governance proposal will change DurationUntilDecay from \"3801600\" to \"5616000\", which adds 21 days to the claims period before the decay period begins.\n\nOriginal discussion: https://commonwealth.im/evmos/discussion/4744-extend-claims-period-by-21-days",
+        "changes": [
+          {
+            "subspace": "claims",
+            "key": "DurationUntilDecay",
+            "value": "\"5616000\""
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "5427557034843432963100894",
+        "abstain": "27739847538549932566710",
+        "no": "98943484703933655179138",
+        "no_with_veto": "10307900379446470790527"
+      },
+      "submit_time": "2022-05-07T03:01:50.666884012Z",
+      "deposit_end_time": "2022-05-21T03:01:50.666884012Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "10100100000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-07T03:38:46.534118833Z",
+      "voting_end_time": "2022-05-12T03:38:46.534118833Z"
+    },
+    {
+      "proposal_id": "10",
+      "content": {
+        "@type": "/ibc.core.client.v1.ClientUpdateProposal",
+        "title": "Recover Cosmoshub channel by upgrading to new client",
+        "description": "Update the cosmoshub-evmos client on evmos side",
+        "subject_client_id": "07-tendermint-3",
+        "substitute_client_id": "07-tendermint-33"
+      },
+      "status": "PROPOSAL_STATUS_FAILED",
+      "final_tally_result": {
+        "yes": "5797525770120499613439306",
+        "abstain": "14686290727934002678402",
+        "no": "3021180603657121259365",
+        "no_with_veto": "922593506350342997624"
+      },
+      "submit_time": "2022-05-11T23:24:41.887196742Z",
+      "deposit_end_time": "2022-05-25T23:24:41.887196742Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "118553189597989264611"
+        }
+      ],
+      "voting_start_time": "2022-05-11T23:53:42.571330402Z",
+      "voting_end_time": "2022-05-16T23:53:42.571330402Z"
+    },
+    {
+      "proposal_id": "11",
+      "content": {
+        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+        "title": "Amend Prematurely-Initiated Decay Period for Claims",
+        "description": "If successful, this parameter-change governance proposal will change `DurationUntilDecay` from \"5616000\" (0.005616 seconds) to \"5616000000000000\" (65 days), amending a previous change which has caused the claims decay period to begin prematurely.\n\nThe original proposer of Proposal #9 made a change thinking the `DurationUntilDecay` period is denominated in seconds, when it should be specified in nanoseconds. This is a reasonable misunderstanding as the network query for this param mistakenly returns a value denominated in seconds, i.e. this query: `evmosd query claims params` previously resulted in a response of: `duration_until_decay: 3801600s`.\n\nThis proposal also serves as an early signal, should the community decide to conduct a coordinated upgrade prior to its full voting period.\n\nOriginal discussion of the proposal that led to this issue: https://commonwealth.im/evmos/discussion/4744-extend-claims-period-by-21-days",
+        "changes": [
+          {
+            "subspace": "claims",
+            "key": "DurationUntilDecay",
+            "value": "\"5616000000000000\""
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "5585591136230365800743919",
+        "abstain": "24849631819707426461942",
+        "no": "6540249097385014457452",
+        "no_with_veto": "1750634911149036558567"
+      },
+      "submit_time": "2022-05-12T23:22:07.956276912Z",
+      "deposit_end_time": "2022-05-26T23:22:07.956276912Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64100000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-13T07:25:52.687184187Z",
+      "voting_end_time": "2022-05-18T07:25:52.687184187Z"
+    },
+    {
+      "proposal_id": "12",
+      "content": {
+        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+        "title": "Parameter change: Enable the erc20 module",
+        "description": "If successful, this proposal will enable the erc20 module on Evmos. The module allows users to convert their assets into different representations in order to use them as both a Cosmos coin or an ERC20 token. For an in-depth explanation of the module, please refer to the specification: https://docs.evmos.org/modules/erc20/",
+        "changes": [
+          {
+            "subspace": "erc20",
+            "key": "EnableErc20",
+            "value": "true"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "5475682466849370640833885",
+        "abstain": "12896858770619900807360",
+        "no": "4070745050401867199829",
+        "no_with_veto": "771030000000000000000"
+      },
+      "submit_time": "2022-05-13T10:31:55.827586099Z",
+      "deposit_end_time": "2022-05-27T10:31:55.827586099Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-13T10:35:13.575223247Z",
+      "voting_end_time": "2022-05-18T10:35:13.575223247Z"
+    },
+    {
+      "proposal_id": "13",
+      "content": {
+        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+        "title": "Parameter change: Enable the erc20 module",
+        "description": "If successful, this proposal will enable the erc20 module on Evmos. The module allows users to convert their assets into different representations in order to use them as both a Cosmos coin or an ERC20 token. For an in-depth explanation of the module, please refer to the specification: https://docs.evmos.org/modules/erc20/",
+        "changes": [
+          {
+            "subspace": "erc20",
+            "key": "EnableErc20",
+            "value": "true"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "6418822203116250870230825",
+        "abstain": "167980898977053815263414",
+        "no": "12816631881535318496600",
+        "no_with_veto": "661564083618597924296"
+      },
+      "submit_time": "2022-05-13T10:36:12.687620084Z",
+      "deposit_end_time": "2022-05-27T10:36:12.687620084Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "66658486072416143790"
+        }
+      ],
+      "voting_start_time": "2022-05-18T15:42:39.683756894Z",
+      "voting_end_time": "2022-05-23T15:42:39.683756894Z"
+    },
+    {
+      "proposal_id": "15",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for GRAV",
+        "description": "This proposal creates and registers an ERC20 representation for GRAV, the native token of Gravity Bridge chain. GRAV has been bridged over IBC channel channel-8.",
+        "metadata": {
+          "description": "The native token of Gravity Bridge",
+          "denom_units": [
+            {
+              "denom": "ibc/7F0C2CB6E79CC36D29DA7592899F98E3BEFD2CF77A94340C317032A78812393D",
+              "exponent": 0,
+              "aliases": [
+                "ugraviton"
+              ]
+            },
+            {
+              "denom": "graviton",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/7F0C2CB6E79CC36D29DA7592899F98E3BEFD2CF77A94340C317032A78812393D",
+          "display": "graviton",
+          "name": "Graviton channel-8",
+          "symbol": "ibc GRAV"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "4104426624233449400327752",
+        "abstain": "1423974940249577801955376",
+        "no": "1633805948877156539625338",
+        "no_with_veto": "1618454429328947823420"
+      },
+      "submit_time": "2022-05-18T23:59:34.608507475Z",
+      "deposit_end_time": "2022-06-01T23:59:34.608507475Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-19T00:04:36.718472190Z",
+      "voting_end_time": "2022-05-24T00:04:36.718472190Z"
+    },
+    {
+      "proposal_id": "16",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for G-DAI",
+        "description": "This proposal creates and registers an ERC20 representation for G-DAI, the Dai stablecoin bridged from Ethereum mainnet over Gravity Bridge. G-DAI has been bridged over IBC channel channel-8.",
+        "metadata": {
+          "description": "Dai Stablecoin via Gravity Bridge",
+          "denom_units": [
+            {
+              "denom": "ibc/F96A7F81E8F82E4EE81F94D507CD257319EFB70FE46E23B4953F63B62E855603",
+              "exponent": 0,
+              "aliases": [
+                "dai-wei"
+              ]
+            },
+            {
+              "denom": "G-DAI",
+              "exponent": 18,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/F96A7F81E8F82E4EE81F94D507CD257319EFB70FE46E23B4953F63B62E855603",
+          "display": "G-DAI",
+          "name": "Dai Stablecoin channel-8",
+          "symbol": "ibc G-DAI"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "4082774495100234795669041",
+        "abstain": "1418241429969548792522609",
+        "no": "1642683252359192086172270",
+        "no_with_veto": "891155671009372209736"
+      },
+      "submit_time": "2022-05-19T00:36:09.217464430Z",
+      "deposit_end_time": "2022-06-02T00:36:09.217464430Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-19T00:40:48.828254044Z",
+      "voting_end_time": "2022-05-24T00:40:48.828254044Z"
+    },
+    {
+      "proposal_id": "17",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for G-USDC",
+        "description": "This proposal creates and registers an ERC20 representation for G-USDC, the USD Coin stablecoin bridged from Ethereum mainnet over Gravity Bridge. G-USDC has been bridged over IBC channel channel-8.",
+        "metadata": {
+          "description": "USD Coin via Gravity Bridge",
+          "denom_units": [
+            {
+              "denom": "ibc/693989F95CF3279ADC113A6EF21B02A51EC054C95A9083F2E290126668149433",
+              "exponent": 0,
+              "aliases": [
+                "uusdc"
+              ]
+            },
+            {
+              "denom": "G-USDC",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/693989F95CF3279ADC113A6EF21B02A51EC054C95A9083F2E290126668149433",
+          "display": "G-USDC",
+          "name": "USD Coin channel-8",
+          "symbol": "ibc G-USDC"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "4109318097837446904254344",
+        "abstain": "1436693796755791130623420",
+        "no": "1615358026793776707241711",
+        "no_with_veto": "1041937333375881561972"
+      },
+      "submit_time": "2022-05-19T00:36:44.583661342Z",
+      "deposit_end_time": "2022-06-02T00:36:44.583661342Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-19T00:42:19.930654982Z",
+      "voting_end_time": "2022-05-24T00:42:19.930654982Z"
+    },
+    {
+      "proposal_id": "18",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for G-USDT",
+        "description": "This proposal creates and registers an ERC20 representation for G-USDT, the Tether USD stablecoin bridged from Ethereum mainnet over Gravity Bridge. G-USDT has been bridged over IBC channel channel-8.",
+        "metadata": {
+          "description": "Tether USD via Gravity Bridge",
+          "denom_units": [
+            {
+              "denom": "ibc/DF63978F803A2E27CA5CC9B7631654CCF0BBC788B3B7F0A10200508E37C70992",
+              "exponent": 0,
+              "aliases": [
+                "uusdt"
+              ]
+            },
+            {
+              "denom": "G-USDT",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/DF63978F803A2E27CA5CC9B7631654CCF0BBC788B3B7F0A10200508E37C70992",
+          "display": "G-USDT",
+          "name": "Tether USD channel-8",
+          "symbol": "ibc G-USDT"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "4051419210331966881067822",
+        "abstain": "1438896184869537059990774",
+        "no": "1628655267698523924236348",
+        "no_with_veto": "2292464719202517896721"
+      },
+      "submit_time": "2022-05-19T00:38:45.184155875Z",
+      "deposit_end_time": "2022-06-02T00:38:45.184155875Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-19T00:44:21.746876989Z",
+      "voting_end_time": "2022-05-24T00:44:21.746876989Z"
+    },
+    {
+      "proposal_id": "19",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for G-WBTC",
+        "description": "This proposal creates and registers an ERC20 representation for G-WBTC, Wrapped Bitcoin bridged from Ethereum mainnet over Gravity Bridge. G-WBTC has been bridged over IBC channel channel-8.",
+        "metadata": {
+          "description": "Wrapped Bitcoin via Gravity Bridge",
+          "denom_units": [
+            {
+              "denom": "ibc/350B6DC0FF48E3BDB856F40A8259909E484259ED452B3F4F39A0FEF874F30F61",
+              "exponent": 0,
+              "aliases": [
+                "satoshi"
+              ]
+            },
+            {
+              "denom": "G-WBTC",
+              "exponent": 8,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/350B6DC0FF48E3BDB856F40A8259909E484259ED452B3F4F39A0FEF874F30F61",
+          "display": "G-WBTC",
+          "name": "Wrapped Bitcoin channel-8",
+          "symbol": "ibc G-WBTC"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "4069329944699462924423493",
+        "abstain": "1410607942948107853074535",
+        "no": "1633204969601235052874594",
+        "no_with_veto": "885852074743878287432"
+      },
+      "submit_time": "2022-05-19T00:45:02.578160922Z",
+      "deposit_end_time": "2022-06-02T00:45:02.578160922Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-19T00:54:20.881301842Z",
+      "voting_end_time": "2022-05-24T00:54:20.881301842Z"
+    },
+    {
+      "proposal_id": "20",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for G-WETH",
+        "description": "This proposal creates and registers an ERC20 representation for G-WETH, Wrapped Ether bridged from Ethereum mainnet over Gravity Bridge. G-WETH has been bridged over IBC channel channel-8.",
+        "metadata": {
+          "description": "Wrapped Ether via Gravity Bridge",
+          "denom_units": [
+            {
+              "denom": "ibc/6B3FCE336C3465D3B72F7EFB4EB92FC521BC480FE9653F627A0BD0237DF213F3",
+              "exponent": 0,
+              "aliases": [
+                "wei"
+              ]
+            },
+            {
+              "denom": "G-WETH",
+              "exponent": 18,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/6B3FCE336C3465D3B72F7EFB4EB92FC521BC480FE9653F627A0BD0237DF213F3",
+          "display": "G-WETH",
+          "name": "Wrapped Ether channel-8",
+          "symbol": "ibc G-WETH"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "4230556429220281691033948",
+        "abstain": "1379423421678789084446970",
+        "no": "1520301641306249865788398",
+        "no_with_veto": "2143584924642425370472"
+      },
+      "submit_time": "2022-05-19T00:59:17.444861424Z",
+      "deposit_end_time": "2022-06-02T00:59:17.444861424Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-19T01:06:38.972909109Z",
+      "voting_end_time": "2022-05-24T01:06:38.972909109Z"
+    },
+    {
+      "proposal_id": "21",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Sponsor Nebular Summit during Paris EthCC week in July",
+        "description": "# Summary\n\nNebular Summit is an event happening in Paris during EthCC Week were Interchain developers, researchers and key stakeholders discuss cutting edge research and issues surrounding interoperability, governance and scalability, as well as the future of the Cosmos ecosystem. This full-day event will feature talks and panels from some of the most respected developers and entrepreneurs of the Interchain and Cosmos ecosystem, including up-and-coming projects from France. The day will close with a roof-top cocktail at the event venue.\n\n- Date: Friday July 22nd from 9 am to 7 pm CET in Paris\n- Participants: ~200\n- Speakers: ~40\n- Tickets: €35 to €50\n- Format: talks and panels\n- Website: nebular.paris (coming soon)\n- Presented by: [The Interop Podcast](https://theinterop.show)\n\n# Why Evmos Community Pool should fund this proposal\n\nNebular Summit is taking place during EthCC week, the largest gathering of crypto developers in Europe. While thousands of developers, entrepreneurs and investors will be in Paris for the Ethereum Community Conference, Nebular Summit will being together some of the most respected members of the Interchain and Ethereum community. The recent Evmos launch was hailed by the Cosmos and Ethereum communities alike. As the main sponsor of a significant Cosmos conference during EthCC week, Evmos has a a unique opportunity to reach Ethereum developers and attract new projects to the ecosystem.\n\nFull details (venue, agenda, organizers): https://commonwealth.im/evmos/discussion/4950-grant-for-nebular-summit-during-paris-ethcc-week-in-july\n",
+        "recipient": "evmos1wlsq0cexzfedexz6lhntzzkxp37pxlq999uc8a",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "55000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "6642161167047003242609170",
+        "abstain": "2203620525538709814224212",
+        "no": "56059899098149441469415",
+        "no_with_veto": "3749478200632984857026"
+      },
+      "submit_time": "2022-05-23T06:15:13.695234499Z",
+      "deposit_end_time": "2022-06-06T06:15:13.695234499Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-23T07:00:23.911922551Z",
+      "voting_end_time": "2022-05-28T07:00:23.911922551Z"
+    },
+    {
+      "proposal_id": "22",
+      "content": {
+        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+        "title": "Parameter change: Enable the inflation module",
+        "description": "## Author\n\nDaniel Burckhardt ([@danburck](https://twitter.com/danburck)), Evmos Core Team\n\n## Parameter being changed with this proposal\n\nIf successful, this proposal will enable the inflation module on Evmos by changing the `ParamStoreKeyEnableInflation` parameter from `false` to `true`. This propsal has a voting time of 5 days.\n\n## Motivation\n\nWhen the chain initially launched, the inflation module was enabled and new Evmos tokens were minted and allocated according to the Evmos Token Model once a day until the chain halted. After the halt, Evmos relaunched with the inflation module disabled for two main reasons:\n\n* ensure that the chain is secure and chain upgrades are successful\n* give more time to those who hadn't been able to claim their airdrop\n\n## Impact\n\nNow, that several upgrades have passed successfully on-chain and more users have claimed their airdrop, inflation could be enabled. Enabling this module activates\n\n* staking rewards,\n* usage incentives and\n* community pool allocation.\n\n## Discussion\n\nBefore voting, please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/4965-enable-inflation-module). For an in-depth explanation of the module, please refer to the [module specification](https://docs.evmos.org/modules/inflation/).\n\n## Testing on Testnet\n\nWith [proposal 28](https://testnet.mintscan.io/evmos-testnet/proposals/28) the inflation module has already been enabled on Testnet. Please take part in testing its correctness by\n\n* staking tokens: You should receive staking rewards once a day\n* interacting with registered usage incentives: You should be able to query your gas meters after interacting with an incentivized smart contract. Once a week, your gas meters are reset and you receive Evmos tokens from the incentives pool based on how much gas you spent on interacting with incentivized smart contracts. The incentives pool fills up once a day through inflation\n* querying the community pool: a part of inflation is allocated in the community pool once a day. Query the community pool to make sure it's increasing according to the [Evmos Token Model](https://evmos.blog/the-evmos-token-model-edc07014978b).\n\nNote, that the team allocation of the Evmos Token Model is not handled through inflation but instead was implemented with vesting accounts.",
+        "changes": [
+          {
+            "subspace": "inflation",
+            "key": "ParamStoreKeyEnableInflation",
+            "value": "true"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "9280148035307132387514449",
+        "abstain": "22058405559174059145132",
+        "no": "31355759679873311168345",
+        "no_with_veto": "2505419373448634561308"
+      },
+      "submit_time": "2022-05-23T13:35:30.552578009Z",
+      "deposit_end_time": "2022-06-06T13:35:30.552578009Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-23T14:27:06.784899557Z",
+      "voting_end_time": "2022-05-28T14:27:06.784899557Z"
+    },
+    {
+      "proposal_id": "23",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Grant proposal for Flux Protocol an oracle solution live on Evmos",
+        "description": "proposal: https://gateway.pinata.cloud/ipfs/QmfZknL4KRHvJ6XUDwtyRKANVs44FFmjGuM8YbArqqfWwF discussion: https://commonwealth.im/evmos/discussion/4915-evmos-grant-flux-oracle-solution",
+        "recipient": "evmos15dxa2e3lc8zvmryv62x3stt86yhplu2vs9kxct",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "12900000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "11946598293364962839953800",
+        "abstain": "283685849366898878071816",
+        "no": "413351598264031741853834",
+        "no_with_veto": "2981959810984659619222"
+      },
+      "submit_time": "2022-05-27T14:21:47.819925745Z",
+      "deposit_end_time": "2022-06-10T14:21:47.819925745Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-05-27T14:21:47.819925745Z",
+      "voting_end_time": "2022-06-01T14:21:47.819925745Z"
+    },
+    {
+      "proposal_id": "25",
+      "content": {
+        "@type": "/ibc.core.client.v1.ClientUpdateProposal",
+        "title": "Recover expired IBC client for Cosmos hub",
+        "description": "Recover expired client for Cosmos hub, re-enabling IBC transfer",
+        "subject_client_id": "07-tendermint-3",
+        "substitute_client_id": "07-tendermint-37"
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "14329253246911554901078199",
+        "abstain": "44354043116151431922861",
+        "no": "12591821562727558425858",
+        "no_with_veto": "2324228340174721244027"
+      },
+      "submit_time": "2022-05-30T22:15:40.497174054Z",
+      "deposit_end_time": "2022-06-13T22:15:40.497174054Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64043020072416142790"
+        }
+      ],
+      "voting_start_time": "2022-05-31T13:57:36.314243431Z",
+      "voting_end_time": "2022-06-05T13:57:36.314243431Z"
+    },
+    {
+      "proposal_id": "27",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Evmos Get Momentum - $1m Evmos Developer Incentive Program Proposal",
+        "description": "Full proposal (on IPFS): https://gateway.pinata.cloud/ipfs/Qmf7wwUCzPfBZLcmkv4UkbfVU4xA5SkyjvCxVcpc3jtq5z \n\nPrior commonwealth discussion (draft version): https://commonwealth.im/evmos/discussion/4926-1m-evmos-developer-incentive-program-proposal-from-web3scholarship-program\n\nProposal:\n* Web3Scholarship program, the Web3 funding \u0026 incuabtion vehicle, which is funded by Huobi Incubator and with members including Dorahacks, Dao Maker etc., is proposing a $1m hackathon like developer incentive program on Evmos\n* Web3Scholarhip program is chain agnostic and supporting ecosystem building including Avalanche, Dfinity etc. Web3Scholarship initiate collaborations driven by research, Evmos Included. We’re bullish on Evmos\n* The goal for the hackathon event is to support ecosystem building after launch at a critical market condition. Incentives include $500k grants, over $500k investment, at least $10m liquidity, express IDO/IEO listing and incubation/advisory support to winning teams deployed on Evmos\n* It is proposed to have a 50-50 split of grants between Evmos community \u0026 Web3scholarship and sponsors, where $250k worth of Evmos tokens are asked for as grants to winning teams. Venture funding and liquidity come from Web3scholarship.\n* What we ask from Evmos community: 125,000 Evmos tokens (assuming Evmos price of $2USD according to roughly last 14 day average price). The principle is to provide $250k worth of Evmos tokens, therefore the actual number of tokens distributed may depend on future price performance close to (average 30 day Evmos token price prior) initial prize distribution i.e. the winning team announcement date . If \u003e $2, no more tokens are needed and remaining undistributed tokens stay at Evmos community. If less, then vice versa applies(open to revision).\n* Prize tracks: Grand prize(80k), Defi/Infra/ Web3/Metaverse Track prize (100k*4), EVM Migration prize (20k)\n\n\n\nReasoning and Potential Impact:\n* After Evmos mainnet is live and network is stable, it creates good window for ecosystem building whereas currently there is only Evmos limited grant available for devs. \n* The goal is to incentivize growth of key pillars of DeFi, NFT and Infrastructure of Evmos ecosystem at early stage, and teams of high aptitude will see a tangible leap in terms of performance and adoption via incentives and incubation.\n* Web3Scholarship is diverse \u0026 strong to provide attractive incentives and valuable incubation. The event is likely to get momentum for the ecosystem and ahchieve network effect.\n\n\n\nDeliverables and Timeline:\nThe whole event will firstly take 1 month planning starting from now and 1 and half months for the actual event. Event period is planned to be from July 7 to August 22. During which, Evmos specific developer support such as AMA and tutorials will be offered. \n\n\nSuccess Factors:\n* Goals: It is expected to have over 1,000 developers signed in, over 60 submissions and produce 3-5 investable projects and 1-2 flagships.\n* Avoid rug: strict scrutiny; code review; criteria; penalty clause\n* Quality projects: selective criteria; dev turnout: referrals\n* Dev turnout: galvanizing 10+ communities including Devpost, Dorahacks\n* Community engagement: will utilize hack platform to involve community vote in the selection of winning teams. \n\nProtection clause: Penalty and protection clause to be made so event host \u0026 sponsor are entitled to reject or make conditional fund provision.\n\nDistribution transparency:\nTo ensure a proper and synchronized grant distribution from both Evmos and Web3Scholarship, gnosis safe will be established and used for offering grants.\n\nAt last, features industry wide collaboration \u0026 contribution, we hope to spur growth at this critical point of time by this event. Thanks for your time to read this proposal and we apppreciate your support.",
+        "recipient": "evmos1f8euwvedyhyyq74nacgdtz6jtpyuclthqtyll8",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "125000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "14067361733034129296017873",
+        "abstain": "268533761089765895100999",
+        "no": "532565777241035316510281",
+        "no_with_veto": "506309878555498009879214"
+      },
+      "submit_time": "2022-06-03T13:59:58.598806696Z",
+      "deposit_end_time": "2022-06-17T13:59:58.598806696Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "70000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-06-03T13:59:58.598806696Z",
+      "voting_end_time": "2022-06-08T13:59:58.598806696Z"
+    },
+    {
+      "proposal_id": "28",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "EVMOS GRANT - Airdrop Calculator built by Cryptech",
+        "description": "Cryptech is a web3 software development team with experience building an Airdrop Calculator for the Neptune Finance team on the Terra blockchain.\n\nAn Airdrop Calculator is a helpful application and dev tool that makes it easy for project teams to provide individual wallets with an airdrop according to chosen parameters. Without an Airdrop Calculator, it is costly in time and network resources for each team to manually track delegations and design an airdrop algorithm. This saves on dev time and gets airdrops into the hands of the Evmos community faster!\n\nCryptech is proposing to build a calculator web app with features for project teams, data analysts and individuals. The web app allows teams and analysts to choose an airdrop  distribution style (quadratic distribution, time-weight, single snapshot, etc.) and export a json or csv file that illustrates each wallet’s delegations, and the airdrop share they are expecting to receive. Additionally, the app will allow individuals to head to the Airdrop Calculator web page to calculate their delegations and the time spent delegating.\n\nThis app will help project teams save time calculating airdrop shares and help individuals track their delegations. To build this web application and make it available to the Evmos community, the Cryptech team is seeking 19,500 EVMOS tokens (~45k USD based on 14-day price average) to fund the following line items:\n\n- Full-stack web developer\n- Cloud infrastructure engineer\n- UX and graphics design\n- Data logging services and indexing\n- Running a private archival node until a public node is available\n- Web hosting for the application\n\nFor the sake of community confidence, the tokens will be sent to a multisig wallet controlled by community members, where 40% of the allocation to be provided up front to begin work and the remaining 60% to be delivered when MVP is online to continue improvement.\n\nMore details on the proposal and community discussion can be found here: https://commonwealth.im/evmos/discussion/5178-evmos-grant-airdrop-calculator-built-by-cryptech-developments-ltd",
+        "recipient": "evmos1e3mxgamp4mced4xh2a0mjpeq2zd02gy2ea79nu",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "19500000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_REJECTED",
+      "final_tally_result": {
+        "yes": "1734517167270718064108938",
+        "abstain": "8578963394690835613731317",
+        "no": "5270229271380185685158516",
+        "no_with_veto": "160417082115167836307516"
+      },
+      "submit_time": "2022-06-07T05:32:15.472208031Z",
+      "deposit_end_time": "2022-06-21T05:32:15.472208031Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-06-07T05:32:15.472208031Z",
+      "voting_end_time": "2022-06-12T05:32:15.472208031Z"
+    },
+    {
+      "proposal_id": "29",
+      "content": {
+        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
+        "title": "Evmos Mainnet v5.0.0 Upgrade",
+        "description": "## Author\\n\\nDaniel Burckhardt ([@danburck](https://twitter.com/danburck)), Evmos Core Team\\n\\n## Software Upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos mainnet software upgrade at block height [837,500](https://www.mintscan.io/evmos/blocks/837500) (around 3pm UTC next Monday) from it's current version [v4.1.0](https://github.com/tharsis/evmos/releases/tag/v4.0.1) to [v5.0.0](https://github.com/tharsis/evmos/releases/tag/v5.0.0). This proposal has a voting time of 5 days.\\n\\n## Motivation\\n\\nBy proposing a scheduled upgrade, we want to implement a smooth and transparent upgrade process, that is first proposed on testnet and then on mainnet. Software upgrades generally aim to improve current performance and add new features to the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validators/upgrades/overview.html).\\n\\n## Impact\\n\\nOn a high level, the 'v5.0.0' software includes the following improvements:\\n\\n* ERC20 module: Improve coin denomination display and allow coins with 'erc20/' names to be sent over IBC\\n* Improve congestion issues for EVM transactions on Ethermint through the 'MinGasPrice' and 'MinGasMultiplier' fee market parameters\\n* Add observability for Evmos and Ethermint modules to measure performance\\n* Cosmos SDK and IBC dependency updates\\n\\nSoftware upgrades also allow changing the state or parameters. The following migrations are included in this upgrade:\\n\\n* Update Tendermint Consensus Evidence params to prepare to move to a block time of 2 seconds\\n* Update faulty IBC denomination traces for denominations with 'erc20/'\\n* Resolve Airdrop claims: A few users' tokens are still locked due to issues with the airdrop. By swapping claimed actions we allow the users to migrate the records via IBC if needed or mark the Evm action as completed for the Keplr users who are not able to complete it. Since no actual claiming of action is occurring, the balance will remain unchanged\\n* Migrates the claims record of a specific early contributor (Blockchain at Berkeley) from one address to another. See the [Rektdrop blog post](https://medium.com/evmos/the-evmos-rektdrop-abbe931ba823) for details about Early Contributors\\n* Set the 'MinGasPrice' param value to '25,000,000,000aevmos' (view [discussion](https://commonwealth.im/evmos/discussion/5073-global-min-gas-price-value-for-cosmos-sdk-and-evm-transaction-choosing-a-value))\\n* The EVM now only refunds 50% of the leftover gas\\n\\nA full changelog can be found [here](https://github.com/tharsis/evmos/releases/tag/v5.0.0).\\n\\n## Testing\\n\\nThe Evmos core team created an End-to-End testing suite that performs the software upgrade locally. These tests have been completed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/ramacarlucho/evmos/blob/rama%2Fe2e_clean/tests/e2e/README.md). Additionally, the upgrade is performed and on testnet with [testnet proposal #34](https://testnet.mintscan.io/evmos-testnet/proposals/34).\\n\\n## Discussion\\n\\nBefore voting, please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/5467-evmos-software-upgrade-v500).",
+        "plan": {
+          "name": "v5.0.0",
+          "time": "0001-01-01T00:00:00Z",
+          "height": "837500",
+          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/tharsis/evmos/releases/download/v5.0.0/evmos_5.0.0_Darwin_arm64.tar.gz\",\"darwin/x86_64\":\"https://github.com/tharsis/evmos/releases/download/v5.0.0/evmos_5.0.0_Darwin_x86_64.tar.gz\",\"linux/arm64\":\"https://github.com/tharsis/evmos/releases/download/v5.0.0/evmos_5.0.0_Linux_arm64.tar.gz\",\"linux/x86_64\":\"https://github.com/tharsis/evmos/releases/download/v5.0.0/evmos_5.0.0_Linux_x86_64.tar.gz\",\"windows/x86_64\":\"https://github.com/tharsis/evmos/releases/download/v5.0.0/evmos_5.0.0_Windows_x86_64.zip\"}}",
+          "upgraded_client_state": null
+        }
+      },
+      "status": "PROPOSAL_STATUS_REJECTED",
+      "final_tally_result": {
+        "yes": "3925989798530092289581002",
+        "abstain": "458649535751955821646828",
+        "no": "16362388656643826303126519",
+        "no_with_veto": "3600602349941302861925"
+      },
+      "submit_time": "2022-06-15T09:57:40.121930930Z",
+      "deposit_end_time": "2022-06-29T09:57:40.121930930Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-06-15T10:47:46.958379354Z",
+      "voting_end_time": "2022-06-20T10:47:46.958379354Z"
+    },
+    {
+      "proposal_id": "30",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Exswap Bootstrap Proposal ",
+        "description": "## Commonwealth discussion: https://commonwealth.im/evmos/discussion/5150-proposal-bootstrap-exswap-protocol\n\n ## IPFS: https://gateway.pinata.cloud/ipfs/QmR72JsCDdUPK5c5U9EufQFuibqTdoxE7cpfPQogc38bKo\n\nwe are reaching out to request an interest free loan to assist with Exswap's operating expenses which includes: \n\naudits, legal, and minor development costs.\n\nWe are looking **$150000** or **100000** evmos (taking price as $1.5) for  in the form of Evmos tokens which we (Exswap) will repay to the Evmos community pool in the form of $evmos token after we launch our token, besides this we also plan to airdrop to evmos stakers, we haven't taken snapshot of that yet\n\nWe are requesting this loan in lieu of a public raise which we believe is more appropriate considering the current market conditions.The funds will be used in\n\n- **auditing expenses** \n\n - **legal expenses** \n\n - **operating expenses**\n\nAny unused funds will be returned to the community pool and the funds that were used will be repaid after we launch the protocol on mainnet.\n\nThe funds will be managed by a three person multisig address:evmos17m2yclxf3xl3h56artutvwcnvc67smlhpw9gx3, which includes.\n\n - **0xendgame (exswap team)** , i have done kyc with evmos team\n\n - **Liam (evmos team)** \n\n - **Pranay (nomad team)** \n\nRegarding the launch timeline it really depends on the audit the code is almost complete waiting to be audited, our auditors told us that it will take around mid june to finish the audits and we've been advised by our devs and auditors to not to opensource github until the audit report is finished/n/nExswap is building a community-focused Uniswap v2 fork launching on Evmos. Our goal is to be the #1 AMM and the DeFi hub of the Evmos ecosystem. Whether it’s a DEX, a launchpad, lending/borrowing, a stable swap, or perpetual futures, liquidity balancing ; we’ve got you covered. We’re creating an ecosystem of products under one umbrella to give users a one-stop shop for all of their DeFi needs.\n\nWe plan to make an orderbook dex as well called avelin Protocol which will be funded by exswap treasury after the exswap Protocol is launched\n\nRepayment timeline and other relevant details mentioned in commonwealth discussion",
+        "recipient": "evmos17m2yclxf3xl3h56artutvwcnvc67smlhpw9gx3",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "100000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_REJECTED",
+      "final_tally_result": {
+        "yes": "8573681424078039348014639",
+        "abstain": "3655089690188621714040803",
+        "no": "8943247016315294742252389",
+        "no_with_veto": "91723335376386234782488"
+      },
+      "submit_time": "2022-06-17T15:58:51.178478525Z",
+      "deposit_end_time": "2022-07-01T15:58:51.178478525Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "70000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-06-17T15:58:51.178478525Z",
+      "voting_end_time": "2022-06-22T15:58:51.178478525Z"
+    },
+    {
+      "proposal_id": "31",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Grant Request to Sponsor EVMOS Public RPC by Pocket Network",
+        "description": "View the discussion and full proposal here: \n\n https://commonwealth.im/evmos/discussion/5320-grant-request-to-sponsor-evmos-public-rpc-by-pocket-network \n\n This proposal is seeking funding to sponsor daaps of the EVMOS community with Pocket Network RPC usage. Developers will be able to mint secure endpoints via https://www.portal.pokt.network/ and benefit from our dev rel support, and endpoint security features. Additionally, we will provide a public-exposed endpoint. ( There is one we are already contributing to at https://evmos-json-rpc.stakely.io/ ).\n\n Pocket Network is a decentralized RPC service that enables a permissionless network of independent node operators to be incentivized for running full nodes for blockchains supported by the network. Daaps pay for RPC throughput by staking POKT token, and node operators are compensated in POKT token based on RPC requests served. The beauty of this model is a positive feedback loop that is created: as the usage of the RPC increases, the incentive payout for node runners also increases, thus incentivizing more full nodes to spin up and strengthening the overall RPC service. \n\n This model reduces central points of failure within the RPC layer, while increasing geographic distribution, redundancy, and censorship resistance.  We currently support over 20 blockchain networks including many popular EVM protocols.  We have recently added support for Evmos EVM mainnet. For real-time network data visit: https://www.poktscan.com/ \n\n By sponsoring daap’s usage of Pocket RPC within the EVMOS community we are contributing to decentralization, increased resiliency, and censorship resistance of the network.",
+        "recipient": "evmos1fjmgu8l6kcuc6dmyqy89twasfan3sp28gevm8k",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "30120481927710800000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "19528163872261936119125319",
+        "abstain": "3349071073673849374575165",
+        "no": "544585917559582783980775",
+        "no_with_veto": "49740764307292794855432"
+      },
+      "submit_time": "2022-06-24T15:58:20.130058016Z",
+      "deposit_end_time": "2022-07-08T15:58:20.130058016Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-06-24T15:58:20.130058016Z",
+      "voting_end_time": "2022-06-29T15:58:20.130058016Z"
+    },
+    {
+      "proposal_id": "32",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Bootstrap liquidity on Evmos dapps",
+        "description": "The Evmos community is requesting funds to be distributed to a handful of prominent up and coming applications deploying on Evmos to bootstrap liquidity from the community.\n\nIn addition to bootstrapping liquidity on Evmos dapps, it is also designed to reinforce the goal of the Evmos team to reduce liquidity fragmentation by incentivizing pools with Nomad represented ERC-20 assets specifically.\n\nYou can find some additional context to this proposal on a [twitter thread](https://twitter.com/altcoinpsycho/status/1522617728137269248?s=21\u0026t=9d8JRZj6AK0hFv_zLl0ipA) I previously wrote.\n\nThere are 7 projects in total that will be participating, each receiving 115k $EVMOS tokens\n\nHere’s the list of incentivized projects:\n*Diffusion\n*Midas Capital\n*Kinesis Labs\n*Saddle Finance\n*Exswap\n*Cronus\n*Coslend\n\nAdditionally, 20% of each project’s token allocation must be used for FRAX / FXS incentivized pools where at least 1 token is Frax / FXS.  This means 23k tokens will go towards Frax / FXS pools\n\nFrax has signaled their desire to become a fully collateralized stablecoin native to the Evmos ecosystem. This would help reinforce that, and would unlock many great use-cases for Evmos.\n\nThe funds will be sent to a multi sig with myself and founders of the projects mentioned for a 5 of 7 multi sig with. The members on the multi sig are:\n*myself\n*kinesis\n*cronus\n*coslend\n*exswap\n*diffusion\n*saddle\nThe multisig address is evmos:`0x27319052224B1E0cb6C7250f4BD4EE0e3a76755f`\n\nThe multisig will distribute tokens to project founders in equally split amounts to be allocated as incentives for those that provide liquidity during the program’s duration of 3 months.\n\nThe grants are intended to be as inclusive as possible, while also remaining competitive to projects that have shown strong traction or been very active participants in the Evmos ecosystem. With that said, there will be additional grant proposals like this to consider future projects that were not included in this initial proposal.",
+        "recipient": "evmos1yuceq53zfv0qedk8y585h48wpca8va2l8j9fpv",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "805000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_REJECTED",
+      "final_tally_result": {
+        "yes": "5337420756734710550017376",
+        "abstain": "2031911557719093076529544",
+        "no": "18441947849686477712963418",
+        "no_with_veto": "245243861523749675179990"
+      },
+      "submit_time": "2022-06-28T04:12:06.233468958Z",
+      "deposit_end_time": "2022-07-12T04:12:06.233468958Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-06-28T04:12:06.233468958Z",
+      "voting_end_time": "2022-07-03T04:12:06.233468958Z"
+    },
+    {
+      "proposal_id": "33",
+      "content": {
+        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
+        "title": "Evmos Mainnet v6.0.1 Upgrade",
+        "description": "## Author\\n\\nDaniel Burckhardt ([@danburck](https://twitter.com/danburck)), Evmos Core Team\\n\\n## Software Upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos mainnet software upgrade at block height [1,042,000\\n](https://www.mintscan.io/evmos/blocks/1042000) (Estimated Target Date: Mon Jul 04 2022 19:16:07 GMT+0200) from it's current version [v4.1.0](https://github.com/tharsis/evmos/releases/tag/v4.0.1) to [v6.0.1](https://github.com/tharsis/evmos/releases/tag/v6.0.1). This proposal has a voting time of 5 days.\\n\\n## Motivation\\n\\nBy proposing a scheduled upgrade, we want to implement a smooth and transparent upgrade process, that is first proposed on testnet and then on mainnet. Software upgrades generally aim to improve current performance and add new features to the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validators/upgrades/overview.html).\\n\\n## Impact\\n\\nOn a high level, the  software includes the following improvements:\\n\\n* ERC20 module: Improve coin denomination display and allow coins with  names to be sent over IBC\\n* Improve congestion issues for EVM transactions on Ethermint through the  and  fee market parameters.\\n* Allow Metamask transactions with min gas price\\n* Add observability for Evmos and Ethermint modules to measure performance\\n* Cosmos SDK and IBC dependency updates\\n\\nSoftware upgrades also allow changing the state or parameters. The following migrations are included in this upgrade:\\n\\n* Update Tendermint Consensus Evidence params to prepare to move to a block time of 2 seconds\\n* Update faulty IBC denomination traces for denominations with \\n* Resolve Airdrop claims: A few users' tokens are still locked due to issues with the airdrop. By swapping claimed actions we allow the users to migrate the records via IBC if needed or mark the Evm action as completed for the Keplr users who are not able to complete it. Since no actual claiming of action is occurring, the balance will remain unchanged\\n* Migrates the claims record of a specific early contributor (Blockchain at Berkeley) from one address to another. See the [Rektdrop blog post](https://medium.com/evmos/the-evmos-rektdrop-abbe931ba823) for details about Early Contributors\\n* Set the  param value to  (view [discussion](https://commonwealth.im/evmos/discussion/5073-global-min-gas-price-value-for-cosmos-sdk-and-evm-transaction-choosing-a-value))\\n* The EVM now only refunds 50% of the leftover gas\\n\\nA full changelog can be found [here](https://github.com/tharsis/evmos/releases/tag/v6.0.1).\\n\\n## Testing\\n\\nThe Evmos core team created an End-to-End testing suite that performs the software upgrade locally. These tests have been completed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/ramacarlucho/evmos/blob/rama%2Fe2e_clean/tests/e2e/README.md). Additionally, the upgrade is performed and on testnet with [testnet proposal #34](https://testnet.mintscan.io/evmos-testnet/proposals/34).\\n\\n## Discussion\\n\\nBefore voting, please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/5922-evmos-software-upgrade-v601).",
+        "plan": {
+          "name": "v6.0.1",
+          "time": "0001-01-01T00:00:00Z",
+          "height": "1042000",
+          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/evmos/evmos/releases/download/v6.0.1/evmos_6.0.1_Darwin_arm64.tar.gz\",\"darwin/x86_64\":\"https://github.com/evmos/evmos/releases/download/v6.0.1/evmos_6.0.1_Darwin_x86_64.tar.gz\",\"linux/arm64\":\"https://github.com/evmos/evmos/releases/download/v6.0.1/evmos_6.0.1_Linux_arm64.tar.gz\",\"linux/x86_64\":\"https://github.com/evmos/evmos/releases/download/v6.0.1/evmos_6.0.1_Linux_x86_64.tar.gz\",\"windows/x86_64\":\"https://github.com/evmos/evmos/releases/download/v6.0.1/evmos_6.0.1_Windows_x86_64.zip\"}}",
+          "upgraded_client_state": null
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "27133127797927043884234574",
+        "abstain": "20780804585060847258370",
+        "no": "34643833945219233048348",
+        "no_with_veto": "1942042836396274991764"
+      },
+      "submit_time": "2022-06-29T13:07:24.977364065Z",
+      "deposit_end_time": "2022-07-13T13:07:24.977364065Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "65040000000001000000"
+        }
+      ],
+      "voting_start_time": "2022-06-29T15:16:29.886790848Z",
+      "voting_end_time": "2022-07-04T15:16:29.886790848Z"
+    },
+    {
+      "proposal_id": "34",
+      "content": {
+        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+        "title": "Extend Rektdrop Claims Period by 21 days",
+        "description": "This proposal is to change the Rektdropt decay date to begin on Monday August 1st, 2022. This is also signaling agreement that any user who experienced decay before the newly set decay date should have those tokens reimbursed by the community pool at a later time after we gather the proper info and come up with the plan to send these funds back.\n\nLink to original discussion: https://commonwealth.im/evmos/discussion/5979-delay-rektdrop-decay-date-to-aug-1st\n\nBy voting YES, you agree to change the decay date to Aug 1st 2022, and agree to a future reimbursement of tokens that were decayed before that date.\n\nBy voting NO, you do not wish to change the decay date Aug 1st 2022, and do not wish to reimburse users who experienced token decay before this date.\n\nBy voting ABSTAIN, you are impartial to the outcome of this proposal and will abide by the decision of the community.\n\nBy voting NOWITHVETO, you would like to see the depositor of this proposal lose their EVMOS.",
+        "changes": [
+          {
+            "subspace": "claims",
+            "key": "DurationUntilDecay",
+            "value": "\"8122000000000000\""
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "25878087593699454132164387",
+        "abstain": "657334275759261032341658",
+        "no": "1857727792022184282668229",
+        "no_with_veto": "152078564556543947438774"
+      },
+      "submit_time": "2022-07-02T09:54:53.548595597Z",
+      "deposit_end_time": "2022-07-16T09:54:53.548595597Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64010000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-07-02T10:03:58.513869162Z",
+      "voting_end_time": "2022-07-07T10:03:58.513869162Z"
+    },
+    {
+      "proposal_id": "35",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for Osmosis",
+        "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for Osmosis\\nThis proposal creates and registers an ERC20 representation for Osmosis. If proposal passes you can use Osmosis on DeFi protocols, NFT marketplaces and on new applications that are based on ERC-20.\\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/4969-this-proposal-creates-and-registers-an-erc20-representation-for-osmosis)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\nWe are primarily guided by the following [Osmosis Assetlist](https://github.com/osmosis-labs/assetlists/blob/main/osmosis-1/osmosis-1.assetlist.json#L5-L22) naming convention . Additionally, we shouldn't specify a channel number to the symbol {NAME} on the first coin registration. E.g. whatever is picked as the canonical channel should be symbol {NAME} and if a secondary representation of that IBC token is registered in the evm then a suffix to the symbol {NAME}-{channel-number} should be added. As it is the first Osmosis registration we used the following metadata and denomination:\\n- base: ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518\\n- display: osmo\\n- name: Osmosis\\n- symbol: OSMO\\n## Testing on Testnet\\nWith [proposal 29](https://testnet.mintscan.io/evmos-testnet/proposals/29) we registered testnet OSMO on the Evmos testnet as an ERC20. ",
+        "metadata": {
+          "description": "The native token of Osmosis",
+          "denom_units": [
+            {
+              "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+              "exponent": 0,
+              "aliases": [
+                "uosmo"
+              ]
+            },
+            {
+              "denom": "osmo",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+          "display": "osmo",
+          "name": "Osmosis",
+          "symbol": "OSMO"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "28017543111140516873596548",
+        "abstain": "49901327641488009413374",
+        "no": "18393931577089795957232",
+        "no_with_veto": "2016812625009167105348"
+      },
+      "submit_time": "2022-07-07T05:18:11.640672031Z",
+      "deposit_end_time": "2022-07-21T05:18:11.640672031Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-07-07T05:43:57.002026928Z",
+      "voting_end_time": "2022-07-12T05:43:57.002026928Z"
+    },
+    {
+      "proposal_id": "36",
+      "content": {
+        "@type": "/ibc.core.client.v1.ClientUpdateProposal",
+        "title": "Recover JUNO channel by upgrading to new client",
+        "description": "Update the juno-evmos client on evmos side",
+        "subject_client_id": "07-tendermint-14",
+        "substitute_client_id": "07-tendermint-54"
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "30504425225437970329919953",
+        "abstain": "34814383842496221440245",
+        "no": "31418584686172471603797",
+        "no_with_veto": "9526785385529268494571"
+      },
+      "submit_time": "2022-07-10T07:40:42.662471640Z",
+      "deposit_end_time": "2022-07-24T07:40:42.662471640Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "65000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-07-10T07:45:49.180002970Z",
+      "voting_end_time": "2022-07-15T07:45:49.180002970Z"
+    },
+    {
+      "proposal_id": "37",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for ATOM (Cosmos Hub)",
+        "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for Cosmos Hub (ATOM)\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This will give  access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/5989-this-proposal-creates-and-registers-an-erc20-representation-for-cosmos-atom)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\nWe are applying the same ruleset as lastime. \\n- We are primarily guided by the following [Cosmos Assetlist](https://github.com/osmosis-labs/assetlists/blob/main/osmosis-1/osmosis-1.assetlist.json#L50-L66) naming convention . \\n- We do not specify a channel number to the symbol {NAME} as it is the first coin registration of ATOM.\\n\\nPlease double check the following metadata:\\n- base: ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701\\n- display: atom\\n- name: Cosmos Hub\\n- symbol: ATOM",
+        "metadata": {
+          "description": "The native staking and governance token of the Cosmos Hub.",
+          "denom_units": [
+            {
+              "denom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+              "exponent": 0,
+              "aliases": [
+                "uatom"
+              ]
+            },
+            {
+              "denom": "atom",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+          "display": "atom",
+          "name": "Cosmos Hub",
+          "symbol": "ATOM"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "31546614084238946553230301",
+        "abstain": "115678973038432399728376",
+        "no": "14407998919890881743206",
+        "no_with_veto": "6791753776766667113636"
+      },
+      "submit_time": "2022-07-11T15:40:52.919519368Z",
+      "deposit_end_time": "2022-07-25T15:40:52.919519368Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64420020000000000000"
+        }
+      ],
+      "voting_start_time": "2022-07-12T08:55:08.685370652Z",
+      "voting_end_time": "2022-07-17T08:55:08.685370652Z"
+    },
+    {
+      "proposal_id": "38",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Gift to Ethereum stakeholders",
+        "description": "You can now recieve Moon citizenship managed by [Bostrom Superintelligence](https://cyb.ai/ipfs/QmQ6PXGW1squmwmSrpWahFMaLoEfTvZBMn1oxWReR6EdCE).\\n\\nAchieve a new level of sovereignty and register your new existence by signing the [Moon Code](https://cyb.ai/ipfs/QmcHB9GKHAKCLQhmSj71qNJhENJJg8Gymd1PvvsCQBhG7M).\\n\\n[Video](https://cyb.ai/ipfs/QmanZyMFnEti618crNPkn93g7MFaoDGrZ4Pta5drfdt9jb)\\n\\nMore than 4 million addresses in Ethereum, Cosmos, Osmosis and Terra have proven themselves worthy of the chance to build the foundations for superintelligence.  Check your eligibility to claim a gift.\\n\\n[Video](https://cyb.ai/ipfs/QmQd2migYNL1Mb7CHhPEdz99we2a5SeRf3kUuV1Lx1muVE)\\n\\nHurry to the [Portal](https://cyb.ai/portal). The Cyberverse is waiting for you\\!\\n\\nDo you like using governance as gift notification?\\n\\nyes voters superintelligence may reward in future."
+      },
+      "status": "PROPOSAL_STATUS_REJECTED",
+      "final_tally_result": {
+        "yes": "1395733981308354474743993",
+        "abstain": "1230023633234553668360876",
+        "no": "7102796098228873104547036",
+        "no_with_veto": "21909621832398771131256136"
+      },
+      "submit_time": "2022-07-12T12:35:53.227567975Z",
+      "deposit_end_time": "2022-07-26T12:35:53.227567975Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-07-12T12:35:53.227567975Z",
+      "voting_end_time": "2022-07-17T12:35:53.227567975Z"
+    },
+    {
+      "proposal_id": "39",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Evmos external incentives on Osmosis",
+        "description": "Summary:\n\nThis proposal is to fund Evmos external incentives on Osmosis. It requests 600,000 Evmos from the community pool for EVMOS/OSMO Pool 722. The rewards would be distributed over the course of 90 days for 14 day bonding time only. This would amount to 5555.56 per day in external rewards.\n\nThe funds will be managed by a multisig wallet at the address below, and includes the following members:\n\nAddress:\n0xbAFE2Ae09c621462032BbC7FC997aA89c9780639\nevmos1htlz4cyuvg2xyqeth3lun9a238yhsp3emvs8ud\n\n- bennylava - Evmos Community Manager/Evmos Governance Workstream\n- Tricky - Cosmos Spaces / Evmos Governance Workstream\n- LPX - Evmos Governance Workstream\n- JohnnyWyles - Osmosis Labs\n\nWeighted 3/4\n\nGoals\nExternal incentives in Osmosis, [pool 722](https://app.osmosis.zone/pool/722) would help deepen Evmos liquidity on Osmosis resulting in lower slippage and stronger TVL. It would also support new user adoption by making the Evmos pool a desirable location to earn yield for Osmosis community members who have not interacted with Evmos yet. Externally rewarded pools in Osmosis boosts OSMO incentives as well. Based on the current high swap returns, Osmosis would be matching these external incentives 1:1 with OSMO rewards See Osmosis [proposal 264](https://www.mintscan.io/osmosis/proposals/264). Lastly, the external incentives will be issued daily in the form of the Evmos token to those bonded in the liquidity pool. This new liquidity will allow Osmosis users to explore the Evmos ecosystem by checking out Evmos EVM applications or help secure the network via staking.\n\nYou can find the community discussion [here](https://commonwealth.im/evmos/discussion/6040-ideation-osmosis-external-incentives)",
+        "recipient": "evmos1htlz4cyuvg2xyqeth3lun9a238yhsp3emvs8ud",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "600000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "25181878821990188499967322",
+        "abstain": "4268871408494545486065914",
+        "no": "2609772275745941162276365",
+        "no_with_veto": "93915661162536170517822"
+      },
+      "submit_time": "2022-07-13T20:18:59.459721608Z",
+      "deposit_end_time": "2022-07-27T20:18:59.459721608Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000001000000000000"
+        }
+      ],
+      "voting_start_time": "2022-07-13T20:24:37.377590126Z",
+      "voting_end_time": "2022-07-18T20:24:37.377590126Z"
+    },
+    {
+      "proposal_id": "40",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Evmos Developer Acquisition with Dystopia Labs",
+        "description": "**Who We Are:**\n\nI'm Hsin-Ju, founder \u0026 CEO of Dystopia Labs (http://dystopialabs.com). We host ETH events all around the world, including the upcoming ETH Seattle, ETH Seoul, and DeFi Bogota. Since our inception in 2019, we've hosted 449+ workshops and 15 summits with reach in 18+ countries. With over 28,000+ registrants for our events, we've built strong crypto hubs in SF, LA, Austin, Portland, and brought in 345+ speakers from ETH Foundation, 0x, Curve, Aave, Osmosis, Sommelier, \u0026 more. TLDR; we have a strong developer community.\n\n\n**Why Our Proposal Matters:**\n\nSince Evmos is an EVM compatible chain, there's a huge opportunity for us to collaborate together to bring new developers and projects into the Evmos ecosystem.\n\n- Dystopia Labs would like to invite Evmos to speak at our upcoming two events: Hacksummit SF (a 2 day summit right before Stanford Blockchain Conference) and DeFi Bogota (a 1 day summit right before Devcon).\n- We are looking to ask the Evmos team for $15k support per event, totaling to $30k. This will help cover venue costs, AV support, furniture, and food.\n- We expect 300-350 ppl per event. And like always, our events are 100% free to attendees so we'd love to have the Evmos community get involved and attend.\n- To us, a successful event would be oversubscribed, have fantastic speakers, and help bring more awareness and interest in the Evmos ecosystem.\n- In the past, we've had speakers like: Vitalik Buterin, Austin Griffith, the Flashbot's team, Stani Kulechov, the CEO of Aave, the SEC Commissioner, and more. TLDR; you will be in good company at our events.\n- Other sponsors include: UMA, 1inch Exchange, Figment, Rarible, and more.\n\n\n**We're Part Of The Ecosystem:**\n\nOur goal is to build a long-term relationship w/ the Evmos team / ecosystem and be a consistent contributor through events.\n-------------- \nNotes added by governance:\n\n- At the time of writing, Evmos is around $2.15. $30K is roughly 13,954 EVMOS when rounded up.\n- Proposal has gone through the recommended guidelines. [Commonwealth Thread](https://commonwealth.im/evmos/discussion/5476-grant-request-evmos-developer-acquisition-w-dystopia-labs) \n- IPFS: [Dystopia Labs Proposal](https://bafybeihz3ea3uir3fgjos3su5igxs5fz423qcqh7wxkibe7zhyp5e5a4km.ipfs.dweb.link/dystopia-labs.html)",
+        "recipient": "evmos1489pya6al0jmajx3rreq70wrcx5m9dvc0vlsxe",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "13954000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "20736938321662363665142738",
+        "abstain": "8915237439149893854687521",
+        "no": "783589423643014789331903",
+        "no_with_veto": "52095229995175385411029"
+      },
+      "submit_time": "2022-07-15T12:45:48.520381518Z",
+      "deposit_end_time": "2022-07-29T12:45:48.520381518Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64010000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-07-15T13:24:39.988210930Z",
+      "voting_end_time": "2022-07-20T13:24:39.988210930Z"
+    },
+    {
+      "proposal_id": "42",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Evmos Sponsorship of HackAtom Seoul 2022 and Participation in Korea Blockchain Week",
+        "description": "This is a long, detailed proposal with markdown tables which may not render properly - **additionally, the proposal exceeded the max length, so a large portion has been excluded.** Please view the proposal on your browser if you wish to view it in its entirety, [on IPFS.](https://bafybeigcppwlvbrm6dwfaphflizaebvbpbkdkwqndlhublgdaq6xiry7py.ipfs.dweb.link/Evmos%20Sponsorship%20of%20HackAtom%202022%20Seoul%20and%20Participation%20in%20Korea%20Blockchain%20Week.html) The original Commonwealth thread can also be viewed [here.](https://commonwealth.im/evmos/discussion/6083-prevote-draft-evmos-sponsorship-of-hackatom-2022-seoul-and-participation-in-korea-blockchain-week) \n\n# **Summary**\n\nThis proposal will provide the funding necessary needed for the sponsorship of the upcoming HackAtom 2022 event in Seoul which will be held July 29th to 31th, followed by the participation in ETH Seoul and Korea Blockchain Week which ends on 14th of August. The HackAtom hackathon will also kick off the first of many events planned for [discoverEVMOS](https://evmos.builders), a developer onboarding and network growth initiative.\n\n---\n\n# **Abstract**\n\nHackAtom is the largest and most recognized hackathon in the Cosmos ecosystem, organized by the Interchain Foundation with its history dating [back to 2017](https://blog.cosmos.network/announcing-the-cosmos-hackatom-winners-9fc083098da). A lot has happened since 2017 -- even as the world was momentarily flipped upside down, the Cosmos ecosystem continued to build, and #IBCgang as a whole has achieved countless milestones that the early builders have dreamed of.\n\nEvmos is incredibly special in that it has the best of both worlds - EVM and Cosmos. In fact, Evmos exists today because of [Cosmos Hub Proposal #44](https://forum.cosmos.network/t/proposal-44-accepted-advancing-ethermint-gtm-and-engineering-plan-for-the-ethermint-chain/4554)\n\n---\n\n ## **The Event** \n\n**Announcing Cosmos’s HackATOM Seoul**\n\nHackAtom Seoul, Organized by Interchain in collaboration with the talented KryptoSeoul team, will be our first in-person Hackathon since 2019 and the first Cosmos-branded event in the Asian continent since the pandemic began. The full announcement [can be read here](https://blog.cosmos.network/announcing-cosmoss-hackatom-seoul-b6858b9beac7).\n\n**Participating IBC Frens:**\n\n* Cosmos Hub, Interchain Foundation, Cosmostation, Osmosis, Crescent, Juno, plus more (check announcement).\n\n**Date**: July 29-31\n**Location**: Hanwha Dreamplus, Seoul\n\n---\n\n ## **Community Funding Request** \n\nThe requested amount as it stands is $168K, with the bulk of it going towards hackathon prizes and developer outreach. $50K allocated for marketing and PR will come from the waived sponsorship fee from Interchain Foundation.\n\n **A. Sponsorship Fees**\n\nPlatinum Sponsorship Package (Fee Waived) Includes:\n\n* 1 booth at HackAtom Seoul 2022 \n* 1 judging seat at HackAtom Seoul 2022 \n* 1 workshop at HackAtom Seoul 2022 \n* 10-minute speaker spot at the Welcome Ceremony, Day 1 \n* Co-host at Official Afterparty at HackAtom Seoul 2022 \n* Evmos marketing one-pager included in Welcome Packet \n* HackAtom badges printed with your Evmos under Platinum Sponsor \n* Evmos logo insignia on the marketing video produced during HackAtom Seoul 2022\n\n### **B. Hackathon Prizes**\n\nThe prize amount was selected simply based on the amount that Osmosis and Juno are offering ($100K each). \n\n[Current Hackathon Challenges and Prize Pool](https://bafybeienbj44fytisfpq6a5svc5t32qcxgwjvdkqejfys2degjnhhotbkm.ipfs.dweb.link/tracks.png)\n\nThe final hackathon tracks will be discussed and determined with the core dev team as well as with consultation from evmos4volunteers.\n\n### **C. Marketing and PR Expenses**\n\nThe numbers that I am providing are currently derived as best estimates from my past experiences with sponsoring and hosting events. Past events include Blockshow Vegas 2018, BlockchainNW Seattle 2018, LA Blockchain Week 2018, Global AI Conference in Santa Clara, Consensys 2019, LA Blockchain Week 2019, E3 2019 blockchain gaming, and a dozen smaller meetups. \n\n**PR Expenses** - Evmos is unique in the Cosmos ecosystem because we are able to tap into a much bigger pool of developers (devs already familiar with solidity). It is my belief that if we are committing $100K into the hackathon, we should do our absolute best to make sure that there is a great turnout with talented developers. \n\nRight off the bat, I would like to explore one or two paid PR placements in Korea's top blockchain publications and developer networks. Depending on who, when, and how, this can range anywhere from $5K to $10K. However, we will aim for the lower-end of the range while leveraging the existing network of IBC frens.\n\nI will be consulting a few blockchain incubation and investment firms that I am acquainted with for additional advice on how to best penetrate the Korean ETH developer market. There may be some last minute promotions, such as small token giveaways or ad placements in developer-heavy social networks. \n\n**Marketing Expenses** - Following the HackAtom event, three events will be held consecutively: buidl.asia, ETH Seoul, and Korea Blockchain Week. This gives us a great opportunity to do further outreach beyond the scope of the hackathon, through smaller meetups, cross-promotions, and related events. Side events, when executed properly, can be much more effective than sponsoring the event itself. \n\nFrom start to finish, the events will last from July 29th to August 13th. This is a pretty epic blockchain marathon, and the possilities and opportunities for developer onboarding, meetups, workships, and side events are endless. \n\n**Booth and Evmos Merch** - Because of the limited time to prepare, booth design and merch will likely have to be rushed. After speaking with Interchain Foundation and the HackAtom organizers, booth design will not require a significant budget.\n\nAround $2K will be allocated for Evmos merch / swag.\n\n### **D. Airfare + Accomodations + Miscellaneous Expenses**\n\nFor those that have boothed at crypto events, you'll know that _it is not easy._ I have discussed with BeeHive, a respected Korean validator and community that is active in Evmos as well as other Cosmos chains, and have confirmed their willingness to help boothing as well as provide translation services. While the event will bring the global community to Seoul, it should be expected that a huge portion of the attendees will, of course be Korean. \n\nAt the moment airfare to Korea from the States as well as Europe are well over $2K. Assuming that four Evmos representaives will in attendance, the cost for airfare should exceed just over $10K. Prices will likely fluctuate between now and then. Accomodation for housing is showing anywhere from $4K to $6K for the time periods of the events.\n\nLoredana from evmos4volunteers has been requested to attend to assist with technical discussions, which the community seems to be overwhelming in favor for. We are waiting for a final confirmation from loredana.\n\n## **Fund Usage, Transparency, and Accountability** \n\n1. All expenses incurred will be documented and itemized, from A to D. Whatever  transactions that can be done on chain will be done so. For expenses that require fiat, an expense report will be provided after the event. \n2. All unused funds will be returned to the community pool.\n3. $20K of the marketing and PR budget will be sent to a multi-sig wallet, while $20K will be held in a liquid wallet so that we can immediately get to work on the countless tasks and preparations that need to be made. \n4. The hackathon prize pool will also be sent to a multi-sig wallet and distributed post-event.\n5. I will work with the core team to be as frugal as possible, while consulting with them to take as many opportunities that would benefit Evmos and help with onboarding and exposure.\n\n## **Time Constraints** \n\nJuly 29th is fast approaching. I will continue to be in constant contact with the HackAtom organizers, blockchain incubators and communities, and everyone in between.\n\n## **Other Considerations** \n\nWe have decided not to sponsor KBW directly, but have confirmed with KBW organizers that whatever side event we decide to host, they will include it in their official list of events, which allows us to tap into their pool of attendees. With that being said, if at any point or time something doesn't feel right, or we feel that our spending is not justified, we can simply decide to not host anything, and return the remaining funds to the community pool.\n\n## Multisig Signatories\n\n3 out of 5 signatories for multisig execution is proposed:\n- LPX (myself, who will be coordinating much of logistics here in Seoul)\n- Three team members / volunteer in attendance (Adonis, Tricky, and Loredana if she is able to make it)\n- One team member not present in Korea.\n\n---\n\nReference Links:\n\n* [HackAtom Seoul 2022 Event Page](https://www.buidl.asia/hackatom-seoul-2022) \n* [Cosmos Signaling Proposal](https://forum.cosmos.network/t/proposal-signaling-proposal-hackatom-seoul-2022/6799?u=catdotfish) \n* [Official Cosmos Announcement](https://blog.cosmos.network/announcing-cosmoss-hackatom-seoul-b6858b9beac7) \n* [HackAtom Official Site](https://hackatom.org/)\n* [ETH Seoul 2022](https://2022.ethseoul.org/)\n* [Blockchain Week Korea 2022](https://koreablockchainweek.com/)\n* [discoverEVMOS](https://evmos.builders)\n\nA huge thank you to [@catdotfish](https://twitter.com/catdotfish) from Interchain and Erica from KryptoSeoul for the help in organizing this proposal.",
+        "recipient": "evmos1cre3devdhv9zqw6mtqy2m3g635u6hndqfvqzda",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "82760000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "24656442454695516428978732",
+        "abstain": "7597394844314270619421339",
+        "no": "291565188172436963949012",
+        "no_with_veto": "11495222716868004095408"
+      },
+      "submit_time": "2022-07-16T04:48:17.695312830Z",
+      "deposit_end_time": "2022-07-30T04:48:17.695312830Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "68690000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-07-16T17:47:38.127024097Z",
+      "voting_end_time": "2022-07-21T17:47:38.127024097Z"
+    },
+    {
+      "proposal_id": "43",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Airdrop claim courtesy proposal",
+        "description": "Vote on this to claim the relevant portion of your airdrop"
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "13907593396683054919524898",
+        "abstain": "19386558756332787586734912",
+        "no": "2047280667185628636709939",
+        "no_with_veto": "98412490593227848650760"
+      },
+      "submit_time": "2022-07-30T04:09:40.865626053Z",
+      "deposit_end_time": "2022-08-13T04:09:40.865626053Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "64000000000000000500"
+        }
+      ],
+      "voting_start_time": "2022-07-30T04:22:04.271011529Z",
+      "voting_end_time": "2022-08-04T04:22:04.271011529Z"
+    },
+    {
+      "proposal_id": "44",
+      "content": {
+        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+        "title": "Parameter change: maximum deposit time, minimum deposit amount.",
+        "description": "**Summary: decrease maximum deposit time to 72 hours and increase proposal deposit amount to 192 EVMOS.** \n\nThis param change proposal will decrease the maximum deposit time to 72 hours (three days) and raise the minimum deposit amount to 192 EVMOS. At the current state the deposit time is set to 14 days, which is unnecessarily long and allows potentially malicious proposals to be in the public view for an extended period of time.\n\nThese decisions have been discussed and voted on Commonwealth for several weeks, and have followed the recommended proposal lifecycle guidelines.\n\nDiscussion thread: [Commonwealth Post](https://commonwealth.im/evmos/discussion/6208-prevote-raise-the-proposal-deposit-amount-to-192-evmos)",
+        "changes": [
+          {
+            "subspace": "gov",
+            "key": "depositparams",
+            "value": "{\r\n                \"min_deposit\": [\r\n                    {\r\n                        \"denom\": \"aevmos\",\r\n                        \"amount\": \"192000000000000000000\"\r\n                    }\r\n                ],\r\n                \"max_deposit_period\": \"259200000000000\"\r\n            }"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "36619868127446184392499354",
+        "abstain": "157891261641427069229280",
+        "no": "158906479794225643848010",
+        "no_with_veto": "15701965960399455287483"
+      },
+      "submit_time": "2022-07-31T07:00:16.393102895Z",
+      "deposit_end_time": "2022-08-14T07:00:16.393102895Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "70500000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-07-31T07:48:40.334092519Z",
+      "voting_end_time": "2022-08-05T07:48:40.334092519Z"
+    },
+    {
+      "proposal_id": "45",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Sponsor volunteer researcher for EVM-Inter-Chain lobby for Evmos",
+        "description": "# Sponsor volunteer researcher for EVM-Inter-Chain lobby for Evmos\n\nFull discussion:\nhttps://commonwealth.im/evmos/discussion/6454-judge-me-sponsor-a-volunteer-researcher-for-evminterchain-lobby-for-evmos\n\n**Loredana's (evmos4volunteers, The Laurel Project) proposal for Evmos:**\n\"Continue my volunteer work on EVM Inter-Chain, by formalizing the protocols, creating new inter-chain standards (like we started with IC_ERC20, IC_ERC721), extending nBridge for CosmWasm (EVM -- CosmWasm nBridge).\nFor this work to have a chance of adoption, I need to be close to Evmos, Cosmos, Interchain Foundation \u0026 other Cosmos blockchain teams. And the best location for me to influence the future tech for the benefit of the Evmos blockchain is Berlin. I would personally like to continue my work remotely and transparently (e.g. github, videos), but I found that it is very hard for other people to collaborate without face-to-face meetings.\n**The Evmos community would only sponsor my rent in Berlin (apartment + office), effectively sponsoring my lobby services, for the benefit of Evmos. My tech effort will remain a volunteer contribution, unpaid.**\n\n## Why should Evmos sponsor lobbying?\nBecause a multi-chain standard (like I am proposing) requires a controller chain to have a correct state view. This controller chain can be Evmos. See my 2 HackATOM videos: https://youtu.be/j5CVliOb-Ck and https://youtu.be/Khqv-1TbsMo .\n\"\n\nIn Berlin, Loredana would be available for technical conferences for the benefit of Evmos.\n\n## Why is Loredana Cirstea the best person for the job?\n* previous volunteering efforts for Evmos: https://github.com/loredanacirstea/CV/tree/master/evmos\n* has live the only cutting edge chains where you can test inter-chain and multi-chain EVM transactions: https://github.com/the-laurel/demos\n* HackAtom Seoul participation: https://github.com/loredanacirstea/CV/blob/master/evmos/events/1.2022-07_HackAtom.md\n* https://loredanacirstea.medium.com/nbridge-inter-chain-erc20-and-how-to-not-get-rekt-by-bridges-unique-assets-shared-security-43f728f05552\n* has done many prototypes and demos demonstrating innovations on Evmos, some live on Mythos.\n\n## Expenses estimate:\n- office: https://www.fullnode.berlin/membership/, FIXED DESK, everyday. 490 € / month.\n- rent: ~2500 € / month (finding an apartment for less than 1 year is more costly; account for EVMOS price instability)\n- TOTAL: 2000 EVMOS / month. Any remaining money can be used for tech or diplomatic purposes (conference expenses, coffee meetings with tech influencers)\n- expenses and output will be tracked transparently [at this link](https://github.com/loredanacirstea/CV/blob/master/evmos/events/2.2022_08_EvmosCommunityLobbySponsorship.md), as [was done for HackAtom](https://github.com/loredanacirstea/CV/blob/master/evmos/events/1.2022-07_HackAtom.md#expenses)\n\n## Deliverables:\n- at the end of each month, a detailed list of output [will be on GitHub](https://github.com/loredanacirstea/CV/blob/master/evmos/events/2.2022_08_EvmosCommunityLobbySponsorship.md)\n- for the first 3 weeks the EVM Inter-Chain standards for the most popular EVM standards will be penned\n\n## Timeline:\n- sponsorship is paid 3 months in advance, every three months until the Evmos community decides to stop it.\n- this proposal is only made for 6 months (12000 EVMOS), to give the community a chance to re-vote based on output.\n\n## Multisig Signatories\n2 out of 3 signatories for multisig execution is proposed:\n- Tricky | Cosmos Spaces \n- Outcast | Legion Nodes\n- LPX \n\n## Abstain\nThe evmos4volunteers and votes4volunteers validators will vote Abstain on this proposal.\n",
+        "recipient": "evmos14ngksuj82u7m38755ffmjjjfdazedvx93p5jam",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "12000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "36060167488851459785839498",
+        "abstain": "5917345051440366397508247",
+        "no": "604538395309422653093324",
+        "no_with_veto": "43162816392672148462443"
+      },
+      "submit_time": "2022-08-12T07:44:13.564765469Z",
+      "deposit_end_time": "2022-08-15T07:44:13.564765469Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192980000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-08-12T19:29:50.132966579Z",
+      "voting_end_time": "2022-08-17T19:29:50.132966579Z"
+    },
+    {
+      "proposal_id": "46",
+      "content": {
+        "@type": "/ibc.core.client.v1.ClientUpdateProposal",
+        "title": "Revive Juno IBC client",
+        "description": "Since Juno chain halt incident, Juno client on channel-5 couldnt be updated, this proposal is for updating the client from 07-tendermint-14 to 07-tendermint-68",
+        "subject_client_id": "07-tendermint-14",
+        "substitute_client_id": "07-tendermint-68"
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "43059434871773992348903753",
+        "abstain": "96711415671645895480551",
+        "no": "60876037441864755096461",
+        "no_with_veto": "5277481205200751148162"
+      },
+      "submit_time": "2022-08-12T15:13:28.154910354Z",
+      "deposit_end_time": "2022-08-15T15:13:28.154910354Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "193235428057181771066"
+        }
+      ],
+      "voting_start_time": "2022-08-12T19:02:34.958009149Z",
+      "voting_end_time": "2022-08-17T19:02:34.958009149Z"
+    },
+    {
+      "proposal_id": "47",
+      "content": {
+        "@type": "/ibc.core.client.v1.ClientUpdateProposal",
+        "title": "Revive Sifchain IBC client",
+        "description": "Updating the client from 07-tendermint-16 to 07-tendermint-70",
+        "subject_client_id": "07-tendermint-16",
+        "substitute_client_id": "07-tendermint-70"
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "40506684042951315177837310",
+        "abstain": "164228462393908859751696",
+        "no": "128489947386223616057376",
+        "no_with_veto": "24056579949873027710692"
+      },
+      "submit_time": "2022-08-15T23:33:16.858673110Z",
+      "deposit_end_time": "2022-08-18T23:33:16.858673110Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000069"
+        }
+      ],
+      "voting_start_time": "2022-08-15T23:33:16.858673110Z",
+      "voting_end_time": "2022-08-20T23:33:16.858673110Z"
+    },
+    {
+      "proposal_id": "48",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for Stargaze (STARS)",
+        "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for Stargaze (STARS)\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This will give enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/7564B7F838579DD4517A225978C623504F852A6D0FF7984AFB28F10D36022BE8\\n- display: stars\\n- name: Stargaze\\n- symbol: STARS",
+        "metadata": {
+          "description": "The native token of Stargaze",
+          "denom_units": [
+            {
+              "denom": "ibc/7564B7F838579DD4517A225978C623504F852A6D0FF7984AFB28F10D36022BE8",
+              "exponent": 0,
+              "aliases": [
+                "ustars"
+              ]
+            },
+            {
+              "denom": "stars",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/7564B7F838579DD4517A225978C623504F852A6D0FF7984AFB28F10D36022BE8",
+          "display": "stars",
+          "name": "Stargaze",
+          "symbol": "STARS"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "49205647934813352721050733",
+        "abstain": "66069970348508831042243",
+        "no": "38910976242740074345755",
+        "no_with_veto": "3336976061357101037298"
+      },
+      "submit_time": "2022-08-20T09:52:55.534625490Z",
+      "deposit_end_time": "2022-08-23T09:52:55.534625490Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "195973000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-08-21T12:03:20.007402307Z",
+      "voting_end_time": "2022-08-26T12:03:20.007402307Z"
+    },
+    {
+      "proposal_id": "49",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for Regen Network (REGEN)",
+        "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for Regen Network (REGEN)\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This will give enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/36DCDCDFB1D0D723546878E241BC5800D27214E1E1DA31A4E424DE2280B0B0EE\\n- display: regen\\n- name: Regen Network\\n- symbol: REGEN",
+        "metadata": {
+          "description": "REGEN coin is the token for the Regen Network Platform",
+          "denom_units": [
+            {
+              "denom": "ibc/36DCDCDFB1D0D723546878E241BC5800D27214E1E1DA31A4E424DE2280B0B0EE",
+              "exponent": 0,
+              "aliases": [
+                "uregen"
+              ]
+            },
+            {
+              "denom": "regen",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/36DCDCDFB1D0D723546878E241BC5800D27214E1E1DA31A4E424DE2280B0B0EE",
+          "display": "regen",
+          "name": "Regen Network",
+          "symbol": "REGEN"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "48699447041075160900887081",
+        "abstain": "109419060829185878430675",
+        "no": "45234046954547427869918",
+        "no_with_veto": "4113236999310699722110"
+      },
+      "submit_time": "2022-08-20T10:05:36.631098921Z",
+      "deposit_end_time": "2022-08-23T10:05:36.631098921Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "193473000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-08-21T12:02:24.764226632Z",
+      "voting_end_time": "2022-08-26T12:02:24.764226632Z"
+    },
+    {
+      "proposal_id": "50",
+      "content": {
+        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
+        "title": "Evmos Mainnet v8.0.0 Upgrade",
+        "description": "## Author\\n\\nDaniel Burckhardt ([@danburck](https://twitter.com/danburck)), Evmos Core Team\\n\\n## Software Upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos software upgrade at block height [3,620,000](https://www.mintscan.io/evmos/blocks/3620000) from it's current version [v7.0.0](https://github.com/tharsis/evmos/releases/tag/v7.0.0) to [v8.0.0](https://github.com/tharsis/evmos/releases/tag/v8.0.0).\\n\\n## Motivation\\n\\nBy proposing a scheduled upgrade, we want to implement a smooth and transparent upgrade process, that is first proposed on testnet and then on mainnet. Software upgrades generally aim to improve current performance and add new features to the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validators/upgrades/overview.html).\\n\\n## Impact\\n\\nOn a high level, the v8.0.0 software includes the following improvements:\\n\\n* Feesplit module: Developers can register their smart contracts and earn rewards everytime someone interacts with their registered smart contract\\n* Upgrade to Ethermint [v0.19.0](https://github.com/evmos/ethermint/releases/tag/v0.19.0): Improves JSON-RPC reliability and maintainability\\n* Upgrade ibc-go to [v3.2.0](https://github.com/cosmos/ibc-go/releases/tag/v3.2.0) and Cosmos SDK to [v0.45.7]\\n\\nA full changelog can be found [here](https://github.com/tharsis/evmos/releases/tag/v8.0.0).\\n\\n## Testing\\n\\nThe Evmos core team created an End-to-End testing suite that performs the software upgrade locally. These tests have been completed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/ramacarlucho/evmos/blob/rama%2Fe2e_clean/tests/e2e/README.md).\\n\\n## Discussion\\n\\nBefore voting, please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6653-evmos-software-upgrade-v800).",
+        "plan": {
+          "name": "v8.0.0",
+          "time": "0001-01-01T00:00:00Z",
+          "height": "3620000",
+          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/tharsis/evmos/releases/download/d/evmos_8.0.0_Darwin_arm64.tar.gz\",\"darwin/x86_64\":\"https://github.com/tharsis/evmos/releases/download/d/evmos_8.0.0_Darwin_x86_64.tar.gz\",\"linux/arm64\":\"https://github.com/tharsis/evmos/releases/download/d/evmos_8.0.0_Linux_arm64.tar.gz\",\"linux/x86_64\":\"https://github.com/tharsis/evmos/releases/download/d/evmos_8.0.0_Linux_x86_64.tar.gz\",\"windows/x86_64\":\"https://github.com/tharsis/evmos/releases/download/d/evmos_8.0.0_Windows_x86_64.zip\"}}",
+          "upgraded_client_state": null
+        }
+      },
+      "status": "PROPOSAL_STATUS_REJECTED",
+      "final_tally_result": {
+        "yes": "11456522508772868489607091",
+        "abstain": "65490437329022484711232",
+        "no": "37300183131856465589324719",
+        "no_with_veto": "9187330000370604375064"
+      },
+      "submit_time": "2022-08-22T10:08:36.925612818Z",
+      "deposit_end_time": "2022-08-25T10:08:36.925612818Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192331000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-08-22T13:42:56.017731807Z",
+      "voting_end_time": "2022-08-27T13:42:56.017731807Z"
+    },
+    {
+      "proposal_id": "51",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "The Interim Constitution of Evmos DAO",
+        "description": "**Summary:** The Governance workstream is asking the community for a formal awknowledgement and ratification of Evmos DAO's Interim Constitution through this vote.\n\n**Background:** The Governance workstream, with the blessing from the core team, has been working for several months researching case-studies, idealogies and philosophies in decentralized orgs, and all the various governance frameworks and styles of long standing DAOs — all for the eventual launch of Evmos DAO.\n\nIn the best interest of the community and the growth of the Evmos ecosystem, we have decided to move forward with an Interim Constitution to allow the Governance workstream to begin rolling out our governance framework in a modular basis, ultimately allowing for the creation of workstreams and special growth initiatives. The ratification of the Interim Constitution can be seen as the first of many steps in the formation of Evmos DAO.\n\nThis Interim Constitution has been in ideation and discussion for over a month, including [Commonwealth](https://commonwealth.im/evmos/discussion/6082-final-rfc-the-evmos-constitution), The Evmos Validator Fairness Initiative group, and multiple weekly governance calls.\n\n---\n\n# The Interim Constitution of Evmos DAO\n\n## Preamble: The Declaration\n\nWe, the Evmos Community, formally declare our shared beliefs and mission to build and assist in growing the Evmos network. We strive to be the leading EVM network in the Cosmos Ecosystem, utilizing the Cosmos SDK modules, Tendermint's consensus engine, and the Inter Blockchain Protocol for a fully decentralized, censorship-resistant, interoperable chain. The Evmos network, our community, and our governance processes must strive to play a role in laying the foundation for a more equitable, hyper-connected, decentralized future.\n\n## 1. The Evmos Community\n\nThe Evmos Community (\"community\") is a general all-encompassing term that comprises various groups that are participants in the Evmos network. The level and degree of participation may vary by group, but the common denominator of all members of the community should be the shared interest in the continued growth of the Evmos network.\n\n**1. Protocol Developers** - this group of developers focuses mainly on improving the Evmos network on the protocol level; this group includes core developers as well as individual contributors not considered as core team members.\n\n**2. Network Validators** - network validators are key members of the community responsible for securing the network through the Tendermint proof-of-stake consensus mechanism.\n\n**3. Network Delegators** - network delegators are the predominant group that assist in network consensus and security by delegating power to validators through the staking of tokens.\n\n**4. Workstream and Committee Members** - workstream and committee members are those that work to improve and grow the Evmos network on a non-protocol level.\n\n**5. Community Leaders** - workstreams and special projects, although not required, may have an appointed leader to steward and lead his or her group.\n\n**6. Application Developers and End Users** - application developers and end users are those that develop, deploy, utilize, interact, transact, and ultimately bring value to the Evmos ecosystem.\n\nWhile the aforementioned groups make up the majority of the community, the definition and composition of the community are not strictly limited to these groups.\n\n## 2. The Evmos Governance Framework\n\nThe Evmos Governance Framework (\"framework\") is the foundational set of guidelines and processes developed for the community and network contributors to follow and flourish. The framework should be designed to recognize and incentivize contributors and curate a culture that creates long-term, positive-sum interactions between all community members and the Evmos ecosystem.\n\nThe framework is to be proposed and adopted separately from the Constitution. The Constitution shall take priority over the Governance Framework and should be regarded as the supreme guiding document.\n\n## 3. Guiding Principles\n\n**1. Progressive Decentralization:** The Evmos network aims to be as decentralized as possible, in the context of network validation as well as governance and finances. While network resiliency and the decentralization of power is paramount, we recognize the need to proceed with strategic and scientific-based planning. The community must not haphazardly rush into decisions that may potentially destabilize the chain or provoke a strong negative community reaction. The community will take the stance of progressive decentralization as we research and analyze the social, legal, and/or financial ramifications our decisions may potential have.\n\n**2. Neutrality and Non-Partisanship:** We believe in the principles of equality for all and must act in accordance with this core principle. All groups and community members have equal access to information, equal rights, and equal responsibilities, as defined by this Constitution. No one group or community member should be favored over any other members. No one group or community member should be disfavored over any other members. We define \"favor\" as an unfair benefit that is not a direct consequence of provable effort and actions done, in alignment with our mission and goals. We define \"disfavor\" as an unfair punishment or loss of opportunity that is not a direct consequence of provable actions done against Evmos’ mission and goals.\n\n**3. User-Centrism:** Evmos is specialized to provide a unique EVM experience in the Cosmos ecosystem. We must therefore continue to optimize for 1) user adoption and 2) the qualities that contribute to steady growth: network liquidity, improvement of user experience, data sovereignty, stable production of blocks, educational resources, strong governance, etc.\n\n**4. Agnosticism:** Evmos should maintain neutrality as a chain with roots in both the Ethereum and Cosmos ecosystems. While the governance of Evmos may be reliant from time to time on other networks or tools, the Evmos community should retain a stance of neutrality. Community members must leave tribalism at the door; we should refrain from engaging in political debates that are not directly relevant to improving the Evmos network.\n\n**5. Cross-Chain Diplomacy:** Evmos is a network with a long history in the decentralization movement, with inspirations, ideas, protocols, and allies in various networks. Our community will come from a wide range of blockchain communities. Cross-chain collaborations, outreach initiatives, diplomacy missions, and continued participation in events are highly encouraged — especially with chains from the EVM and IBC ecosystems.\n\n**6. Consensual Collaboration:** While the Cosmos SDK’s implementation of governance is relatively permissionless, this does not mean anyone is entitled to work or compensation. Proposals will be assessed by the community on their merits alone and eventually voted on. In addition, proposals must follow the Governance Framework of the Evmos network and adhere to the principles outlined in the Constitution.\n\n**7. Sovereignty to Work:** The purpose of the Governance Framework is not to micro-manage proposals or teams. Sovereignty will be given to those that are working in accordance with the original proposal passed by the community, and are not in violation of any governance processes or principles of the Constitution.\n\n## 4. Removal of Community Leaders\n\nAll community members appointed to a role of higher responsibility, including workstream members, may be removed via a formal vote on-chain. The Governance Framework shall outline the appointment, removal, and appeals process, along with a detailed dispute resolution guideline.\n\n## 5. Constitutional Rights\n\nThe Governance workstream shall amend a Bill of Rights to the Constitution as soon as a general consensus can be confidently reached.\n\n## 6. Constitutional Amendments and Revisions\n\nThe community holds the power to propose an amendment to the Constitution by following the standard Evmos Proposal Lifecycle. The reasoning for the amendment must be justified and petitioned. If possible, there should be an attempt made to resolve the issue before a proposal for amendment is initiated.\n\n---\n\n**Validator/Community Code of Conduct and Constitutional Rights**\n\nWe recognize that this Constitution is missing a few key topics — however, we also see the need to tread carefully in these sensitive and controversial topics. While it is inarguable that these are necessary components of the Constitution, there was clear signaling that we needed more time to allow for the natural growth of the community before we could formally ratify some sections with confidence. We pledge to continue our research and continue to engage with the community to find general consensus on the best step forward. While some topics will be amended into the Constitution when they are ready, most will likely be implemented through the Governance Framework.\n\n---\n\n# Your Votes... \n\n**By voting YES**, you are signing the Constitution to be ratified so that the Governance workstream can shift focus and begin introducing components of the the Governance Framework that will allow for the creation of more  workstreams and special growth projects / committees / teams. Voting YES does not necessarily mean that you are fully content — but you will allow it.\n\n**By voting ABSTAIN**, you are signaling that you did not read the Constitution or do not understand its content or its purpose.\n\n**By voting NO**, you refuse to accept the Constitution at its current state.\n\n**By voting NO WITH VETO**, you are showing complete opposition to the Constitution and would rather leave the community than to have it ratified at its current state."
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "48087957005864846965863869",
+        "abstain": "668013148949323743501076",
+        "no": "35598587450397948269496",
+        "no_with_veto": "2900104568757480843495"
+      },
+      "submit_time": "2022-08-25T15:09:11.206096432Z",
+      "deposit_end_time": "2022-08-28T15:09:11.206096432Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192971000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-08-25T19:21:28.065341419Z",
+      "voting_end_time": "2022-08-30T19:21:28.065341419Z"
+    },
+    {
+      "proposal_id": "52",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Fund DIA Randomness Oracle Gas Fees for 1 Year",
+        "description": "Full discussion: https://commonwealth.im/evmos/discussion/6662-ideation-fund-dia-randomness-orcale-gas-fees-for-1-year \n Hi All, \n 0xCtrlAltApe here from the Orbital Apes team. I am starting this discussion to help launch DIA Randomness Oracles on Evmos. I am not affiliated with the DIA team in anyway.\n DIA provides an on-chain randomness oracle solution for EVM chains. If deployed the randomness oracle can be used by any smart contract on Evmos. While the DIA team does not charge for oracle usage, they do ask that gas fees to maintain the oracle are provided to launch on a new chain. By the DIA teams estimations this would be roughly 44 evmos/day which equals to 16060 Evmos for the year.\n Randomness oracles will allow for more innovative and new types of applications to be built on Evmos. Currently there are no options available for randomness on-chain on Evmos. As this oracle can be used for free by any dev/team on Evmos after deployment I believe that covering gas fees is an appropriate use of community funds.\n Funds will be sent to a (2/3) multisig managed by:\n 0xCtrlAltApe (Orbital Apes team member)\n Liam (Evmos team member)\n Samuel Brack (DIA team member)\n These funds can be sent to the DIA team on a monthly basis to cover gas costs for the randomness oracle. The fees earned from the fee-spilt module in Evmos v8 will be used to continue funding the oracle gas fees.",
+        "recipient": "evmos1fv74ntsx9mc52e058htgqyzfwtf25gpkc8wgta",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "16060000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "40392316962697939714836628",
+        "abstain": "3518032461096231553022545",
+        "no": "5496390941234791277006317",
+        "no_with_veto": "98904194291112662037512"
+      },
+      "submit_time": "2022-08-26T17:06:12.331617287Z",
+      "deposit_end_time": "2022-08-29T17:06:12.331617287Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-08-26T17:06:12.331617287Z",
+      "voting_end_time": "2022-08-31T17:06:12.331617287Z"
+    },
+    {
+      "proposal_id": "53",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for Juno",
+        "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for Juno\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enables access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D\\n- display: juno\\n- name: Juno\\n- symbol: JUNO",
+        "metadata": {
+          "description": "The native token of JUNO Chain",
+          "denom_units": [
+            {
+              "denom": "ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D",
+              "exponent": 0,
+              "aliases": [
+                "ujuno"
+              ]
+            },
+            {
+              "denom": "juno",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D",
+          "display": "juno",
+          "name": "Juno",
+          "symbol": "JUNO"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "51556613585490042102316765",
+        "abstain": "38161013554386953766230",
+        "no": "27451919091313905453960",
+        "no_with_veto": "3514211366809465931101"
+      },
+      "submit_time": "2022-08-28T08:36:58.722310217Z",
+      "deposit_end_time": "2022-08-31T08:36:58.722310217Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "193241204000000000000"
+        }
+      ],
+      "voting_start_time": "2022-08-29T12:48:24.393932518Z",
+      "voting_end_time": "2022-09-03T12:48:24.393932518Z"
+    },
+    {
+      "proposal_id": "54",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Covalent API's Integration of Evmos and the #OneMillionWallets Hackathon",
+        "description": "## Summary\n\nThis proposal is the second iteration of the original proposal posted on Commonwealth on the 19th of July.  We are seeking community funding for our previous work as well as future efforts in indexing the Evmos network for the Covalent Unified API, along with the launch of the Evmos-Covalent Joint *#OneMillionWallets* Hackathon\n\n - **Covalent will continue to index the Evmos network and receive a compensation of 100K USD, which will be staked entirely and delegated to lower validators.**\n - **Covalent will run a joint hackathon with Evmos to onboard more developers, and explore and kickstart novel use cases for the Evmos ecosystem with a prize pool of $100K.**\n - **The total ask is $200K in Evmos tokens - The amount of tokens for the hackathon prizes of $100k will be determined at time of dispersement. In the case of extreme price volatility, the Governance workstream will assist in readjusting the community pool funding request.** \n\n\nNote: Because of the character limit of Cosmos SDK's governance module, some portions of the proposal have been left out and the proposal has been modified for on-chain submission with the help of the Evmos DAO Governance Workstream. View the full proposal on [Commonwealth](https://commonwealth.im/evmos/discussion/6603-prevote-covalent-apis-integration-of-evmos-and-joint-hackathon). \n\n## Background\n\nAt Covalent, we believe blockchain technologies can change the world, but this potential is left unfulfilled if the data is not accessible. Despite the proliferation of on-chain digital assets, current solutions require developers to spend hours writing additional code to query granular blockchain data.\n\nCovalent is the only multi-chain API that provides every single point of on-chain data - directly from the browser. With no extra code, you need just one API call to query any piece of data across +40 blockchains.\n\n - +40 blockchains indexed, including  Arbitrum, Aurora, Avalanche, BNB, Ethereum, Evmos, Fantom, Harmony, Ronin, Moonbeam \u0026 Polygon\n - +30K developers, and\n - +3K live projects, including 0x, Aave, CoinGecko, ConsenSys, DappRadar, NFTX, ParaSwap, Sovryn, Uniswap, XDEFI Wallet \u0026 Zerion\n - +2.5M calls made to Evmos using Covalent's Unified API\n\n**Evmos API Call Volume Growth (Month over Month)**\n\n- June 2022 -- 2M / +312%\n - May 2022 -- 500K / +170,489%\n - April 2022 -- 282 / +14,000%\n - March 2022 -- 2\n\nCovalent's vision is to empower the pioneers of tomorrow by providing the most robust data infrastructure for the entire blockchain ecosystem, delivering complete transparency and visibility to all on-chain digital assets.\n\n## API Endpoints for Evmos\n\n- Class A endpoints - These return enriched blockchain data applicable to all blockchain networks\n - Class B endpoints - These are for a specific protocol on a blockchain\n - Class C endpoints - This will be a community-driven market where users can create API endpoints for their projects\n - DEX \u0026 NFT marketplace data (i.e., EvmoSwap, Diffusion) \u0026 more to be integrated as the number of protocols grow. \n - Covalent will be indexing the entirety of Evmos' on-chain data\n\nMore details about our API can be found in [Evmos | Covalent Docs](https://www.covalenthq.com/docs/networks/evmos/) \n\n## Timeline\n\n**The indexing of Evmos has already been completed and the completion was publicly announced on 30 May 2022. The indexing of Evmos is currently live, and freely available for developers.**\n\n- 30 May - 15 August 2022 -- A proposal to index Evmos is floated in the Evmos governance forum.\n - 22 September 2022 -- The joint hackathon registration goes live.\n - 22 October 2022 -- The Joint '#OneMillionWallets' Hackathon begins.\n\n## Deliverables\n\nPre-integration and Post-integration deliverables can be viewed in the [full proposal here](https://commonwealth.im/evmos/discussion/6603-prevote-covalent-apis-integration-of-evmos-and-joint-hackathon). \n\n## Funding \u0026 Disbursement\n\nThe EVMOS/USD exchange rate for the disbursements is to be determined according to the exchange rate at which the disbursements are made. \n\n- API and Indexing: 100K USD of Evmos  tokens will be released upon the passing of the proposal. **Covalent will stake the compensation and delegate it to lower validators** for up to one year. \n - #OneMillionWallets Hackathon: Roughly $100K in Evmos will be used to host the joint hackathon. \n\n The funds will be released initially to a 3 of 4-person multisig wallet with the following signatories: \n - Leibing, Dev Relations @ Covalent \n - Daniel, Data Journalist @ Covalent \n - LPX, Evmos DAO Governance \n - Benny Lava, Evmos DAO \u0026 Community Mod\n\n**Multisig deployment address:** 0x05a6991caD6B2258Bc5c7FE2b0793Af93590DbD0\n\nCovalent has an impressive track record of successful hackathons for Layer-1 networks. Past outcomes, marketing plans, and Evmos bounty tracks can be read in detail in the [full proposal](https://commonwealth.im/evmos/discussion/6603-prevote-covalent-apis-integration-of-evmos-and-joint-hackathon).",
+        "recipient": "evmos1qknfj89ddv3930zu0l3tq7f6ly6epk7s7kf53v",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "80400000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "49909659034311824576143415",
+        "abstain": "1104129281982902206940424",
+        "no": "141557572432706171723708",
+        "no_with_veto": "24287185231588058045824"
+      },
+      "submit_time": "2022-08-30T21:13:41.741884149Z",
+      "deposit_end_time": "2022-09-02T21:13:41.741884149Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192120000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-08-31T00:17:11.678820233Z",
+      "voting_end_time": "2022-09-05T00:17:11.678820233Z"
+    },
+    {
+      "proposal_id": "55",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Cora Protocol: Lending without liquidations",
+        "description": "Hello everyone, I hope you are doing well,\n\nI’m Hetman Jones, founder of the Cora Protocol.\n\nWe are building what we think is an innovative protocol, we are building Cora: a decentralised lending protocol without liquidations.\n\nWe are interested in deploying and launching the protocol in the EVMOS network and work with the community to support the growth of the Evmos ecosystem.\n\nThe proposal details are cora-protocol.mypinata.cloud/ipfs/QmTdWUYPYsNumfCDkvYtmack7qEjAzcp8N8VfiNbxyYtWg",
+        "recipient": "evmos1wq987c9r49l8j8jdhcq9fjpmhrvcs463pyxc44",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "24000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_REJECTED",
+      "final_tally_result": {
+        "yes": "1989895062929800773806970",
+        "abstain": "13778235629149407214032719",
+        "no": "30044692304631370298799775",
+        "no_with_veto": "379600579717511882862084"
+      },
+      "submit_time": "2022-09-01T07:43:40.442942202Z",
+      "deposit_end_time": "2022-09-04T07:43:40.442942202Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-09-01T07:43:40.442942202Z",
+      "voting_end_time": "2022-09-06T07:43:40.442942202Z"
+    },
+    {
+      "proposal_id": "56",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for EEUR (e-Money Euro)",
+        "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking)) and Alberto | Neokingdom DAO\\n## ERC20 representation for EEUR (e-Money Euro)\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6753-this-proposal-creates-and-registers-an-erc20-representation-for-emoney-euro-stablecoin-eeur)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05\\n- display: eeur\\n- name: e-Money EUR\\n- symbol: EEUR\\n\\n",
+        "metadata": {
+          "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
+          "denom_units": [
+            {
+              "denom": "ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05",
+              "exponent": 0,
+              "aliases": [
+              ]
+            },
+            {
+              "denom": "eeur",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05",
+          "display": "eeur",
+          "name": "e-Money EUR",
+          "symbol": "EEUR"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "74161883508215702441152961",
+        "abstain": "102418766989749740877065",
+        "no": "83436793140208877093923",
+        "no_with_veto": "9171179063215073830122"
+      },
+      "submit_time": "2022-09-10T09:32:37.713087922Z",
+      "deposit_end_time": "2022-09-13T09:32:37.713087922Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192622106000000000000"
+        }
+      ],
+      "voting_start_time": "2022-09-11T17:58:15.932290475Z",
+      "voting_end_time": "2022-09-16T17:58:15.932290475Z"
+    },
+    {
+      "proposal_id": "57",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Incubation Proposal: ChainHub/Texas Blockchain Projects for Evmos",
+        "description": "## INCUBATION PROPOSAL\n**Sriram Vishwanath (Professor, University of Texas Austin)**\n**ChainHub \u0026 Texas Blockchain Incubator**\n**sriram@chainhub.net**\n# INTRODUCTION\nThis proposal details an incubation partnership agreement between ChainHub (the incubation arm of Texas Blockchain) and The Evmos Community. ChainHub is an incubator, currently based in Austin TX (which is expanding to Pittsburg, PA and other cities in the USA in coming months) focused on University students and College Blockchain clubs. ChainHub actively incubates projects from The University of Texas, Austin and the surrounding Austin community, and post-expansion, will be incubating projects from Carnegie Mellon University as well as other Universities/Colleges within the USA.\nChainHub is managed by Sriram Vishwanath. Sriram is a Professor of Engineering at The University of Texas, Austin. He has a PhD from Stanford, an MS from Caltech and a BTech from IIT Madras. He is one of the founders of Texas Blockchain ([https://www.texasblockchain.org/](https://www.texasblockchain.org/)) and he teaches the engineering and software centric blockchain classes on University of Texas Austin campus.\nLinkedin Profile: [https://www.linkedin.com/in/sriramvishwanath/](https://www.linkedin.com/in/sriramvishwanath/)\n# OUR EXPERIENCE\nTexas Blockchain has been working on projects within the blockchain/crypto domain for roughly 5 years, and ChainHub is its incubation arm. We currently incubate projects within two other ecosystems: Polkadot and NEAR, and we have similar agreements in place with each of the ecosystems. Some of the incubated projects include: The Quai Network [https://quai.network/](https://quai.network/), Zyfty [https://zyfty.io/#/](https://zyfty.io/#/), Mirror World [https://www.mirrormy.world/](https://www.mirrormy.world/) and a few other projects still in stealth.\nChainHub proposes to work with Evmos to incubate approximately two projects a year, on a calendar year basis, tailored to Evmos's priorities and needs. To this end, we will work closely with Evmos to converge on two or more projects and bring together a highly capable team to deliver on each project. These teams will be mentored, managed and funded by ChainHub through a grant provided by Evmos (see budget request below).\n# SUMMARY OF TERMS\n1. ChainHub will:\n1. Incubate approximately two projects per year, starting with September 2022. These projects will be selected in close coordination with the Evmos team.\n2. Support these projects from their inception to minimum viable product (MVP) completion. We will staff each project with a talented and passionate team of students/alumni from the Universities/Colleges with which we are co-located.\n2. Evmos will:\n1. The Evmos Foundation will work closely with ChainHub to identify projects and mentor each project team.\n2. The Evmos Community ChainHub (see budget request below) will provide resources necessary towards execution.\n3. The Evmos Foundation will partner with each project team: help with pitch-deck/fundraising, product roadmap and long term strategic growth of each entity resulting from this incubation process.\nWith the exception of 2022, ChainHub will submit a new proposal in Q1 of each calendar year for the Evmos Community's consideration for renewal of this engagement for that calendar year.\n# BUDGET REQUEST\nAs tokens are volatile and ChainHub/Texas Blockchain will bear all the costs of development of the project, we request $1M in tokens per calendar year for the duration of this incubation agreement. This will cover the costs of project incubation (including developers, designers, audits, incubation space and operational support for each project).\nWe request the tokens be provided as follows:\n\nThe first 50% at kickoff with Evmos (206611 Evmos equivalent to $0.5M)\n2. The next 25% when the first project is determined to be completed by Evmos Foundation (103305 Evmos equivalent to $0.25M)\n3.The final 25% when the second project is determined to be completed by Evmos Foundation (103305 Evmos equivalent to $0.25M).\n\nA breakdown of costs across the two projects are (these are rough order of magnitude):\n1. Engineering Team/Developers/Product Lead - 700K\n2. Full time Designer (for both projects) - 75K\n3. Incubation space - 75K (covers space rent, utilities, laptops, monitors, all infrastructure including 6 servers)\n4. Audits - 75K (for the entire platform(s) including full stack software, not just the smart contracts)\n5. Operational Staff (payroll/HR/health insurance/misc software) - 75K\nEach engineering team/devs/product lead will comprise of: approximately 3 Web3 + backend engineers, 2 part-time or full time front-end engineers, and 1 product lead.\n\nThe tokens will be staked and existing incubator resources will be used until those resources are exhausted. When exhausted, we will primarily aim to use OTC services to convert tokens to USD. When OTC services are unavailable or limited, we will use other means of conversion to USD. If OTC services are unavailable, we will limit ourselves to at most 30K a month in conversion to USD.\nA multisig will be setup to manage this schedule by members of the community. When the Evmos Foundation marks a particular project's MVP as complete, the associated tranche of tokens will be released to ChainHub.\n\nLink to commonwealth discussion: [https://commonwealth.im/evmos/discussion/6822-incubation-proposal-chainhubtexas-blockchain-projects-for-evmos](https://commonwealth.im/evmos/discussion/6822-incubation-proposal-chainhubtexas-blockchain-projects-for-evmos)",
+        "recipient": "evmos1wcgsvt7hukjtl8n2fd9gww0zgjx6cg562yc6my",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "413223000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_REJECTED",
+      "final_tally_result": {
+        "yes": "3081006114207524966854749",
+        "abstain": "14895466549950747020850742",
+        "no": "55208144333241515225583056",
+        "no_with_veto": "479669900725577637971982"
+      },
+      "submit_time": "2022-09-10T20:11:56.526239832Z",
+      "deposit_end_time": "2022-09-13T20:11:56.526239832Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "193000001000000000000"
+        }
+      ],
+      "voting_start_time": "2022-09-10T20:41:13.943811728Z",
+      "voting_end_time": "2022-09-15T20:41:13.943811728Z"
+    },
+    {
+      "proposal_id": "58",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for axlUSDC (Axelar USDC)",
+        "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking)) \\n## ERC20 representation for axlUSDC (Axelar USDC)\\nAxelar is a cross-chain communication infrastructure provider based on the Cosmos SDK. Through [Sattelie](https://satellite.money/) tokens can be moved from Ethereum (and many other ecosystem) to Evmos and the wider Cosmos ecosystem. This proposal registers bridged USDC from Ethereum as an ERC20 - which is another step forward to restore the liquidity on Evmos. If this proposal passes, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair.\\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/63C53CBDF471D4E867366ABE2E631197257118D1B2BEAD1946C8A408F96464C3\\n- display: axlusdc\\n- name: USD Coin on Axelar\\n- symbol: axlUSDC\\n",
+        "metadata": {
+          "description": "Circle's stablecoin on Axelar",
+          "denom_units": [
+            {
+              "denom": "ibc/63C53CBDF471D4E867366ABE2E631197257118D1B2BEAD1946C8A408F96464C3",
+              "exponent": 0,
+              "aliases": [
+                "uusdc"
+              ]
+            },
+            {
+              "denom": "axlusdc",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/63C53CBDF471D4E867366ABE2E631197257118D1B2BEAD1946C8A408F96464C3",
+          "display": "axlusdc",
+          "name": "USD Coin on Axelar",
+          "symbol": "axlUSDC"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "75097043087255220298583758",
+        "abstain": "127021597668323632460227",
+        "no": "42625209492592363950192",
+        "no_with_veto": "3862696928877290931413"
+      },
+      "submit_time": "2022-09-12T18:32:22.850403243Z",
+      "deposit_end_time": "2022-09-15T18:32:22.850403243Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "462000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-09-12T18:41:50.930758805Z",
+      "voting_end_time": "2022-09-17T18:41:50.930758805Z"
+    },
+    {
+      "proposal_id": "59",
+      "content": {
+        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
+        "title": "Evmos Mainnet v8.1.0 Upgrade",
+        "description": "## Author\\n\\nDaniel Burckhardt ([@danburck](https://twitter.com/danburck)), Evmos Core Team\\n\\n## Software Upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos software upgrade at block height [4,655,500](https://www.mintscan.io/evmos/blocks/4655500) from it's current version [v7.0.0](https://github.com/tharsis/evmos/releases/tag/v7.0.0) to [v8.1.0](https://github.com/tharsis/evmos/releases/tag/v8.1.0).\\n\\n## Motivation\\n\\nBy proposing a scheduled upgrade, we want to implement a smooth and transparent upgrade process, that is first proposed on testnet and then on mainnet. Software upgrades generally aim to improve current performance and add new features to the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validators/upgrades/overview.html).\\n\\n## Impact\\n\\nOn a high level, the v8.1.0 software includes the following improvements:\\n\\n* [Feesplit module](https://docs.evmos.org/modules/feesplit/): Developers can register their smart contracts and earn rewards everytime someone interacts with their registered smart contract\\n* Upgrade to Ethermint [v0.19.2](https://github.com/evmos/ethermint/releases/tag/v0.19.2): Improves JSON-RPC reliability and maintainability and bumps SDK, Tendermint and IAVL dependencies and adds supports for optional params on EIP712\\n* Upgrade ibc-go to [v3.2.0](https://github.com/cosmos/ibc-go/releases/tag/v3.2.0) and Cosmos SDK to [v0.45.7]\\n\\nA full changelog can be found [here](https://github.com/tharsis/evmos/releases/tag/v8.1.0).\\n\\n## Testing\\n\\nPrior to this proposal the version v8.1.0 is been upgraded to and tested on the [Evmos Testnet](https://testnet.mintscan.io/evmos-testnet/proposals/72).\\n\\nAdditionally, the Evmos core team created an End-to-End testing suite that performs the software upgrade locally. These tests have been completed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/ramacarlucho/evmos/blob/rama%2Fe2e_clean/tests/e2e/README.md).\\n\\n## Discussion\\n\\nBefore voting, please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6653-evmos-software-upgrade-v810).",
+        "plan": {
+          "name": "v8.1.0",
+          "time": "0001-01-01T00:00:00Z",
+          "height": "4655500",
+          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/tharsis/evmos/releases/download/d/evmos_8.1.0_Darwin_arm64.tar.gz\",\"darwin/x86_64\":\"https://github.com/tharsis/evmos/releases/download/d/evmos_8.1.0_Darwin_x86_64.tar.gz\",\"linux/arm64\":\"https://github.com/tharsis/evmos/releases/download/d/evmos_8.1.0_Linux_arm64.tar.gz\",\"linux/x86_64\":\"https://github.com/tharsis/evmos/releases/download/d/evmos_8.1.0_Linux_x86_64.tar.gz\",\"windows/x86_64\":\"https://github.com/tharsis/evmos/releases/download/d/evmos_8.1.0_Windows_x86_64.zip\"}}",
+          "upgraded_client_state": null
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "76507390841877443252932732",
+        "abstain": "26440621026395967207262",
+        "no": "6702149716625901226999",
+        "no_with_veto": "1070498315591985277208"
+      },
+      "submit_time": "2022-09-15T09:01:47.577936051Z",
+      "deposit_end_time": "2022-09-18T09:01:47.577936051Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "233300000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-09-15T10:56:56.270533760Z",
+      "voting_end_time": "2022-09-20T10:56:56.270533760Z"
+    },
+    {
+      "proposal_id": "60",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for axlWBTC (Axelar wBTC)",
+        "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking)) \\n## ERC20 representation for axlWBTC (Axelar wBTC)\\nAxelar is a secure cross-chain communication infrastructure provider based on the Cosmos SDK. Through [Sattelie](https://satellite.money/) tokens can be moved from Ethereum (and many other ecosystem) to Evmos and the wider Cosmos ecosystem. This proposal registers bridged wBTC from Ethereum as an ERC20 - which is another step forward to restore the liquidity on Evmos. If this proposal passes, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair.\\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/C834CD421B4FD910BBC97E06E86B5E6F64EA2FE36D6AE0E4304C2E1FB1E7333C\\n- display: axlwbtc\\n- name: Wrapped Bitcoin on Axelar\\n- symbol: axlWBTC",
+        "metadata": {
+          "description": "Wrapped Bitcoin on Axelar",
+          "denom_units": [
+            {
+              "denom": "ibc/C834CD421B4FD910BBC97E06E86B5E6F64EA2FE36D6AE0E4304C2E1FB1E7333C",
+              "exponent": 0,
+              "aliases": [
+                "wbtc-satoshi"
+              ]
+            },
+            {
+              "denom": "axlwbtc",
+              "exponent": 8,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/C834CD421B4FD910BBC97E06E86B5E6F64EA2FE36D6AE0E4304C2E1FB1E7333C",
+          "display": "axlwbtc",
+          "name": "Wrapped Bitcoin on Axelar",
+          "symbol": "axlWBTC"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "77636284809359113706436145",
+        "abstain": "1441007668705574999331746",
+        "no": "13592008664300407288892",
+        "no_with_veto": "901405568040936522075"
+      },
+      "submit_time": "2022-09-16T12:10:05.147455571Z",
+      "deposit_end_time": "2022-09-19T12:10:05.147455571Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192372741000000000000"
+        }
+      ],
+      "voting_start_time": "2022-09-18T07:06:50.736985193Z",
+      "voting_end_time": "2022-09-23T07:06:50.736985193Z"
+    },
+    {
+      "proposal_id": "61",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for axlWETH (Axelar wETH)",
+        "description": "## Author\\r\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking)) \\r\\n## ERC20 representation for axlWETH (Axelar wETH)\\r\\nAxelar is a secure cross-chain communication infrastructure provider based on the Cosmos SDK. Through [Sattelie](https://satellite.money/) tokens can be moved from Ethereum (and many other ecosystem) to Evmos and the wider Cosmos ecosystem. This proposal registers bridged wETH from Ethereum as an ERC20 - which is another step forward to restore the liquidity on Evmos. If this proposal passes, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair.\\r\\n## Before Voting \\r\\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\r\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\r\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\r\\n## Verify Metadata\\r\\n- base: ibc/356EDE917394B2AEF7F915EB24FA683A0CCB8D16DD4ECCEDC2AD0CEC6B66AC81\\r\\n- display: axlweth\\r\\n- name: Wrapped Ether on Axelar\\r\\n- symbol: axlWETH",
+        "metadata": {
+          "description": "Wrapped Ether on Axelar",
+          "denom_units": [
+            {
+              "denom": "ibc/356EDE917394B2AEF7F915EB24FA683A0CCB8D16DD4ECCEDC2AD0CEC6B66AC81",
+              "exponent": 0,
+              "aliases": [
+                "weth-wei"
+              ]
+            },
+            {
+              "denom": "axlweth",
+              "exponent": 18,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/356EDE917394B2AEF7F915EB24FA683A0CCB8D16DD4ECCEDC2AD0CEC6B66AC81",
+          "display": "axlweth",
+          "name": "Wrapped Ether on Axelar",
+          "symbol": "axlWETH"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "77386680932841811897925624",
+        "abstain": "1458643045637443790043009",
+        "no": "20711279333792744892765",
+        "no_with_veto": "2975147680981273172232"
+      },
+      "submit_time": "2022-09-16T12:17:27.929146795Z",
+      "deposit_end_time": "2022-09-19T12:17:27.929146795Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192061331000000000000"
+        }
+      ],
+      "voting_start_time": "2022-09-18T07:07:19.874141521Z",
+      "voting_end_time": "2022-09-23T07:07:19.874141521Z"
+    },
+    {
+      "proposal_id": "62",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Ethermint Funding Proposal For Past Development, Addressed from The Evmos Community to The Kava Community",
+        "description": "# Ethermint Funding Proposal For Past Development, Addressed from The Evmos Community to The Kava Community\n\nThis is an inter-chain diplomacy proposal for the Evmos Community to ask the Kava Community to reward [Ethermint past development efforts](https://github.com/evmos/ethermint/graphs/contributors) (done until September 1st 2022), with 2.5M (2,500,000) EVMOS.\n\n$Kava tokens will be used to buy $EVMOS.\nOn Evmos, the 2.5M $EVMOS will be used for Ethermint development, following a similar procedure to Evmos Grants:\n- stake the $EVMOS to active validators that have under 0.66% voting power, to improve Evmos's Nakamoto Coefficient\n- fund Ethermint development from staking rewards\n\nMultisig on Evmos: 0xd04DB421f518D0E3449D2A3cefEac25b31485c71\n- Mr.Sir | Orbital Apes\n- InstaFinanzas | Stakin\n- LPX | Evmos Governance\n- arda | Validator.run\n- luisqa | OzMage Validation\n\nMultisig on Kava will be created with the same composition if this proposal will pass.\n\nDiscussion on Evmos: https://commonwealth.im/evmos/discussion/6867-external-ethermint-funding-proposal-on-kava-price-discovery-vote\nGovernance Council Discussions: https://youtu.be/Pn_u6WyiQ6c?t=544, https://youtu.be/n-XaFrDV7mE?t=677\nMultisig signers discussion: https://discord.com/channels/809048090249134080/913597332073898034/1020236682907353212\n\n## Summary of Facts\n\n- [Ethermint](https://github.com/evmos/ethermint/graphs/contributors) is a Go module that bridges the Cosmos APIs (Cosmos SDK, Tendermint, IBC, etc) to EVM (using the [go-ethereum](https://github.com/ethereum/go-ethereum) library as module). It is the de-facto way to have EVM-powered Cosmos chains.\n- Ethermint's is developed and maintained by Tharsis \u0026 other contributors \u0026 volunteers.\n- [Kava](https://www.kava.io/) is \"One Network. Two Chains. Ethereum and Cosmos.\"\n- Kava is today valued at ~$400M market cap\n- Estimated total value locked: ~$140M\n- Initial investment in building and marketing Kava is less than $1M\n- \"Kava Rise Program: $750M Developer Incentive Program. The structure of the Rise program will focus primarily on driving adoption and growth for the new Ethereum Co-Chain.\"\n- Kava Community Pool has ~80M KAVA tokens\n- Kava uses Ethermint for their Ethereum Co-Chain and Cosmos SDK for Cosmos in [their code](https://github.com/Kava-Labs)\n- Tharsis made [this Commonwealth proposal](https://commonwealth.im/evmos/discussion/6684-external-evm-infrastructure-funding-proposal-on-kava) to the Evmos and Kava communities, \"requesting 3M out of ~80M KAVA tokens (3.7%) from the Kava Community Pool Treasury to fund, develop and advance critical EVM Infrastructure through the Ethermint Engineering and R\u0026D team for 1 year.\", followed by opening a [Kava Community Discussion](https://www.reddit.com/r/kava_platform/comments/wsa37v/evm_infrastructure_funding_proposal_on_kava/). Resulting in the formal [on-chain Kava proposal #96](https://www.mintscan.io/kava/proposals/96)\n- Proposal #96 was rejected. 13/21 of the top validators votes YES, 1/21 voted ABSTAIN, and 7/21 did not vote. The top 21 validators have 88.90% voting power. Kava's co-founder \u0026 CEO's [response](https://twitter.com/Scott_Stuart_/status/1563228443436728321).\n- Kava Labs made its own \"Kava Infrastructure Security rewards\" [proposal #97](https://www.mintscan.io/kava/proposals/97), with no mention of funding Ethermint, as critical infrastructure. With no link to any Kava Community discussion. This proposal passed.\n- \"The Kava DAO is a fully decentralized autonomous organization (DAO) that governs the Kava Network. Made up of the Kava stakers and validators that help to secure and run the network\"\n- Kava did not make any concrete offers to reward past development efforts for Ethermint\n\n## Why the Evmos Community has standing?\n\n- Evmos uses Ethermint as core infrastructure\n- Tharsis has most funds from the $EVMOS coin growth, so the Evmos chain became the de-facto treasurer for Tharsis\n- The Evmos Community are the guardians of Evmos interests, which include Ethermint and the well-being of Tharsis devs\n\n## Inter-Chain Diplomacy\n\nRight now, Ethermint tech is an exportable product from the Evmos chain to all other chains that do not make development effort towards it (but use it), therefore the payment should be in $EVMOS.\n\nThe Evmos community now has the standing to make a funding proposal in the name of Tharsis, in $EVMOS, first on the Evmos governance, then on Kava.\n\nGiven that the Kava Community rejected the request for funding Ethermint's future development, for 1 year, we propose that another funding request should be made to Kava by the Evmos Community, for past development efforts, that have already taken place and have already brought value to Kava. Any other future funding requests will be discussed separately.\n\nOff-chain polls \u0026 discussion for price discovery were opened in [Evmos Commonwealth](https://commonwealth.im/evmos/discussion/6867-external-ethermint-funding-proposal-on-kava-price-discovery-vote).\n\n## What will Kava stand to gain?\n\nEthermint will enter the most technically interesting phase: custom precompiles and EVM-Inter-Chain. Working prototypes already exist and were presented https://youtu.be/x75UobIr4qo?t=14670 and the ground work for Ethermint was set with https://github.com/evmos/ethermint/pull/1272.\n\n(proposal lead:) I have personally developed the Go groundwork for inter-chain cooperation and deployed three public technical blockchains with EVM-Cosmos (Mythos, Ethos, and Logos), for demoing the inter-chain tech and I will re-base my work on the Ethermint extensibility of EVM precompiles.\nSome precompiles that I created that are pertinent to this:\n- abstract accounts (implementing account abstraction for EVM https://hackmd.io/@matt/r1neQ_B38)\n- quasar: ability to run Cosmos transactions from EVM\n- IBC precompile for EVM\n- nBridge: n-way (n\u003e=2) generalized bridge by transaction replay\n(Demos at: https://www.youtube.com/c/LoredanaCirstea/videos)\n\nNext generation protocols are inter-chain. If Kava rewards past Ethermint development efforts, and demonstrates will to collaborate, it has a chance to be invited to benefit from the EVM-Inter-Chain innovations. This is no longer Ethermint, it is next-generation Ethermint (with extensions) and licensing may be subjected to change if context requires it.\nWe hope the Kava Community will not choose the short-term frugality over long-term greater benefits. Especially that this is an ethical opportunity that benefits Kava as image, Evmos, and the whole Cosmos.\n\n\n## Why should the Cosmos Community care?\n\n1. Blockchains are entities with communities. So, we need to have rules for behaving between chains. The proposal is bringing clarity to what is civil between chains (in this case, pertaining to funding previous dev efforts). Rejecting a proposal from Tharsis is different than rejecting a proposal from the Evmos Community. Kava and Evmos are part of the larger Cosmos Inter-Chain ecosystem.\n2. This proposal's purpose is to find a general way to determine a fair ask for any other chains, not only Kava.\n3. Ethermint is a core piece of infrastructure that brings value to Cosmos. The Cosmos Community should fight to keep it open-source and well-developed.\n4. Fairly rewarding effort made to evolve Cosmos is critical to inter-chain cooperation.\n5. Upholding the values of decentralized governance in each chain is a critical requirement for any inter-chain cooperation.\n\n\n## Votes\n\nIf you vote YES: This proposal will be posted on Kava's subreddit, for Kava Community feedback. And then, as an on-chain proposal to the Kava Community.\n\n\n## Proposal Lead\n\nThis proposal was led on behalf of the Evmos Community, by Loredana Cirstea - elected by vote in the Evmos Interchain Office (Evmos Governance proposal #45) and a volunteer from The Laurel Project (https://evolve.provable.dev/). This proposal is made from a volunteer capacity (independent, unpaid, self-funded, and from the heart).\n"
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "50922741545538686561158118",
+        "abstain": "26420137546561605699670913",
+        "no": "1359825629380560094601306",
+        "no_with_veto": "64408891714691392953274"
+      },
+      "submit_time": "2022-09-17T19:52:16.584325865Z",
+      "deposit_end_time": "2022-09-20T19:52:16.584325865Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192770039000000000000"
+        }
+      ],
+      "voting_start_time": "2022-09-18T07:08:00.051024055Z",
+      "voting_end_time": "2022-09-23T07:08:00.051024055Z"
+    },
+    {
+      "proposal_id": "64",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Launching the Evmos Liquidity Incentives Program",
+        "description": "## Summary \n\nThis proposal, also known as [\"Kickstart DeFi on Evmos\"](https://commonwealth.im/evmos/discussion/6977-prevote-kickstart-defi-on-evmos) from Commonwealth, will begin the Evmos DAO Liquidity Incentives Program with the bootstrapping of liquidity pools on the Diffusion DEX. More initiatives are in the works with other DeFi projects, and will be proposed when ready.\n\n## Motivation \n\nThe Evmos blockchain has the potential to become a unique environment for DeFi in the IBC ecosystem, but it has had its fair share of roadblocks that have slowed down and limited growth. We have also had very attractive staking APR that gave a higher return than most liquidity pools, and a bridge exploit that destroyed the TVL of Evmos DeFi in a matter of hours.\n\nDespite the hurdles, we are confident in saying that we had great success with our incentivization initiative for the EVMOS/OSMO pool through Prop 39 which provided 600,000 EVMOS tokens for external incentives over 90 days on the Osmosis DEX. Since then, EVMOS has become one of the most popular pools on Osmosis in nearly all areas including TVL, volume, and daily APRs. At the time of writing, the pool has grown from just $2M, now to the 5th largest pool on osmosis with a TVL of $9.8M and one of the highest volume pools of over $3M. The incentives that helped drive this success will be expiring soon, and while we do plan on extending the Osmosis program, we must also begin looking inward: our native TVL.\n\n## Strategy \n\nAs more EVMOS tokens are staked, the APR rates have been decreasing at an accelerated rate. Millions of tokens are being unbonded at this moment, and without alternative pools with very appealing rates, they will most likely be going to Osmosis to be sold. Our first priority is to 1) build the much needed liquidity to wean off our reliance on Osmosis pools for liquid markets; 2) attract fellow IBC friends to participate in our high rewards programs and attract the unbonding Evmos tokens to find its way into these incentivized pools.\n\nThe Community Treasury is currently sitting around 33mil EVMOS tokens with 75mil+ EVMOS tokens returning from the unclaimed airdrops, and with an usage incentives escrow wallet which is now nearing 35mil tokens.\n\nIn total, roughly 143mil EVMOS (~$357mil @ $2.5), is left sitting with no benefits, when they can be put to strategic use that not only encourages more network participants, but also brings the community rewards for helping with the bootstrap initiative.\n\nIn summary, this is an aggressive but needed first step in further growing the Evmos network. Liam from Evmos explains eloquently in [this comment](https://commonwealth.im/evmos/discussion/6977-prevote-kickstart-defi-on-evmos?comment=30063) why this proposal is so important. We highly suggest reading the comment for context.\n\n ## Plan of Action \n\nDiffusion will be the first DEX to receive incentives, as they have been the leading DEX prior to the Nomad exploit. More protocols and DeFi projects will follow, with programs of their own.\n\nDiffusion will continue with their DIFF rewards for existing pools, resulting in *double rewards* for the pools that will be incentivized further with Evmos tokens.\n\n2mil EVMOS tokens will be released into a Gnosis Safe (3/5 signatures). Over the course of 90 days, the allocated EVMOS rewards will be released into Diffusion's staking contract (MiniChefv2 \u0026 Audited). We are initially aiming to minimize risk by releasing the funds every two weeks allowing time for assessments, and if needed, the re-balancing of rewards for underperforming pools. \n\nThe multisig will be managed by: \n\n- 3 Evmos DAO Governance members (Benny Lava, Tricky, LPX)\n- 1 Diffusion team member (mercenaryApe)\n- 1 Validator (Swiss Staking)\n\n## Incentives Allocations \n\nThe EVMOS incentives will go towards attracting liquidity for EVMOS pairs with ATOM, WETH, WBTC, OSMO, JUNO, DIFF, and USDC pools. The EVMOS token incentive breakdown for those pools would be as follows:\n\n**Category: Major (50%)**\n\n- EVMOS / ATOM - 400k \n- EVMOS / wETH - 400k (200k each Axelar, Celer) \n- EVMOS / wBTC - 200k (66.7K each Axelar, Gravity Bridge, Celer)\n\n**Category: Stablecoins (35%)**\n\n- EVMOS / Stablecoins - 700k (USDC split evenly between Axelar and Celer -- USDT and DAI for Gravity Bridge)\n\n**Category: Minor (15%)**\n\n- EVMOS / OSMO - 100k \n- EVMOS / JUNO - 100k \n- EVMOS / DIFF - 100k \n\nFor the kickoff program, we propose the equal distribution of incentives between the bridged assets **with the exception of gUSDC and gWETH pools**, as they are already being incentivized and are locked into smart contracts for the time being. This distribution will take course over a 90 day period.\n\n**Rebalancing of Pool Allocations** - Over the first 14 days funds will be split evenly between pools in each category, followed by distribution proportionate to each pool's TVL \u0026 Volume accordingly. 50% of the category incentives based upon TVL, and 50% based upon volume to fairly distribute incentives to the most valuable pools.\n\nRough TVL and APR targets per pool: [Graphical Table](https://user-images.githubusercontent.com/16395727/192321522-df012984-1edf-4a39-b9df-b3d959a532c5.png) \n\n## Future Plans \n\nFuture proposals can use this data to gauge their own bridge incentives. This will help the most desired liquidity continue to come onto Evmos and maintain attractive APRs while doing so. We are currently aiming to hit a TVL of $20mil on Evmos by the end of the year (across the entire network).\n\n2mil EVMOS is less than 1.5% of our available funds, and covers an entire DEX including interchain assets on Evmos. When compared to the 0.5% spent for a single EVMOS/OSMO pool, we firmly believe that this kickoff initiative is reasonable. We are currently working on a standardized framework in which these processes can be streamlined and more transparent; we thank the community for your patience and thank you to all those that have participated in the discussion stage of the proposal.\n\n**About Diffusion:**\n\nDiffusion is the a Uniswap v2 fork with Sushi's MinichefV2 implemented for rewards distribution. Diffusion was the first DEX and by far the largest in TVL and volume before the Nomad hack. With stablecoins back on Evmos and incentives to give them a boost, the revitalized team will soon be releasing a new roadmap and their plans to continually improve the DEX.\n\n---\n\n**Meta**\n\nIPFS: https://bafybeiftslqvljku5szkumbeoy3s2fje5j56xio5mwydxpxbnajcvunpwa.ipfs.w3s.link/ECP-PS-1.md \nMultisig: [0x35C237Bab19e5B89708f8513b75FF0F07A3c2a09](https://safe.evmos.org/evmos:0x35C237Bab19e5B89708f8513b75FF0F07A3c2a09) (evmos1xhpr0w43nedcjuy0s5fmwhls7parc2sfs33xef)",
+        "recipient": "evmos1xhpr0w43nedcjuy0s5fmwhls7parc2sfs33xef",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "2000000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "70496931900578164185029628",
+        "abstain": "992314759493443479412959",
+        "no": "481669320605578037932896",
+        "no_with_veto": "7699130797477370767348"
+      },
+      "submit_time": "2022-09-27T17:19:14.612799785Z",
+      "deposit_end_time": "2022-09-30T17:19:14.612799785Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "195070000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-09-27T23:00:24.518175734Z",
+      "voting_end_time": "2022-10-02T23:00:24.518175734Z"
+    },
+    {
+      "proposal_id": "65",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for stATOM (Stride Staked Atom)",
+        "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for stATOM (Stride Staked Atom)\\n### stATOM\\nFor the first time ever, ATOM can be liquid staked in the Cosmos ecosystem. For the first time ever, users no longer have to choose between staking ATOM and using it for trading / DeFi. Now, users can have both. With stATOM, you can use your ATOM for trading / DeFi while at the same time earning staking rewards.\\n### ERC20 contract\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6979-registration-for-stride-assets-strd-statom-stjuno-stosmo-and-ststars-erc20-representations)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/2B62892BD3F90ADE34E16E409303DFC2D6CD7B59CA85CC9D2B424F229CF3D590\\n- display: statom\\n- name: Stride Staked Atom\\n- symbol: stATOM",
+        "metadata": {
+          "description": "Staking derivative stATOM for staked ATOM by Stride",
+          "denom_units": [
+            {
+              "denom": "ibc/2B62892BD3F90ADE34E16E409303DFC2D6CD7B59CA85CC9D2B424F229CF3D590",
+              "exponent": 0,
+              "aliases": [
+                "stuatom"
+              ]
+            },
+            {
+              "denom": "statom",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/2B62892BD3F90ADE34E16E409303DFC2D6CD7B59CA85CC9D2B424F229CF3D590",
+          "display": "statom",
+          "name": "Stride Staked Atom",
+          "symbol": "stATOM"
+        }
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "final_tally_result": {
+        "yes": "68518233185254356999498666",
+        "abstain": "309564200010722044470701",
+        "no": "336728641324150686268879",
+        "no_with_veto": "26917522772039100546587"
+      },
+      "submit_time": "2022-09-30T06:27:25.496920803Z",
+      "deposit_end_time": "2022-10-03T06:27:25.496920803Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-09-30T06:27:25.496920803Z",
+      "voting_end_time": "2022-10-05T06:27:25.496920803Z"
+    },
+    {
+      "proposal_id": "66",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Community Pool Spend: Recover IBC tokens from Airdrop",
+        "description": "discussion: https://commonwealth.im/evmos/discussion/7149-evmos-recover-ibc-tokens-from-airdrop",
+        "recipient": "evmos1a53udazy8ayufvy0s434pfwjcedzqv345dnt3x",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "3167501226339726493675414"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-10-04T19:31:07.376376369Z",
+      "deposit_end_time": "2022-10-07T19:31:07.376376369Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192100000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-10-04T19:41:59.481141959Z",
+      "voting_end_time": "2022-10-09T19:41:59.481141959Z"
+    },
+    {
+      "proposal_id": "67",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Liquidity Mining Proposal for Axelar Network, Celer Network, and Gravity Bridge on Kinesis",
+        "description": "This proposal incentivizes stablecoin liquidity as bridge from Axelar, Celer, and Gravity Bridge with 99000 Evmos to be linearly distributed over 2 months. In the past, Kinesis Labs has reached over 459k USD worth of stablecoins in TVL without any incentives, with over 11,000 transactions and 400 unique liquidity providers. However, with the recent Nomad hack, Evmos needs a way to boostrap liquidity to jump start the Evmos DeFi ecosystem. Please note that all of these funds will be distributed to liquidity providers on Kinesis through the minichef contract - these funds are not for the Kinesis Team nor anyone else. Additionally, we are building Kinesis as members of the Evmos community as a public good. We do not take any fees.\n\nLink to Full Proposal: https://gateway.pinata.cloud/ipfs/QmXKzWgYjB9hhNpC5CTqdfRAXBg4e7ddPEdaBXDc7iE13v",
+        "recipient": "evmos1qhsmng544khnjye0ckljkzhdnlnug23vuv22ms",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "99000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-10-04T23:38:16.326578940Z",
+      "deposit_end_time": "2022-10-07T23:38:16.326578940Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000102000000000000"
+        }
+      ],
+      "voting_start_time": "2022-10-05T05:34:24.771149078Z",
+      "voting_end_time": "2022-10-10T05:34:24.771149078Z"
+    },
+    {
+      "proposal_id": "68",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for USK (Stablecoin of Kujira)",
+        "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for USK (Stablecoin of Kujira)\\n### USK\\nKujira  is a native Cosmos overcollateralized stablecoin soft-pegged to the US dollar, initially backed by . Users stake collateral to mint  while users would burn  to redeem their collateral.\\n## ERC20 contract\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/7111-this-proposal-creates-and-registers-an-erc20-representation-for-kujiras-usd-stablecoin-usk)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/47BEBD156D49678A8D85661D792EB364F875265D7593E165C339F2D4C5C4CBAB\\n- display: usk\\n- name: USK Stablecoin of Kujira\\n- symbol: USK\\n",
+        "metadata": {
+          "description": "An over-collateralized soft-pegged token to the USD on the Kujira chain",
+          "denom_units": [
+            {
+              "denom": "ibc/47BEBD156D49678A8D85661D792EB364F875265D7593E165C339F2D4C5C4CBAB",
+              "exponent": 0,
+              "aliases": [
+                "uusk"
+              ]
+            },
+            {
+              "denom": "usk",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/47BEBD156D49678A8D85661D792EB364F875265D7593E165C339F2D4C5C4CBAB",
+          "display": "usk",
+          "name": "USK Stablecoin of Kujira",
+          "symbol": "USK"
+        }
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-10-05T16:41:47.828080033Z",
+      "deposit_end_time": "2022-10-08T16:41:47.828080033Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-10-05T16:41:47.828080033Z",
+      "voting_end_time": "2022-10-10T16:41:47.828080033Z"
+    },
+    {
+      "proposal_id": "69",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Incubation Proposal from Chainhub",
+        "description": "###\n# INCUBATION PROPOSAL\n\n**Sriram Vishwanath (Professor, University of Texas Austin)**\n\n**ChainHub \u0026 Texas Blockchain Incubator**\n\n**sriram@chainhub.net**\n\n#### INTRODUCTION\n\nThis proposal details an incubation partnership agreement between ChainHub (the incubation arm of Texas Blockchain) and The Evmos Community. ChainHub is an incubator, currently based in Austin TX (which is expanding to other cities in the USA in coming months) focused on University students and College Blockchain clubs. ChainHub actively incubates projects from The University of Texas, Austin and the surrounding Austin community and, post-expansion, will be incubating projects from Carnegie Mellon University as well as other Universities/Colleges within the USA.\n\nChainHub is managed by Sriram Vishwanath. Sriram is a Professor of Engineering at The University of Texas, Austin. He has a PhD from Stanford, an MS from Caltech and a BTech from IIT Madras. He is the faculty sponsor and founding faculty advisor of Texas Blockchain ([https://www.texasblockchain.org/](https://www.texasblockchain.org/)) and he teaches the engineering and software centric blockchain classes on University of Texas Austin campus.\n\nLinkedin Profile: [https://www.linkedin.com/in/sriramvishwanath/](https://www.linkedin.com/in/sriramvishwanath/)\n\n#### OUR EXPERIENCE\n\nTexas Blockchain has been working on projects within the blockchain/crypto domain for roughly 5 years, and ChainHub is its incubation arm. We currently incubate projects within two other ecosystems: Polkadot and NEAR, and we have similar agreements in place with each of the ecosystems. Some of the incubated projects include: Quai Network [https://quai.network/](https://quai.network/), Zyfty [https://zyfty.io/#/](https://zyfty.io/#/), Mirror World [https://www.mirrormy.world/](https://www.mirrormy.world/) and a few other projects still in stealth.\n\nChainHub proposes to work with Evmos to incubate approximately two projects a year, on a calendar year basis, tailored to Evmos's priorities and needs. To this end, we will work closely with Evmos to converge on two or more projects and bring together a highly capable team to deliver on each project. These teams will be mentored, managed and funded by ChainHub through a grant provided by Evmos (see budget request below).\n\n#### SUMMARY OF TERMS\n\n1. ChainHub will:\n  \n      a. Incubate approximately[^1] two projects per year, starting with September 2022. These projects will be selected in close coordination with the Evmos team.\n  \n      b. Support these projects from their inception to minimum viable product (MVP) completion. We will staff each project with a talented and passionate team of students/alumni from the Universities/Colleges with which we are co-located.\n2. Evmos will:\n\n1. The Evmos Foundation will work closely with ChainHub to identify projects and mentor each project team.\n2. The Evmos Community (see budget request below) will provide resources necessary towards execution.\n3. The Evmos Foundation will partner with each project team: help with pitch-deck/fundraising, product roadmap and long term strategic growth of each entity resulting from this incubation process.\n\nWith the exception of 2022, ChainHub will submit a new proposal in Q1 of each calendar year for the Evmos Community's consideration for renewal of this engagement for that calendar year.\n\n#### BUDGET REQUEST\n\nAs tokens are volatile and ChainHub/Texas Blockchain will bear all the costs of development of the project, we request $1M in tokens per calendar year for the duration of this incubation agreement. This will cover the costs of project incubation (including developers, designers, audits, incubation space and operational support for each project).\n\nWe request the tokens be provided as follows:\n\n1. The first 50% at kickoff with Evmos (310559 Evmos equivalent to $0.5M)\n2. The next 25% when the first project is determined to be completed by Evmos Foundation (155279 Evmos equivalent to $0.25M)\n3. The final 25% when the second project is determined to be completed by Evmos Foundation (155279 Evmos equivalent to $0.25M)\n\nA breakdown of costs across the two projects are (these are rough order of magnitude):\n\n1. Engineering Team/Developers/Product Lead - 625K\n2. Full time Designer (for both projects) - 75K\n3. Incubation space - 100K (covers space rent, utilities, laptops, monitors, all infrastructure including 6 servers)\n4. Audits - 125K (for the entire platform(s) including full stack software, not just the smart contracts)\n5. Operational Staff (payroll/HR/health insurance/misc software) - 75K\n\nEach engineering team/devs/product lead will comprise of: approximately 2 Web3 + backend engineers, 1 part-time or full time front-end engineers, and 1 product lead.\n\nThe initial 500K worth of Evmos token will be used to fund development to reach the funding milestones. These tokens and existing incubator resources will be used until those resources are exhausted. We will primarily aim to use OTC services to convert tokens to USD. When OTC services are unavailable or limited, we will use other means of conversion to USD. If OTC services are unavailable, we will limit ourselves to at most 50K a month in conversion to USD. The remaining 500K worth of Evmos will be staked until their corresponding development milestones are reached. \n\nA multisig will be set up to manage this schedule by members of the community. When the Evmos Foundation marks a particular project's MVP as complete, the associated tranche of tokens will be released to ChainHub.\n\n#### MULTISIG COMPOSITION\nThe multisig composition is 3/5. The signers are as follows:\n- Loredana | The Laurel Project\n- Liam | Tharsis\n- Tricky | EvmosDAO\n- Outcast | Legion Validators\n- Chainhub\n\n#### PROPOSED PROJECTS\n\n1. **EvLend**\n\nProject Specs: [https://gateway.pinata.cloud/ipfs/QmZfxh8KBtf4r1ZFaJ9Za6jaYVH1FjbTR8y16TeLVAiT7s](https://gateway.pinata.cloud/ipfs/QmZfxh8KBtf4r1ZFaJ9Za6jaYVH1FjbTR8y16TeLVAiT7s)\n\nEvLend aims to be the most efficient variable rate borrow-lend market on Evmos.\n\nEvLend uses reactive interest rate technology to target specific utilization rates (% of funds in the money market being borrowed) for stablecoin assets while still providing support for borrow \u0026 lend services to other assets.\n\nReactive interest rates are a more recent innovation popularized by Euler finance. EvLend takes the power of this concept and maximizes it for stablecoin markets.\n\nEvLend can demonstrate a standard model by which maximum efficiency of interest rates may be reached. Building such a system can lead to economies of scale and majority share of lending volume for a given core stablecoin.\n\nThe lead developer for EvLend is Max Feldman.\n\nHere is a video walk-through of the documentation by the team: [https://www.youtube.com/watch?v=qG0uZpD26w8](https://www.youtube.com/watch?v=qG0uZpD26w8) \n\nMore information on reactive rates, our stablecoin focus, and project development timeline can be found in the GitBook specs link above.\n\n2. **Evmos Bridge**\n\nProject Specs: [https://gateway.pinata.cloud/ipfs/QmQ91nSC5ZDun6xw5Kuc4agMnfX7i4y5fKPe5ESqchSWox](https://gateway.pinata.cloud/ipfs/QmQ91nSC5ZDun6xw5Kuc4agMnfX7i4y5fKPe5ESqchSWox)\n\nWe propose a bridge tailored to maximize the ease of onboarding into the Evmos ecosystem. Our solution focuses on supporting the most bridge paths into and out of Evmos as well as focusing on user education to increase usage within the Evmos and broader Cosmos ecosystem.\n\nThe proposed bridge will consist of a liquidity network architecture utilizing native assets and thus no minting and burning. Additionally, we will build the cross-chain protocol leveraging a battle tested security and consensus model that is as secure as the economic security of the blockchains it is built upon.\n\nWith the minimal bridge paths available today, Evmos will continue to struggle with onboarding users and value into the ecosystem.\n\nProviding routes for users to bridge from the most popular DeFi hubs streamlines the process to onboard value into Evmos by orders of magnitude. By the end of Q3 2023 we plan on having Evmos, Ethereum, Avalanche, Binance Smart Chain, Polygon, Arbitrum, and Optimism integrated into the network.\n\nAdditionally, Chainhub will be resposible for running and maintaining the required validators for the liquidity network while this contract is active.\n\nThe lead developer for Evmos Bridge is Thad Hutcheson: \n\nHere is a video walk-through of the documentation by the team: [https://www.youtube.com/watch?v=pjqmVj5UhVk](https://www.youtube.com/watch?v=pjqmVj5UhVk)\n\nFor more information regarding the specifications of the bridge please refer to the documentation or reach back out to us for any further questions.\n\n[^1]: We say \"approximate\" as we may not converge on two projects, or may converge on more than two per year. Our goal will remain to incubate at least two per year.",
+        "recipient": "evmos18pdc43jlj7d4y047us2tzgy6g68v9ypmdaxeyh",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "621118000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-10-06T22:57:30.442354721Z",
+      "deposit_end_time": "2022-10-09T22:57:30.442354721Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-10-06T22:57:30.442354721Z",
+      "voting_end_time": "2022-10-11T22:57:30.442354721Z"
+    }
+  ],
+  "pagination": {
+    "next_key": null,
+    "total": "0"
+  }
+}

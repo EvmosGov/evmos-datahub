@@ -1,0 +1,381 @@
+{
+  "metadatas": [
+    {
+      "description": "The native EVM, governance and staking token of the Evmos Hub",
+      "denom_units": [
+        {
+          "denom": "aevmos",
+          "exponent": 0,
+          "aliases": [
+            "attoevmos"
+          ]
+        },
+        {
+          "denom": "evmos",
+          "exponent": 18,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "aevmos",
+      "display": "evmos",
+      "name": "Evmos",
+      "symbol": "EVMOS"
+    },
+    {
+      "description": "Staking derivative stATOM for staked ATOM by Stride",
+      "denom_units": [
+        {
+          "denom": "ibc/2B62892BD3F90ADE34E16E409303DFC2D6CD7B59CA85CC9D2B424F229CF3D590",
+          "exponent": 0,
+          "aliases": [
+            "stuatom"
+          ]
+        },
+        {
+          "denom": "statom",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/2B62892BD3F90ADE34E16E409303DFC2D6CD7B59CA85CC9D2B424F229CF3D590",
+      "display": "statom",
+      "name": "Stride Staked Atom",
+      "symbol": "stATOM"
+    },
+    {
+      "description": "Wrapped Bitcoin via Gravity Bridge",
+      "denom_units": [
+        {
+          "denom": "ibc/350B6DC0FF48E3BDB856F40A8259909E484259ED452B3F4F39A0FEF874F30F61",
+          "exponent": 0,
+          "aliases": [
+            "satoshi"
+          ]
+        },
+        {
+          "denom": "G-WBTC",
+          "exponent": 8,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/350B6DC0FF48E3BDB856F40A8259909E484259ED452B3F4F39A0FEF874F30F61",
+      "display": "G-WBTC",
+      "name": "Wrapped Bitcoin channel-8",
+      "symbol": "ibc G-WBTC"
+    },
+    {
+      "description": "Wrapped Ether on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/356EDE917394B2AEF7F915EB24FA683A0CCB8D16DD4ECCEDC2AD0CEC6B66AC81",
+          "exponent": 0,
+          "aliases": [
+            "weth-wei"
+          ]
+        },
+        {
+          "denom": "axlweth",
+          "exponent": 18,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/356EDE917394B2AEF7F915EB24FA683A0CCB8D16DD4ECCEDC2AD0CEC6B66AC81",
+      "display": "axlweth",
+      "name": "Wrapped Ether on Axelar",
+      "symbol": "axlWETH"
+    },
+    {
+      "description": "REGEN coin is the token for the Regen Network Platform",
+      "denom_units": [
+        {
+          "denom": "ibc/36DCDCDFB1D0D723546878E241BC5800D27214E1E1DA31A4E424DE2280B0B0EE",
+          "exponent": 0,
+          "aliases": [
+            "uregen"
+          ]
+        },
+        {
+          "denom": "regen",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/36DCDCDFB1D0D723546878E241BC5800D27214E1E1DA31A4E424DE2280B0B0EE",
+      "display": "regen",
+      "name": "Regen Network",
+      "symbol": "REGEN"
+    },
+    {
+      "description": "The native token of JUNO Chain",
+      "denom_units": [
+        {
+          "denom": "ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D",
+          "exponent": 0,
+          "aliases": [
+            "ujuno"
+          ]
+        },
+        {
+          "denom": "juno",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D",
+      "display": "juno",
+      "name": "Juno",
+      "symbol": "JUNO"
+    },
+    {
+      "description": "Circle's stablecoin on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/63C53CBDF471D4E867366ABE2E631197257118D1B2BEAD1946C8A408F96464C3",
+          "exponent": 0,
+          "aliases": [
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "axlusdc",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/63C53CBDF471D4E867366ABE2E631197257118D1B2BEAD1946C8A408F96464C3",
+      "display": "axlusdc",
+      "name": "USD Coin on Axelar",
+      "symbol": "axlUSDC"
+    },
+    {
+      "description": "USD Coin via Gravity Bridge",
+      "denom_units": [
+        {
+          "denom": "ibc/693989F95CF3279ADC113A6EF21B02A51EC054C95A9083F2E290126668149433",
+          "exponent": 0,
+          "aliases": [
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "G-USDC",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/693989F95CF3279ADC113A6EF21B02A51EC054C95A9083F2E290126668149433",
+      "display": "G-USDC",
+      "name": "USD Coin channel-8",
+      "symbol": "ibc G-USDC"
+    },
+    {
+      "description": "Wrapped Ether via Gravity Bridge",
+      "denom_units": [
+        {
+          "denom": "ibc/6B3FCE336C3465D3B72F7EFB4EB92FC521BC480FE9653F627A0BD0237DF213F3",
+          "exponent": 0,
+          "aliases": [
+            "wei"
+          ]
+        },
+        {
+          "denom": "G-WETH",
+          "exponent": 18,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/6B3FCE336C3465D3B72F7EFB4EB92FC521BC480FE9653F627A0BD0237DF213F3",
+      "display": "G-WETH",
+      "name": "Wrapped Ether channel-8",
+      "symbol": "ibc G-WETH"
+    },
+    {
+      "description": "The native token of Stargaze",
+      "denom_units": [
+        {
+          "denom": "ibc/7564B7F838579DD4517A225978C623504F852A6D0FF7984AFB28F10D36022BE8",
+          "exponent": 0,
+          "aliases": [
+            "ustars"
+          ]
+        },
+        {
+          "denom": "stars",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/7564B7F838579DD4517A225978C623504F852A6D0FF7984AFB28F10D36022BE8",
+      "display": "stars",
+      "name": "Stargaze",
+      "symbol": "STARS"
+    },
+    {
+      "description": "The native token of Gravity Bridge",
+      "denom_units": [
+        {
+          "denom": "ibc/7F0C2CB6E79CC36D29DA7592899F98E3BEFD2CF77A94340C317032A78812393D",
+          "exponent": 0,
+          "aliases": [
+            "ugraviton"
+          ]
+        },
+        {
+          "denom": "graviton",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/7F0C2CB6E79CC36D29DA7592899F98E3BEFD2CF77A94340C317032A78812393D",
+      "display": "graviton",
+      "name": "Graviton channel-8",
+      "symbol": "ibc GRAV"
+    },
+    {
+      "description": "The native staking and governance token of the Cosmos Hub.",
+      "denom_units": [
+        {
+          "denom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+          "exponent": 0,
+          "aliases": [
+            "uatom"
+          ]
+        },
+        {
+          "denom": "atom",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+      "display": "atom",
+      "name": "Cosmos Hub",
+      "symbol": "ATOM"
+    },
+    {
+      "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
+      "denom_units": [
+        {
+          "denom": "ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05",
+          "exponent": 0,
+          "aliases": [
+          ]
+        },
+        {
+          "denom": "eeur",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05",
+      "display": "eeur",
+      "name": "e-Money EUR",
+      "symbol": "EEUR"
+    },
+    {
+      "description": "Wrapped Bitcoin on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/C834CD421B4FD910BBC97E06E86B5E6F64EA2FE36D6AE0E4304C2E1FB1E7333C",
+          "exponent": 0,
+          "aliases": [
+            "wbtc-satoshi"
+          ]
+        },
+        {
+          "denom": "axlwbtc",
+          "exponent": 8,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/C834CD421B4FD910BBC97E06E86B5E6F64EA2FE36D6AE0E4304C2E1FB1E7333C",
+      "display": "axlwbtc",
+      "name": "Wrapped Bitcoin on Axelar",
+      "symbol": "axlWBTC"
+    },
+    {
+      "description": "Tether USD via Gravity Bridge",
+      "denom_units": [
+        {
+          "denom": "ibc/DF63978F803A2E27CA5CC9B7631654CCF0BBC788B3B7F0A10200508E37C70992",
+          "exponent": 0,
+          "aliases": [
+            "uusdt"
+          ]
+        },
+        {
+          "denom": "G-USDT",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/DF63978F803A2E27CA5CC9B7631654CCF0BBC788B3B7F0A10200508E37C70992",
+      "display": "G-USDT",
+      "name": "Tether USD channel-8",
+      "symbol": "ibc G-USDT"
+    },
+    {
+      "description": "The native token of Osmosis",
+      "denom_units": [
+        {
+          "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+          "exponent": 0,
+          "aliases": [
+            "uosmo"
+          ]
+        },
+        {
+          "denom": "osmo",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+      "display": "osmo",
+      "name": "Osmosis",
+      "symbol": "OSMO"
+    },
+    {
+      "description": "Dai Stablecoin via Gravity Bridge",
+      "denom_units": [
+        {
+          "denom": "ibc/F96A7F81E8F82E4EE81F94D507CD257319EFB70FE46E23B4953F63B62E855603",
+          "exponent": 0,
+          "aliases": [
+            "dai-wei"
+          ]
+        },
+        {
+          "denom": "G-DAI",
+          "exponent": 18,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/F96A7F81E8F82E4EE81F94D507CD257319EFB70FE46E23B4953F63B62E855603",
+      "display": "G-DAI",
+      "name": "Dai Stablecoin channel-8",
+      "symbol": "ibc G-DAI"
+    }
+  ],
+  "pagination": {
+    "next_key": null,
+    "total": "0"
+  }
+}
