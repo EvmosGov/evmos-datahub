@@ -1,4 +1,4 @@
-# Evmos Data Collection Repo
+# Evmos Datahub
 
 Evmos-related datahub inspired by the “git scraping” approach for flat data. More reliable data endpoints for projects that do not require real-time metrics, evmos-datahub aims to lighten the load on public RPC endpoints by offering an alternative source.
 
