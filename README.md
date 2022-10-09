@@ -7,7 +7,7 @@ Flat data collection powered by Github Workflows.
 - [ ] Simplified Sentiment Data
 - [ ] GitHub Activity
 - [ ] Commonwealth Engagement & Growth
-    - [x] Active Addresses Per Day
+    - [ ] Active Addresses Per Day
     - [ ] New Comments
     - [ ] New Threads
 - [ ] Weekly Community & Gov Call Data 

@@ -1,0 +1,34 @@
+name: data-24hr
+on:
+  schedule:
+    - cron: 0 0 * * *
+  workflow_dispatch: {}
+  push:
+    paths:
+      - .github/workflows/flat_24h.yml
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.10.x
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://rest.bd.evmos.org:1317/cosmos/gov/v1beta1/proposals?proposal_status=0&pagination.limit=500
+          downloaded_filename: evmos-proposals-all.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://rest.bd.evmos.org:1317/cosmos/staking/v1beta1/validators?pagination.limit=500
+          downloaded_filename: evmos-validators-all.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://rest.bd.evmos.org:1317/cosmos/bank/v1beta1/denoms_metadata?pagination.limit=500
+          downloaded_filename: evmos-denoms-all.json
+

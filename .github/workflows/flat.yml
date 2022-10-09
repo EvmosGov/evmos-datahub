@@ -1,11 +1,12 @@
 name: data
 on:
   schedule:
-    - cron: 1 */6 * * *
+    - cron: 1 */4 * * *
   workflow_dispatch: {}
   push:
     paths:
       - .github/workflows/flat.yml
+      - process-pool.js
 jobs:
   scheduled:
     runs-on: ubuntu-latest
@@ -32,4 +33,3 @@ jobs:
           http_url: https://rest.bd.evmos.org:1317/cosmos/bank/v1beta1/balances/evmos1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8974jnh
           downloaded_filename: evmos-community-pool.json
           postprocess: process-pool.js
-
