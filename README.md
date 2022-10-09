@@ -1,6 +1,15 @@
 # Evmos Data Collection Repo
 
-Flat data collection powered by Github Workflows.
+Evmos-related datahub inspired by the “git scraping” approach for flat data. More reliable data endpoints for projects that do not require real-time metrics, evmos-datahub aims to lighten the load on public RPC endpoints by offering an alternative source.
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Separate actions by cron times
+- [x] Add Proposal and Validator data
+- [ ] Refactor / re-organize structure 
+- [ ] Simple API
+- [ ] More post-processing scripts
 
 ## Planned Collections
 - [x] Market Data 
