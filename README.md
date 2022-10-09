@@ -12,8 +12,11 @@ Flat data collection powered by Github Workflows.
     - [ ] New Threads
 - [ ] Weekly Community & Gov Call Data 
 - [ ] Governance & Proposal Engagement
-- [ ] Tendermint Datapoints
-    - [x] Community Pool / Treasury Holdings
+- [ ] Cosmos SDK Datapoints
+    - [x] Community Pool / Treasury Holdings `Updated Every 4hrs`
+    - [x] Evmos IBC Denoms `Updated Every 24hrs`
+    - [x] Proposals Data `Updated Every 24hrs`
+    - [x] Validators Data `Updated Every 24hrs`
 
 ## Post-Processing and Data Cleaning/Formatting
 
