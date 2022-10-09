@@ -7,9 +7,13 @@ Flat data collection powered by Github Workflows.
 - [ ] Simplified Sentiment Data
 - [ ] GitHub Activity
 - [ ] Commonwealth Engagement & Growth
+    - [x] Active Addresses Per Day
+    - [ ] New Comments
+    - [ ] New Threads
 - [ ] Weekly Community & Gov Call Data 
 - [ ] Governance & Proposal Engagement
 - [ ] Tendermint Datapoints
+    - [x] Community Pool / Treasury Holdings
 
 ## Post-Processing and Data Cleaning/Formatting
 

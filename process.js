@@ -7,6 +7,8 @@ const json = await readJSON(filename)
 console.log(json.market_cap_rank)
 const lastUpdate = json.market_data.last_updated
 const marketData = Object.values(json.market_data); 
+console.log(marketData)
+
 const filteredPrice = marketData.map(current_price => ({ 
     currency: current_price.key,
     rate: current_price.value
