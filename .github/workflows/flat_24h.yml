@@ -31,4 +31,9 @@ jobs:
         with:
           http_url: https://rest.bd.evmos.org:1317/cosmos/bank/v1beta1/denoms_metadata?pagination.limit=500
           downloaded_filename: evmos-denoms-all.json
-
+      - name: Fetch API Data 📦
+        uses: JamesIves/fetch-api-data-action@v2
+        with:
+          endpoint: https://commonwealth.im/api/communityStats?chain=evmos
+          configuration: '{ "method": "GET", "headers": {"Set-Cookie": "${{ secrets.cookie }}"} }'
+          save-name: cw-test
