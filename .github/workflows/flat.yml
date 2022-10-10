@@ -33,3 +33,8 @@ jobs:
           http_url: https://rest.bd.evmos.org:1317/cosmos/bank/v1beta1/balances/evmos1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8974jnh
           downloaded_filename: evmos-community-pool.json
           postprocess: process-pool.js
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://commonwealth.im/api/activeThreads?chain=evmos&threads_per_topic=10
+          downloaded_filename: cw-active-threads.json
