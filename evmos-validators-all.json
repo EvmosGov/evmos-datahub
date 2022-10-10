@@ -3923,8 +3923,8 @@
       },
       "jailed": false,
       "status": "BOND_STATUS_BONDED",
-      "tokens": "1141776737438110735081816",
-      "delegator_shares": "1141776737438110735081816.000000000000000000",
+      "tokens": "1141798737438110735081816",
+      "delegator_shares": "1141798737438110735081816.000000000000000000",
       "description": {
         "moniker": "Swiss Staking",
         "identity": "165F85FC0194320D",
@@ -4996,8 +4996,8 @@
       },
       "jailed": false,
       "status": "BOND_STATUS_BONDED",
-      "tokens": "6204490342079032677450395",
-      "delegator_shares": "6204490342079032677450395.000000000000000000",
+      "tokens": "6204491162079032677450395",
+      "delegator_shares": "6204491162079032677450395.000000000000000000",
       "description": {
         "moniker": "Disperze",
         "identity": "AC87F469C49533B1",
@@ -7664,8 +7664,8 @@
       },
       "jailed": false,
       "status": "BOND_STATUS_BONDED",
-      "tokens": "6006157644078926542464715",
-      "delegator_shares": "6006157644078926542464715.000000000000000000",
+      "tokens": "6006161644078926542464715",
+      "delegator_shares": "6006161644078926542464715.000000000000000000",
       "description": {
         "moniker": "OrbitalApes.com",
         "identity": "",
