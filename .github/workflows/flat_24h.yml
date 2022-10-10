@@ -34,6 +34,6 @@ jobs:
       - name: Fetch API Data 📦
         uses: JamesIves/fetch-api-data-action@v2
         with:
-          endpoint: https://commonwealth.im/api/communityStats?chain=evmos
+          endpoint: https://commonwealth.im/api/communityStats?chain=evmos&jwt=${{ secrets.jwt }}
           configuration: '{ "method": "GET", "headers": {"Set-Cookie": "${{ secrets.cookie }}"} }'
           save-name: cw-test
