@@ -2130,12 +2130,12 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "57353949224159783216500953",
+        "abstain": "6353049322539701021480050",
+        "no": "839678528564182696331166",
+        "no_with_veto": "30418124605390681175401"
       },
       "submit_time": "2022-10-04T23:38:16.326578940Z",
       "deposit_end_time": "2022-10-07T23:38:16.326578940Z",
@@ -2177,12 +2177,12 @@
           "symbol": "USK"
         }
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "58708290513774515986518348",
+        "abstain": "7360613043772414814919510",
+        "no": "543552020624656884454279",
+        "no_with_veto": "17712900648008409377228"
       },
       "submit_time": "2022-10-05T16:41:47.828080033Z",
       "deposit_end_time": "2022-10-08T16:41:47.828080033Z",
