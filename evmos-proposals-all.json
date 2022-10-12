@@ -2209,12 +2209,12 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_REJECTED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "7265018330170620620400845",
+        "abstain": "20199638685933353208327699",
+        "no": "29039497356137139571453223",
+        "no_with_veto": "2567631062805711566573501"
       },
       "submit_time": "2022-10-06T22:57:30.442354721Z",
       "deposit_end_time": "2022-10-09T22:57:30.442354721Z",
@@ -2226,6 +2226,38 @@
       ],
       "voting_start_time": "2022-10-06T22:57:30.442354721Z",
       "voting_end_time": "2022-10-11T22:57:30.442354721Z"
+    },
+    {
+      "proposal_id": "70",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Extending Osmosis External Incentives",
+        "description": "## INCUBATION PROPOSAL\n\n **Summary**\n\nThis proposal aims to extend the external EVMOS incentives for the EVMOS/OSMO pool on Osmosis. 600,000 EVMOS will be distributed to 14 day bonding only over 90 days. The total ask is for 600,100 EVMOS to also cover the external incentives gauge fees. The funds will be sent to a 3/4 multisig upon approval to deploy the incentives on Osmosis. You can find the commonwealth discussion here: [https://commonwealth.im/evmos/discussion/7102-temperature-check-extending-osmosis-external-incentives](https://commonwealth.im/evmos/discussion/7102-temperature-check-extending-osmosis-external-incentives)\n\n **Motivation**\n\nWe have had great success with incentivizing the EVMOS/OSMO pool on Osmosis through Prop 39 and providing 600,000 EVMOS tokens for external incentives over 90 days. Since then, EVMOS has become one of the most popular pools on Osmosis through TVL, volume, and daily APRs. At the time of writing, the pool has grown from just $2M, now to the 6th largest pool on osmosis with a TVL of $7.3M (Peaking at $10M) and 3rd highest 7-day volume of $6.5M. The number of tokens locked in the LP have grown from 700k EVMOS before the incentives started to now just over 2M. Deep \u0026 stable liquidity is important for the health of every protocol, and incentives can play a key part in maintaining this liquidity. The incentives that helped drive this success will be expiring on October 18th, so the community needs to decide the next steps forward.\n\n **Plan of Action**\n\n Based on poll results and community feedback in Discord and Commonwealth, we are asking to extend incentives on Osmosis with another 600k EVMOS over 90 days. Osmosis is the gateway for new users into the Cosmos ecosystem so it is important to maintain deep liquidity. Once this period is over, we can reevaluate the incentives as we will have a clearer picture with how native liquidity has grown.\n\n600k EVMOS over a 90 day period (6,666.67 EVMOS per day), 100 EVMOS for funding Osmosis gauge creation and filling.\n\nTOTAL : 600,100 EVMOS\n\n14 day bond only\n\nPool 722 (EVMOS/OSMO)\n\n **MULTISIG (3/4)**\n\n0xbAFE2Ae09c621462032BbC7FC997aA89c9780639\n\nbennylava - Evmos Community Manager/Evmos Governance Workstream\n\nTricky | Cosmos Spaces - Evmos Governance Workstream\n\nLPX - Evmos Governance Workstream\n\nJohnnyWyles - Osmosis Labs",
+        "recipient": "evmos1htlz4cyuvg2xyqeth3lun9a238yhsp3emvs8ud",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "600100000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-10-11T20:55:02.540116139Z",
+      "deposit_end_time": "2022-10-14T20:55:02.540116139Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "193000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-10-11T21:07:58.888321009Z",
+      "voting_end_time": "2022-10-16T21:07:58.888321009Z"
     }
   ],
   "pagination": {
