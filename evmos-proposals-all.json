@@ -2320,12 +2320,12 @@
           "symbol": "TORI"
         }
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "61623142788950873573808773",
+        "abstain": "7884817388694723785637891",
+        "no": "434133090334039515334627",
+        "no_with_veto": "3643801993917266725380"
       },
       "submit_time": "2022-10-21T10:46:13.332984137Z",
       "deposit_end_time": "2022-10-24T10:46:13.332984137Z",
@@ -2414,7 +2414,7 @@
           "symbol": "axlUSDT"
         }
       },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
       "final_tally_result": {
         "yes": "0",
         "abstain": "0",
@@ -2426,11 +2426,11 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "16710012000000000000"
+          "amount": "216922044000000000000"
         }
       ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
+      "voting_start_time": "2022-10-26T17:29:15.689211191Z",
+      "voting_end_time": "2022-10-31T17:29:15.689211191Z"
     }
   ],
   "pagination": {
