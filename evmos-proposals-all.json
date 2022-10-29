@@ -2367,12 +2367,12 @@
           "symbol": "axlDAI"
         }
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "72867814185878305414904173",
+        "abstain": "1422111733999133748170684",
+        "no": "36696423937058001129214",
+        "no_with_veto": "4217997558395522292631"
       },
       "submit_time": "2022-10-23T07:57:58.454023522Z",
       "deposit_end_time": "2022-10-26T07:57:58.454023522Z",
@@ -2431,6 +2431,38 @@
       ],
       "voting_start_time": "2022-10-26T17:29:15.689211191Z",
       "voting_end_time": "2022-10-31T17:29:15.689211191Z"
+    },
+    {
+      "proposal_id": "76",
+      "content": {
+        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
+        "title": "Evmos Mainnet v9.1.0 Upgrade",
+        "description": "## Author\\n\\nFreddy Caceres ([@FaCs95](https://twitter.com/FaCs95)), Evmos Core Team\\n\\n## Software Upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos software upgrade at block height [6,654,000](https://www.mintscan.io/evmos/blocks/6654000) from it's current version [v8.2.3](https://github.com/tharsis/evmos/releases/tag/v8.2.3) to [v9.1.0](https://github.com/tharsis/evmos/releases/tag/v9.1.0) on the Evmos Mainnet. \\n\\n## Motivation\\n\\n Software upgrades generally aim to improve current perfomance and add new features on the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validators/upgrades/overview.html).\\n\\n## Impact\\n\\nThe purpose of this release is to return funds to the affected accounts during the claims records clawback of block 5074187. This process will be done through the upgrade handler. This will have to be a coordinated (breaking) upgrade since the state will be modified.\\n\\nThe list of affected accounts can be found at app/upgrades/v9_1/accounts.go with their respective balance. The scripts used to find affected accounts were made public at [claims_fixer's](https://github.com/evmos/claims_fixer) repo with detailed instructions on how to run them and reproduce the same result.\\n\\nNOTE: The return of funds to affected accounts is only relevant to Mainnet.\\n\\nA full changelog can be found [here](https://github.com/tharsis/evmos/releases/tag/v9.1.0).\\n\\n## Testing\\n\\nThe Evmos core team created a End-to-End testing suite that perfoms the software upgrade locally. These tests have been performed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/ramacarlucho/evmos/blob/rama%2Fe2e_clean/tests/e2e/README.md).",
+        "plan": {
+          "name": "v9.1.0",
+          "time": "0001-01-01T00:00:00Z",
+          "height": "6654000",
+          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/tharsis/evmos/releases/download/v9.1.0/evmos_9.1.0_Darwin_arm64.tar.gz\",\"darwin/x86_64\":\"https://github.com/tharsis/evmos/releases/download/v9.1.0/evmos_9.1.0_Darwin_x86_64.tar.gz\",\"linux/arm64\":\"https://github.com/tharsis/evmos/releases/download/v9.1.0/evmos_9.1.0_Linux_arm64.tar.gz\",\"linux/x86_64\":\"https://github.com/tharsis/evmos/releases/download/v9.1.0/evmos_9.1.0_Linux_x86_64.tar.gz\",\"windows/x86_64\":\"https://github.com/tharsis/evmos/releases/download/v9.1.0/evmos_9.1.0_Windows_x86_64.zip\"}}",
+          "upgraded_client_state": null
+        }
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-10-28T20:43:48.394139002Z",
+      "deposit_end_time": "2022-10-31T20:43:48.394139002Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-10-28T21:02:33.287702238Z",
+      "voting_end_time": "2022-11-02T21:02:33.287702238Z"
     }
   ],
   "pagination": {
