@@ -2463,6 +2463,38 @@
       ],
       "voting_start_time": "2022-10-28T21:02:33.287702238Z",
       "voting_end_time": "2022-11-02T21:02:33.287702238Z"
+    },
+    {
+      "proposal_id": "77",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "FootieSZN initial funding proposal",
+        "description": "## FootieSZN initial funding proposal \n\n **Summary** \n\nThis proposal aims to seek initial funding of $50,000 or 23,810 EVMOS for the development of FootieSZN a fantasy sport app on the Evmos Network. **Discussion** Link to current discussion here: https://commonwealth.im/evmos/discussion/7295-grant-request-footiesz \n\n Multisig address is: **evmos1mq4fevlp0l8m54fqk426f75dexxhuxsaxw4v69**/ **0xD82a9CB3e17FcfbA5520b555A4fA8dc98d7E1A1D** \n\n**Multisig Members (3 of 4 Multisig)**\n\n*CtrlAltApe  - (OrbitalApe)\n\n*Luisqa - (OzMage Validation)\n\n*devd331 -( Evmos Mod)\n\n*flarcos - (FootieSZN)",
+        "recipient": "evmos1mq4fevlp0l8m54fqk426f75dexxhuxsaxw4v69",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "23810000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-10-29T21:30:30.118726800Z",
+      "deposit_end_time": "2022-11-01T21:30:30.118726800Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "75012001000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
     }
   ],
   "pagination": {
