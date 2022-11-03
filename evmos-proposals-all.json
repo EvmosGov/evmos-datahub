@@ -2446,12 +2446,12 @@
           "upgraded_client_state": null
         }
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "77252282560142971634474433",
+        "abstain": "21412750482898191117400",
+        "no": "18222505188905413673190",
+        "no_with_veto": "8663292561335333895011"
       },
       "submit_time": "2022-10-28T20:43:48.394139002Z",
       "deposit_end_time": "2022-10-31T20:43:48.394139002Z",
