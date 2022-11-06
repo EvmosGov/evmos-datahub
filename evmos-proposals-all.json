@@ -2495,6 +2495,53 @@
       ],
       "voting_start_time": "2022-10-30T06:37:26.261919182Z",
       "voting_end_time": "2022-11-04T06:37:26.261919182Z"
+    },
+    {
+      "proposal_id": "78",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for Injective (INJ)",
+        "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for Injective (INJ)\\n### What is Injective\\nInjective is an open interoperable smart contracts layer-one blockchain network optimized for decentralized finance applications.\\n### Representation\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/7402-this-proposal-creates-and-registers-an-erc20-representation-for-injective-inj)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/ADF401C952ADD9EE232D52C8303B8BE17FE7953C8D420F20769AF77240BD0C58\\n- display: INJ\\n- name: Injective\\n- symbol: INJ\\n",
+        "metadata": {
+          "description": "The INJ token is the native governance token for the Injective chain.",
+          "denom_units": [
+            {
+              "denom": "ibc/ADF401C952ADD9EE232D52C8303B8BE17FE7953C8D420F20769AF77240BD0C58",
+              "exponent": 0,
+              "aliases": [
+                "inj"
+              ]
+            },
+            {
+              "denom": "INJ",
+              "exponent": 18,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/ADF401C952ADD9EE232D52C8303B8BE17FE7953C8D420F20769AF77240BD0C58",
+          "display": "INJ",
+          "name": "Injective",
+          "symbol": "INJ"
+        }
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-11-05T07:46:35.878377957Z",
+      "deposit_end_time": "2022-11-08T07:46:35.878377957Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-11-05T07:47:49.513599752Z",
+      "voting_end_time": "2022-11-10T07:47:49.513599752Z"
     }
   ],
   "pagination": {
