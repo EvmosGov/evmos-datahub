@@ -2525,12 +2525,12 @@
           "symbol": "INJ"
         }
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "71810756094623187180794796",
+        "abstain": "7465434137675452420343893",
+        "no": "51377641693792182578848",
+        "no_with_veto": "838057458307013209149"
       },
       "submit_time": "2022-11-05T07:46:35.878377957Z",
       "deposit_end_time": "2022-11-08T07:46:35.878377957Z",
