@@ -2542,6 +2542,53 @@
       ],
       "voting_start_time": "2022-11-05T07:47:49.513599752Z",
       "voting_end_time": "2022-11-10T07:47:49.513599752Z"
+    },
+    {
+      "proposal_id": "79",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for Tgrade (TGD)",
+        "description": "Once this proposal is approved by the EVMOS governance, Evmos's erc20 module uses a factory pattern to deploy an ERC20 token contract representation of the TGD coin. This enables TGD to be used in DeFi protocols and new applications on Evmos, that are based on the ERC20 standard (like AAVE, Diffusion, etc.). \\n\\n## Author\\n\\nLoredana Cirstea, [evmos4volunteers](https://evolve.provable.dev/)\\n\\n## Before Voting \\n\\n- Follow and discuss this proposal in this [Evmos Commonwealth thread](https://commonwealth.im/evmos/discussion/7602-registration-of-tgrades-tgd-asset-as-an-erc20-representation).\\n- For an in-depth explanation of the erc20 module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n\\n## Tgrade (TGD)\\n\\nTgrade [https://tgrade.finance](https://tgrade.finance) is a blockchain project built by Confio, makers of CosmWasm. Tgrade is a Cosmos-compatible chain with its own CosmWasm engine and a novel consensus mechanism called Proof of Engagement which has been designed to incentivize collaboration. Tgrade has been designed from the ground up to be decentralized, and secure in order to support regulated financial businesses. Tgrade has an on-chain governance system that allows for the creation and maintenance of permissioned groups, named Trusted Circles, each with their own governance and rules.\\n\\nMain benefits for enabling TGD as an ERC20 token in Evmos: \\n- Users will have access to TGD in Evmos's DeFI protocols and other ERC20 applications. \\n- First step to create synergy between Evmos's EVM \u0026 Tgrade's CosmWasm ecosystems (DeFi protocols and more).\\n- Tgrade is business-focused and is building a chain compatible with EU regulations while still remaining decentralized.\\n\\n## Verify Metadata\\n- base: ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9\\n- display: TGD\\n- name: Tgrade\\n- symbol: TGD\\n",
+        "metadata": {
+          "description": "The native staking and governance token of the Tgrade chain",
+          "denom_units": [
+            {
+              "denom": "ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9",
+              "exponent": 0,
+              "aliases": [
+                "utgd"
+              ]
+            },
+            {
+              "denom": "TGD",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9",
+          "display": "TGD",
+          "name": "Tgrade",
+          "symbol": "TGD"
+        }
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-11-12T19:15:28.705495375Z",
+      "deposit_end_time": "2022-11-15T19:15:28.705495375Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-11-12T19:22:55.342243810Z",
+      "voting_end_time": "2022-11-17T19:22:55.342243810Z"
     }
   ],
   "pagination": {
