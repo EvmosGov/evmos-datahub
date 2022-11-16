@@ -2589,6 +2589,38 @@
       ],
       "voting_start_time": "2022-11-12T19:22:55.342243810Z",
       "voting_end_time": "2022-11-17T19:22:55.342243810Z"
+    },
+    {
+      "proposal_id": "80",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Dystopia Labs - Evmos Developer Acquisition Grant Request",
+        "description": "**Summary**\n\nDystopia Labs is requesting $75k (60,000 EVMOS at time of writing) from the Evmos community to support 5 IRL events for $15k each, totaling to $75k in 2023:\n\n- ETH Portland (Jan 2023)\n- DeFi Denver (Feb 2023; right before ETH Denver)\n- ETH Austin (April 2023; right before Consensus)\n- ETH Seattle (July 2023)\n- ETH Vancouver (Aug 2023)\n\n**Abstract**\n\nWho Are We:\n\nDear Evmos Community,\nI'm Hsin-Ju, founder \u0026 CEO of Dystopia Labs [http://dystopialabs.com](http://dystopialabs.com). We host ETH events all around the world, including the upcoming ETH.Seattle, ETH Seoul, and DeFi Bogota. Since our inception in 2019, we’ve hosted 449+ workshops and 18 summits with reach in 19+ countries. With over 32,000+ registrants for our events, we’ve built strong crypto hubs in SF, LA, Austin, Portland, and brought in 345+ speakers from ETH Foundation, 0x, Curve, Aave, Osmosis, Sommelier, \u0026 more. TLDR; we have a strong developer community.\n\nWhy Our Proposal Matters:\n\nSince Evmos is an EVM compatible chain, there’s a huge opportunity for us to collaborate together to bring new developers and projects into the Evmos ecosystem.\n\nDystopia Labs would like to invite Evmos to speak at our upcoming 5 IRL events in 2023:\n\n• ETH Portland (Jan 2023)\n• DeFi Denver (Feb 2023; right before ETH Denver)\n• ETH Austin (April 2023; right before Consensus)\n• ETH Seattle (July 2023)\n• ETH Vancouver (Aug 2023)\n\n**Funding Request**\n\nWe are looking to ask the Evmos team for $15k support per event, totaling to $75k in 2023. This will help cover venue costs, AV, staging, furniture, and food.\nWe expect 300-350 attendees per event and about 800-1000 registrants (Evmos will get the email list). And like always, our events are 100% free to attendees so we’d love to have the Evmos community get involved and attend.\nTo us, a successful event would be oversubscribed, have fantastic speakers, and help bring more awareness and interest in the Evmos ecosystem.\nIn the past, we’ve had speakers like: Vitalik Buterin, Austin Griffith, the Flashbot’s team, Stani Kulechov, the CEO of Aave, the SEC Commissioner, and more. TLDR; you will be in good company at our events.\nOther sponsors include: UMA, 1inch Exchange, Figment, Rarible, and more.\n\n**WHY THE CONFERENCES ARE VALUABLE TO EVMOS:**\n\nBeyond brand recognition and on-site education, the email list is the highest value thing a sponsor can get out of any event. As part of our sponsorship agreement, Evmos would get the email list of all the conference attendees per event. This is a huge value add because the Evmos team can reach out to the attendees (who listened to the Evmos talk IRL) and drive them to more dense educational content (ie. like videos, blog posts, documentation, etc) after the event. They can even use these lists to even create their own event series (if they so wished). Over time, as they participate in more and more events, Evmos will be able to convert people who they met IRL into advocates (simply b/c they are able to reach attendees after the event and to continue pushing them down the funnel). TLDR; registrant lists will be a huge value add for the Evmos community.\n\nWe’re Part Of The Ecosystem:\nOur goal is to build a long-term relationship w/ the Evmos team / ecosystem and be a consistent contributor. We have also not sold ANY of the $EVMOS tokens that we've received. We're in it for the long haul :) In 2022, EVMOS participated in 2 of our events, HackSummit SF \u0026 DeFi Bogota. As a summary, here are the key stats for the 2 events Evmos participated in:\n\nFor DeFi Bogota: [(https://2022.defibogota.org/](https://2022.defibogota.org/)\n• 100% free for attendees\n• 2024 registrants (Evmos will get the email list)\n• ~700 attendees\n• 20 speakers\n• 21 sessions\n• 18 talks\n• 1 panel\n• 2 workshops\n• 7 hrs of content\n\nFor Hacksummit SF: [https://sf.hacksummit.org](https://sf.hacksummit.org/)\n• 100% free for attendees\n• 916 registrants (Evmos will get the email list)\n• ~350 attendees\n• 30 sessions\n• 24 talks\n• 1 panel\n• 5 workshops\n• 10 hrs of content",
+        "recipient": "evmos17yzn20g5lj2f95e9ynelrqwnm7m8z2d8vhh63g",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "60000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-11-15T15:32:35.459019205Z",
+      "deposit_end_time": "2022-11-18T15:32:35.459019205Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "195101001000000000000"
+        }
+      ],
+      "voting_start_time": "2022-11-15T22:09:29.130698116Z",
+      "voting_end_time": "2022-11-20T22:09:29.130698116Z"
     }
   ],
   "pagination": {
