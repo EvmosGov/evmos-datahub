@@ -155,6 +155,28 @@
       "symbol": "JUNO"
     },
     {
+      "description": "The native staking and governance token of the Tgrade chain",
+      "denom_units": [
+        {
+          "denom": "ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9",
+          "exponent": 0,
+          "aliases": [
+            "utgd"
+          ]
+        },
+        {
+          "denom": "TGD",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9",
+      "display": "TGD",
+      "name": "Tgrade",
+      "symbol": "TGD"
+    },
+    {
       "description": "An over-collateralized soft-pegged token to the USD on the Kujira chain",
       "denom_units": [
         {
