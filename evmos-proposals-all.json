@@ -2623,38 +2623,6 @@
       "voting_end_time": "2022-11-20T22:09:29.130698116Z"
     },
     {
-      "proposal_id": "81",
-      "content": {
-        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
-        "title": "Evmos Evosystem Campaign by Galxe",
-        "description": "**Summary**\n\nThe Galxe team proposes allocating $400K USD in EVMOS to fund targeted campaigns and initiatives that provides Evmos with exposure to new users and drives organic growth on-chain. Leveraging our existing user base and previously successful campaigns, Galxe will guide users through the Evmos ecosystem to complete on and off-chain tasks and reward them with EVMOS tokens for doing so. These campaigns will involve partnerships with current Evmos dapps, and can expand to more other protocols as they launch on Evmos as well. With a large portion of the Rektdrop being clawed back, users who missed out have a chance to engage with the ecosystem. This will bring value to the Evmos community through expanding the user base, and providing outside users with direct exposure to Evmos and its native dapps.\n\n2/3 Multisig members:\nLPX - EvmosDAO\nGV | Swiss staking - EvmosDAO\nMat - Galxe Team\n\nMultisig address:\n0x0d5BCc86Feb4c26e17D672e57775Ae80C5597932\nDisclaimer: All funds will only be distributed to the participating Evmos community.\n\n**Motivation**\n\nGalxe is the leading Web3 credential data network in the world. A collaborative credential infrastructure enabling brands and developers to engage in communities and build robust products in Web3. Galxe’s infrastructure allows dApps to grow their community off chain and their protocol on chain through Galxe’s tools. Think of Galxe as a way to deploy on chain loyalty programs and customized growth marketing campaigns by distributing NFT badges. Up to this point, Galxe has over 11,100+ credentials contributed to its network, worked with over 1,200+ ecosystem partners, produced 8,000+ campaigns, and built up a community of 8.2M+ Galxe ID users. Credentials are a user’s footprint on or off the blockchain that represents their behaviors and actions taken (e.g., follow twitter, retweet, attend an AMA, swapping, staking, farming etc.)\n\nDiffusion, Orbital Apes, and SpaceFi have already agreed to be part of the Evmos Ecosystem Campaign on Galxe. The community can suggest other dapps that are live as well as future projects that launch on Evmos. Simple on-chain and off-chain tasks will be leveraged that will allow for high exposure and a low barrier of entry to the Evmos ecosystem. Potential tasks and credentials can include the following:\n\n● Following socials (Twitter/Discord)\n● Retweet/Quote Tweet a specific tweet\n● Make a swap\n● Provide liquidity\n● Buy an NFT and hold for X amount of time\n\nThe goal of this initiative is to drive off chain and on chain growth to the Evmos ecosystem.\n\n● Introduce the Galxe community of 8.2M+ active wallet addresses to the Evmos ecosystem\n● Introduce the broader crypto ecosystem to the Evmos ecosystem through Galxe’s tools and co-marketing power: Joint AMA’s, Blog post, Retweets, Quote Tweets, Tweets all throughout the campaign, Discord/Telegram communication, Campaign featured on our main carousel see: [https://galxe.com/campaigns](https://galxe.com/campaigns).\n● Engage users who aren’t currently in the ecosystem\n● Educate users on Evmos through learn to earn and participate to earn NFT campaigns\n\n**Funding Request**\n\nGalxe is requesting a rewards pool of $400k USD in Evmos that will go entirely to community members. We’re waiving integration fees for this type of campaign but want to make sure the participating community is incentivized and rewarded appropriately. Prior ecosystem campaigns have put forth rewards that have included token airdrop allocation and special governance rights. Solana put forth a rewards pool of $1M USD to participating users and Moonbeam allocated 1.5% of their token supply to this type of campaign. Funds will be handled and distributed by a multisig wallet controlled by the Evmos community throughout this entire process. The community members who take part in the engagements can expect to receive the funds after the campaign is over. The Evmos Community can decide how reward distribution will be handled. After the integration of Evmos into Galxe, any dApp in the Evmos ecosystem will be able to run growth campaigns on Evmos on Galxe for years to come.",
-        "recipient": "evmos1p4dueph7knpxu97kwtjhwadwsrz4j7fjx88a62",
-        "amount": [
-          {
-            "denom": "aevmos",
-            "amount": "414774000000000000000000"
-          }
-        ]
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2022-11-21T21:21:16.085074033Z",
-      "deposit_end_time": "2022-11-24T21:21:16.085074033Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "5820001000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
       "proposal_id": "82",
       "content": {
         "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
