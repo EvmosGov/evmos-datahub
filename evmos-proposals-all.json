@@ -2678,6 +2678,78 @@
       ],
       "voting_start_time": "2022-11-29T00:10:12.885767058Z",
       "voting_end_time": "2022-12-04T00:10:12.885767058Z"
+    },
+    {
+      "proposal_id": "84",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "The Alternative: An Honest DAO and an Independent Evmos Chain",
+        "description": "My real name is Loredana Cirstea. I have been volunteering for more than 100h/week for Evmos, Ethermint, and blockchain technologies. For the core Evmos I have implemented the fee split module (renamed to revenue), global minimum gas limit, first to prototype and demo working, innovative precompiles for having access to IBC, Cosmos SDK, IPFS, IPLD, etc. from inside the EVM. More information [here](https://github.com/loredanacirstea/CV/tree/master/evmos). My work is proven by [GitHub](https://github.com/loredanacirstea) and [my technical demo videos](https://www.youtube.com/c/LoredanaCirstea/videos). I am an early investor in Evmos, representing a volunteer organization. And I manage the evmos4volunteers validator.\n\nI invested all my energy and skills to make Evmos better and showing others what it can do, since February 2022.\n\n## An Independent Evmos Chain\n\nI want to see Evmos DAO as a body that fully implements the independence of Evmos:\n- the Evmos Community cannot be rug pulled by unknown dues from just a couple of actors.\n- the investors of Evmos (those who brought value and raised the price of Evmos for everyone's benefit) and the contributors of effort to Evmos have a strong say in the governance of Evmos \n- the Evmos DAO does not have hidden influences from any 3rd party\n- the Evmos DAO is subservient to the Evmos Chain\n- the Evmos DAO bodies have a mechanism of checks and balances that will disincentivize corrupt practices\n\n## The ECP-x Proposals - Issues\n\nLooking at proposal https://www.mintscan.io/evmos/proposals/83 and [the subsequent proposals in plan](https://commonwealth.im/evmos/discussions/2.%20Evmos%20DAO%20Proposals) by the same group (led by LPX, Bennylava, GV), the issues are:\n- the authors baked their names in the formation of the organization\n- all operations of their organization have not been public\n- they started filling out roles before the organization was ratified on-chain\n- they dismissed other competing ideas for Evmos DAO that were already presented\n- they don't accept improvements to their text if you tell them what is wrong\n- they already have bigger powers in the Evmos Discord than any other validator or investor, even in their unofficial capacity, and they can focus the attention of voters and validators on topics that they want\n- their real identities are not known to the Evmos Community\n- they have no supervisor to hold them accountable. The Evmos Community cannot do that, because their operations are not public\n- I have been contributing as a volunteer to Evmos from before its genesis but I (nor others who contributed to Evmos governance) was not invited by this group to join this governance workstream. So, it is not merit that earns you a position in their governance workstream.\n- their relationship with Tharsis and Evmos Foundation is unclear. If they have formed this group and given them the above powers, then there is no Evmos Community in the Evmos DAO, and between the voting power of the core team, VC validators, foundation delegations promises, a controlled governance process, there is no chain independence.\n- their texts for Evmos DAO are very long, lack substance, and are evasive. Formation texts need to be precise.\n- the erosion of Governance (as we know it in Cosmos):\n    - [ECP-2A]/Projects and Initiatives (Ongoing \u0026 Planned)/B. Off-Chain Community Governance (In Progress) has conflicts of control: what happens when the Cosmos side votes YES on a proposal and the EVM side votes NO on the same proposal? (These types of problems have been solved by my quasar solution.)\n    - [ECP-3] talks about $GOV as governance token. It is unclear from the document what role this has in the actual Governance process. This is intentionally evasive. \n\n\n## Solutions: An Honest DAO\n\n1. Read the alternative texts: [A Vision for Evmos: Proven Independency](https://commonwealth.im/evmos/discussion/7846-a-vision-for-evmos-proven-independency)\n2. Decide how to vote: either vote YES to proposal #83 and their other ECP-x proposals or vote NO and wait for the above alternative to be proposed on-chain.\n\n- my alternative Evmos DAO does not propose anybody in any official position\n- subsequent proposals will prove and guarantee Evmos chain independence from past dues and any occult forces but lay out in the open the deserved influence that Evmos founders and important proven contributors should have\n- I will not ask for retroactive pay for my services, like the authors of #83 plan. Nor should the chain accept to pay for services that were not solicited. My proposal for this: [Common Sense Setting: No Payment For Unsolicited Services](https://commonwealth.im/evmos/discussion/7850-common-sense-setting-no-payment-for-unsolicited-services)\n- the quasar technology (cosmos sdk \u003c-\u003e EVM communication) that I invented (and demoed) will be able to bring flexible governance on-chain, to the token holders. Such as the ability to choose one option from many and add new options during voting, or continuous voting. E.g. the chain directly and continuously decides on Evmos DAO bodies, offices, and their members.\n\n## Discussion\n\n- [A Vision for Evmos: Proven Independency](https://commonwealth.im/evmos/discussion/7846-a-vision-for-evmos-proven-independency)\n- [Common Sense Setting: No Payment For Unsolicited Services](https://commonwealth.im/evmos/discussion/7850-common-sense-setting-no-payment-for-unsolicited-services)\n- [Evmos DAO creation discussion](https://commonwealth.im/evmos/discussion/7782-evmos-dao-creation-discussion)\n- [Repayment of effort for Informal Evmos Governance Workstream](https://commonwealth.im/evmos/discussion/7841-repayment-of-effort-for-informal-evmos-governance-workstream)\n\n## How to vote on this proposal\n\nFirst, I apologize for putting this as an urgent proposal, without prior discussion (even though my listed commonwealth proposals \u0026 criticism have much more than the required 3 days of pre-chain discussions). I was forced by circumstance: proposal #83 being put on-chain before chain independence of dues has been achieved.\n\nThis proposal is for bringing the dialogue on-chain when the dialogue off-chain is evaded.\n\nWe let the Evmos Community know that there are alternatives to the present Evmos DAO proposals. If you want to keep the Evmos chain independent and decentralized, you want to know them before voting on #83.\n\nVox Catenae Vox Dei.\n"
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-11-29T11:29:07.857647517Z",
+      "deposit_end_time": "2022-12-02T11:29:07.857647517Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-11-29T11:47:53.190627163Z",
+      "voting_end_time": "2022-12-04T11:47:53.190627163Z"
+    },
+    {
+      "proposal_id": "85",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for Stride (STRD)",
+        "description": "## Register ERC20 for Stride (STRD)\\n\\nOnce this proposal is approved by the EVMOS governance, Evmos's ETC20 module uses a factory pattern to deploy an ERC20 token contract representation of the STRD coin. This enables STRD to be used in DeFi protocols and new applications on Evmos, that are based on the ERC20 standard (like AAVE, Diffusion, etc.)\\n\\n[Link to commonwealth discussion](https://commonwealth.im/evmos/discussion/6979-registration-for-stride-assets-strd-statom-stjuno-stosmo-and-ststars-erc20-representations)\\n\\nInfo on the ERC20 module can be found [here](https://docs.evmos.org/modules/erc20/)\\n\\n## Stride token\\n\\nSTRD is the native token of [Stride, a multichain liquid staking protocol](https://stride.zone/)\\n\\n## Metadata\\n\\n* base: ibc/1D81287940186B6D0CAB9F8964377F117BE99BF38969F81D896990FA867E9D92\\n* display: strd\\n* name: Stride\\n* symbol: STRD",
+        "metadata": {
+          "description": "The native token of Stride",
+          "denom_units": [
+            {
+              "denom": "ibc/1D81287940186B6D0CAB9F8964377F117BE99BF38969F81D896990FA867E9D92",
+              "exponent": 0,
+              "aliases": [
+                "ustrd"
+              ]
+            },
+            {
+              "denom": "strd",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/1D81287940186B6D0CAB9F8964377F117BE99BF38969F81D896990FA867E9D92",
+          "display": "strd",
+          "name": "Stride",
+          "symbol": "STRD"
+        }
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-11-29T13:25:09.707495715Z",
+      "deposit_end_time": "2022-12-02T13:25:09.707495715Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "2901000000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
     }
   ],
   "pagination": {
