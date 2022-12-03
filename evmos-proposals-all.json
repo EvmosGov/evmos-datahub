@@ -2703,53 +2703,6 @@
       ],
       "voting_start_time": "2022-11-29T11:47:53.190627163Z",
       "voting_end_time": "2022-12-04T11:47:53.190627163Z"
-    },
-    {
-      "proposal_id": "85",
-      "content": {
-        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
-        "title": "Register ERC20 for Stride (STRD)",
-        "description": "## Register ERC20 for Stride (STRD)\\n\\nOnce this proposal is approved by the EVMOS governance, Evmos's ETC20 module uses a factory pattern to deploy an ERC20 token contract representation of the STRD coin. This enables STRD to be used in DeFi protocols and new applications on Evmos, that are based on the ERC20 standard (like AAVE, Diffusion, etc.)\\n\\n[Link to commonwealth discussion](https://commonwealth.im/evmos/discussion/6979-registration-for-stride-assets-strd-statom-stjuno-stosmo-and-ststars-erc20-representations)\\n\\nInfo on the ERC20 module can be found [here](https://docs.evmos.org/modules/erc20/)\\n\\n## Stride token\\n\\nSTRD is the native token of [Stride, a multichain liquid staking protocol](https://stride.zone/)\\n\\n## Metadata\\n\\n* base: ibc/1D81287940186B6D0CAB9F8964377F117BE99BF38969F81D896990FA867E9D92\\n* display: strd\\n* name: Stride\\n* symbol: STRD",
-        "metadata": {
-          "description": "The native token of Stride",
-          "denom_units": [
-            {
-              "denom": "ibc/1D81287940186B6D0CAB9F8964377F117BE99BF38969F81D896990FA867E9D92",
-              "exponent": 0,
-              "aliases": [
-                "ustrd"
-              ]
-            },
-            {
-              "denom": "strd",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/1D81287940186B6D0CAB9F8964377F117BE99BF38969F81D896990FA867E9D92",
-          "display": "strd",
-          "name": "Stride",
-          "symbol": "STRD"
-        }
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2022-11-29T13:25:09.707495715Z",
-      "deposit_end_time": "2022-12-02T13:25:09.707495715Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "108322032000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
     }
   ],
   "pagination": {
