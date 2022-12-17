@@ -2786,6 +2786,147 @@
       ],
       "voting_start_time": "2022-12-15T21:13:11.954284035Z",
       "voting_end_time": "2022-12-20T21:13:11.954284035Z"
+    },
+    {
+      "proposal_id": "89",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for COMDEX (CMDX)",
+        "description": "Comdex is looking forward to collaborating with the Evmos community and would like to propose registering CMDX as ERC-20 tokens on Evmos. When a proposal is initiated for an existing native Cosmos Coin, the ERC20 module will deploy a factory ERC20 contract representing the ERC20 token for the token pair. This enables access to DeFi protocols, NFT, and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.) \\n\\n##Background\\n\\nComdex is building a  DeFi infrastructure layer for the Cosmos ecosystem. A layer-1 infrastructure system for seamless deployment of DeFi applications in the Cosmos ecosystem, powering DeFi in the multi-chain future.\\n\\nThe core set of dApps on the chain will help form the foundation layer of money markets for Cosmos, namely:\\n\\n- Harbor protocol: Interchain Stablecoin Issuance Protocol for CMST (overcollateralized stablecoin)\\n\\n- cSwap DEX: Hybrid Orderbook-style AMM DEX\\n\\n- Commodo: Interchain liquidity protocol for lending-borrowing\\n\\n- These dApps form the foundational blocks of composable DeFi Legos, which will ultimately help users have democratized access to interchain money markets to ultimately integrate off-chain CeFi assets into the ecosystem.\\n\\nThe Harbor Protocol and cSwap are now live on the mainnet, and we're looking forward to potential partnership opportunities and exploring synergies between the Evmos and Comdex ecosystems.\\n\\nCMST would serve as a native decentralized stablecoin for the Evmos ecosystem. To encourage adoption, the Harbor token is being airdropped to the Evmos community. This would enable the Evmos community to participate in Harbor governance.\\n\\nPotential benefits for the Evmos ecosystem would be the minting of CMST using the Evmos token vaults once it goes live. This would enable stable token borrowing using Evmos as collateral to provide broader use cases for the Evmos token in the Comdex DeFi ecosystem.\\n\\n- Please follow and discuss this proposal using the official [discussion on the commonwealth](https://commonwealth.im/evmos/discussion/8272-registering-cmdx-and-cmst-as-erc20)\\n\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273).\\n\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/). \\n\\n##Verify Metadata\\n\\n- base: ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F\\n- display:cmdx\\n- name: Comdex\\n- symbol: CMDX",
+        "metadata": {
+          "description": "The native token of Comdex Platform",
+          "denom_units": [
+            {
+              "denom": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
+              "exponent": 0,
+              "aliases": [
+                "ucmdx"
+              ]
+            },
+            {
+              "denom": "cmdx",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
+          "display": "cmdx",
+          "name": "Comdex",
+          "symbol": "CMDX"
+        }
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-12-16T11:31:50.552821832Z",
+      "deposit_end_time": "2022-12-19T11:31:50.552821832Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-12-16T11:45:47.976905288Z",
+      "voting_end_time": "2022-12-21T11:45:47.976905288Z"
+    },
+    {
+      "proposal_id": "90",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for COMPOSITE (CMST): Stablecoin of Harbor Protcol",
+        "description": "Comdex is looking forward to collaborating with the Evmos community and would like to propose registering CMST as ERC-20 tokens on Evmos. When a proposal is initiated for an existing native Cosmos Coin, the ERC20 module will deploy a factory ERC20 contract representing the ERC20 token for the token pair. This enables access to DeFi protocols, NFT, and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.) \\n\\n## Background\\n\\nComdex is building a  DeFi infrastructure layer for the Cosmos ecosystem. A layer-1 infrastructure system for seamless deployment of DeFi applications in the Cosmos ecosystem, powering DeFi in the multi-chain future.\\n\\nThe core set of dApps on the chain will help form the foundation layer of money markets for Cosmos, namely:\\n\\n- Harbor protocol: Interchain Stablecoin Issuance Protocol for CMST (overcollateralized stablecoin)\\n\\n- cSwap DEX: Hybrid Orderbook-style AMM DEX\\n\\n- Commodo: Interchain liquidity protocol for lending-borrowing\\n\\n- These dApps form the foundational blocks of composable DeFi Legos, which will ultimately help users have democratized access to interchain money markets to ultimately integrate off-chain CeFi assets into the ecosystem.\\n\\nThe Harbor Protocol and cSwap are now live on the mainnet, and we're looking forward to potential partnership opportunities and exploring synergies between the Evmos and Comdex ecosystems.\\n\\nCMST would serve as a native decentralized stablecoin for the Evmos ecosystem. To encourage adoption, the Harbor token is being airdropped to the Evmos community. This would enable the Evmos community to participate in Harbor governance.\\n\\nPotential benefits for the Evmos ecosystem would be the minting of CMST using the Evmos token vaults once it goes live. This would enable stable token borrowing using Evmos as collateral to provide broader use cases for the Evmos token in the Comdex DeFi ecosystem.\\n\\n- Please follow and discuss this proposal using the official [discussion on the commonwealth](https://commonwealth.im/evmos/discussion/8272-registering-cmdx-and-cmst-as-erc20)\\n\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273).\\n\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/). \\n\\n## Verify Metadata\\n\\n- base: ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD\\n- display:cmst\\n- name: CMST Stablecoin of Harbor Protcol\\n- symbol: CMST",
+        "metadata": {
+          "description": "CMST is the interchain stablecoin built on the Comdex chain",
+          "denom_units": [
+            {
+              "denom": "ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD",
+              "exponent": 0,
+              "aliases": [
+                "ucmst"
+              ]
+            },
+            {
+              "denom": "cmst",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD",
+          "display": "cmst",
+          "name": "CMST Stablecoin of Harbor Protcol",
+          "symbol": "CMST"
+        }
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-12-16T11:39:31.543406054Z",
+      "deposit_end_time": "2022-12-19T11:39:31.543406054Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "4000000000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "91",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for COMPOSITE (CMST): Stablecoin of Harbor Protocol",
+        "description": "Comdex is looking forward to collaborating with the Evmos community and would like to propose registering CMST as ERC-20 tokens on Evmos. When a proposal is initiated for an existing native Cosmos Coin, the ERC20 module will deploy a factory ERC20 contract representing the ERC20 token for the token pair. This enables access to DeFi protocols, NFT, and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.) \\n\\n## Background\\n\\nComdex is building a  DeFi infrastructure layer for the Cosmos ecosystem. A layer-1 infrastructure system for seamless deployment of DeFi applications in the Cosmos ecosystem, powering DeFi in the multi-chain future.\\n\\nThe core set of dApps on the chain will help form the foundation layer of money markets for Cosmos, namely:\\n\\n- Harbor protocol: Interchain Stablecoin Issuance Protocol for CMST (overcollateralized stablecoin)\\n\\n- cSwap DEX: Hybrid Orderbook-style AMM DEX\\n\\n- Commodo: Interchain liquidity protocol for lending-borrowing\\n\\n- These dApps form the foundational blocks of composable DeFi Legos, which will ultimately help users have democratized access to interchain money markets to ultimately integrate off-chain CeFi assets into the ecosystem.\\n\\nThe Harbor Protocol and cSwap are now live on the mainnet, and we're looking forward to potential partnership opportunities and exploring synergies between the Evmos and Comdex ecosystems.\\n\\nCMST would serve as a native decentralized stablecoin for the Evmos ecosystem. To encourage adoption, the Harbor token is being airdropped to the Evmos community. This would enable the Evmos community to participate in Harbor governance.\\n\\nPotential benefits for the Evmos ecosystem would be the minting of CMST using the Evmos token vaults once it goes live. This would enable stable token borrowing using Evmos as collateral to provide broader use cases for the Evmos token in the Comdex DeFi ecosystem.\\n\\n- Please follow and discuss this proposal using the official [discussion on the commonwealth](https://commonwealth.im/evmos/discussion/8272-registering-cmdx-and-cmst-as-erc20)\\n\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273).\\n\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/). \\n\\n## Verify Metadata\\n\\n- base: ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD\\n- display:cmst\\n- name: CMST Stablecoin of Harbor Protocol\\n- symbol: CMST",
+        "metadata": {
+          "description": "CMST is the interchain stablecoin built on the Comdex chain",
+          "denom_units": [
+            {
+              "denom": "ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD",
+              "exponent": 0,
+              "aliases": [
+                "ucmst"
+              ]
+            },
+            {
+              "denom": "cmst",
+              "exponent": 6,
+              "aliases": [
+              ]
+            }
+          ],
+          "base": "ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD",
+          "display": "cmst",
+          "name": "CMST Stablecoin of Harbor Protocol",
+          "symbol": "CMST"
+        }
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-12-16T11:41:14.723034214Z",
+      "deposit_end_time": "2022-12-19T11:41:14.723034214Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-12-16T11:46:33.027959044Z",
+      "voting_end_time": "2022-12-21T11:46:33.027959044Z"
     }
   ],
   "pagination": {
