@@ -2744,12 +2744,12 @@
         "description": "This proposal will disable the token conversion of the previously registered stATOM (Stride Staked Atom) in the ERC20 module. The main reason behind this move is that such registration used an IBC denom (check metadata below) from a channel that now has its IBC clients expired.\\n\\n## Author\\nDaniel | Mandragora ([@mandragora_spem](https://twitter.com/mandragora_spem))\\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6979-registration-for-stride-assets-strd-statom-stjuno-stosmo-and-ststars-erc20-representations)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/2B62892BD3F90ADE34E16E409303DFC2D6CD7B59CA85CC9D2B424F229CF3D590\\n- display: statom\\n- name: Stride Staked Atom\\n- symbol: stATOM",
         "token": "0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC"
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "90805257223792655856226919",
+        "abstain": "9986886744887020057355172",
+        "no": "45083904660801817535122",
+        "no_with_veto": "6723578686831539138132"
       },
       "submit_time": "2022-12-12T05:58:41.608284338Z",
       "deposit_end_time": "2022-12-15T05:58:41.608284338Z",
@@ -2875,7 +2875,7 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "4000000000000000000"
+          "amount": "6661010000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
