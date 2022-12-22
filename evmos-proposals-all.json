@@ -2816,12 +2816,12 @@
           "symbol": "CMDX"
         }
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "82483214980937112254455556",
+        "abstain": "22136958582067142592672178",
+        "no": "26887328012490051682998",
+        "no_with_veto": "4022813274552708572562"
       },
       "submit_time": "2022-12-16T11:31:50.552821832Z",
       "deposit_end_time": "2022-12-19T11:31:50.552821832Z",
@@ -2863,12 +2863,12 @@
           "symbol": "CMST"
         }
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "77234905807092271092538153",
+        "abstain": "28401569631791449659261700",
+        "no": "35113380510802297285395",
+        "no_with_veto": "4126433917444813016009"
       },
       "submit_time": "2022-12-16T11:41:14.723034214Z",
       "deposit_end_time": "2022-12-19T11:41:14.723034214Z",

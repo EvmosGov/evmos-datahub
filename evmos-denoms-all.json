@@ -199,6 +199,28 @@
       "symbol": "USK"
     },
     {
+      "description": "The native token of Comdex Platform",
+      "denom_units": [
+        {
+          "denom": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
+          "exponent": 0,
+          "aliases": [
+            "ucmdx"
+          ]
+        },
+        {
+          "denom": "cmdx",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
+      "display": "cmdx",
+      "name": "Comdex",
+      "symbol": "CMDX"
+    },
+    {
       "description": "Circle's stablecoin on Axelar",
       "denom_units": [
         {
@@ -307,6 +329,28 @@
       "display": "graviton",
       "name": "Graviton channel-8",
       "symbol": "ibc GRAV"
+    },
+    {
+      "description": "CMST is the interchain stablecoin built on the Comdex chain",
+      "denom_units": [
+        {
+          "denom": "ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD",
+          "exponent": 0,
+          "aliases": [
+            "ucmst"
+          ]
+        },
+        {
+          "denom": "cmst",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD",
+      "display": "cmst",
+      "name": "CMST Stablecoin of Harbor Protocol",
+      "symbol": "CMST"
     },
     {
       "description": "The native staking and governance token of the Cosmos Hub.",
