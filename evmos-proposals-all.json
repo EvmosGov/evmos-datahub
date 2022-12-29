@@ -2895,12 +2895,12 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "54699685005171019981056073",
+        "abstain": "31365889121324371048800533",
+        "no": "15193898888815837265571964",
+        "no_with_veto": "65874459909307892515008"
       },
       "submit_time": "2022-12-23T14:15:43.980567683Z",
       "deposit_end_time": "2022-12-26T14:15:43.980567683Z",
@@ -2937,6 +2937,34 @@
       ],
       "voting_start_time": "2022-12-26T12:52:55.884623500Z",
       "voting_end_time": "2022-12-31T12:52:55.884623500Z"
+    },
+    {
+      "proposal_id": "94",
+      "content": {
+        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
+        "title": "Evmos Mainnet v10.0.0 Upgrade",
+        "description": "## Description\\n\\n### Author\\n\\nDaniel Burckhardt, Evmos Core Team\\n\\n### Software upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos Mainnet software upgrade at block height [9,495,000](https://www.mintscan.io/evmos/blocks/9495000) from its current version [v9.1.0](https://github.com/evmos/evmos/releases/tag/v9.1.0) to [v10.0.0](https://github.com/evmos/evmos/releases/tag/v10.0.0). This proposal has a voting time of 5 days.\\n\\n### Motivation\\n\\nBy proposing a scheduled upgrade, we want to implement a smooth and transparent upgrade process, that is first proposed on Testnet and then on Mainnet. Software upgrades generally aim to improve current performance and add new features to the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validators/upgrades/overview.html).\\n\\n### Impact\\n\\nOn a high level, the v10.0.0 software includes the following improvements:\\n\\n- Update Cosmos-SDK to v0.46.7, IBC-Go to v5.2.0 and Ethermint to v0.20.0\\n- Automatic conversion of IBC coins to their ERC20 representation upon receiving\\n- Support for ERC20 token transfers via IBC\\n- ERC20 proposals to register ERC20 tokens and Cosmos coins now can receive multiple denominations\\n- Prioritized mempool support for Cosmos and Ethereum txs\\n- EIP-1559 support for native Cosmos transactions\\n- EIP-712 fixes for all major Cosmos messages (eg: MsgGrant for restake support)\\n- Add Ledger support to the evmosd CLI\\n- Ethereum Tx indexer\\n- The funder for a clawback vesting account can now be updated\\n- Introduce minimum commission rate as governance ruled parameter for the staking module (set at 5%)\\n- EIP-712 fixes for the vesting module\\n- Add a default file store listener for a basic implementation of [ADR-038: State Listening](https://docs.cosmos.network/v0.47/architecture/adr-038-state-listening)\\n- Update default node snapshot interval to 5000 seconds\\n- Update Ledger supported algorithms to only consist of EthSecp256k1\\n\\nA full change log can be found [here](https://github.com/evmos/evmos/releases/tag/v10.0.0).\\n\\nNOTE: Since Cosmos v0.46 it is not possible to include links to Windows binaries in software upgrade proposals anymore.\\n\\n### Testing\\n\\nThe Evmos core team created an End-to-End testing suite that performs the software upgrade locally. These tests have been completed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/evmos/evmos/blob/main/tests/e2e/README.md). Additionally, the upgrade has been manually performed on a local node.\\n\\n## Discussion\\n\\nBefore voting, please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/8501-evmos-software-upgrade-v10).",
+        "plan": {
+          "name": "v10.0.0",
+          "time": "0001-01-01T00:00:00Z",
+          "height": "9495000",
+          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/evmos/evmos/releases/download/v10.0.0/evmos_10.0.0_Darwin_arm64.tar.gz\",\"darwin/amd64\":\"https://github.com/evmos/evmos/releases/download/v10.0.0/evmos_10.0.0_Darwin_amd64.tar.gz\",\"linux/arm64\":\"https://github.com/evmos/evmos/releases/download/v10.0.0/evmos_10.0.0_Linux_arm64.tar.gz\",\"linux/amd64\":\"https://github.com/evmos/evmos/releases/download/v10.0.0/evmos_10.0.0_Linux_amd64.tar.gz\",\"windows/x86_64\":\"https://github.com/evmos/evmos/releases/download/v10.0.0/evmos_10.0.0_Windows_x86_64.zip\"}}",
+          "upgraded_client_state": null
+        }
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-12-28T23:33:32.839917289Z",
+      "deposit_end_time": "2022-12-31T23:33:32.839917289Z",
+      "total_deposit": [
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
     }
   ],
   "pagination": {
