@@ -2920,12 +2920,12 @@
         "title": "Governance Consensus: The Governance Language is English",
         "description": "## The Natural Language for the Governance of the Evmos Chain is English\n\nDiscussion: [https://commonwealth.im/evmos/discussion/8551-governance-consensus-the-governance-language-is-english](https://commonwealth.im/evmos/discussion/8551-governance-consensus-the-governance-language-is-english)\n\n### Purpose\n\nClarify the parameters for the natural language used in Evmos Governance.\n\n### Exposition\n\nTo achieve authority of Governance, the chain needs to establish the most accessible ground for debate and voting. The language for the process of Governance is one of the main parameters and we consider that the best language for Evmos Governance is the English language.\n\nSince the meaning of the sentence and therefore paragraph can be changed by choice of word meaning, by the punctuation signs, and by the resultant syntax tree, a consensus has to be reached on the unique arbiter for each, including the syntax tree of a proposal (in whole or in part).\n\n### Rules\n\n1. The accepted English dictionary for words and concepts and their semantic linking shall be the latest version of The Princeton Wordnet. [http://www.lexvo.org/uwn/](http://www.lexvo.org/uwn/) with language option: English (eng). \n    \n    The alternatives, in order (in their order of use when a source is unavailable):\n    * 1.1. [http://www.lexvo.org/uwn/](http://www.lexvo.org/uwn/)\n    * 1.2. [http://wordnetweb.princeton.edu/perl/webwn](http://wordnetweb.princeton.edu/perl/webwn)\n    * 1.3. https://en-word.net/(https://en-word.net/)\n\n2. Any governance text may contain words with subscript that indicates the order of sense of the word as it appears in WordNet. For example:\n\u003e The chair\u003csub\u003e3\u003c/sub\u003e position is the most important.\n\nrefers to the third meaning of the word 'chair' from [http://www.lexvo.org/uwn/entity/eng/chair](http://www.lexvo.org/uwn/entity/eng/chair) : _(noun) the officer who presides at the meetings of an organization; 'address your remarks to the chairperson' chairman, chairwoman, chairperson, president, chair_\n\n3. If concepts are not found in the source designated by point (1): Wikipedia may be used. [https://en.wikipedia.org/](https://en.wikipedia.org/)\n\n4. The syntax tree source shall be [http://lindat.mff.cuni.cz/services/udpipe/](http://lindat.mff.cuni.cz/services/udpipe/) with its English option. \n\n     The alternatives, in order: \n     * 4.1. [http://lindat.mff.cuni.cz/services/udpipe/](http://lindat.mff.cuni.cz/services/udpipe/)\n     * 4.2. [https://www.link.cs.cmu.edu/link/submit-sentence-4.html](https://www.link.cs.cmu.edu/link/submit-sentence-4.html)\n\n### Meaning of the Decision\n\n- if this proposal passes: the governance process gains additional legitimacy by recognizing prior consensus contained in the gov language itself\n\n- if this proposal does not pass: the token holders forfeit the right to reject a proposal (on-chain or off-chain) on account of not being made using proper, verifiable English\n\n#### Additional Benefits of Adopting\nThe subsequent proposals (on and off-chain) may be legitimately challenged on:\n\n- the natural language used\n- clarifying the meaning of a specific word\n- sources of truth (such as a unique dictionary)\n- syntax or semantic ambiguities\n\nOnly the chains that will pass proposals compatible with this one will have the legitimacy to enter common governance platforms for the InterChain. By this prop, we offered Evmos the opportunity to be the early leader in that respect.\n\n### Author\n\nChristian Tzurcanu, volunteer for The Laurel Project. Efforts performed for The InterChain Pact office.\n\n"
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_REJECTED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "12379755671929459116665409",
+        "abstain": "38087384438396888544516089",
+        "no": "48196061200985205296859915",
+        "no_with_veto": "8721554136941312007007109"
       },
       "submit_time": "2022-12-26T12:46:36.599527611Z",
       "deposit_end_time": "2022-12-29T12:46:36.599527611Z",
@@ -2969,6 +2969,38 @@
       ],
       "voting_start_time": "2022-12-29T01:34:20.404100779Z",
       "voting_end_time": "2023-01-03T01:34:20.404100779Z"
+    },
+    {
+      "proposal_id": "95",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Retroactive Payment for Public Goods (Evmos Development for March 2022)",
+        "description": "## Retroactive Payment for Public Goods (Evmos Development for March 2022)\n\nDiscussion: [https://commonwealth.im/evmos/discussion/8571-retroactive-payment-for-public-goods-evmos-development-for-march-2022](https://commonwealth.im/evmos/discussion/8571-retroactive-payment-for-public-goods-evmos-development-for-march-2022)\n\nSince [proposal 88](https://www.mintscan.io/evmos/proposals/88) has been rejected, the volunteers for Tharsis and Evmos will have the opportunity to ask the Evmos chain for clarification of the status of their efforts.\n\n## Exposition\n\nThe for-profit developers of Tharsis were paid by salary for their development work. Then Tharsis extracted tens of millions of dollars from the apparent value of the Evmos chain to pay themselves again.\n\nThe Laurel Project which volunteered for Tharsis for developing a good portion of the Evmos chain tech and some Ethermint coding will also ask the Evmos Community if their efforts will be accepted in perpetuity as volunteering or if they will be paid as retroactive public goods funding.\n\n## The Public Goods Created\n\n* 22 Feb - 21 March 2022: ~359.5h\n* Detailed list: [https://github.com/loredanacirstea/CV/blob/5a6aa821f7c22515b557f443c63de081e8a5700f/evmos/2.%20March_2022.md](https://github.com/loredanacirstea/CV/blob/5a6aa821f7c22515b557f443c63de081e8a5700f/evmos/2.%20March_2022.md)\n\n\n## Proofs\n\n* 1. The proof that the output of the effort exists as a public good: the videos exist and are public on YouTube, and the code exists and is public.\n* 2. The proof that it is about the Evmos chain/tech: the code is used by Ethermint/Evmos.\n* 3. The proof that the effort is of the quality and quantity claimed: Federico Kunze signed the confirmations for the effort, as a comment on [https://github.com/loredanacirstea/CV/issues/2](https://github.com/loredanacirstea/CV/issues/2). The exact text was:\n\u003e I confirm and acknowledge the stated output. Thanks @loredanacirstea! 💯\n\u003e Federico Kunze Küllmer - CEO Tharsis Labs / Co-Founder Evmos\n\u003e Fri, Mar 25, 2022, by [@fedekunze](https://github.com/fedekunze)\n\nbut he recently deleted that comment (he deleted all his public confirmations of my volunteering).\n* 4. The proof that this chain accepts claims for retroactive public goods is [proposal 88](https://www.mintscan.io/evmos/proposals/88).\n\n## Retroactive Payment\n\n* 359.5h * 255 EUR/h = 91,672.5 EUR\n* current price: 0.265110 EUR/ $EVMOS\n\nTotal: 345,790 $EVMOS\n\n## The Meaning of the Decision\n\n* 1. If this proposal passes: the Evmos chain pays retroactively for this public good.\n* 2. If this proposal does not pass: the Evmos chain recognizes in perpetuity this public good as a volunteering effort of The Laurel Project in the interest of the Evmos Community. (or is bound to produce counter-proofs to the ones above). The presented effort was made with the intent of being offered to the Evmos Community as a volunteer effort. The legitimate repayment for volunteer effort is the recognition of said effort. \n* 3. No with veto: the chain benefits from and uses this free, unpaid effort, but it has decided to punish the author of this effort, for requesting formal recognition of the volunteered effort.\n\n## Receiver Address\n\nevmos1k9pw7ht4kp7td5450sdrkj2tmly3ug59ddhadn\n\n\n## Author\n\nLoredana Cirstea, volunteer for The Laurel Project.\n\n",
+        "recipient": "evmos1k9pw7ht4kp7td5450sdrkj2tmly3ug59ddhadn",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "345790000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2022-12-31T20:28:24.375614405Z",
+      "deposit_end_time": "2023-01-03T20:28:24.375614405Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2022-12-31T20:30:54.790086689Z",
+      "voting_end_time": "2023-01-05T20:30:54.790086689Z"
     }
   ],
   "pagination": {
