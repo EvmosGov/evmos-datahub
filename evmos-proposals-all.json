@@ -395,28 +395,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for GRAV",
         "description": "This proposal creates and registers an ERC20 representation for GRAV, the native token of Gravity Bridge chain. GRAV has been bridged over IBC channel channel-8.",
-        "metadata": {
-          "description": "The native token of Gravity Bridge",
-          "denom_units": [
-            {
-              "denom": "ibc/7F0C2CB6E79CC36D29DA7592899F98E3BEFD2CF77A94340C317032A78812393D",
-              "exponent": 0,
-              "aliases": [
-                "ugraviton"
-              ]
-            },
-            {
-              "denom": "graviton",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/7F0C2CB6E79CC36D29DA7592899F98E3BEFD2CF77A94340C317032A78812393D",
-          "display": "graviton",
-          "name": "Graviton channel-8",
-          "symbol": "ibc GRAV"
-        }
+        "metadata": [
+          {
+            "description": "The native token of Gravity Bridge",
+            "denom_units": [
+              {
+                "denom": "ibc/7F0C2CB6E79CC36D29DA7592899F98E3BEFD2CF77A94340C317032A78812393D",
+                "exponent": 0,
+                "aliases": [
+                  "ugraviton"
+                ]
+              },
+              {
+                "denom": "graviton",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/7F0C2CB6E79CC36D29DA7592899F98E3BEFD2CF77A94340C317032A78812393D",
+            "display": "graviton",
+            "name": "Graviton channel-8",
+            "symbol": "ibc GRAV",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -442,28 +446,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for G-DAI",
         "description": "This proposal creates and registers an ERC20 representation for G-DAI, the Dai stablecoin bridged from Ethereum mainnet over Gravity Bridge. G-DAI has been bridged over IBC channel channel-8.",
-        "metadata": {
-          "description": "Dai Stablecoin via Gravity Bridge",
-          "denom_units": [
-            {
-              "denom": "ibc/F96A7F81E8F82E4EE81F94D507CD257319EFB70FE46E23B4953F63B62E855603",
-              "exponent": 0,
-              "aliases": [
-                "dai-wei"
-              ]
-            },
-            {
-              "denom": "G-DAI",
-              "exponent": 18,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/F96A7F81E8F82E4EE81F94D507CD257319EFB70FE46E23B4953F63B62E855603",
-          "display": "G-DAI",
-          "name": "Dai Stablecoin channel-8",
-          "symbol": "ibc G-DAI"
-        }
+        "metadata": [
+          {
+            "description": "Dai Stablecoin via Gravity Bridge",
+            "denom_units": [
+              {
+                "denom": "ibc/F96A7F81E8F82E4EE81F94D507CD257319EFB70FE46E23B4953F63B62E855603",
+                "exponent": 0,
+                "aliases": [
+                  "dai-wei"
+                ]
+              },
+              {
+                "denom": "G-DAI",
+                "exponent": 18,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/F96A7F81E8F82E4EE81F94D507CD257319EFB70FE46E23B4953F63B62E855603",
+            "display": "G-DAI",
+            "name": "Dai Stablecoin channel-8",
+            "symbol": "ibc G-DAI",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -489,28 +497,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for G-USDC",
         "description": "This proposal creates and registers an ERC20 representation for G-USDC, the USD Coin stablecoin bridged from Ethereum mainnet over Gravity Bridge. G-USDC has been bridged over IBC channel channel-8.",
-        "metadata": {
-          "description": "USD Coin via Gravity Bridge",
-          "denom_units": [
-            {
-              "denom": "ibc/693989F95CF3279ADC113A6EF21B02A51EC054C95A9083F2E290126668149433",
-              "exponent": 0,
-              "aliases": [
-                "uusdc"
-              ]
-            },
-            {
-              "denom": "G-USDC",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/693989F95CF3279ADC113A6EF21B02A51EC054C95A9083F2E290126668149433",
-          "display": "G-USDC",
-          "name": "USD Coin channel-8",
-          "symbol": "ibc G-USDC"
-        }
+        "metadata": [
+          {
+            "description": "USD Coin via Gravity Bridge",
+            "denom_units": [
+              {
+                "denom": "ibc/693989F95CF3279ADC113A6EF21B02A51EC054C95A9083F2E290126668149433",
+                "exponent": 0,
+                "aliases": [
+                  "uusdc"
+                ]
+              },
+              {
+                "denom": "G-USDC",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/693989F95CF3279ADC113A6EF21B02A51EC054C95A9083F2E290126668149433",
+            "display": "G-USDC",
+            "name": "USD Coin channel-8",
+            "symbol": "ibc G-USDC",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -536,28 +548,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for G-USDT",
         "description": "This proposal creates and registers an ERC20 representation for G-USDT, the Tether USD stablecoin bridged from Ethereum mainnet over Gravity Bridge. G-USDT has been bridged over IBC channel channel-8.",
-        "metadata": {
-          "description": "Tether USD via Gravity Bridge",
-          "denom_units": [
-            {
-              "denom": "ibc/DF63978F803A2E27CA5CC9B7631654CCF0BBC788B3B7F0A10200508E37C70992",
-              "exponent": 0,
-              "aliases": [
-                "uusdt"
-              ]
-            },
-            {
-              "denom": "G-USDT",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/DF63978F803A2E27CA5CC9B7631654CCF0BBC788B3B7F0A10200508E37C70992",
-          "display": "G-USDT",
-          "name": "Tether USD channel-8",
-          "symbol": "ibc G-USDT"
-        }
+        "metadata": [
+          {
+            "description": "Tether USD via Gravity Bridge",
+            "denom_units": [
+              {
+                "denom": "ibc/DF63978F803A2E27CA5CC9B7631654CCF0BBC788B3B7F0A10200508E37C70992",
+                "exponent": 0,
+                "aliases": [
+                  "uusdt"
+                ]
+              },
+              {
+                "denom": "G-USDT",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/DF63978F803A2E27CA5CC9B7631654CCF0BBC788B3B7F0A10200508E37C70992",
+            "display": "G-USDT",
+            "name": "Tether USD channel-8",
+            "symbol": "ibc G-USDT",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -583,28 +599,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for G-WBTC",
         "description": "This proposal creates and registers an ERC20 representation for G-WBTC, Wrapped Bitcoin bridged from Ethereum mainnet over Gravity Bridge. G-WBTC has been bridged over IBC channel channel-8.",
-        "metadata": {
-          "description": "Wrapped Bitcoin via Gravity Bridge",
-          "denom_units": [
-            {
-              "denom": "ibc/350B6DC0FF48E3BDB856F40A8259909E484259ED452B3F4F39A0FEF874F30F61",
-              "exponent": 0,
-              "aliases": [
-                "satoshi"
-              ]
-            },
-            {
-              "denom": "G-WBTC",
-              "exponent": 8,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/350B6DC0FF48E3BDB856F40A8259909E484259ED452B3F4F39A0FEF874F30F61",
-          "display": "G-WBTC",
-          "name": "Wrapped Bitcoin channel-8",
-          "symbol": "ibc G-WBTC"
-        }
+        "metadata": [
+          {
+            "description": "Wrapped Bitcoin via Gravity Bridge",
+            "denom_units": [
+              {
+                "denom": "ibc/350B6DC0FF48E3BDB856F40A8259909E484259ED452B3F4F39A0FEF874F30F61",
+                "exponent": 0,
+                "aliases": [
+                  "satoshi"
+                ]
+              },
+              {
+                "denom": "G-WBTC",
+                "exponent": 8,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/350B6DC0FF48E3BDB856F40A8259909E484259ED452B3F4F39A0FEF874F30F61",
+            "display": "G-WBTC",
+            "name": "Wrapped Bitcoin channel-8",
+            "symbol": "ibc G-WBTC",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -630,28 +650,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for G-WETH",
         "description": "This proposal creates and registers an ERC20 representation for G-WETH, Wrapped Ether bridged from Ethereum mainnet over Gravity Bridge. G-WETH has been bridged over IBC channel channel-8.",
-        "metadata": {
-          "description": "Wrapped Ether via Gravity Bridge",
-          "denom_units": [
-            {
-              "denom": "ibc/6B3FCE336C3465D3B72F7EFB4EB92FC521BC480FE9653F627A0BD0237DF213F3",
-              "exponent": 0,
-              "aliases": [
-                "wei"
-              ]
-            },
-            {
-              "denom": "G-WETH",
-              "exponent": 18,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/6B3FCE336C3465D3B72F7EFB4EB92FC521BC480FE9653F627A0BD0237DF213F3",
-          "display": "G-WETH",
-          "name": "Wrapped Ether channel-8",
-          "symbol": "ibc G-WETH"
-        }
+        "metadata": [
+          {
+            "description": "Wrapped Ether via Gravity Bridge",
+            "denom_units": [
+              {
+                "denom": "ibc/6B3FCE336C3465D3B72F7EFB4EB92FC521BC480FE9653F627A0BD0237DF213F3",
+                "exponent": 0,
+                "aliases": [
+                  "wei"
+                ]
+              },
+              {
+                "denom": "G-WETH",
+                "exponent": 18,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/6B3FCE336C3465D3B72F7EFB4EB92FC521BC480FE9653F627A0BD0237DF213F3",
+            "display": "G-WETH",
+            "name": "Wrapped Ether channel-8",
+            "symbol": "ibc G-WETH",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -1056,28 +1080,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for Osmosis",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for Osmosis\\nThis proposal creates and registers an ERC20 representation for Osmosis. If proposal passes you can use Osmosis on DeFi protocols, NFT marketplaces and on new applications that are based on ERC-20.\\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/4969-this-proposal-creates-and-registers-an-erc20-representation-for-osmosis)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\nWe are primarily guided by the following [Osmosis Assetlist](https://github.com/osmosis-labs/assetlists/blob/main/osmosis-1/osmosis-1.assetlist.json#L5-L22) naming convention . Additionally, we shouldn't specify a channel number to the symbol {NAME} on the first coin registration. E.g. whatever is picked as the canonical channel should be symbol {NAME} and if a secondary representation of that IBC token is registered in the evm then a suffix to the symbol {NAME}-{channel-number} should be added. As it is the first Osmosis registration we used the following metadata and denomination:\\n- base: ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518\\n- display: osmo\\n- name: Osmosis\\n- symbol: OSMO\\n## Testing on Testnet\\nWith [proposal 29](https://testnet.mintscan.io/evmos-testnet/proposals/29) we registered testnet OSMO on the Evmos testnet as an ERC20. ",
-        "metadata": {
-          "description": "The native token of Osmosis",
-          "denom_units": [
-            {
-              "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
-              "exponent": 0,
-              "aliases": [
-                "uosmo"
-              ]
-            },
-            {
-              "denom": "osmo",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
-          "display": "osmo",
-          "name": "Osmosis",
-          "symbol": "OSMO"
-        }
+        "metadata": [
+          {
+            "description": "The native token of Osmosis",
+            "denom_units": [
+              {
+                "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+                "exponent": 0,
+                "aliases": [
+                  "uosmo"
+                ]
+              },
+              {
+                "denom": "osmo",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+            "display": "osmo",
+            "name": "Osmosis",
+            "symbol": "OSMO",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -1130,28 +1158,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for ATOM (Cosmos Hub)",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for Cosmos Hub (ATOM)\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This will give  access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/5989-this-proposal-creates-and-registers-an-erc20-representation-for-cosmos-atom)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\nWe are applying the same ruleset as lastime. \\n- We are primarily guided by the following [Cosmos Assetlist](https://github.com/osmosis-labs/assetlists/blob/main/osmosis-1/osmosis-1.assetlist.json#L50-L66) naming convention . \\n- We do not specify a channel number to the symbol {NAME} as it is the first coin registration of ATOM.\\n\\nPlease double check the following metadata:\\n- base: ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701\\n- display: atom\\n- name: Cosmos Hub\\n- symbol: ATOM",
-        "metadata": {
-          "description": "The native staking and governance token of the Cosmos Hub.",
-          "denom_units": [
-            {
-              "denom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
-              "exponent": 0,
-              "aliases": [
-                "uatom"
-              ]
-            },
-            {
-              "denom": "atom",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
-          "display": "atom",
-          "name": "Cosmos Hub",
-          "symbol": "ATOM"
-        }
+        "metadata": [
+          {
+            "description": "The native staking and governance token of the Cosmos Hub.",
+            "denom_units": [
+              {
+                "denom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+                "exponent": 0,
+                "aliases": [
+                  "uatom"
+                ]
+              },
+              {
+                "denom": "atom",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+            "display": "atom",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -1441,28 +1473,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for Stargaze (STARS)",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for Stargaze (STARS)\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This will give enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/7564B7F838579DD4517A225978C623504F852A6D0FF7984AFB28F10D36022BE8\\n- display: stars\\n- name: Stargaze\\n- symbol: STARS",
-        "metadata": {
-          "description": "The native token of Stargaze",
-          "denom_units": [
-            {
-              "denom": "ibc/7564B7F838579DD4517A225978C623504F852A6D0FF7984AFB28F10D36022BE8",
-              "exponent": 0,
-              "aliases": [
-                "ustars"
-              ]
-            },
-            {
-              "denom": "stars",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/7564B7F838579DD4517A225978C623504F852A6D0FF7984AFB28F10D36022BE8",
-          "display": "stars",
-          "name": "Stargaze",
-          "symbol": "STARS"
-        }
+        "metadata": [
+          {
+            "description": "The native token of Stargaze",
+            "denom_units": [
+              {
+                "denom": "ibc/7564B7F838579DD4517A225978C623504F852A6D0FF7984AFB28F10D36022BE8",
+                "exponent": 0,
+                "aliases": [
+                  "ustars"
+                ]
+              },
+              {
+                "denom": "stars",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/7564B7F838579DD4517A225978C623504F852A6D0FF7984AFB28F10D36022BE8",
+            "display": "stars",
+            "name": "Stargaze",
+            "symbol": "STARS",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -1488,28 +1524,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for Regen Network (REGEN)",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for Regen Network (REGEN)\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This will give enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/36DCDCDFB1D0D723546878E241BC5800D27214E1E1DA31A4E424DE2280B0B0EE\\n- display: regen\\n- name: Regen Network\\n- symbol: REGEN",
-        "metadata": {
-          "description": "REGEN coin is the token for the Regen Network Platform",
-          "denom_units": [
-            {
-              "denom": "ibc/36DCDCDFB1D0D723546878E241BC5800D27214E1E1DA31A4E424DE2280B0B0EE",
-              "exponent": 0,
-              "aliases": [
-                "uregen"
-              ]
-            },
-            {
-              "denom": "regen",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/36DCDCDFB1D0D723546878E241BC5800D27214E1E1DA31A4E424DE2280B0B0EE",
-          "display": "regen",
-          "name": "Regen Network",
-          "symbol": "REGEN"
-        }
+        "metadata": [
+          {
+            "description": "REGEN coin is the token for the Regen Network Platform",
+            "denom_units": [
+              {
+                "denom": "ibc/36DCDCDFB1D0D723546878E241BC5800D27214E1E1DA31A4E424DE2280B0B0EE",
+                "exponent": 0,
+                "aliases": [
+                  "uregen"
+                ]
+              },
+              {
+                "denom": "regen",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/36DCDCDFB1D0D723546878E241BC5800D27214E1E1DA31A4E424DE2280B0B0EE",
+            "display": "regen",
+            "name": "Regen Network",
+            "symbol": "REGEN",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -1624,28 +1664,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for Juno",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for Juno\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enables access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D\\n- display: juno\\n- name: Juno\\n- symbol: JUNO",
-        "metadata": {
-          "description": "The native token of JUNO Chain",
-          "denom_units": [
-            {
-              "denom": "ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D",
-              "exponent": 0,
-              "aliases": [
-                "ujuno"
-              ]
-            },
-            {
-              "denom": "juno",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D",
-          "display": "juno",
-          "name": "Juno",
-          "symbol": "JUNO"
-        }
+        "metadata": [
+          {
+            "description": "The native token of JUNO Chain",
+            "denom_units": [
+              {
+                "denom": "ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D",
+                "exponent": 0,
+                "aliases": [
+                  "ujuno"
+                ]
+              },
+              {
+                "denom": "juno",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D",
+            "display": "juno",
+            "name": "Juno",
+            "symbol": "JUNO",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -1735,27 +1779,31 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for EEUR (e-Money Euro)",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking)) and Alberto | Neokingdom DAO\\n## ERC20 representation for EEUR (e-Money Euro)\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6753-this-proposal-creates-and-registers-an-erc20-representation-for-emoney-euro-stablecoin-eeur)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05\\n- display: eeur\\n- name: e-Money EUR\\n- symbol: EEUR\\n\\n",
-        "metadata": {
-          "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
-          "denom_units": [
-            {
-              "denom": "ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05",
-              "exponent": 0,
-              "aliases": [
-              ]
-            },
-            {
-              "denom": "eeur",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05",
-          "display": "eeur",
-          "name": "e-Money EUR",
-          "symbol": "EEUR"
-        }
+        "metadata": [
+          {
+            "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
+            "denom_units": [
+              {
+                "denom": "ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05",
+                "exponent": 0,
+                "aliases": [
+                ]
+              },
+              {
+                "denom": "eeur",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05",
+            "display": "eeur",
+            "name": "e-Money EUR",
+            "symbol": "EEUR",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -1813,28 +1861,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for axlUSDC (Axelar USDC)",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking)) \\n## ERC20 representation for axlUSDC (Axelar USDC)\\nAxelar is a cross-chain communication infrastructure provider based on the Cosmos SDK. Through [Sattelie](https://satellite.money/) tokens can be moved from Ethereum (and many other ecosystem) to Evmos and the wider Cosmos ecosystem. This proposal registers bridged USDC from Ethereum as an ERC20 - which is another step forward to restore the liquidity on Evmos. If this proposal passes, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair.\\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/63C53CBDF471D4E867366ABE2E631197257118D1B2BEAD1946C8A408F96464C3\\n- display: axlusdc\\n- name: USD Coin on Axelar\\n- symbol: axlUSDC\\n",
-        "metadata": {
-          "description": "Circle's stablecoin on Axelar",
-          "denom_units": [
-            {
-              "denom": "ibc/63C53CBDF471D4E867366ABE2E631197257118D1B2BEAD1946C8A408F96464C3",
-              "exponent": 0,
-              "aliases": [
-                "uusdc"
-              ]
-            },
-            {
-              "denom": "axlusdc",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/63C53CBDF471D4E867366ABE2E631197257118D1B2BEAD1946C8A408F96464C3",
-          "display": "axlusdc",
-          "name": "USD Coin on Axelar",
-          "symbol": "axlUSDC"
-        }
+        "metadata": [
+          {
+            "description": "Circle's stablecoin on Axelar",
+            "denom_units": [
+              {
+                "denom": "ibc/63C53CBDF471D4E867366ABE2E631197257118D1B2BEAD1946C8A408F96464C3",
+                "exponent": 0,
+                "aliases": [
+                  "uusdc"
+                ]
+              },
+              {
+                "denom": "axlusdc",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/63C53CBDF471D4E867366ABE2E631197257118D1B2BEAD1946C8A408F96464C3",
+            "display": "axlusdc",
+            "name": "USD Coin on Axelar",
+            "symbol": "axlUSDC",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -1892,28 +1944,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for axlWBTC (Axelar wBTC)",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking)) \\n## ERC20 representation for axlWBTC (Axelar wBTC)\\nAxelar is a secure cross-chain communication infrastructure provider based on the Cosmos SDK. Through [Sattelie](https://satellite.money/) tokens can be moved from Ethereum (and many other ecosystem) to Evmos and the wider Cosmos ecosystem. This proposal registers bridged wBTC from Ethereum as an ERC20 - which is another step forward to restore the liquidity on Evmos. If this proposal passes, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair.\\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/C834CD421B4FD910BBC97E06E86B5E6F64EA2FE36D6AE0E4304C2E1FB1E7333C\\n- display: axlwbtc\\n- name: Wrapped Bitcoin on Axelar\\n- symbol: axlWBTC",
-        "metadata": {
-          "description": "Wrapped Bitcoin on Axelar",
-          "denom_units": [
-            {
-              "denom": "ibc/C834CD421B4FD910BBC97E06E86B5E6F64EA2FE36D6AE0E4304C2E1FB1E7333C",
-              "exponent": 0,
-              "aliases": [
-                "wbtc-satoshi"
-              ]
-            },
-            {
-              "denom": "axlwbtc",
-              "exponent": 8,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/C834CD421B4FD910BBC97E06E86B5E6F64EA2FE36D6AE0E4304C2E1FB1E7333C",
-          "display": "axlwbtc",
-          "name": "Wrapped Bitcoin on Axelar",
-          "symbol": "axlWBTC"
-        }
+        "metadata": [
+          {
+            "description": "Wrapped Bitcoin on Axelar",
+            "denom_units": [
+              {
+                "denom": "ibc/C834CD421B4FD910BBC97E06E86B5E6F64EA2FE36D6AE0E4304C2E1FB1E7333C",
+                "exponent": 0,
+                "aliases": [
+                  "wbtc-satoshi"
+                ]
+              },
+              {
+                "denom": "axlwbtc",
+                "exponent": 8,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/C834CD421B4FD910BBC97E06E86B5E6F64EA2FE36D6AE0E4304C2E1FB1E7333C",
+            "display": "axlwbtc",
+            "name": "Wrapped Bitcoin on Axelar",
+            "symbol": "axlWBTC",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -1939,28 +1995,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for axlWETH (Axelar wETH)",
         "description": "## Author\\r\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking)) \\r\\n## ERC20 representation for axlWETH (Axelar wETH)\\r\\nAxelar is a secure cross-chain communication infrastructure provider based on the Cosmos SDK. Through [Sattelie](https://satellite.money/) tokens can be moved from Ethereum (and many other ecosystem) to Evmos and the wider Cosmos ecosystem. This proposal registers bridged wETH from Ethereum as an ERC20 - which is another step forward to restore the liquidity on Evmos. If this proposal passes, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair.\\r\\n## Before Voting \\r\\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\r\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\r\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\r\\n## Verify Metadata\\r\\n- base: ibc/356EDE917394B2AEF7F915EB24FA683A0CCB8D16DD4ECCEDC2AD0CEC6B66AC81\\r\\n- display: axlweth\\r\\n- name: Wrapped Ether on Axelar\\r\\n- symbol: axlWETH",
-        "metadata": {
-          "description": "Wrapped Ether on Axelar",
-          "denom_units": [
-            {
-              "denom": "ibc/356EDE917394B2AEF7F915EB24FA683A0CCB8D16DD4ECCEDC2AD0CEC6B66AC81",
-              "exponent": 0,
-              "aliases": [
-                "weth-wei"
-              ]
-            },
-            {
-              "denom": "axlweth",
-              "exponent": 18,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/356EDE917394B2AEF7F915EB24FA683A0CCB8D16DD4ECCEDC2AD0CEC6B66AC81",
-          "display": "axlweth",
-          "name": "Wrapped Ether on Axelar",
-          "symbol": "axlWETH"
-        }
+        "metadata": [
+          {
+            "description": "Wrapped Ether on Axelar",
+            "denom_units": [
+              {
+                "denom": "ibc/356EDE917394B2AEF7F915EB24FA683A0CCB8D16DD4ECCEDC2AD0CEC6B66AC81",
+                "exponent": 0,
+                "aliases": [
+                  "weth-wei"
+                ]
+              },
+              {
+                "denom": "axlweth",
+                "exponent": 18,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/356EDE917394B2AEF7F915EB24FA683A0CCB8D16DD4ECCEDC2AD0CEC6B66AC81",
+            "display": "axlweth",
+            "name": "Wrapped Ether on Axelar",
+            "symbol": "axlWETH",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -2043,28 +2103,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for stATOM (Stride Staked Atom)",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for stATOM (Stride Staked Atom)\\n### stATOM\\nFor the first time ever, ATOM can be liquid staked in the Cosmos ecosystem. For the first time ever, users no longer have to choose between staking ATOM and using it for trading / DeFi. Now, users can have both. With stATOM, you can use your ATOM for trading / DeFi while at the same time earning staking rewards.\\n### ERC20 contract\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6979-registration-for-stride-assets-strd-statom-stjuno-stosmo-and-ststars-erc20-representations)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/2B62892BD3F90ADE34E16E409303DFC2D6CD7B59CA85CC9D2B424F229CF3D590\\n- display: statom\\n- name: Stride Staked Atom\\n- symbol: stATOM",
-        "metadata": {
-          "description": "Staking derivative stATOM for staked ATOM by Stride",
-          "denom_units": [
-            {
-              "denom": "ibc/2B62892BD3F90ADE34E16E409303DFC2D6CD7B59CA85CC9D2B424F229CF3D590",
-              "exponent": 0,
-              "aliases": [
-                "stuatom"
-              ]
-            },
-            {
-              "denom": "statom",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/2B62892BD3F90ADE34E16E409303DFC2D6CD7B59CA85CC9D2B424F229CF3D590",
-          "display": "statom",
-          "name": "Stride Staked Atom",
-          "symbol": "stATOM"
-        }
+        "metadata": [
+          {
+            "description": "Staking derivative stATOM for staked ATOM by Stride",
+            "denom_units": [
+              {
+                "denom": "ibc/2B62892BD3F90ADE34E16E409303DFC2D6CD7B59CA85CC9D2B424F229CF3D590",
+                "exponent": 0,
+                "aliases": [
+                  "stuatom"
+                ]
+              },
+              {
+                "denom": "statom",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/2B62892BD3F90ADE34E16E409303DFC2D6CD7B59CA85CC9D2B424F229CF3D590",
+            "display": "statom",
+            "name": "Stride Staked Atom",
+            "symbol": "stATOM",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -2154,28 +2218,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for USK (Stablecoin of Kujira)",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for USK (Stablecoin of Kujira)\\n### USK\\nKujira  is a native Cosmos overcollateralized stablecoin soft-pegged to the US dollar, initially backed by . Users stake collateral to mint  while users would burn  to redeem their collateral.\\n## ERC20 contract\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/7111-this-proposal-creates-and-registers-an-erc20-representation-for-kujiras-usd-stablecoin-usk)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/47BEBD156D49678A8D85661D792EB364F875265D7593E165C339F2D4C5C4CBAB\\n- display: usk\\n- name: USK Stablecoin of Kujira\\n- symbol: USK\\n",
-        "metadata": {
-          "description": "An over-collateralized soft-pegged token to the USD on the Kujira chain",
-          "denom_units": [
-            {
-              "denom": "ibc/47BEBD156D49678A8D85661D792EB364F875265D7593E165C339F2D4C5C4CBAB",
-              "exponent": 0,
-              "aliases": [
-                "uusk"
-              ]
-            },
-            {
-              "denom": "usk",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/47BEBD156D49678A8D85661D792EB364F875265D7593E165C339F2D4C5C4CBAB",
-          "display": "usk",
-          "name": "USK Stablecoin of Kujira",
-          "symbol": "USK"
-        }
+        "metadata": [
+          {
+            "description": "An over-collateralized soft-pegged token to the USD on the Kujira chain",
+            "denom_units": [
+              {
+                "denom": "ibc/47BEBD156D49678A8D85661D792EB364F875265D7593E165C339F2D4C5C4CBAB",
+                "exponent": 0,
+                "aliases": [
+                  "uusk"
+                ]
+              },
+              {
+                "denom": "usk",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/47BEBD156D49678A8D85661D792EB364F875265D7593E165C339F2D4C5C4CBAB",
+            "display": "usk",
+            "name": "USK Stablecoin of Kujira",
+            "symbol": "USK",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -2297,28 +2365,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for Teritori (Tori)",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## What is Tori?\\nTeritori is built to enhance Web3 individuals, communities \u0026 builders experience through an all-in-one hub of dApps.\\n## ERC20 representation for Teritori (Tori)\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/7258-this-proposal-creates-and-registers-an-erc20-representation-for-teritori-tori)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/18D5C3CDDF1DEE108CE4BF0A7E0262D94D11AB06A37F68EA38F70CC92C5D894F\\n- display: tori\\n- name: Teritori\\n- symbol: TORI",
-        "metadata": {
-          "description": "The native staking and governance token of the Teritori chain",
-          "denom_units": [
-            {
-              "denom": "ibc/18D5C3CDDF1DEE108CE4BF0A7E0262D94D11AB06A37F68EA38F70CC92C5D894F",
-              "exponent": 0,
-              "aliases": [
-                "utori"
-              ]
-            },
-            {
-              "denom": "tori",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/18D5C3CDDF1DEE108CE4BF0A7E0262D94D11AB06A37F68EA38F70CC92C5D894F",
-          "display": "tori",
-          "name": "Teritori",
-          "symbol": "TORI"
-        }
+        "metadata": [
+          {
+            "description": "The native staking and governance token of the Teritori chain",
+            "denom_units": [
+              {
+                "denom": "ibc/18D5C3CDDF1DEE108CE4BF0A7E0262D94D11AB06A37F68EA38F70CC92C5D894F",
+                "exponent": 0,
+                "aliases": [
+                  "utori"
+                ]
+              },
+              {
+                "denom": "tori",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/18D5C3CDDF1DEE108CE4BF0A7E0262D94D11AB06A37F68EA38F70CC92C5D894F",
+            "display": "tori",
+            "name": "Teritori",
+            "symbol": "TORI",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -2344,28 +2416,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for axlDAI (Dai Stablecoin on Axelar)",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for axlDAI (Dai Stablecoin on Axelar)\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/CBA4784581AD4BEF308C536A3CD44D4A940A520E61B0D1E4FB115C539F61DEE5\\n- display: axldai\\n- name: Dai Stablecoin on Axelar\\n- symbol: axlDAI",
-        "metadata": {
-          "description": "Dai stablecoin on Axelar",
-          "denom_units": [
-            {
-              "denom": "ibc/CBA4784581AD4BEF308C536A3CD44D4A940A520E61B0D1E4FB115C539F61DEE5",
-              "exponent": 0,
-              "aliases": [
-                "dai-wei"
-              ]
-            },
-            {
-              "denom": "axldai",
-              "exponent": 18,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/CBA4784581AD4BEF308C536A3CD44D4A940A520E61B0D1E4FB115C539F61DEE5",
-          "display": "axldai",
-          "name": "Dai Stablecoin on Axelar",
-          "symbol": "axlDAI"
-        }
+        "metadata": [
+          {
+            "description": "Dai stablecoin on Axelar",
+            "denom_units": [
+              {
+                "denom": "ibc/CBA4784581AD4BEF308C536A3CD44D4A940A520E61B0D1E4FB115C539F61DEE5",
+                "exponent": 0,
+                "aliases": [
+                  "dai-wei"
+                ]
+              },
+              {
+                "denom": "axldai",
+                "exponent": 18,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/CBA4784581AD4BEF308C536A3CD44D4A940A520E61B0D1E4FB115C539F61DEE5",
+            "display": "axldai",
+            "name": "Dai Stablecoin on Axelar",
+            "symbol": "axlDAI",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -2391,28 +2467,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for Tether USD on Axelar (axlUSDT)",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for Tether USD on Axelar (axlUSDT)\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/6561-registration-of-the-following-for-erc20-representation-regen-juno-star-and-axelar-assets)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/F11C8CB7743E4B5FDCEA7C97F3B2C115E1931C5614B84C183DAC439B4C919D94\\n- display: axlusdt\\n- name: Tether USD on Axelar\\n- symbol: axlUSDT\\n",
-        "metadata": {
-          "description": "Tether's USD stablecoin on Axelar",
-          "denom_units": [
-            {
-              "denom": "ibc/F11C8CB7743E4B5FDCEA7C97F3B2C115E1931C5614B84C183DAC439B4C919D94",
-              "exponent": 0,
-              "aliases": [
-                "uusdt"
-              ]
-            },
-            {
-              "denom": "axlusdt",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/F11C8CB7743E4B5FDCEA7C97F3B2C115E1931C5614B84C183DAC439B4C919D94",
-          "display": "axlusdt",
-          "name": "Tether USD on Axelar",
-          "symbol": "axlUSDT"
-        }
+        "metadata": [
+          {
+            "description": "Tether's USD stablecoin on Axelar",
+            "denom_units": [
+              {
+                "denom": "ibc/F11C8CB7743E4B5FDCEA7C97F3B2C115E1931C5614B84C183DAC439B4C919D94",
+                "exponent": 0,
+                "aliases": [
+                  "uusdt"
+                ]
+              },
+              {
+                "denom": "axlusdt",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/F11C8CB7743E4B5FDCEA7C97F3B2C115E1931C5614B84C183DAC439B4C919D94",
+            "display": "axlusdt",
+            "name": "Tether USD on Axelar",
+            "symbol": "axlUSDT",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -2502,28 +2582,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for Injective (INJ)",
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n## ERC20 representation for Injective (INJ)\\n### What is Injective\\nInjective is an open interoperable smart contracts layer-one blockchain network optimized for decentralized finance applications.\\n### Representation\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enable access to DeFi protocols, NFT and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.). \\n## Before Voting \\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/7402-this-proposal-creates-and-registers-an-erc20-representation-for-injective-inj)\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n## Verify Metadata\\n- base: ibc/ADF401C952ADD9EE232D52C8303B8BE17FE7953C8D420F20769AF77240BD0C58\\n- display: INJ\\n- name: Injective\\n- symbol: INJ\\n",
-        "metadata": {
-          "description": "The INJ token is the native governance token for the Injective chain.",
-          "denom_units": [
-            {
-              "denom": "ibc/ADF401C952ADD9EE232D52C8303B8BE17FE7953C8D420F20769AF77240BD0C58",
-              "exponent": 0,
-              "aliases": [
-                "inj"
-              ]
-            },
-            {
-              "denom": "INJ",
-              "exponent": 18,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/ADF401C952ADD9EE232D52C8303B8BE17FE7953C8D420F20769AF77240BD0C58",
-          "display": "INJ",
-          "name": "Injective",
-          "symbol": "INJ"
-        }
+        "metadata": [
+          {
+            "description": "The INJ token is the native governance token for the Injective chain.",
+            "denom_units": [
+              {
+                "denom": "ibc/ADF401C952ADD9EE232D52C8303B8BE17FE7953C8D420F20769AF77240BD0C58",
+                "exponent": 0,
+                "aliases": [
+                  "inj"
+                ]
+              },
+              {
+                "denom": "INJ",
+                "exponent": 18,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/ADF401C952ADD9EE232D52C8303B8BE17FE7953C8D420F20769AF77240BD0C58",
+            "display": "INJ",
+            "name": "Injective",
+            "symbol": "INJ",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -2549,28 +2633,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for Tgrade (TGD)",
         "description": "Once this proposal is approved by the EVMOS governance, Evmos's erc20 module uses a factory pattern to deploy an ERC20 token contract representation of the TGD coin. This enables TGD to be used in DeFi protocols and new applications on Evmos, that are based on the ERC20 standard (like AAVE, Diffusion, etc.). \\n\\n## Author\\n\\nLoredana Cirstea, [evmos4volunteers](https://evolve.provable.dev/)\\n\\n## Before Voting \\n\\n- Follow and discuss this proposal in this [Evmos Commonwealth thread](https://commonwealth.im/evmos/discussion/7602-registration-of-tgrades-tgd-asset-as-an-erc20-representation).\\n- For an in-depth explanation of the erc20 module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n\\n## Tgrade (TGD)\\n\\nTgrade [https://tgrade.finance](https://tgrade.finance) is a blockchain project built by Confio, makers of CosmWasm. Tgrade is a Cosmos-compatible chain with its own CosmWasm engine and a novel consensus mechanism called Proof of Engagement which has been designed to incentivize collaboration. Tgrade has been designed from the ground up to be decentralized, and secure in order to support regulated financial businesses. Tgrade has an on-chain governance system that allows for the creation and maintenance of permissioned groups, named Trusted Circles, each with their own governance and rules.\\n\\nMain benefits for enabling TGD as an ERC20 token in Evmos: \\n- Users will have access to TGD in Evmos's DeFI protocols and other ERC20 applications. \\n- First step to create synergy between Evmos's EVM \u0026 Tgrade's CosmWasm ecosystems (DeFi protocols and more).\\n- Tgrade is business-focused and is building a chain compatible with EU regulations while still remaining decentralized.\\n\\n## Verify Metadata\\n- base: ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9\\n- display: TGD\\n- name: Tgrade\\n- symbol: TGD\\n",
-        "metadata": {
-          "description": "The native staking and governance token of the Tgrade chain",
-          "denom_units": [
-            {
-              "denom": "ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9",
-              "exponent": 0,
-              "aliases": [
-                "utgd"
-              ]
-            },
-            {
-              "denom": "TGD",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9",
-          "display": "TGD",
-          "name": "Tgrade",
-          "symbol": "TGD"
-        }
+        "metadata": [
+          {
+            "description": "The native staking and governance token of the Tgrade chain",
+            "denom_units": [
+              {
+                "denom": "ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9",
+                "exponent": 0,
+                "aliases": [
+                  "utgd"
+                ]
+              },
+              {
+                "denom": "TGD",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9",
+            "display": "TGD",
+            "name": "Tgrade",
+            "symbol": "TGD",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -2793,28 +2881,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for COMDEX (CMDX)",
         "description": "Comdex is looking forward to collaborating with the Evmos community and would like to propose registering CMDX as ERC-20 tokens on Evmos. When a proposal is initiated for an existing native Cosmos Coin, the ERC20 module will deploy a factory ERC20 contract representing the ERC20 token for the token pair. This enables access to DeFi protocols, NFT, and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.) \\n\\n##Background\\n\\nComdex is building a  DeFi infrastructure layer for the Cosmos ecosystem. A layer-1 infrastructure system for seamless deployment of DeFi applications in the Cosmos ecosystem, powering DeFi in the multi-chain future.\\n\\nThe core set of dApps on the chain will help form the foundation layer of money markets for Cosmos, namely:\\n\\n- Harbor protocol: Interchain Stablecoin Issuance Protocol for CMST (overcollateralized stablecoin)\\n\\n- cSwap DEX: Hybrid Orderbook-style AMM DEX\\n\\n- Commodo: Interchain liquidity protocol for lending-borrowing\\n\\n- These dApps form the foundational blocks of composable DeFi Legos, which will ultimately help users have democratized access to interchain money markets to ultimately integrate off-chain CeFi assets into the ecosystem.\\n\\nThe Harbor Protocol and cSwap are now live on the mainnet, and we're looking forward to potential partnership opportunities and exploring synergies between the Evmos and Comdex ecosystems.\\n\\nCMST would serve as a native decentralized stablecoin for the Evmos ecosystem. To encourage adoption, the Harbor token is being airdropped to the Evmos community. This would enable the Evmos community to participate in Harbor governance.\\n\\nPotential benefits for the Evmos ecosystem would be the minting of CMST using the Evmos token vaults once it goes live. This would enable stable token borrowing using Evmos as collateral to provide broader use cases for the Evmos token in the Comdex DeFi ecosystem.\\n\\n- Please follow and discuss this proposal using the official [discussion on the commonwealth](https://commonwealth.im/evmos/discussion/8272-registering-cmdx-and-cmst-as-erc20)\\n\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273).\\n\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/). \\n\\n##Verify Metadata\\n\\n- base: ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F\\n- display:cmdx\\n- name: Comdex\\n- symbol: CMDX",
-        "metadata": {
-          "description": "The native token of Comdex Platform",
-          "denom_units": [
-            {
-              "denom": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
-              "exponent": 0,
-              "aliases": [
-                "ucmdx"
-              ]
-            },
-            {
-              "denom": "cmdx",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
-          "display": "cmdx",
-          "name": "Comdex",
-          "symbol": "CMDX"
-        }
+        "metadata": [
+          {
+            "description": "The native token of Comdex Platform",
+            "denom_units": [
+              {
+                "denom": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
+                "exponent": 0,
+                "aliases": [
+                  "ucmdx"
+                ]
+              },
+              {
+                "denom": "cmdx",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
+            "display": "cmdx",
+            "name": "Comdex",
+            "symbol": "CMDX",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -2840,28 +2932,32 @@
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
         "title": "Register ERC20 for COMPOSITE (CMST): Stablecoin of Harbor Protocol",
         "description": "Comdex is looking forward to collaborating with the Evmos community and would like to propose registering CMST as ERC-20 tokens on Evmos. When a proposal is initiated for an existing native Cosmos Coin, the ERC20 module will deploy a factory ERC20 contract representing the ERC20 token for the token pair. This enables access to DeFi protocols, NFT, and new applications that are based on ERC-20 (like AAVE, Diffusion, etc.) \\n\\n## Background\\n\\nComdex is building a  DeFi infrastructure layer for the Cosmos ecosystem. A layer-1 infrastructure system for seamless deployment of DeFi applications in the Cosmos ecosystem, powering DeFi in the multi-chain future.\\n\\nThe core set of dApps on the chain will help form the foundation layer of money markets for Cosmos, namely:\\n\\n- Harbor protocol: Interchain Stablecoin Issuance Protocol for CMST (overcollateralized stablecoin)\\n\\n- cSwap DEX: Hybrid Orderbook-style AMM DEX\\n\\n- Commodo: Interchain liquidity protocol for lending-borrowing\\n\\n- These dApps form the foundational blocks of composable DeFi Legos, which will ultimately help users have democratized access to interchain money markets to ultimately integrate off-chain CeFi assets into the ecosystem.\\n\\nThe Harbor Protocol and cSwap are now live on the mainnet, and we're looking forward to potential partnership opportunities and exploring synergies between the Evmos and Comdex ecosystems.\\n\\nCMST would serve as a native decentralized stablecoin for the Evmos ecosystem. To encourage adoption, the Harbor token is being airdropped to the Evmos community. This would enable the Evmos community to participate in Harbor governance.\\n\\nPotential benefits for the Evmos ecosystem would be the minting of CMST using the Evmos token vaults once it goes live. This would enable stable token borrowing using Evmos as collateral to provide broader use cases for the Evmos token in the Comdex DeFi ecosystem.\\n\\n- Please follow and discuss this proposal using the official [discussion on the commonwealth](https://commonwealth.im/evmos/discussion/8272-registering-cmdx-and-cmst-as-erc20)\\n\\n- For an in-depth explanation of the module, please refer to [Medium Blog](https://medium.com/evmos/introducing-evmos-erc20-module-f40a61e05273).\\n\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/). \\n\\n## Verify Metadata\\n\\n- base: ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD\\n- display:cmst\\n- name: CMST Stablecoin of Harbor Protocol\\n- symbol: CMST",
-        "metadata": {
-          "description": "CMST is the interchain stablecoin built on the Comdex chain",
-          "denom_units": [
-            {
-              "denom": "ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD",
-              "exponent": 0,
-              "aliases": [
-                "ucmst"
-              ]
-            },
-            {
-              "denom": "cmst",
-              "exponent": 6,
-              "aliases": [
-              ]
-            }
-          ],
-          "base": "ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD",
-          "display": "cmst",
-          "name": "CMST Stablecoin of Harbor Protocol",
-          "symbol": "CMST"
-        }
+        "metadata": [
+          {
+            "description": "CMST is the interchain stablecoin built on the Comdex chain",
+            "denom_units": [
+              {
+                "denom": "ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD",
+                "exponent": 0,
+                "aliases": [
+                  "ucmst"
+                ]
+              },
+              {
+                "denom": "cmst",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD",
+            "display": "cmst",
+            "name": "CMST Stablecoin of Harbor Protocol",
+            "symbol": "CMST",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
       },
       "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
@@ -2952,12 +3048,12 @@
           "upgraded_client_state": null
         }
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "111392098680919227270620730",
+        "abstain": "11629795749579961921313",
+        "no": "2908829658765373223094",
+        "no_with_veto": "26000787807272567508235"
       },
       "submit_time": "2022-12-28T23:33:32.839917289Z",
       "deposit_end_time": "2022-12-31T23:33:32.839917289Z",
@@ -3001,6 +3097,70 @@
       ],
       "voting_start_time": "2022-12-31T20:30:54.790086689Z",
       "voting_end_time": "2023-01-05T20:30:54.790086689Z"
+    },
+    {
+      "proposal_id": "96",
+      "content": {
+        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+        "title": "Increase Deposit Amount for Evmos Proposals",
+        "description": "## Increase Deposit Amount for Evmos Governance \n  ### Summary \n \n  This passing of this proposal would raise the minimum amount of EVMOS tokens to be deposited for a proposal to reach on-chain voting from 192 EVMOS to 3500 EVMOS with the intentions to maintain high quality proposals and prevent spam from going on chain.\n \n ### Abstract\n \n  Proposal Deposit Concept: \n  \n * For governance proposals to enter voting, a proposal must be reach a set deposit of an amount defined by parameters in the governance module before the deposit end time.\n \n  * A proposal minimum deposit can be contributed to and submitted by multiple different accounts, not just a single, and it does not have to be fully submitted by the proposer account.\n  The proposer account is only required to deposit ~**1 EVMOS**. \n \n  Deposit Refund and Burn Concept: \n \n  * If the proposal is approved or rejected but not vetoed, each deposit will be automatically refunded to its respective depositor, transferred from the governance ModuleAccount. \n \n  * If the proposal is vetoed with greater than 1/3 (33.4%) of voting power, deposit(s) will be burned from the governance ModuleAccount and the proposal information along with its deposit information will be removed from state.\n \n  ### Motivation \n \n  Proposal to Increase Deposit Amount: \n \n  By the time of writing and at the current token price value, the minimum deposit requires 192 EVMOS or approximately 60 in USD equivalent. Currently, is a low threshold to help ensure quality proposals and prevent possible spam proposals. Comparing other cosmos governance current deposits, the Cosmos hub requires 250 ATOM or 2,280 USD and Osmosis requires 1600 OSMO or 1,193 USD for proposals to enter the on-chain voting stage. \n \n  With the passing of this proposal, the minimum deposit will be increased to 3500 EVMOS or approximately 1,100 in USD equivalent. This change will not be permanent and can be changed again later via governance. \n \n  ### Important Note: \n \n  Community Members must not be priced out of making proposals on chain. 3500 EVMOS is likely a large enough deposit to deter spam, whilst still being within the reach of most community members to campaign for a deposit, or provide one themselves. \n \n  Multiple wallets may fund any proposal deposit, so this remains within the realm of most Cosmos users to campaign for and crowdsource funding from other community members and validators, where a good proposal may exist, but funding for a deposit is lacking. \n \n  ### Voting \n \n  * By voting YES, you agree that the minimum deposit for a proposal to enter the voting period should be increased from 192 EVMOS to 3500 EVMOS. \n \n  * By voting NO, you disagree in part or in entirety with one or more of the above statements. \n \n  * By voting ABSTAIN, you formally decline to vote either for or against the proposal. \n \n  * By voting NOWITHVETO, expresses that you would like to see depositors penalized by revocation of their proposal deposit, and contributes towards an automatic 1/3 veto threshold.",
+        "changes": [
+          {
+            "subspace": "gov",
+            "key": "depositparams",
+            "value": "{\"mindeposit\":[{\"denom\":\"aevmos\",\"amount\":\"3500000000000000000000\"}]}"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-03T23:10:35.212920139Z",
+      "deposit_end_time": "2023-01-06T23:10:35.212920139Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "10000000000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "97",
+      "content": {
+        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+        "title": "Increase Deposit Amount for Evmos Proposals",
+        "description": "## Increase Deposit Amount for Evmos Governance \n  ### Summary \n \n  This passing of this proposal would raise the minimum amount of EVMOS tokens to be deposited for a proposal to reach on-chain voting from 192 EVMOS to 3500 EVMOS with the intentions to maintain high quality proposals and prevent spam from going on chain.\n \n ### Abstract\n \n  Proposal Deposit Concept: \n  \n * For governance proposals to enter voting, a proposal must be reach a set deposit of an amount defined by parameters in the governance module before the deposit end time.\n \n  * A proposal minimum deposit can be contributed to and submitted by multiple different accounts, not just a single, and it does not have to be fully submitted by the proposer account.\n  The proposer account is only required to deposit ~**1 EVMOS**. \n \n  Deposit Refund and Burn Concept: \n \n  * If the proposal is approved or rejected but not vetoed, each deposit will be automatically refunded to its respective depositor, transferred from the governance ModuleAccount. \n \n  * If the proposal is vetoed with greater than 1/3 (33.4%) of voting power, deposit(s) will be burned from the governance ModuleAccount and the proposal information along with its deposit information will be removed from state.\n \n  ### Motivation \n \n  Proposal to Increase Deposit Amount: \n \n  By the time of writing and at the current token price value, the minimum deposit requires 192 EVMOS or approximately 60 in USD equivalent. Currently, is a low threshold to help ensure quality proposals and prevent possible spam proposals. Comparing other cosmos governance current deposits, the Cosmos hub requires 250 ATOM or 2,280 USD and Osmosis requires 1600 OSMO or 1,193 USD for proposals to enter the on-chain voting stage. \n \n  With the passing of this proposal, the minimum deposit will be increased to 3500 EVMOS or approximately 1,100 in USD equivalent. This change will not be permanent and can be changed again later via governance. \n \n  ### Important Note: \n \n  Community Members must not be priced out of making proposals on chain. 3500 EVMOS is likely a large enough deposit to deter spam, whilst still being within the reach of most community members to campaign for a deposit, or provide one themselves. \n \n  Multiple wallets may fund any proposal deposit, so this remains within the realm of most Cosmos users to campaign for and crowdsource funding from other community members and validators, where a good proposal may exist, but funding for a deposit is lacking. \n \n  ### Voting \n \n  * By voting YES, you agree that the minimum deposit for a proposal to enter the voting period should be increased from 192 EVMOS to 3500 EVMOS. \n \n  * By voting NO, you disagree in part or in entirety with one or more of the above statements. \n \n  * By voting ABSTAIN, you formally decline to vote either for or against the proposal. \n \n  * By voting NOWITHVETO, expresses that you would like to see depositors penalized by revocation of their proposal deposit, and contributes towards an automatic 1/3 veto threshold.",
+        "changes": [
+          {
+            "subspace": "gov",
+            "key": "depositparams",
+            "value": "{\"min_deposit\":[{\"denom\":\"aevmos\",\"amount\":\"3500000000000000000000\"}]}"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-03T23:40:27.897839679Z",
+      "deposit_end_time": "2023-01-06T23:40:27.897839679Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-01-03T23:51:21.117693226Z",
+      "voting_end_time": "2023-01-08T23:51:21.117693226Z"
     }
   ],
   "pagination": {
