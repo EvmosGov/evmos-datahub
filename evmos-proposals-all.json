@@ -3080,12 +3080,12 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_REJECTED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "1096378917573847760792308",
+        "abstain": "9709844080126530917441320",
+        "no": "44350730312452854759924547",
+        "no_with_veto": "57540730846824425334869869"
       },
       "submit_time": "2022-12-31T20:28:24.375614405Z",
       "deposit_end_time": "2023-01-03T20:28:24.375614405Z",
@@ -3124,7 +3124,7 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "10400011000000000000"
+          "amount": "10651011000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
@@ -3186,6 +3186,31 @@
       ],
       "voting_start_time": "2023-01-04T20:08:52.743789661Z",
       "voting_end_time": "2023-01-09T20:08:52.743789661Z"
+    },
+    {
+      "proposal_id": "99",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Governance Consensus: No Criminal Decisions",
+        "description": "## Governance Consensus: No Criminal Decisions\n\nDiscussion: https://www.reddit.com/r/cosmosnetwork/comments/1042r2j/governance_consensus_no_criminal_decisions_evmos/\n\nPrevious discussion: https://commonwealth.im/evmos/discussion/8616-governance-consensus-only-legal-decisions (today my CommonWealth account was banned, therefore the above Reddit thread is the discussion)\n\n## Measures\n\nThe Evmos chain shall pass only decisions that are not criminal according to Criminal Law. By the Criminal Law, we understand the criminal code covered by International Law, Federal Law, EU Law, and the laws of the countries, states, and lands that have jurisdiction over the $EVMOS token holders.\n\n## Meaning of the Decision\n\n* if this proposal passes: the governance gains additional legitimacy by recognizing the rule of law\n* if this proposal does not pass: the chain signals its disregard for the laws of the land and eventual premeditation to break the Criminal Law\n\nOnly the chains that will pass proposals compatible with this one will have the legitimacy to enter common governance platforms for the InterChain. By this prop, we offered Evmos yet another opportunity to be the early leader in that respect.\n\n## Author\n\nChristian Tzurcanu, volunteer for The Laurel Project. Efforts performed for The InterChain Pact office.\n"
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-05T17:16:52.306156168Z",
+      "deposit_end_time": "2023-01-08T17:16:52.306156168Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-01-05T17:19:49.527861399Z",
+      "voting_end_time": "2023-01-10T17:19:49.527861399Z"
     }
   ],
   "pagination": {
