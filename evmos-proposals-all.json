@@ -3099,38 +3099,6 @@
       "voting_end_time": "2023-01-05T20:30:54.790086689Z"
     },
     {
-      "proposal_id": "96",
-      "content": {
-        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
-        "title": "Increase Deposit Amount for Evmos Proposals",
-        "description": "## Increase Deposit Amount for Evmos Governance \n  ### Summary \n \n  This passing of this proposal would raise the minimum amount of EVMOS tokens to be deposited for a proposal to reach on-chain voting from 192 EVMOS to 3500 EVMOS with the intentions to maintain high quality proposals and prevent spam from going on chain.\n \n ### Abstract\n \n  Proposal Deposit Concept: \n  \n * For governance proposals to enter voting, a proposal must be reach a set deposit of an amount defined by parameters in the governance module before the deposit end time.\n \n  * A proposal minimum deposit can be contributed to and submitted by multiple different accounts, not just a single, and it does not have to be fully submitted by the proposer account.\n  The proposer account is only required to deposit ~**1 EVMOS**. \n \n  Deposit Refund and Burn Concept: \n \n  * If the proposal is approved or rejected but not vetoed, each deposit will be automatically refunded to its respective depositor, transferred from the governance ModuleAccount. \n \n  * If the proposal is vetoed with greater than 1/3 (33.4%) of voting power, deposit(s) will be burned from the governance ModuleAccount and the proposal information along with its deposit information will be removed from state.\n \n  ### Motivation \n \n  Proposal to Increase Deposit Amount: \n \n  By the time of writing and at the current token price value, the minimum deposit requires 192 EVMOS or approximately 60 in USD equivalent. Currently, is a low threshold to help ensure quality proposals and prevent possible spam proposals. Comparing other cosmos governance current deposits, the Cosmos hub requires 250 ATOM or 2,280 USD and Osmosis requires 1600 OSMO or 1,193 USD for proposals to enter the on-chain voting stage. \n \n  With the passing of this proposal, the minimum deposit will be increased to 3500 EVMOS or approximately 1,100 in USD equivalent. This change will not be permanent and can be changed again later via governance. \n \n  ### Important Note: \n \n  Community Members must not be priced out of making proposals on chain. 3500 EVMOS is likely a large enough deposit to deter spam, whilst still being within the reach of most community members to campaign for a deposit, or provide one themselves. \n \n  Multiple wallets may fund any proposal deposit, so this remains within the realm of most Cosmos users to campaign for and crowdsource funding from other community members and validators, where a good proposal may exist, but funding for a deposit is lacking. \n \n  ### Voting \n \n  * By voting YES, you agree that the minimum deposit for a proposal to enter the voting period should be increased from 192 EVMOS to 3500 EVMOS. \n \n  * By voting NO, you disagree in part or in entirety with one or more of the above statements. \n \n  * By voting ABSTAIN, you formally decline to vote either for or against the proposal. \n \n  * By voting NOWITHVETO, expresses that you would like to see depositors penalized by revocation of their proposal deposit, and contributes towards an automatic 1/3 veto threshold.",
-        "changes": [
-          {
-            "subspace": "gov",
-            "key": "depositparams",
-            "value": "{\"mindeposit\":[{\"denom\":\"aevmos\",\"amount\":\"3500000000000000000000\"}]}"
-          }
-        ]
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-01-03T23:10:35.212920139Z",
-      "deposit_end_time": "2023-01-06T23:10:35.212920139Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "10651011000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
       "proposal_id": "97",
       "content": {
         "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
@@ -3211,6 +3179,38 @@
       ],
       "voting_start_time": "2023-01-05T17:19:49.527861399Z",
       "voting_end_time": "2023-01-10T17:19:49.527861399Z"
+    },
+    {
+      "proposal_id": "100",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Retroactive Payment for Public Goods (Evmos Development for 2022)",
+        "description": "## Retroactive Payment for Public Goods (Evmos Development for 2022)\n\nDiscussion: [https://www.reddit.com/r/cosmosnetwork/comments/1032uyo/retroactive_payment_for_public_goods_evmos/](https://www.reddit.com/r/cosmosnetwork/comments/1032uyo/retroactive_payment_for_public_goods_evmos/)\n\nInitial discussion was at: [https://commonwealth.im/evmos/discussion/8811-retroactive-payment-for-public-goods-evmos-development-for-2022](https://commonwealth.im/evmos/discussion/8811-retroactive-payment-for-public-goods-evmos-development-for-2022), but [the post was hidden](https://github.com/the-laurel/chain-proposals/raw/main/evmos/assets/evmos_volunteer_effort_thread_proof.png) and my account was banned (I cannot participate in Evmos Commonwealth governance).\n\n## tl;dr\n\nSame as [proposal 95](https://www.mintscan.io/evmos/proposals/95), accounting for the rest of 2022.\n\nSince [proposal 88](https://www.mintscan.io/evmos/proposals/88) has been rejected, the volunteers for Tharsis and Evmos will have the opportunity to ask the Evmos chain for clarification of the status of their efforts.\n\n## Exposition\n\nThe for-profit developers of Tharsis were paid by salary for their development work. Then Tharsis extracted tens of millions of dollars from the apparent value of the Evmos chain to pay themselves again.\n\nThe Laurel Project which volunteered for Tharsis for developing a good portion of the Evmos chain tech and some Ethermint coding will also ask the Evmos Community if their efforts will be accepted in perpetuity as volunteering or if they will be paid as retroactive public goods funding.\n\n## The Public Goods Created\n\n* 22 Jan - Feb 2022 : 372h. Detailed list: [https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/1.%20Feb_2022.md](https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/1.%20Feb_2022.md)\n* 22 March - April 2022: 391.3h. Detailed list: [https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/3.%20April_2022.md](https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/3.%20April_2022.md)\n* 22 April - 21 May 2022: 376h. Detailed list: [https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/4.%20May_2022.md](https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/4.%20May_2022.md)\n* 22 May 2022 - 21 June 2022: 26h. Detalied list: [https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/5.%20June_2022.md](https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/5.%20June_2022.md)\n* 22 June 2022 - 21 July 2022: 3.5h. Detailed list: [https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/6.%20July_2022.md](https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/6.%20July_2022.md)\n* 22 July 2022 - 21 August 2022: 524h (including May - July Mythos effort presented at HackAtom, for Evmos). Detailed list: [https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/7.%20August_2022.md](https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/7.%20August_2022.md)\n* 22 August 2022 - 21 September 2022: 313h. Detailed list: [https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/8.%20September_2022.md](https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/8.%20September_2022.md)\n* 22 September 2022 - 21 October 2022: 290h. Detailed list: [https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/9.%20October_2022.md](https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/9.%20October_2022.md)\n* 22 October 2022 - 21 November 2022: 304h. Detailed list: [https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/10.%20November_2022.md](https://github.com/loredanacirstea/CV/blob/c197278e03a53dbdc24d426c08aa5fddec7ecf8e/evmos/10.%20November_2022.md)\n\n## Proofs\n\n* 1. The proof that the output of the effort exists as a public good: the videos exist and are [public on YouTube](https://www.youtube.com/c/LoredanaCirstea/videos), and the code exists and is public.\n* 2. The proof that it is about the Evmos chain/tech: the code is used by Ethermint/Evmos.\n* 3. The proof that the effort is of the quality and quantity claimed: Tharsis signed the confirmations for the effort, as comments on:\n  * [https://github.com/loredanacirstea/CV/issues/1](https://github.com/loredanacirstea/CV/issues/1)\n  \u003e I confirm and acknowledge the stated output. Thanks @loredanacirstea for your hard work and dedication!\n  \u003e Federico Kunze Küllmer - CEO Tharsis Labs / Co-Founder Evmos\n  \u003e Fri, Mar 25, 2022, by [@fedekunze](https://github.com/fedekunze)\n  * [https://github.com/loredanacirstea/CV/issues/3](https://github.com/loredanacirstea/CV/issues/3)\n  \u003e Federico Kunze Küllmer - Evmos / Tharsis. I confirm that the statement above is accurate.\n  \u003e On a personal note: thanks @loredanacirstea for all your effort and dedication. You're not only a great EVM engineer but also managed to master the Cosmos stack in a short period. I'm happy to keep supporting your efforts and the Laurel Project's.\n  \u003e Sat, Apr 30, 2022, by [@fedekunze](https://github.com/fedekunze)\n  * [https://github.com/loredanacirstea/CV/issues/4](https://github.com/loredanacirstea/CV/issues/4)\n  \u003e ACK. I cannot comment on the number of hours spent since can't verify that, but I can confirm the output of the volunteering effort on Evmos and Ethermint.\n  \u003e Federico Kunze Küllmer - Evmos\n  \u003e Tue, Jun 14, 2022, by [@fedekunze](https://github.com/fedekunze)\n\nbut he recently deleted those comments and all his public confirmations of my volunteering.\n  * Other confirmations from Tharsis at [https://github.com/loredanacirstea/CV/issues/5](https://github.com/loredanacirstea/CV/issues/5), [https://github.com/loredanacirstea/CV/issues/6](https://github.com/loredanacirstea/CV/issues/6), [https://github.com/loredanacirstea/CV/issues/7](https://github.com/loredanacirstea/CV/issues/7)\n\n* 4. The proof that this chain accepts claims for retroactive public goods is [proposal 88](https://www.mintscan.io/evmos/proposals/88).\n\n## Retroactive Payment\n\n372 + 391.3 + 376 + 26 + 3.5 + 524 + 313 + 290 + 304 = 2599.8\n\n* 2599.8h * 255 EUR/h = 662,949 EUR\n* current price: 0.424850 EUR/ $EVMOS\n\nTotal: 1,560,430 $EVMOS\n\n## The Meaning of the Decision\n\n* 1. If this proposal passes: the Evmos chain pays retroactively for this public good.\n* 2. If this proposal does not pass: the Evmos chain recognizes in perpetuity this public good as a volunteering effort of The Laurel Project in the interest of the Evmos Community. (or is bound to produce counter-proofs to the ones above). The presented effort was made with the intent of being offered to the Evmos Community as a volunteer effort. The legitimate repayment for volunteer effort is the recognition of said effort. \n* 3. No with veto: the effort will be considered either as charity to the ungrateful or/and as an acquisition of services by means of extorsion and unfulfilled promises.\n\n## Receiver Address\n\nevmos1k9pw7ht4kp7td5450sdrkj2tmly3ug59ddhadn\n\n\n## Author\n\nLoredana Cirstea, volunteer for The Laurel Project.\n",
+        "recipient": "evmos1k9pw7ht4kp7td5450sdrkj2tmly3ug59ddhadn",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "1560430000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-06T22:11:03.369337776Z",
+      "deposit_end_time": "2023-01-09T22:11:03.369337776Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-01-06T22:12:52.679347665Z",
+      "voting_end_time": "2023-01-11T22:12:52.679347665Z"
     }
   ],
   "pagination": {
