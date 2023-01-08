@@ -3211,6 +3211,138 @@
       ],
       "voting_start_time": "2023-01-06T22:12:52.679347665Z",
       "voting_end_time": "2023-01-11T22:12:52.679347665Z"
+    },
+    {
+      "proposal_id": "101",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Ratify Governance-Official Meanings for Yes, No, Abstain and NoWithVeto",
+        "description": "## Ratify Governance-Official Meanings for Yes, No, Abstain and NoWithVeto /n ### Summary /n /n This proposal aims to put forward a clear definition for the voting options “Yes”, “No”, “Abstain”, and “NoWithVeto” in Evmos governance that are simple for voters to understand and do not undermine the will of the community. These definitions are taken directly from the Evmos docs, and will be further formalized if this proposal passes.  /n /n * Yes: indicates approval of the proposal in its current form. /n * No: indicates disapproval of the proposal in its current form. /n * Abstain: indicates that the voter is impartial to the outcome of the proposal. /n* NoWithVeto: indicates stronger opposition to the proposal than simply voting No. If the number of NoWithVeto votes is greater than a third of total votes excluding Abstain votes, the proposal is rejected and the deposits are burned. /n /n### Abstract /n /n Recently, there have been proposals that have attempted to redefine the meanings of the voting options in a governance process. This is a dangerous precedent to set because it can lead to confusion and misunderstanding among voters, which can in turn undermine the will of the voters. To ensure that voters can make informed decisions and that the results of the vote accurately reflect the views of the community, it is crucial to clearly define the meanings of the voting options and design the governance process in a way that promotes fairness and effectiveness. /n /n### Motivation /n /nIn Evmos governance a “No” vote is generally understood to mean that the voter is opposed to the proposal and does not want it to be implemented. An “Abstain” vote means that the voter is neutral on the proposal and does not wish to express a position either for or against it. A “No With Veto” vote means the voter is strongly opposed and in most cases will lead to the proposal deposit being burned. /n /n It can be dangerous to add or change meanings to the voting options in a governance process because it can lead to confusion and misunderstanding among voters. Additionally, changing meanings to the voting options can undermine the transparency and fairness of the governance process. If voters do not understand the full implications of their votes, they may make decisions that are not in line with their true views or the best interests of the community. This can undermine the legitimacy of the governance process and lead to mistrust and dissatisfaction among the community. /n /nOverall, it is important to clearly define the meanings of the various voting options in a governance process to ensure that voters can make informed decisions and that the results of the vote accurately reflect the will of the community. /n /nThe passage of this proposal will ratify following definitions directly from the Evmos docs that are simple for voters to understand and do not undermine the will of the community: /n /n* Yes: indicates approval of the proposal in its current form. /n* No: indicates disapproval of the proposal in its current form. /n* Abstain: indicates that the voter is impartial to the outcome of the proposal. /n* NoWithVeto: indicates stronger opposition to the proposal than simply voting No. If the number of NoWithVeto votes is greater than a third of total votes excluding Abstain votes, the proposal is rejected and the deposits are burned. /n /n ### Voting /n /n* By voting YES, indicates approval of the proposal in its current form to ratify the governance-official meanings of  “Yes”,“No”, “Abstain” and “No With Veto” for governance voting options. /n /n* By voting NO,  indicates disapproval of the proposal in its current form. /n /n* By voting ABSTAIN, you formally decline to vote either for or against the proposal. /n /n* By voting NOWITHVETO, indicates stronger opposition to the proposal than simply voting No. If the number of NoWithVeto votes is greater than a third of total votes excluding Abstain votes, the proposal is rejected and the deposits are burned. /n"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-07T06:30:24.268726748Z",
+      "deposit_end_time": "2023-01-10T06:30:24.268726748Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "2000200000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "102",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Ratify Governance-Official Meanings for Yes, No, Abstain and NoWithVeto",
+        "description": "## Ratify Governance-Official Meanings for Yes, No, Abstain and NoWithVeto /n ### Summary /n /n This proposal aims to put forward a clear definition for the voting options “Yes”, “No”, “Abstain”, and “NoWithVeto” in Evmos governance that are simple for voters to understand and do not undermine the will of the community. These definitions are taken directly from the Evmos docs, and will be further formalized if this proposal passes.  /n /n * Yes: indicates approval of the proposal in its current form. /n * No: indicates disapproval of the proposal in its current form. /n * Abstain: indicates that the voter is impartial to the outcome of the proposal. /n* NoWithVeto: indicates stronger opposition to the proposal than simply voting No. If the number of NoWithVeto votes is greater than a third of total votes excluding Abstain votes, the proposal is rejected and the deposits are burned. /n /n### Abstract /n /n Recently, there have been proposals that have attempted to redefine the meanings of the voting options in a governance process. This is a dangerous precedent to set because it can lead to confusion and misunderstanding among voters, which can in turn undermine the will of the voters. To ensure that voters can make informed decisions and that the results of the vote accurately reflect the views of the community, it is crucial to clearly define the meanings of the voting options and design the governance process in a way that promotes fairness and effectiveness. /n /n### Motivation /n /nIn Evmos governance a “No” vote is generally understood to mean that the voter is opposed to the proposal and does not want it to be implemented. An “Abstain” vote means that the voter is neutral on the proposal and does not wish to express a position either for or against it. A “No With Veto” vote means the voter is strongly opposed and in most cases will lead to the proposal deposit being burned. /n /n It can be dangerous to add or change meanings to the voting options in a governance process because it can lead to confusion and misunderstanding among voters. Additionally, changing meanings to the voting options can undermine the transparency and fairness of the governance process. If voters do not understand the full implications of their votes, they may make decisions that are not in line with their true views or the best interests of the community. This can undermine the legitimacy of the governance process and lead to mistrust and dissatisfaction among the community. /n /nOverall, it is important to clearly define the meanings of the various voting options in a governance process to ensure that voters can make informed decisions and that the results of the vote accurately reflect the will of the community. /n /nThe passage of this proposal will ratify following definitions directly from the Evmos docs that are simple for voters to understand and do not undermine the will of the community: /n /n* Yes: indicates approval of the proposal in its current form. /n* No: indicates disapproval of the proposal in its current form. /n* Abstain: indicates that the voter is impartial to the outcome of the proposal. /n* NoWithVeto: indicates stronger opposition to the proposal than simply voting No. If the number of NoWithVeto votes is greater than a third of total votes excluding Abstain votes, the proposal is rejected and the deposits are burned. /n /n ### Voting /n /n* By voting YES, indicates approval of the proposal in its current form to ratify the governance-official meanings of  “Yes”,“No”, “Abstain” and “No With Veto” for governance voting options. /n /n* By voting NO,  indicates disapproval of the proposal in its current form. /n /n* By voting ABSTAIN, you formally decline to vote either for or against the proposal. /n /n* By voting NOWITHVETO, indicates stronger opposition to the proposal than simply voting No. If the number of NoWithVeto votes is greater than a third of total votes excluding Abstain votes, the proposal is rejected and the deposits are burned. /n"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-07T06:36:13.534777972Z",
+      "deposit_end_time": "2023-01-10T06:36:13.534777972Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3000000000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "103",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Ratify Governance-Official Meanings for Yes, No, Abstain and NoWithVeto",
+        "description": "## Ratify Governance-Official Meanings for Yes, No, Abstain and NoWithVeto \n \n ### Summary \n \n This proposal aims to put forward a clear definition for the voting options “Yes”, “No”, “Abstain”, and “NoWithVeto” in Evmos governance that are simple for voters to understand and do not undermine the will of the community. These definitions are taken directly from the Evmos docs, and will be further formalized if this proposal passes.  \n \n * Yes: indicates approval of the proposal in its current form. \n * No: indicates disapproval of the proposal in its current form. \n * Abstain: indicates that the voter is impartial to the outcome of the proposal. \n* NoWithVeto: indicates stronger opposition to the proposal than simply voting No. If the number of NoWithVeto votes is greater than a third of total votes excluding Abstain votes, the proposal is rejected and the deposits are burned. \n \n### Abstract \n \n Recently, there have been proposals that have attempted to redefine the meanings of the voting options in a governance process. This is a dangerous precedent to set because it can lead to confusion and misunderstanding among voters, which can in turn undermine the will of the voters. To ensure that voters can make informed decisions and that the results of the vote accurately reflect the views of the community, it is crucial to clearly define the meanings of the voting options and design the governance process in a way that promotes fairness and effectiveness. \n \n### Motivation \n \nIn Evmos governance a “No” vote is generally understood to mean that the voter is opposed to the proposal and does not want it to be implemented. An “Abstain” vote means that the voter is neutral on the proposal and does not wish to express a position either for or against it. A “No With Veto” vote means the voter is strongly opposed and in most cases will lead to the proposal deposit being burned. \n \n It can be dangerous to add or change meanings to the voting options in a governance process because it can lead to confusion and misunderstanding among voters. Additionally, changing meanings to the voting options can undermine the transparency and fairness of the governance process. If voters do not understand the full implications of their votes, they may make decisions that are not in line with their true views or the best interests of the community. This can undermine the legitimacy of the governance process and lead to mistrust and dissatisfaction among the community. \n \nOverall, it is important to clearly define the meanings of the various voting options in a governance process to ensure that voters can make informed decisions and that the results of the vote accurately reflect the will of the community. \n \nThe passage of this proposal will ratify following definitions directly from the Evmos docs that are simple for voters to understand and do not undermine the will of the community: \n \n* Yes: indicates approval of the proposal in its current form. \n* No: indicates disapproval of the proposal in its current form. \n* Abstain: indicates that the voter is impartial to the outcome of the proposal. \n* NoWithVeto: indicates stronger opposition to the proposal than simply voting No. If the number of NoWithVeto votes is greater than a third of total votes excluding Abstain votes, the proposal is rejected and the deposits are burned. \n \n ### Voting \n \n* By voting YES, indicates approval of the proposal in its current form to ratify the governance-official meanings of  “Yes”,“No”, “Abstain” and “No With Veto” for governance voting options. \n \n* By voting NO,  indicates disapproval of the proposal in its current form. \n \n* By voting ABSTAIN, you formally decline to vote either for or against the proposal. \n \n* By voting NOWITHVETO, indicates stronger opposition to the proposal than simply voting No. If the number of NoWithVeto votes is greater than a third of total votes excluding Abstain votes, the proposal is rejected and the deposits are burned. \n"
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-07T06:36:52.008425105Z",
+      "deposit_end_time": "2023-01-10T06:36:52.008425105Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-01-07T06:40:56.280796854Z",
+      "voting_end_time": "2023-01-12T06:40:56.280796854Z"
+    },
+    {
+      "proposal_id": "104",
+      "content": {
+        "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+        "title": "Increase Developer Revenue from 50% to 95%",
+        "description": "### Parameters being changed with this proposal.\\n\\nIf successful, this proposal will increase the developer_shares parameter in the revenue module from 50% to 95%. The remainder 5% is to prevent spam.\\n\\n### Motivation\\n\\n The `x/revenue` module enables Evmos to support splitting transaction fees between validators/delegators and smart contract developers. As a part of the [Evmos Token Model](https://medium.com/evmos/the-evmos-token-model-edc07014978b), this mechanism aims to increase the adoption of Evmos by offering a new stable source of income for smart contract developers. Developers can register their smart contracts and every time someone interacts with a registered smart contract, the contract deployer account or their assigned withdrawal account receives a part of the transaction fees. The **developer_shares** parameter is the percentage of the transaction fees that are sent to the contract deployer.\\n\\nConsidering the low transaction costs on Evmos the current 50/50 split of EVM tx fees between smart contract developers and validators is insufficient to provide meaningful cash flows for dev teams. An increase to 95% would create more incentives for developers to deploy and register smart contracts on Evmos.\\n\\nWe acknowledge the fact that this change alone might not be significant to sustain developer teams in the short term and are exploring additional alternatives to continue incentivizing teams to build on Evmos in the mid-term.\\n\\nIf this proposal passes validators and delegators will earn zero fees for EVM transactions with registered contracts, but will still earn the [commission on staking rewards](https://hub.cosmos.network/main/validators/validator-faq.html#what-is-the-incentive-to-run-a-validator) and 95% of the fees from other Cosmos transactions (eg: IBC, Staking, etc).\\n\\nOur goal with this proposal is to attract and retain smart contract developers as they are the backbone of the Evmos ecosystem and to provide a means to generate sustainable revenue for projects.### Impact\\n\\nRegistered smart contracts will receive 95% of the EVM transaction fees if this proposal passes.\\n\\nBelow are some calculations that might give a clearer example of what developers can expect:\\n - At current Evmos price ($0.40637) and minGasPrice (20000000000aevmos) for 200,000 transactions with a smart contract: **$0.00466466 * 200000 txs * 0.95 = $886.29**\\n - At Evmos price ($2) and minGasPrice (20000000000aevmos) for 100,000 transactions with a smart contract: **$0.01669652 * 100000 txs * 0.95 = $1,586.17**\\n - At optimistic Evmos price ($4.50) minGasPrice (20000000000aevmos) for 50,000 transactions with a smart contract: **$0.03756717 * 50000 txs * 0.95 = $1,784.43**\\n\\n Gas price calculations were generated with [this](https://observablehq.com/@loredanacirstea/evm-gas-prices) calculator. Developers can change the variables to estimate how much revenue their dApps can generate.\\n\\n### Discussion\\n\\nBefore voting, please follow and discuss this proposal using the official [discussion on Commonwealth](https://commonwealth.im/evmos/discussion/8536-revenue-module-change-revenue-to-95)",
+        "changes": [
+          {
+            "subspace": "revenue",
+            "key": "DeveloperShares",
+            "value": "\"0.950000000000000000\""
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-07T19:25:47.308927733Z",
+      "deposit_end_time": "2023-01-10T19:25:47.308927733Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-01-07T19:37:30.289342790Z",
+      "voting_end_time": "2023-01-12T19:37:30.289342790Z"
+    },
+    {
+      "proposal_id": "105",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Governance Consensus: Governance Immunity",
+        "description": "## Governance Consensus: Governance Immunity\n\nDiscussion: [https://www.reddit.com/r/cosmosnetwork/comments/105rrn1/governance_consensus_governance_immunity_evmos/](https://www.reddit.com/r/cosmosnetwork/comments/105rrn1/governance_consensus_governance_immunity_evmos/)\n\n## Exposition\n\nIn order to separate the governance process from levers of power that may delegitimize it, we propose a governance immunity for the active validators.\n\n## Measures\n### 1. Validators shall not be obstructed from doing their governance duties:\n#### __1.1. vote in Governance\n#### __1.2. create on-chain Proposals\n#### __1.3. perform their duty to follow the governance process according to [prop #83](https://www.mintscan.io/evmos/proposals/83) or updated versions\n##### ____1.3.1. create/edit their own proposals as discussions\n##### ____1.3.2. comment on other proposals being discussed\n##### ____1.3.3. answer to comments\n### 2. While any active validator is banned or otherwise obstructed: no governance action should be performed save what is necessary to remedy this situation\n\n## Meaning of the Decision\n\n* if this proposal passes: the governance will be able to protect itself from outside interference\n* if this proposal does not pass: any validator may be eliminated from the discussion or/and access to governance by off-chain means\n\nOnly the chains that will pass proposals compatible with this one will have the legitimacy to enter common governance platforms for the InterChain.\n\n## Author\nChristian Tzurcanu, volunteer for The Laurel Project. Efforts performed for The InterChain Pact office.\n"
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-07T20:16:13.458284637Z",
+      "deposit_end_time": "2023-01-10T20:16:13.458284637Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-01-07T20:17:55.073925525Z",
+      "voting_end_time": "2023-01-12T20:17:55.073925525Z"
     }
   ],
   "pagination": {
