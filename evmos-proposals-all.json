@@ -3112,12 +3112,12 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "114606860515336198974073496",
+        "abstain": "1955430790612303402019986",
+        "no": "709829261636584840410019",
+        "no_with_veto": "44101414430628113167806"
       },
       "submit_time": "2023-01-03T23:40:27.897839679Z",
       "deposit_end_time": "2023-01-06T23:40:27.897839679Z",
@@ -3231,7 +3231,7 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "2000200000000000000"
+          "amount": "2101211000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
@@ -3256,7 +3256,7 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "3000000000000000000"
+          "amount": "3201012000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
@@ -3343,6 +3343,56 @@
       ],
       "voting_start_time": "2023-01-07T20:17:55.073925525Z",
       "voting_end_time": "2023-01-12T20:17:55.073925525Z"
+    },
+    {
+      "proposal_id": "106",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Consensus Test",
+        "description": "## Consensus Test\n\n\nDiscussion: [this Reddit thread](https://www.reddit.com/r/cosmosnetwork/comments/106mko3/consensus_test_evmos_governance_post/)\n\nOriginal text for the discussion thread: [https://github.com/the-laurel/chain-proposals/blob/main/evmos/%5BReddit%5DConsensusTest.md](https://github.com/the-laurel/chain-proposals/blob/main/evmos/%5BReddit%5DConsensusTest.md)\n\n## Exposition\n\nIn a positional numeral system with integer radix greater than two: 1 + 1 = 2\n\n\n## Meaning of the Decision\n\n* 1. if this proposal passes: the chain affirms that 1+1=2 is true (under given conditions)\n* 2. if this proposal is rejected: the chain affirms that 1+1=2 is false\n* 3. if this proposal is rejected by veto: the chain wanted to punish the proposer and used any rationalization to do so. (Even at the expense of governance duties and at the cost of reducing present and future decisional legitimacy of governance.)\n"
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-08T17:03:22.286796056Z",
+      "deposit_end_time": "2023-01-11T17:03:22.286796056Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-01-08T17:13:39.621458165Z",
+      "voting_end_time": "2023-01-13T17:13:39.621458165Z"
+    },
+    {
+      "proposal_id": "107",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Cancellation of Prop 45, Clarification of Laurel Project Role",
+        "description": "# Cancellation of Prop 45, Clarification of Laurel Project Role\\n\\nThis proposal seeks a formal cancellation of Proposal 45, return of funds from the Prop 45 multisig to the Community Pool and a clarification of the role of Loredana and Christian on EVMOS due to recent malicious acts and spam proposals.\\n\\nThis proposal is unfortunately necessary to submit anonymously, due to Loredana and Christian\\'s legal threats, which were committed to Github two weeks ago: [https://github.com/the-laurel/chain-proposals/blob/main/evmos/EffortEvaluation.md](https://github.com/the-laurel/chain-proposals/blob/main/evmos/EffortEvaluation.md)\\n\\nAs such it is important to clarify that this proposal is not being made by the EVMOS Foundation or any of it\\'s representatives, and is being brought forth by a community stakeholder of the EVMOS chain who has been witnessing these events unfold. It is my hope that this proposal can bring closure to this governance module spam.\\n\\n### Clarification of Laurel Project / InterChain Pact Failed Proposals\\n\\nMany of the recent proposals made by Loredana or Christian seek to interject meaning into what happens if a proposal is rejected - with language such as, \"_if this proposal does not pass: the chain signals its disregard for the laws of the land and eventual premeditation to break the Criminal Law_\".\\n\\nThis proposal therefore seeks to very specifically and pointedly clarify that none of the proposals made by Loredana or Christian which failed to pass have any meaning other than the standard meaning a proposal failure within the typical meaning of the Cosmos SDK: __The Community felt the proposal should not pass, and therefore it has failed. This includes No and NoWithVeto.__\\n\\n### Previous Behavior\\nThis appears to be a pattern of behavior that goes back to their earlier days on Ethereum as well, as can be seen here:\\n\\n**Harassment of Ethereum developers, circa July 2021:**\\nhttps://www.reddit.com/r/ethereum/comments/ocv773/ethereum_and_billionaires_stealing_ideas_from/\\n\\n\\n**Spam Proposals and Misbehavior on EVMOS:**\\n\\n[#84: The Alternative: An Honest DAO and an Independent Evmos Chain](https://www.mintscan.io/evmos/proposals/84) (Front-running Proposal 86)\\n\\n[#86: Common Sense Setting: No Payment For Unsolicited Services](https://www.mintscan.io/evmos/proposals/88) (Further governance interference on Prop 86)\\n\\n[#93: Governance Consensus: The Governance Language is English](https://www.mintscan.io/evmos/proposals/93) (A solution in search of a problem, no point to this proposal)\\n\\n[#95: Retroactive Payment for Public Goods (Evmos Development for March 2022)](https://www.mintscan.io/evmos/proposals/95) (A retroactive funding effort which seeks recognition for volunteer efforts through proposal rejection - they voted no themselves after proposing)\\n\\n[#98: Governance Consensus: Only Elected Officers May Represent the Will of the Chain](https://www.mintscan.io/evmos/proposals/98) (Centralization effort to codify elected officers)\\n\\n[#99: Governance Consensus: No Criminal Decisions](https://www.mintscan.io/evmos/proposals/99) (Implies a rejection of the proposal is an endorsement of criminal behavior)\\n\\n[#100: Retroactive Payment for Public Goods (Evmos Development for 2022)](https://www.mintscan.io/evmos/proposals/100) (Re-spam of previously rejected proposal 95, includes even worse language around \"what NoWithVeto\" means)\\n\\n[#105: Governance Consensus: Governance Immunity](https://www.mintscan.io/evmos/proposals/105) (Further manipulation of what yes and no votes mean on a proposal)\\n\\n[#106: Consensus Test](https://www.mintscan.io/evmos/proposals/106) (This proposal is a spam proposal which is asking if 1+1=2)\\n\\n[#106\\n[Kava Reddit Thread regarding Ethermint Funding](https://www.reddit.com/r/kava_platform/comments/xyxr1o/prevotelast_version_ethermint_funding_proposal) (Socially unacceptable behavior interacting with the Kava Community)\\n\\n### Cancellation of Prop 45 and Clarifications of Laurel Project Role\\n\\n**Loredana (evmos4volunteers, The Laurel Project)** proposed that the EVMOS Community pay for lobbying efforts by subsidizing an apartment in Berlin. It has become clear that this volunteer effort is more of a personal mission than an effort to assist in the furtherance of the chain.\\n\\n**Christian Tzurcanu (votes4volunteers, The Laurel Project)** has assisted in many of these spam proposals as well, and has actively engaged in socially unacceptable governance behavior when interacting with the community and validator set, particularly within Commonwealth Discussions, Reddit and the EVMOS Community Discord.\\n\\n**As such this proposal seeks to clarify through social consensus the following points:**\\n\\n1) Loredana Cirstea does not operate in an official capacity for the EVMOS chain.\\n\\n2) Christian Tzurcanu does not operate in an official capacity for the EVMOS chain.\\n\\n3) The Laurel Project and The InterChain Pact are not officially associated in any way with the EVMOS chain, nor should either of them conduct work on the behalf of the EVMOS chain.\\n\\n4) Proposal 45 should be cancelled and remaining funds returned to the Community Pool.\\n\\n5) All language contained within the rejected Proposals 84, 88, 93, 95, 98, 99, 100, 105 and 106 are completely nullified. No language contained with any of these proposals is binding upon the network or it\\'s constituents. As they failed, they are completely rejected and their failure does not imply any kind of social consensus beyond their failure to pass.\\n\\n6) Further spam proposals and abuses of the governance module may require more severe community response to prevent additional spam, and the waste of validator and community resources in dealing with this spam and misbehavior. If they continue to abuse the gov module after the proposal deposit raised, network slashing for abuse of the governance module may be required to prevent further harm to governance, the network and it\\'s users.\\n\\n7) All further volunteer efforts by Loredana and Christian are no longer required or desired by the EVMOS community and should be ceased, in perpetuity. \\n\\n_NOTE: None of the above points are an official recognition of their volunteer efforts, but a clarification that their involvement is no longer desired on EVMOS, whether volunteered or not._\\n\\n## Vote\\n\\n**YES** indicates approval of the proposal in its current form.\\n\\n**NO** indicates disapproval of the proposal in its current form.\\n\\n**ABSTAIN** indicates that the voter is impartial to the outcome of the proposal.\\n\\n**NoWithVeto** indicates stronger opposition to the proposal than simply voting **NO**. If the number of **NoWithVeto** votes is greater than a third of total votes excluding **ABSTAIN** votes, the proposal is rejected and the deposits are burned.\\n"
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-08T18:35:31.470674792Z",
+      "deposit_end_time": "2023-01-11T18:35:31.470674792Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "192000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-01-08T18:52:57.295831083Z",
+      "voting_end_time": "2023-01-13T18:52:57.295831083Z"
     }
   ],
   "pagination": {
