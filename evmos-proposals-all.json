@@ -3137,12 +3137,12 @@
         "title": "Governance Consensus: Only Elected Officers May Represent the Will of the Chain",
         "description": "## Governance Consensus: Only Elected Officers May Represent the Will of the Chain\n\nDiscussion: [https://commonwealth.im/evmos/discussion/8698-governance-consensus-only-elected-officers-may-represent-the-will-of-the-chain](https://commonwealth.im/evmos/discussion/8698-governance-consensus-only-elected-officers-may-represent-the-will-of-the-chain)\n\n## Will Evmos Choose Its Own Executives?\n\nIf this proposal passes: Evmos governance decisions may be implemented by legitimate elected officers.\n\nIf this proposal does not pass: until the rejection is overturned, the Evmos chain may be represented by anybody and/or nobody.\n\n\n\n## Advantages of Adopting\n\nNon-exhaustive list of what is obtained, improved, or encouraged by passing this proposal:\n- provide transparency of:\n    - power structure\n    - actions done for the benefit of the chain\n- provide evidence of decentralization\n- clarify the assignment of responsibility\n- welcome cooperation with other chains\n- obtain delegation of representation\n- expand the types of actions the chain can govern\n- legitimize legal representation\n- legitimize officers using the chain itself (increased independence of legitimacy)\n\n\n## Measures\n\n* 1. Only officers elected by on-chain governance may implement the decisions of the chain in the name of the chain.\n* 2. Offices must be concretely defined and created via on-chain governance before nomination and election of each respective office occurs. \n* 3. Officers must not exceed their jurisdiction (as defined by on-chain governance above).\n* 4. Public and private communication channels, with open-door policies, must be concretely defined for each office.\n* 5. All offices, their enacting officers and communication channels must be publicly available.\n\n## Current State\n\nEvmos Governance infrastructure (The Evmos Commonwealth site and Evmos Discord) is controlled by an unofficial group of unknown actors, who have already started censoring [governance posts at their discretion]( https://www.reddit.com/r/cosmosnetwork/comments/1032ehn/how_to_centralize_a_chain_by_manipulating_cosmos/).\n\n## Authors\n\n- Christian Tzurcanu, volunteer for [The Laurel Project](https://mobile.twitter.com/provable_laurel). Efforts performed for [The InterChain Pact office](https://github.com/loredanacirstea/cosmos-interchain-pact).\n- Black Lodge, Evmos benefactor."
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_REJECTED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "2991128534721933666223430",
+        "abstain": "15777983606201531473257618",
+        "no": "30444746792353596662213358",
+        "no_with_veto": "68118160950825071366689078"
       },
       "submit_time": "2023-01-04T20:05:46.735394723Z",
       "deposit_end_time": "2023-01-07T20:05:46.735394723Z",
@@ -3231,7 +3231,7 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "2101211000000000000"
+          "amount": "3241231000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
@@ -3256,7 +3256,7 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "3201012000000000000"
+          "amount": "3221012000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
