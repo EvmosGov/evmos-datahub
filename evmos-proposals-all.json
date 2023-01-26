@@ -3358,12 +3358,12 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "63590775883531070109864348",
+        "abstain": "22075659451308521497444958",
+        "no": "29336024354820512033527256",
+        "no_with_veto": "136975084301459258940154"
       },
       "submit_time": "2023-01-20T15:57:51.742777099Z",
       "deposit_end_time": "2023-01-23T15:57:51.742777099Z",
@@ -3375,6 +3375,70 @@
       ],
       "voting_start_time": "2023-01-20T16:23:12.516069065Z",
       "voting_end_time": "2023-01-25T16:23:12.516069065Z"
+    },
+    {
+      "proposal_id": "110",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Encode Club's Evmos Grant Proposal",
+        "description": "# Encode Club's Evmos Grant Proposal\n\n## Summary\n\n• Encode Club is requesting approximately $2.5MM (5,200,000 EVMOS tokens @ $.48) to award to the best builders and projects for the duration of the grants program. Allocated funds are to be kept in the Multisig controlled by the Evmos community and distributed only when needed by Encode via multisig composed of trusted community advisory members. Encode's monthly expenses for running the program will be $50k, which can be considered as part of the total requested grants amount as per the community's preference.\n\n• Encode Club is a web3 education community. We help people learn, build and launch their web3 careers. We do this through high quality events such as educate series, hackathons, accelerators and bootcamps.\n\n•Encode Club will organize a pilot grants program for the Evmos community for H1 2023 (Jan to July). Their team will be entrusted with their promotion and furthermore tasked with evaluation of the best projects submissions, making sure that each is up to the standards set by the community.\n\n•Regular community calls shall be established and kept open to both the community and the DAO, which are to be used for questions, feedback and general updates about the program's progress. Additionally, 3 special check-in calls will be scheduled and executed throughout the program - one following the successful setup of the grants program, one midway through and one at the very end, the purpose of which is for Encode to provide further insight regarding grant applications and subsequently grantees.\n\n**Multisig Address**: 0x525C1cd42CBca9878bb3bF96DB269EDfc2F10db5\n\n**Multisig Committee (4/7)**:\n\n•   Lit | Notional Lab\n\n•   GV | Swiss Staking\n\n•   Luisqa | Zenith Station\n\n•   Outcast | Legion Nodes\n\n•   Sigmund | Quelabs\n\n•   Bosco | Silknodes\n\n•   Ömer | Alkadeta\n\n ## Abstract\n\n Establishing an effective grants program is important to champion the growth and development of the Evmos ecosystem because it provides support for projects and initiatives that align with the ecosystem's goals and objectives. This funding can be used to help new protocols launch, research and development, infrastructure, community building, public goods, and other activities that contribute to the growth and success of the ecosystem. Additionally, a grants program can attract and retain talented individuals and organizations to Evmos, as well as increase collaboration and partnerships within the community. Overall, an effective grants program can play a key role in driving innovation, fostering collaboration, and promoting the long-term sustainability of the Evmos ecosystem.\n\nEncode is one of the most trusted and well known companies within the web3 space, known for delivery of top tier program in partnership with the biggest names in the industry. Over the past two years their team has managed to successfully execute more than 90 events (both online and in-person).\n\n## Motivation\n\nEncode Club’s core goal has always been to deliver top tier programs that aid enthusiasts, developers and projects alike in growing, achieving their goals and pushing the web3 space forward. Evmos is a young and blooming ecosystem, and similar to others at this stage of their growth - it is in need of builders that would keep pushing it further and raise the bar higher.\n\nBy leveraging the curiosity, knowledge and dedication of their 50,000+ strong developer community, Encode Club can foster high levels of engagement and building for the Evmos ecosystem. Coupled with their past experience of running Saddle’s successful grants program and already having led an Evmos Hackathon through Covelant, their track record proves they are more than capable of successfully executing a program of this magnitude.\n\nFlawless execution of great events is often considered the end result of Encode Club’s efforts. In reality, however, these events are the means by which the true output and contribution to the web3 space is being achieved - identifying talent.\n\nEncode Club is a talent powerhouse.Their community consists of some of the brightest minds of tomorrow - actively participating in a wide variety of events, engaging with different technologies and most importantly - building.\n\n## Proposal\n\nEncode Club will dedicate 8-10 people from their team to deliver an exclusive pilot grants program that will run for the duration of the first half of 2023 with the option of extending it until the end of the year. Their team will be responsible for handling each and every phase of the project including, but not limited to planning, promoting, sourcing, executing and judging.\n\nThe Evmos community and team are to be an integral part, functioning as a guiding power and influencing the general direction of the program that the Encode team shall pursue in order to accomplish the objectives outlined by the community and Evmos Core Team.\n\nEncode is to be allocated $2.5MM for the duration of the grants program. The amount will be kept within a multisig, with distributions approved and executed by the Evmos committee multisig in the form of rewards.Their recipients are to be the best developers and projects picked by Encode for fulfilling the prerequisites and goals outlined by the program.\n\nEncode Club will crowdsource ideas for bounties from the community and will decide what bounty size to allocate for each. Each of the bounties should consist of:\n\n•   Brief summary and explanation\n\n•   Clearly outlined deliverables\n\n•   Execution and delivery within the timeline of the program\n\n•   Amount of funding attached\n\nThere will be two types of bounties:\n\n•   Competitions – several projects compete and the best gets the bounty award at the end of the program.\n\n•   Award – a single team is selected to answer the bounty, and receives the award upon completion by the end of the program.\n\nBounties will be listed on the Encode website and public calls for participants will be made. Encode Club will take care of promoting and marketing the initiative as well as organize several education events with community members and investors from the Evmos community throughout the bounty period.\n\nTeams then engage in working, building and polishing their projects by the deadline outlined in the program. The best are to be invited, judged and rewarded in proportion to their efforts and magnitude of impact for the Evmos ecosystem in a show and tell finale events organized by Encode.\n\nIn order to ensure transparency and accountability on Encode Club’s side an Evmos Multisig Committee with representatives from both the community will be in direct communication with Encode and will have power to challenge their decisions along the way. The multisig will be overseeing the funds allocation and provide an additional layer of security for Evmos community. Any remaining funds at the end of the initial grants program period will be rolled into future funding upon approval, or returned to the community pool if the community decides not to renew the program.\n\n**Cost Breakdown**:\n\nEncode is a 25 person team and will be putting significant effort across multiple departments and individuals. The following is a rough outline of the costs associated with the proper execution of the grants pilot program:\n\n•   Marketing and Sourcing: $10k per month (on average 2 people)\n\n•   Program Management: $15k per month (on average 2 people)\n\n•   Grant Team Management: $15k per month (on average 2 people)\n\n•   Book-keeping, Finances + Admin: $2.5k per month (on average 1 person)\n\n•   Hiring support for any grantees: $5k per month (on average 1 person)\n\n•   Tech and Infrastructure: $2.5k per month\n\nThis brings the total monthly cost of running the program to $50k. The amount is to be invoiced in advance prior every month and deducted from the total grant size allocated for the program execution.\n\n**Conclusion**\n\nIf successful, Encode will be able to start executing as early as mid/late February. Gathering bounty proposals from both the community and the Evmos team will begin immediately after approval.The marketing team will switch focus on promoting the grant program, while also turning the attention of Encode’s existing Cosmos and Evmos hackers within the community to the upcoming events.\n\nGrant applicants will work closely with Encode Club’s program managers throughout the duration of the program in order to ensure that their work follows the guidelines and meets the requirements outlined by the bounties in order to qualify for a grant. Encode will impose deadlines for project submissions, after which the best builders will be invited to present their work live and compete for a prize from the grants pool.\n\nFor more supporting details and dicussion, please reference the [Commonwealth Post](https://commonwealth.im/evmos/discussion/8549-encode-clubs-evmos-grants-proposal).\n\n**Voting**\n\n•   By voting **YES**, indicates approval of the proposal in its current form.\n\n•   By voting **NO**, indicates disapproval of the proposal in its current form.\n\n•   By voting **ABSTAIN**, you formally decline to vote either for or against the proposal.\n\n•   By voting **NOWITHVETO**, indicates stronger opposition to the proposal than simply voting No. If the number of NoWithVeto votes is greater than a third of total votes excluding Abstain votes, the proposal is rejected and the deposits are burned.",
+        "recipient": "evmos12fwpe4pvhj5c0zanh7tdkf57mlp0zrd437y83g",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "5200000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-25T21:06:23.952166677Z",
+      "deposit_end_time": "2023-01-28T21:06:23.952166677Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3501000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-01-25T21:36:53.733303057Z",
+      "voting_end_time": "2023-01-30T21:36:53.733303057Z"
+    },
+    {
+      "proposal_id": "111",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Evmos x Covalent Hackathon Participant Rewards Re-Adjustment",
+        "description": "## Author(s)\n- LPX, Evmos DAO \n- Leibing, Covalent\n\n## Summary\n\nDue to the decrease in the price of EVMOS, there is a deficit in the amount of tokens that were originally asked from the pool from [Proposal 54](https://www.mintscan.io/evmos/proposals/54) and the amount that is needed to pay out all the rewards from the hackathon. It is our belief that it is paramount for the hackathon winners to be rewarded for contributions and efforts in a timely manner to encourage the continued interest and growth of the developer community in the Evmos ecosystem.\n\n- [Commonwealth Discussion](https://commonwealth.im/evmos/discussion/9429-time-sensitive-evmos-x-covalent-hackathon-payouts-readjustment)\n- [Hackathon Page and Winners](https://www.encode.club/evmoscovalent-hack)\n\n## Abstract\n\n- The Covalent x Encode x Evmos Community hackathon concluded last month with participants joining from around the world.\n- At the time of the passing of Proposal 54, EVMOS was around $2.50. Currently, the price of EVMOS is ~$0.475.\n- This proposal is requesting funds from the Community Pool to balance the rewards payable to current market price as promised in Proposal 54. The total amount requested can be found in the Amount Requested section below.\n\n## Motivation\n\nThe #OneMillionWallets hackathon was a successful event that brought together members of the Ethereum as well as Evmos Community to work on exciting projects. However, the price of the EVMOS token has dropped significantly since the hackathon was funded by Proposal #54, resulting in a deficit that needs to be filled in order to pay out the participants.\n\nThis proposal aims to ensure that the hard work and effort put in by the participants is rewarded, and that the Evmos Community continues to be a supportive and collaborative space for innovation. Additionally, this proposal will demonstrate Evmos commitment to its Community and show that it keeps its promises.\n\nThe original proposal clearly stated the following: 'The amount of tokens for the hackathon prizes of $100k will be determined at time of dispersement. In the case of extreme price volatility, the Governance workstream will assist in readjusting the community pool funding request.'\n\n## Message from Covalent\n\nThank you for your patience in staying with us and navigating this situation together. The Evmos-Covalent #OneMillionWallets hackathon concluded in December 2022 to great success, where we saw more than 500+ teams registering, more than 60+ projects built, and more than 100 daily quiz participants. It was our biggest and most successful #OMW hackathon to date.\n\nDue to the depreciation of the prize pool, however, we cannot give the winners what we feel they truly deserve. We know how important runway is for teams building in an ecosystem; such runway can only be achieved when the teams are rewarded at the amount after the price movements have been adjusted. We deeply appreciate the EvmosDAO Governance workstream's efforts in readjusting the community pool fund to ensure that projects get the deserved level of funding.\n\n- Leibing, DevRel, Covalent\n\n## Amount Requested\n\nThe amount requested pegs the EVMOS price to $0.40 due to market uncertainty. All leftover EVMOS will be returned to the community pool.\n\nThe total amount of rewards payable came out to be $60,950 instead of the planned $100K. 50% of the funds in the original multisig that were originally allocated for the hackathon rewards, or 50,200 EVMOS (~$20,080) will be used to help fill this deficit.\n\n- $40,870 ($60,950 - $20,080) for the deficit in the amount of the hackathon winners' rewards (~102,175 EVMOS tokens @ 0.40). [Detailed sheet.](https://evmos.community/covalent-hackathon)\n- $17,799 for the organizers of the hackathon (~44,497.5 EVMOS tokens @ 0.40)\n- 20,000 EVMOS tokens for a donor that tried to assist in filling the deficit ([TX](https://www.mintscan.io/evmos/txs/001094A2EECF02AD8739030656BCECE936F8BECABCD4A6B6FD0FF2166ECF8096))\n- **Grand Total: $58,669 + 20,000 EVMOS (roughly 166.6K EVMOS)**\n\nNote: This funding request is specifically for the outstanding amount required to pay out the participants and organizers of the hackathon. The 50% that was initially allocated to Covalent for their services will be released to Covalent - there are no plans to re-adjust the indexing and API integration fees at the moment. The decision to delay the staking of the other 50% by Covalent was not the responsibility of the Evmos Community.\n\nRemaining tokens, assuming that the Evmos token price holds above $0.40 will be sent back to the Community Pool.\n",
+        "recipient": "evmos1qknfj89ddv3930zu0l3tq7f6ly6epk7s7kf53v",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "166650000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-25T21:23:56.972610248Z",
+      "deposit_end_time": "2023-01-28T21:23:56.972610248Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1422020000000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
     }
   ],
   "pagination": {
