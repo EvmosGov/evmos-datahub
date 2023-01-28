@@ -3439,6 +3439,34 @@
       ],
       "voting_start_time": "2023-01-26T15:35:27.322840175Z",
       "voting_end_time": "2023-01-31T15:35:27.322840175Z"
+    },
+    {
+      "proposal_id": "112",
+      "content": {
+        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
+        "title": "Evmos Mainnet v11.0.0 Upgrade",
+        "description": "## Author\\n\\nFreddy Caceres, Evmos Core Team\\n\\n## Software upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos software upgrade at block height 10561414 (https://www.mintscan.io/evmos/blocks/10561414) (around 4pm UTC Thu., 2nd Feb. 2023) from its current version [v10.0.1](https://github.com/evmos/evmos/releases/tag/v10.0.1) to [v11.0.0](https://github.com/evmos/evmos/releases/tag/v11.0.0). This proposal has a voting time of 5 days.\\n\\n## Motivation\\n\\nBy proposing a scheduled upgrade, we want to implement a smooth and transparent upgrade process. Software upgrades generally aim to improve current performance and add new features to the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validators/upgrades/overview.html).\\n\\n## Impact\\n\\nEvmos v11.0.0 contains the following changes and enhcements:\\n\\n- Add ICA host functionality to enable liquid staking support via Liquid Staking Zones (e.g Stride and Quicksilver)\\n- Add distribution logic for incentivized testnet rewards\\n- Implement daily instead of annual recalculation of minted coins during inflation\\n- Update implementation of module parameters after [deprecation of x/params module](https://docs.cosmos.network/v0.47/modules/params/)\\n- Migration of IBC transfer escrow accounts to the 'ModuleAccount' type\\n- Update IBC-Go to v6.1.0 and Ethermint to v0.21.0\\n- Add missing store keys in the inflation module\\n- Store evm params under a single key for performance optimization\\n\\nA full changelog can be found [here](https://github.com/evmos/evmos/releases/tag/v11.0.0).\\n\\nNOTE: Starting with Cosmos SDK v0.46 it is not possible to include links to Windows binaries in software upgrade proposals anymore.\\n\\n## Testing\\n\\nThe Evmos core team created an End-to-End testing suite that performs the software upgrade locally. These tests have been completed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/evmos/evmos/blob/main/tests/e2e/README.md). Additionally, the upgrade has been manually performed on a local node.\\nOn top of the upgrade tests, the Evmos team runs performance tests to monitor the impact of new versions.",
+        "plan": {
+          "name": "v11.0.0",
+          "time": "0001-01-01T00:00:00Z",
+          "height": "10561414",
+          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/evmos/evmos/releases/download/v11.0.0/evmos_11.0.0_Darwin_arm64.tar.gz?checksum=a318d18dc637279b7c90da2ffd748edc97179106b7a862184f311a517128540c\",\"darwin/amd64\":\"https://github.com/evmos/evmos/releases/download/v11.0.0/evmos_11.0.0_Darwin_amd64.tar.gz?checksum=edff5e5bab7013dc16f7d4bd8faad435efc1f64b9c4310bb9bc833857d3dde2f\",\"linux/arm64\":\"https://github.com/evmos/evmos/releases/download/v11.0.0/evmos_11.0.0_Linux_arm64.tar.gz?checksum=464ca67db6c850c51098ff21a6847f94fb9cbc968730349ef34af2cf9b5d6680\",\"linux/amd64\":\"https://github.com/evmos/evmos/releases/download/v11.0.0/evmos_11.0.0_Linux_amd64.tar.gz?checksum=f1d02f13c24642d60a8263777d3584b39ed8f5dd376ad072ad73b0aec5ceefce\"}}",
+          "upgraded_client_state": null
+        }
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-01-28T00:07:03.302052601Z",
+      "deposit_end_time": "2023-01-31T00:07:03.302052601Z",
+      "total_deposit": [
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
     }
   ],
   "pagination": {
