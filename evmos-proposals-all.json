@@ -3503,6 +3503,57 @@
       ],
       "voting_start_time": "2023-01-30T18:28:40.002375697Z",
       "voting_end_time": "2023-02-04T18:28:40.002375697Z"
+    },
+    {
+      "proposal_id": "114",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "Register ERC20 for yEVMOS: Liquid Staking Token",
+        "description": "Disperze has developed a Liquid Staking solution for EVMOS network,\nthe liquid token denomination is **yEVMOS**, currently it is an IBC token, and with this governance proposal it will be to enable its conversion to ERC20 and can be used in Defi dApps within Evmos network.\n\n- Follow the discussion in [commonwealth](https://commonwealth.im/evmos/discussion/9796-register-yevmos-as-erc20-liquid-staking)\n- More details [here](https://twitter.com/Disperze_/status/1622274867264356352)\n\n\u003e Note: Disperze is not included in the validator-set, delegations will be used to help decentralize the network. Validators outside the top 40 or \u003c1M VP will be chosen.\n\n## Benefits\nSome additional benefits of our solution.\n\n- Native experience, Evmos users will not need to move to another network or change wallets.\n- Execution time is similar to a single IBC transfer.\n- Lower fees (currently: 0%, max: 10%)\n- Contracts are deployed in an existing network (Juno), more secure than launching a new network.\n\n## Metadata\n\n```yaml\nbase: ibc/748375B5DD168C6C4DCBF54B3D54DCF20C2B41572C9603B1B9774419326A5A43\ndisplay: yevmos\nname: yEVMOS by Disperze\nsymbol: yEVMOS\n```",
+        "metadata": [
+          {
+            "description": "Staking derivative yEVMOS by Disperze",
+            "denom_units": [
+              {
+                "denom": "ibc/748375B5DD168C6C4DCBF54B3D54DCF20C2B41572C9603B1B9774419326A5A43",
+                "exponent": 0,
+                "aliases": [
+                  "ayevmos"
+                ]
+              },
+              {
+                "denom": "yevmos",
+                "exponent": 18,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/748375B5DD168C6C4DCBF54B3D54DCF20C2B41572C9603B1B9774419326A5A43",
+            "display": "yevmos",
+            "name": "yEVMOS by Disperze",
+            "symbol": "yEVMOS",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-02-05T17:16:08.077555974Z",
+      "deposit_end_time": "2023-02-08T17:16:08.077555974Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3501900000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-02-05T18:10:55.186973866Z",
+      "voting_end_time": "2023-02-10T18:10:55.186973866Z"
     }
   ],
   "pagination": {
