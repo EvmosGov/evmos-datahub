@@ -3581,7 +3581,33 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "10000000000000000"
+          "amount": "1979220012000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "116",
+      "content": {
+        "@type": "/evmos.erc20.v1.ToggleTokenConversionProposal",
+        "title": "Disable conversion for previously registered EEUR",
+        "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n\\n## Reason\\nThis proposal will disable the token conversion of the previously registered EEUR (e-Money EUR stablecoin) in the ERC20 module. The main reason behind this move is that e-Money A/S has decided to cease issuance of its EUR backed stablecoin. For more insights, please refer to this [Twitter announcement](https://twitter.com/emoney_com/status/1612378907935645697).\\n\\n## Metada\\n- base: ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05,\\n- display: eeur,\\n- name: e-Money EUR,\\n- symbol\": EEUR\\n\\n## ERC20 Token Holders\\nThere are no token holders on the ERC20 side. Please verify yourself [here](https://escan.live/address/0x5db67696c3c088dfbf588d3dd849f44266ff0ffa)",
+        "token": "0x5db67696C3c088DfBf588d3dd849f44266ff0ffa"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-02-08T08:21:16.699277737Z",
+      "deposit_end_time": "2023-02-11T08:21:16.699277737Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1020011000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
