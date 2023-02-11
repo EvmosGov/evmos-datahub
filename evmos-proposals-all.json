@@ -3537,12 +3537,12 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_REJECTED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "37021876631299134514282104",
+        "abstain": "27915538893864416685896345",
+        "no": "70083463930538249302983183",
+        "no_with_veto": "39856603256204571012960"
       },
       "submit_time": "2023-02-05T17:16:08.077555974Z",
       "deposit_end_time": "2023-02-08T17:16:08.077555974Z",
@@ -3569,7 +3569,7 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
       "final_tally_result": {
         "yes": "0",
         "abstain": "0",
@@ -3581,11 +3581,11 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "1979230012000000000000"
+          "amount": "4176470012000000000000"
         }
       ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
+      "voting_start_time": "2023-02-10T09:14:35.668289503Z",
+      "voting_end_time": "2023-02-15T09:14:35.668289503Z"
     },
     {
       "proposal_id": "116",
@@ -3595,7 +3595,7 @@
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n\\n## Reason\\nThis proposal will disable the token conversion of the previously registered EEUR (e-Money EUR stablecoin) in the ERC20 module. The main reason behind this move is that e-Money A/S has decided to cease issuance of its EUR backed stablecoin. For more insights, please refer to this [Twitter announcement](https://twitter.com/emoney_com/status/1612378907935645697).\\n\\n## Metada\\n- base: ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05,\\n- display: eeur,\\n- name: e-Money EUR,\\n- symbol\": EEUR\\n\\n## ERC20 Token Holders\\nThere are no token holders on the ERC20 side. Please verify yourself [here](https://escan.live/address/0x5db67696c3c088dfbf588d3dd849f44266ff0ffa)",
         "token": "0x5db67696C3c088DfBf588d3dd849f44266ff0ffa"
       },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
       "final_tally_result": {
         "yes": "0",
         "abstain": "0",
@@ -3607,11 +3607,11 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "1120011000000000000"
+          "amount": "4001131011000000000000"
         }
       ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
+      "voting_start_time": "2023-02-10T09:16:59.099978531Z",
+      "voting_end_time": "2023-02-15T09:16:59.099978531Z"
     }
   ],
   "pagination": {
