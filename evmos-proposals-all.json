@@ -3569,12 +3569,12 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "86002040105967990061312800",
+        "abstain": "42374908484057133429591967",
+        "no": "955139907716190540929338",
+        "no_with_veto": "18479461315686214670437"
       },
       "submit_time": "2023-02-08T00:12:44.494516309Z",
       "deposit_end_time": "2023-02-11T00:12:44.494516309Z",
@@ -3595,12 +3595,12 @@
         "description": "## Author\\nGV | Swiss Staking ([@swiss_staking](https://twitter.com/swiss_staking))\\n\\n## Reason\\nThis proposal will disable the token conversion of the previously registered EEUR (e-Money EUR stablecoin) in the ERC20 module. The main reason behind this move is that e-Money A/S has decided to cease issuance of its EUR backed stablecoin. For more insights, please refer to this [Twitter announcement](https://twitter.com/emoney_com/status/1612378907935645697).\\n\\n## Metada\\n- base: ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05,\\n- display: eeur,\\n- name: e-Money EUR,\\n- symbol\": EEUR\\n\\n## ERC20 Token Holders\\nThere are no token holders on the ERC20 side. Please verify yourself [here](https://escan.live/address/0x5db67696c3c088dfbf588d3dd849f44266ff0ffa)",
         "token": "0x5db67696C3c088DfBf588d3dd849f44266ff0ffa"
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "115757106269052217896045966",
+        "abstain": "13786982373207221830452823",
+        "no": "379337766197085798704506",
+        "no_with_veto": "4006271223647074124504"
       },
       "submit_time": "2023-02-08T08:21:16.699277737Z",
       "deposit_end_time": "2023-02-11T08:21:16.699277737Z",
@@ -3612,6 +3612,31 @@
       ],
       "voting_start_time": "2023-02-10T09:16:59.099978531Z",
       "voting_end_time": "2023-02-15T09:16:59.099978531Z"
+    },
+    {
+      "proposal_id": "117",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "ATOM Airdrop for COSMOS holders",
+        "description": "According to [tokenomics][1](, all LUNA/LUNC/JUNO/ATOM/AXL/OSMO/AKT/CRE/KUJI/SCRT/STARS holders can receive an airdrop. [Claim airdrop here][2] ( Valid until 10.04.2023 )\n\n\n[1]: https://cosmos.network/learn/faq\n[2]: https://keplr-wallet.at"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-02-15T00:54:09.096946801Z",
+      "deposit_end_time": "2023-02-18T00:54:09.096946801Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3500002000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
     }
   ],
   "pagination": {
