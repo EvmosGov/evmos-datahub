@@ -3632,7 +3632,7 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "6600002000000000000"
+          "amount": "6800002000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
@@ -3791,7 +3791,7 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
       "final_tally_result": {
         "yes": "0",
         "abstain": "0",
@@ -3803,11 +3803,11 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "1000000000000000000"
+          "amount": "3502000002000000000000"
         }
       ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
+      "voting_start_time": "2023-02-17T08:24:16.137213079Z",
+      "voting_end_time": "2023-02-22T08:24:16.137213079Z"
     }
   ],
   "pagination": {
