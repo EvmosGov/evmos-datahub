@@ -3803,7 +3803,7 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "64501000000000000000"
+          "amount": "65501000000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
@@ -3828,11 +3828,43 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "4901003000000000000"
+          "amount": "6101003000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
       "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "121",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Crescent External Incentives",
+        "description": "Summary:\n\nThis proposal is to fund Evmos external incentives on Crescent. In order to spur initial TVL accumulation on Crescent DEX’s EVMOS/bCRE pair we request an allocation of 88,020 EVMOS(appx. 41,973 USD as of Feb 2nd) or 977 EVMOS/day from the Community Treasury to be utilized as farming incentives for the pair for 90 days.\n\nCrescent has already incentivized EVMOS/bCRE as well as stEVMOS/EVMOS pair on Crescent DEX.\n\nThe funds will be managed by a multisig wallet at the address below, and includes the following members:\n\nAddress:\n0x82F2796AAE0bbB8Cf15dF2f47EFA5737F6A102c4\n\nevmos1ste8j64wpwaceu2a7t68a7jhxlm2zqky7x40ez\n\n- bennylava - Evmos Community Manager/Evmos Governance Workstream\n- LPX - Evmos Governance Workstream\n- Glenn - PM, Crescent Foundation\n- Provalidator - Evmos Validator\n\nWeighted 3/4\n\nGoals\n\nIn alignment with Crescent community demand, Crescent has proposed a Liquidity Driver Period of about 90 days at 6%(5,622 CRE / Day) of the farming allocation in CRE to the EVMOS/bCRE pair.\n\nIn addition, Crescent has incentivized stEVMOS / EVMOS pair at 468.6 CRE / day, which will allow EVMOS holders to swap between the two assets, negating unbonding times required. The liquidity amplification of the ranged pool will allow for very low slippage swaps compared to basic AMM.\n\nYou can find the community discussion here: https://commonwealth.im/evmos/discussion/9914-temperature-check-external-incentives-on-crescent",
+        "recipient": "evmos1ste8j64wpwaceu2a7t68a7jhxlm2zqky7x40ez",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "88020000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-02-20T08:04:02.068637316Z",
+      "deposit_end_time": "2023-02-23T08:04:02.068637316Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3500000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-02-20T08:04:02.068637316Z",
+      "voting_end_time": "2023-02-25T08:04:02.068637316Z"
     }
   ],
   "pagination": {
