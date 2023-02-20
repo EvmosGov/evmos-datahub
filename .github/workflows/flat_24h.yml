@@ -31,3 +31,8 @@ jobs:
         with:
           http_url: https://rest.bd.evmos.org:1317/cosmos/bank/v1beta1/denoms_metadata?pagination.limit=500
           downloaded_filename: evmos-denoms-all.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://rest.bd.evmos.org:1317/evmos/inflation/v1/epoch_mint_provision
+          downloaded_filename: evmos-epoch-mint-provisions.json
