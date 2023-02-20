@@ -3803,7 +3803,7 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "50001000000000000000"
+          "amount": "64501000000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
@@ -3828,7 +3828,7 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "1000000000000000"
+          "amount": "4901003000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
