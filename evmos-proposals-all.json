@@ -3766,12 +3766,12 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "138236697136552310433325166",
+        "abstain": "1973589062717959935365156",
+        "no": "26120996244851654741026",
+        "no_with_veto": "334250857999876180805"
       },
       "submit_time": "2023-02-16T19:25:56.469680954Z",
       "deposit_end_time": "2023-02-19T19:25:56.469680954Z",
