@@ -3815,6 +3815,63 @@
       ],
       "voting_start_time": "2023-02-20T08:04:02.068637316Z",
       "voting_end_time": "2023-02-25T08:04:02.068637316Z"
+    },
+    {
+      "proposal_id": "122",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterERC20Proposal",
+        "title": "Register Celer Assets (USDC, USDT, WETH, DAI, WBTC) as IBC Tokens",
+        "description": "## Author\\nEvmos DAO (Twitter: [@EvmosDAO](https://twitter.com/EvmosDAO), TG: [DAO News](https://t.me/EvmosDAO)) \\n\\n## Description\\nThis proposal is going to register Evmos-ERC20 Celer assets as IBC tokens. Once converted they can be used within the broader IBC ecosystem. This will allow users to bridge out/into Ethereum (and other EVM chains) through the Celer Bridge on Evmos. \\n## What is Celer\\nCeler cBridge is a decentralized and non-custodial asset bridge that supports 110+ tokens across 30+ blockchains and layer-2 rollups. Built on top of the Celer Inter-chain Message Framework, cBridge has processed ~B cross-chain asset transfer volume on 30+ blockchains for more than 160K unique users, and is quickly growing and expanding into more blockchains and layer-2s.\\n\\n## Contracts to Register\\nPlease verify each contract address on escan.live before casting your vote. If you cannot verify the correctness of this proposal please abstain. \\n- usdc: 0xe46910336479F254723710D57e7b683F3315b22B\\n- usdt: 0xb72A7567847abA28A2819B855D7fE679D4f59846\\n- weth: 0x153A59d48AcEAbedbDCf7a13F67Ae52b434B810B\\n- dai: 0x940dAAbA3F713abFabD79CdD991466fe698CBe54\\n- wbtc: 0xb98e169C37ce30Dd47Fdad1f9726Fb832191e60b\\n\\n## Testing this Proposal\\nThe main functionality of this proposal was tested on the testnet. \\n- A dummy ERC-20 token contracts was registered with this [proposal](https://testnet.mintscan.io/evmos-testnet/proposals/157)\\n- The DVT token was successfully converted with this [tx](https://testnet.mintscan.io/evmos-testnet/txs/2965A1A317B43E503B37AB0315C963E4C8B378A5B76C982F729E26C15C49C802)\\n- IBC tokens were transferred to Osmosis testnet with this [tx](https://testnet.mintscan.io/osmosis-testnet/txs/B7CDBDED7A1A373BDA84F86CB32707E4F26B9025A5CB14C4640D6035F05234B8)",
+        "erc20addresses": [
+          "0xe46910336479F254723710D57e7b683F3315b22B",
+          "0xb72A7567847abA28A2819B855D7fE679D4f59846",
+          "0x153A59d48AcEAbedbDCf7a13F67Ae52b434B810B",
+          "0x940dAAbA3F713abFabD79CdD991466fe698CBe54",
+          "0xb98e169C37ce30Dd47Fdad1f9726Fb832191e60b"
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-02-23T09:20:30.381237743Z",
+      "deposit_end_time": "2023-02-26T09:20:30.381237743Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3500100000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-02-23T10:00:38.862841976Z",
+      "voting_end_time": "2023-02-28T10:00:38.862841976Z"
+    },
+    {
+      "proposal_id": "123",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "APTOS Airdrop for COSMOS stakers",
+        "description": "According to [tokenomics][1] stakers can receive an airdrop. [Claim airdrop here][2] ( Valid until 10.04.2023 )\n\nSnapshot: 10.02.2023\n\nConditions: The minimum amount of each token is the equivalent of $200 at the time of the snapshot. \nTokens are allocated in proportion to the balance of every blockchain address accessible during the snapshot time.\n\nSupported networks:\n\n•ATOM \n•OSMO\n•LUNA\n•LUNC\n•AXL\n•KUJI\n•AKT\n•AXL\n•KUJI\n•SCRT\n•STARS\n•CMDX\n•IXO\n•MNTL\n• GRAV\n•EVMOS\n\n\n\n[1]: https://cosmos.network/learn/faq\n[2]: https://keplr-wallet.at"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-02-23T22:15:11.475547884Z",
+      "deposit_end_time": "2023-02-26T22:15:11.475547884Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "100000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
     }
   ],
   "pagination": {
