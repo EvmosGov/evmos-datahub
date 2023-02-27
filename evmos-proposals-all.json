@@ -3849,31 +3849,6 @@
       "voting_end_time": "2023-02-28T10:00:38.862841976Z"
     },
     {
-      "proposal_id": "123",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "APTOS Airdrop for COSMOS stakers",
-        "description": "According to [tokenomics][1] stakers can receive an airdrop. [Claim airdrop here][2] ( Valid until 10.04.2023 )\n\nSnapshot: 10.02.2023\n\nConditions: The minimum amount of each token is the equivalent of $200 at the time of the snapshot. \nTokens are allocated in proportion to the balance of every blockchain address accessible during the snapshot time.\n\nSupported networks:\n\n•ATOM \n•OSMO\n•LUNA\n•LUNC\n•AXL\n•KUJI\n•AKT\n•AXL\n•KUJI\n•SCRT\n•STARS\n•CMDX\n•IXO\n•MNTL\n• GRAV\n•EVMOS\n\n\n\n[1]: https://cosmos.network/learn/faq\n[2]: https://keplr-wallet.at"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-02-23T22:15:11.475547884Z",
-      "deposit_end_time": "2023-02-26T22:15:11.475547884Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "3260100000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
       "proposal_id": "124",
       "content": {
         "@type": "/cosmos.gov.v1beta1.TextProposal",
