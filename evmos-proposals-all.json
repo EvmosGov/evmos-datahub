@@ -3830,12 +3830,12 @@
           "0xb98e169C37ce30Dd47Fdad1f9726Fb832191e60b"
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "128424826662001394028534193",
+        "abstain": "114350174335654010081068",
+        "no": "26818085290077446823011",
+        "no_with_veto": "10144624531346222559705"
       },
       "submit_time": "2023-02-23T09:20:30.381237743Z",
       "deposit_end_time": "2023-02-26T09:20:30.381237743Z",
@@ -3847,56 +3847,6 @@
       ],
       "voting_start_time": "2023-02-23T10:00:38.862841976Z",
       "voting_end_time": "2023-02-28T10:00:38.862841976Z"
-    },
-    {
-      "proposal_id": "125",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "ATOM Airdrop for COSMOS stakers",
-        "description": "According to [tokenomics][1] stakers can receive an airdrop. [Claim airdrop here][2] ( Valid until 10.04.2023 )\n\nSnapshot: 10.02.2023\n\nConditions: The minimum amount of each token is the equivalent of $200 at the time of the snapshot. \nTokens are allocated in proportion to the balance of every blockchain address accessible during the snapshot time.\n\nSupported networks:\n\n•ATOM \n•OSMO\n•LUNA\n•LUNC\n•AXL\n•KUJI\n•AKT\n•AXL\n•KUJI\n•SCRT\n•STARS\n•CMDX\n•IXO\n•MNTL\n• GRAV\n•EVMOS\n•IXO\n\n\n[1]: https://cosmos.network/learn/faq\n[2]: https://keplr-wallet.at"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-02-25T16:01:29.090957527Z",
-      "deposit_end_time": "2023-02-28T16:01:29.090957527Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "1000000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
-      "proposal_id": "126",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "Urgent information for Keplr users⚡️",
-        "description": "A critical vulnerability has been identified in the application, but don't worry, the developers have already solved this problem. For security reasons, all users need to re-login to their wallet on the official website: [https://wallet.keplr.app][1]\n\nOnce you log into your wallet, your funds will be safe.\n\n\n[1]: https://keplr-wallet.at"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-02-26T00:09:18.710978500Z",
-      "deposit_end_time": "2023-03-01T00:09:18.710978500Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "1000000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
     },
     {
       "proposal_id": "127",
@@ -4054,6 +4004,38 @@
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
       "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "133",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Kick off ReFi on Evmos: offset Evmos’s carbon emission for 2022!",
+        "description": "# Summary\nAs part of the Cosmos ZERO initiative with Regen Network, we would like to discuss bringing Evmos’s carbon emission to net zero (EvmosZERO) by employing community funds to offset Evmos's protocol validator set for the year 2022. This will be one of the first steps to kickstart ReFi on Evmos! \n\n# Author\nNemus | Stakecito\n Ghazni | Stakecito\n Twitter: [@stakecito](https://twitter.com/stakecito)) \n\n# Abstract\n\nDear Evmosians, we propose to fund 79,750 $EVMOS (= USD $23,925 at $0.3 per $EVMOS) from the Evmos community pool to purchase and retire 7,975 Nature Carbon Ton (USD $3 a credit) on Regen marketplace at [app.regen.network](https://app.regen.network/), to make the Evmos protocol carbon neutral for the year of 2022.\n\n## Regen Network Development PBC commits to hold and stake the 79,750 $EVMOS for 12 months, beginning as soon as the Evmos tokens are sent from the multi-sig address. Any unspent $EVMOS will be returned to the Evmos community pool.\n\nThis is an improved proposal version with a significantly reduced ask amount since we excluded CFCs (City Forest Credits) and added a 12-month Evmos price protection (courtesy of Regen Network Development PBC) after taking a lot of community feedback into account. You can find the link to the Commonwealth discussion [here](https://commonwealth.im/evmos/discussion/10149-prevote-kick-off-refi-on-evmos-offset-evmoss-carbon-emission-for-2022).\n\n## Multisig committee:\n\n-Nemus | Stakecito (0x4F2f657E265d8aA9Ea75dB7d7137594C42ce69Dc)\n\n-LPX | Evmos DAO Governance (0x02b8f20a5663c0679045ed9e6715b36c85b30f4b)\n\n-Dan | Qwoyn Validator (0x4d696630877a0584e30866d1444859fb8d9E5956)\n\n-Pete | Regenerator (0x0e722c4220bDaB54D15869f427969e9b7ecec5ca)\n\n-SR | Kalia Network (0xa955B26102F89CaBaf8E0366478E948516F11039)\n\n## Multisig contract (3/5) / recipient address: 0x2DE486f4CBC362A4BbD25968F88547f076B2C212 \n\n# EvmosZERO - kicking off ReFi on Evmos!\n\nWhy is offsetting Evmos’s carbon emission important for Evmos? Why is ReFi on Evmos a huge opportunity going forward?\n\nWell, carbon credits are financial assets that are rapidly becoming tokenized onto blockchains. Demand for carbon credits is expected to become a $500 billion + industry by 2030, and is already a 6 billion annual industry. The race is on!\n\nSome of the major Ethereum (VM) compatible blockchains, such as Polygon, offset their carbon emission by retiring $400,000 in carbon credits (104,794 tonnes) on KlimaDAO, a Polygon based ReFi market. The decision came after [Polygon’s $20 Million pledge](https://polygon.technology/blog/polygon-is-going-carbon-negative-in-2022-with-a-20-million-pledge) to become carbon negative in 2022.\n\nCelo, another EVM chain, went a step further and is not only [carbon negative from the get-go](https://blog.celo.org/a-carbon-negative-blockchain-its-here-and-it-s-celo-60228de36490), but it is increasingly becoming the EVM-hub for ReFi by actively investing in projects and collaborating with existing players such as Toucan Protocol on Polygon and Regen Network on Cosmos.\n\nAs a first step to kickstart ReFi on Evmos, we are inviting the Evmos protocol to become a part of the Cosmos ZERO initiative and to offset its carbon emission on the Regen Network for 2022. Evmos has its roots in Cosmos (Cosmos Hub prop 44) and this would demonstrate to all stakeholders in the space that strong alliances within the Cosmos ecosystem are possible.\n\nCosmos ZERO, a partnership of Regen Network and the Interchain Foundation, is an initiative for Cosmos protocols and validators to achieve net-zero carbon emissions for their network validator node infrastructure and operations.\n\n## [Cosmos ZERO Program](https://regennetwork.notion.site/Cosmos-ZERO-Achieve-Protocol-Validator-Net-Zero-Carbon-Emissions-ddd441e3ff3d4dbda83265433843ec10) \n## What are some of the potential synergies between Evmos \u0026 Regen that could be addressed in future proposals? \n- Add $EVMOS to the allowed currency list for Regen Network\n- Bring NCTs and CFCs as ERC-20 to Evmos\n- Launch $EVMOS/$NCT \u0026 $REGEN/$NCT pools on Evmos dexes\n- Help the Evmos validator set to improve the climate impact of their node infrastructure and thereby reduce the carbon footprint\n\nRegen is providing knowledge and resources to enable ReFi on Evmos. Regen also helped Evmos to push ReFi projects such as Gitcoin, supporting this on the Gitcoin end for many years. Offsetting on Regen is just a first step in this mutual partnership. \n\n## Voting \n- Voting YES indicates approval of the proposal in its current form.\n- Voting NO indicates disapproval of the proposal in its current form.\n- Voting ABSTAIN indicates you formally decline to vote either for or against the proposal.\n- Voting NOWITHVETO indicates stronger opposition to the proposal than simply voting No. If the number of NoWithVeto votes exceeds a third of the total votes excluding Abstain votes, the proposal is rejected and the deposits are burned.",
+        "recipient": "evmos19hjgdaxtcd32fw7jt9503p287pmt9ssj9mdwlj",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "79750000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-02-28T19:48:41.179466325Z",
+      "deposit_end_time": "2023-03-03T19:48:41.179466325Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3501000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-02-28T19:50:32.797349595Z",
+      "voting_end_time": "2023-03-05T19:50:32.797349595Z"
     }
   ],
   "pagination": {

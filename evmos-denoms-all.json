@@ -25,6 +25,121 @@
       "uri_hash": ""
     },
     {
+      "description": "Cosmos coin token representation of 0x153A59d48AcEAbedbDCf7a13F67Ae52b434B810B",
+      "denom_units": [
+        {
+          "denom": "erc20/0x153A59d48AcEAbedbDCf7a13F67Ae52b434B810B",
+          "exponent": 0,
+          "aliases": [
+          ]
+        },
+        {
+          "denom": "WrappedEtherCeler",
+          "exponent": 18,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "erc20/0x153A59d48AcEAbedbDCf7a13F67Ae52b434B810B",
+      "display": "WrappedEtherCeler",
+      "name": "erc20/0x153A59d48AcEAbedbDCf7a13F67Ae52b434B810B",
+      "symbol": "ceWETH",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
+      "description": "Cosmos coin token representation of 0x940dAAbA3F713abFabD79CdD991466fe698CBe54",
+      "denom_units": [
+        {
+          "denom": "erc20/0x940dAAbA3F713abFabD79CdD991466fe698CBe54",
+          "exponent": 0,
+          "aliases": [
+          ]
+        },
+        {
+          "denom": "DaiStablecoinCeler",
+          "exponent": 18,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "erc20/0x940dAAbA3F713abFabD79CdD991466fe698CBe54",
+      "display": "DaiStablecoinCeler",
+      "name": "erc20/0x940dAAbA3F713abFabD79CdD991466fe698CBe54",
+      "symbol": "ceDAI",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
+      "description": "Cosmos coin token representation of 0xb72A7567847abA28A2819B855D7fE679D4f59846",
+      "denom_units": [
+        {
+          "denom": "erc20/0xb72A7567847abA28A2819B855D7fE679D4f59846",
+          "exponent": 0,
+          "aliases": [
+          ]
+        },
+        {
+          "denom": "TetherUSDCeler",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "erc20/0xb72A7567847abA28A2819B855D7fE679D4f59846",
+      "display": "TetherUSDCeler",
+      "name": "erc20/0xb72A7567847abA28A2819B855D7fE679D4f59846",
+      "symbol": "ceUSDT",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
+      "description": "Cosmos coin token representation of 0xb98e169C37ce30Dd47Fdad1f9726Fb832191e60b",
+      "denom_units": [
+        {
+          "denom": "erc20/0xb98e169C37ce30Dd47Fdad1f9726Fb832191e60b",
+          "exponent": 0,
+          "aliases": [
+          ]
+        },
+        {
+          "denom": "WrappedBTCCeler",
+          "exponent": 8,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "erc20/0xb98e169C37ce30Dd47Fdad1f9726Fb832191e60b",
+      "display": "WrappedBTCCeler",
+      "name": "erc20/0xb98e169C37ce30Dd47Fdad1f9726Fb832191e60b",
+      "symbol": "ceWBTC",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
+      "description": "Cosmos coin token representation of 0xe46910336479F254723710D57e7b683F3315b22B",
+      "denom_units": [
+        {
+          "denom": "erc20/0xe46910336479F254723710D57e7b683F3315b22B",
+          "exponent": 0,
+          "aliases": [
+          ]
+        },
+        {
+          "denom": "USDCoinCeler",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "erc20/0xe46910336479F254723710D57e7b683F3315b22B",
+      "display": "USDCoinCeler",
+      "name": "erc20/0xe46910336479F254723710D57e7b683F3315b22B",
+      "symbol": "ceUSDC",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
       "description": "Staking derivative stATOM for staked ATOM by Stride",
       "denom_units": [
         {
