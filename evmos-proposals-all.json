@@ -4036,6 +4036,38 @@
       ],
       "voting_start_time": "2023-02-28T19:50:32.797349595Z",
       "voting_end_time": "2023-03-05T19:50:32.797349595Z"
+    },
+    {
+      "proposal_id": "134",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "[ECP-2B] Formalizing and Funding of the Community Mod \u0026 Support Workstream",
+        "description": "# ECP-2B: Formalizing and Funding of the Community Mod \u0026 Support Workstream \n\n## Author\n- [Evmos DAO](https://twitter.com/EvmosDAO) - Governance Workstream\n- [tlopplot](https://t.me/tlopplot) - CMS Workstream\n\n## Proposal\nThis proposal is for funding the Community Moderation \u0026 Support Workstream for the on-chain funding period of March 2023 through August 2023.\n- Please refer to the [full proposal here](https://github.com/EvmosGov/proposals/blob/main/ECP/2B/main.md). Before you cast your vote, please read the proposal in its entirety.\n- The proposal was also discussed on [Commonwealth](https://commonwealth.im/evmos/discussion/10119-ecp2b-formalizing-and-funding-of-the-community-mod-support-workstream)",
+        "recipient": "evmos1c0z326g3haflz2gnk68q2vsfv5mtxpsqgqgd0v",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "799270000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-03-01T17:44:39.162393331Z",
+      "deposit_end_time": "2023-03-04T17:44:39.162393331Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3515100000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-03-01T20:26:53.059165890Z",
+      "voting_end_time": "2023-03-06T20:26:53.059165890Z"
     }
   ],
   "pagination": {
