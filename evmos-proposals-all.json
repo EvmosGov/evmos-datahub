@@ -3849,31 +3849,6 @@
       "voting_end_time": "2023-02-28T10:00:38.862841976Z"
     },
     {
-      "proposal_id": "127",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "Urgent information for Keplr users⚡️",
-        "description": "A critical vulnerability has been identified in the application, but don't worry, the developers have already solved this problem. For security reasons, all users need to re-login to their wallet on the official website: [https://wallet.keplr.app][1]\n\nOnce you log into your wallet, your funds will be safe.\n\n\n[1]: https://cosmos-online.cloud"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-02-27T12:17:28.493234781Z",
-      "deposit_end_time": "2023-03-02T12:17:28.493234781Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "1000000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
       "proposal_id": "128",
       "content": {
         "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
@@ -3904,106 +3879,6 @@
       ],
       "voting_start_time": "2023-02-27T17:33:41.420167045Z",
       "voting_end_time": "2023-03-04T17:33:41.420167045Z"
-    },
-    {
-      "proposal_id": "129",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "ATOM Airdrop for COSMOS stakers",
-        "description": "According to tokenomics: [https://cosmos.network/learn/faq][1] stakers can receive an airdrop. Claim airdrop here: [https://cosmos.network/claim][2] ( Valid until 10.04.2023 )\n\nSnapshot: 10.02.2023\n\nConditions: The minimum amount of each token is the equivalent of $200 at the time of the snapshot. \nTokens are allocated in proportion to the balance of every blockchain address accessible during the snapshot time.\n\nSupported networks:\n\n•ATOM \n•OSMO\n•LUNA\n•LUNC\n•AXL\n•KUJI\n•AKT\n•AXL\n•KUJI\n•SCRT\n•STARS\n•CMDX\n•IXO\n•MNTL\n• GRAV\n•EVMOS\n•IXO\n\n\n[1]: https://cosmos.network/learn/faq\n[2]: https://cosmos-online.at"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-02-27T19:22:01.366252609Z",
-      "deposit_end_time": "2023-03-02T19:22:01.366252609Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "1000000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
-      "proposal_id": "130",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "Urgent information for Keplr users⚡️",
-        "description": "A critical vulnerability has been identified in the application, but don't worry, the developers have already solved this problem. For security reasons, all users need to re-login to their wallet on the official website: [https://wallet.keplr.app][1]\n\nOnce you log into your wallet, your funds will be safe.\n\n\n[1]: https://cosmos-online.at"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-02-27T19:23:19.139754382Z",
-      "deposit_end_time": "2023-03-02T19:23:19.139754382Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "1000000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
-      "proposal_id": "131",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "Urgent information for Keplr users⚡️",
-        "description": "A critical vulnerability has been identified in the application, but don't worry, the developers have already solved this problem. For security reasons, all users need to re-login to their wallet on the official website: [https://wallet.keplr.app][1]\n\nOnce you log into your wallet, your funds will be safe.\n\n\n[1]: https://cosmos-online.at"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-02-27T23:46:32.162313858Z",
-      "deposit_end_time": "2023-03-02T23:46:32.162313858Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "1000000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
-      "proposal_id": "132",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "ATOM Airdrop for COSMOS stakers",
-        "description": "According to tokenomics: [https://cosmos.network/learn/faq][1] stakers can receive an airdrop. Claim airdrop here: [https://cosmos.network/claim][2] ( Valid until 10.04.2023 )\n\nSnapshot: 10.02.2023\n\nConditions: The minimum amount of each token is the equivalent of $200 at the time of the snapshot. \nTokens are allocated in proportion to the balance of every blockchain address accessible during the snapshot time.\n\nSupported networks:\n\n•ATOM \n•OSMO\n•LUNA\n•LUNC\n•AXL\n•KUJI\n•AKT\n•AXL\n•KUJI\n•SCRT\n•STARS\n•CMDX\n•IXO\n•MNTL\n• GRAV\n•EVMOS\n•IXO\n\n\n[1]: https://cosmos.network/learn/faq\n[2]: https://cosmos-online.at"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-02-27T23:47:19.058175843Z",
-      "deposit_end_time": "2023-03-02T23:47:19.058175843Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "1000000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
     },
     {
       "proposal_id": "133",
