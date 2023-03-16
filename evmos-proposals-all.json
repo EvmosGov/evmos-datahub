@@ -3952,12 +3952,12 @@
         "description": "## Author\\nEvmos DAO (Twitter: [@EvmosDAO](https://twitter.com/EvmosDAO), TG: [DAO News](https://t.me/EvmosDAO))\\n\\n## Reasoning\\nThe interpretation of the origin denomination on Evmos changed from \"factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk\" to \"factory:kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7:uusk\". This generates a different IBC denomination and makes the current registered contract for USK obsolete.\\n\\n## Risks\\nNo risks. There aren't any converted USK on the EVM. Check it out yourself [0x13974cf36984216C90D1F4FC815C156092feA396](https://escan.live/address/0x13974cf36984216c90d1f4fc815c156092fea396)",
         "token": "0x13974cf36984216C90D1F4FC815C156092feA396"
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "119599582764872677106141560",
+        "abstain": "18676536804484183279348970",
+        "no": "264024224557345144444429",
+        "no_with_veto": "2263301217153781448738"
       },
       "submit_time": "2023-03-10T10:47:23.386242051Z",
       "deposit_end_time": "2023-03-13T10:47:23.386242051Z",
