@@ -4001,6 +4001,38 @@
       ],
       "voting_start_time": "2023-03-24T09:29:25.352645103Z",
       "voting_end_time": "2023-03-29T09:29:25.352645103Z"
+    },
+    {
+      "proposal_id": "137",
+      "content": {
+        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
+        "title": "Evmos Mainnet v12.1.0 Upgrade",
+        "description": "## Description\\n\\n### Author\\n\\nAustin Chandra, Evmos Core Team\\n\\n### Software upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos mainnet software upgrade at block height [12303000](https://www.mintscan.io/evmos/blocks/12303000) (around 4pm UTC Fri., 31st Mar. 2023) from its current version [v11.0.2](https://github.com/evmos/evmos/releases/v11.0.2) to [v12.1.0](https://github.com/evmos/evmos/releases/v12.1.0). This proposal has a voting time of 120 hours.\\n\\n### Motivation\\n\\nBy proposing a scheduled upgrade, we want to implement a smooth and transparent upgrade process, that is first proposed on testnet and then on mainnet. Software upgrades generally aim to improve current performance and add new features to the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validate/upgrades).\\n\\n### Impact\\n\\nEvmos v12.1.0 contains the following changes and enhancements:\\n\\n- Enable basic implementation of Fee Subscription to pay for transaction fees with unclaimed staking rewards\\n- Support multiple message schemas with EIP-712\\n- Remove Ethermint dependency by migrating relevant logic to the Evmos codebase to allow for quicker development iteration\\n- Restrict EVM module to work only with Evmos chain\\n- Upgrade Tendermint to [v0.34.26](https://github.com/informalsystems/tendermint/releases/tag/v0.34.26) and Cosmos SDK to [v0.46.10](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.46.10)\\n- Grant full amount of airdropped tokens to users affected by an airdrop [early decay bug](https://github.com/evmos/decay-analysis)\\n- Many small improvements and refactors\\n\\nA full changelog can be found [here](https://github.com/evmos/evmos/releases/v12.1.0).\\n\\n### Testing\\n\\nThe Evmos core team created an End-to-End testing suite that performs the software upgrade locally. These tests have been completed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/evmos/evmos/blob/main/tests/e2e/README.md). Additionally, the upgrade has been manually performed on a local node.\\nOn top of the upgrade tests, the Evmos team runs performance tests to monitor the impact of new versions.\\n\\n### Discussion\\nPlease follow and discuss this proposal using the official [discussion on Commonwealth](https://commonwealth.im/evmos/discussion/10557-evmos-network-upgrade-to-v1210).",
+        "plan": {
+          "name": "v12.1.0",
+          "time": "0001-01-01T00:00:00Z",
+          "height": "12303000",
+          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/evmos/evmos/releases/download/v12.1.0/evmos_12.1.0_Darwin_arm64.tar.gz?checksum=6a7e8da31b741dca5b32f780fcb63da1e857c09654389f5e57a36eaaecc118b3\",\"darwin/amd64\":\"https://github.com/evmos/evmos/releases/download/v12.1.0/evmos_12.1.0_Darwin_amd64.tar.gz?checksum=73fcdbccd5598dd6e04a135da9efc1b99e82e8fe6794932d3f3f8e21689557b9\",\"linux/arm64\":\"https://github.com/evmos/evmos/releases/download/v12.1.0/evmos_12.1.0_Linux_arm64.tar.gz?checksum=d9f03cf55f49f401d8e9ed95fae437c6a258d5194bf9d0ea6cc37102d47503a0\",\"linux/amd64\":\"https://github.com/evmos/evmos/releases/download/v12.1.0/evmos_12.1.0_Linux_amd64.tar.gz?checksum=67422bfea000912c5d256ffc9e40a281c0a344ff34a3c59ef302a00e7f5eaf19\"}}",
+          "upgraded_client_state": null
+        }
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-03-25T06:32:19.471863265Z",
+      "deposit_end_time": "2023-03-28T06:32:19.471863265Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "100000000000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
     }
   ],
   "pagination": {
