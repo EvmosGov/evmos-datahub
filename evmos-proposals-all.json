@@ -4016,7 +4016,7 @@
           "upgraded_client_state": null
         }
       },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
       "final_tally_result": {
         "yes": "0",
         "abstain": "0",
@@ -4028,11 +4028,11 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "100000000000000000000"
+          "amount": "3500000066426110055736"
         }
       ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
+      "voting_start_time": "2023-03-26T08:29:40.577148618Z",
+      "voting_end_time": "2023-03-31T08:29:40.577148618Z"
     }
   ],
   "pagination": {
