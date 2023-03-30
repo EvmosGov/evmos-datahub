@@ -3984,12 +3984,12 @@
           "upgraded_client_state": null
         }
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_REJECTED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "18598639384614395863518533",
+        "abstain": "1068089954294745073800009",
+        "no": "136854036190791769545760649",
+        "no_with_veto": "165053550465892285621724"
       },
       "submit_time": "2023-03-24T03:25:22.268670498Z",
       "deposit_end_time": "2023-03-27T03:25:22.268670498Z",
