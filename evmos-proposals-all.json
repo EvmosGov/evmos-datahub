@@ -4097,6 +4097,34 @@
       ],
       "voting_start_time": "2023-04-18T13:57:39.180025806Z",
       "voting_end_time": "2023-04-23T13:57:39.180025806Z"
+    },
+    {
+      "proposal_id": "144",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterERC20Proposal",
+        "title": "Register NEOK Token as an IBC Coin",
+        "description": "# Register NEOK Token as an IBC Coin\n\n## Author\n\nNEOKingdom DAO OÜ ([Estonian Business Registry](https://ariregister.rik.ee/eng/company/16638166/Neokingdom-DAO-O%C3%9C), [GitHub](https://github.com/NeokingdomDAO), [Discord](https://discord.com/invite/Fb63MbqFFe), [Website](https://neokingdom.org/))\n\nThis proposal has been reviewed by lpx@EVMOS DAO.\n\n## Summary\n\nNeokingdom DAO is an innovative Estonian company committed to developing a comprehensive ecosystem for legally compliant DAOs. Our vision is to utilize EVMOS as the underlying blockchain technology to foster a new generation of companies, revolutionizing the way we collaborate and conduct business. By registering our NEOK token as an IBC coin, we aim to enhance liquidity and attract a diverse user base. In doing so, we strive to create value for the broader EVMOS community and contribute to the network's growth and success.\n\nOur project has a strong history with the EVMOS community, as Neokingdom DAO was awarded the second prize in the [second prize in the web3 track in 2022](https://devpost.com/software/teledisko-dao). Since then, we have kept building and refining our vision. And here we are today, excited to invite the EVMOS community to vote for our proposal.\n\n## Assets for RegisterCoin as ERC-20\n\nThe following asset is being requested for registration:\n\n- NEOKingdom DAO (NEOK) token: [0x655ecb57432cc1370f65e5dc2309588b71b473a9](https://escan.live/token/0x655ecb57432cc1370f65e5dc2309588b71b473a9).\n\n## Audit\n\nTo ensure the security and reliability of our smart contracts, NEOKingdom DAO has undergone a thorough audit process. Our contracts have been audited by SolidProof, a reputable smart contract auditing company. The audit report can be found [here](https://github.com/solidproof/projects/blob/e24f57897d081e5e0aeecf0a553a317533a9cb8f/2023/NeokingdomDAO/SmartContract_Audit_Solidproof_NeoKingdomDAO.pdf).\n\n## About NEOKingdom DAO\n\nNEOKingdom DAO, a [limited Estonian company](https://ariregister.rik.ee/eng/company/16638166/Neokingdom-DAO-O%C3%9C), is dedicated to developing a comprehensive legal and technical framework for legally compliant DAOs in Europe. This initiative fosters a thriving ecosystem of interconnected businesses utilizing the DAO model, aiming to empower contributors by granting ownership and governance rights to those actively participating.\n\nThe NEOK token is central to this ecosystem, providing ownership, voting, and dividend rights within Neokingdom DAO and extending these rights to all associated DAOs.\n\nEmbracing technology-empowered organizations called DAOcracies, NEOKingdom DAO creates \"neokingdoms\"—DAOs wrapped into Estonian limited liability companies. By leveraging the EVMOS community's blockchain technology, the Framework is built on the Ethereum Virtual Machine (EVM) and tailored to individual neokingdoms. Users vote and interact with NEOkingdom DAO or neokingdoms through a custom-developed progressive web app.\n\nThe founders initially tested the Framework by transforming their company, teledisko GmbH, into the first neokingdom, refining it for wider application. Currently, two companies use the Framework—[teledisko DAO OÜ](https://ariregister.rik.ee/eng/company/16374990/teledisko-DAO-O%C3%9C) and [NEOKingdom DAO OÜ](https://ariregister.rik.ee/eng/company/16638166/Neokingdom-DAO-O%C3%9C)—with 3-5 more expected to join as neokingdoms in 2023.\n\nMore information about our tokenomics and technical implementation can be found in our [Technical Overview Document](https://github.com/NeokingdomDAO/contracts/blob/f121b78ff2f5eeb62b833c73d2ec91e2515c2147/docs/technical-overview.md).",
+        "erc20addresses": [
+          "0x655ecb57432cc1370f65e5dc2309588b71b473a9"
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-05-02T21:36:21.858396393Z",
+      "deposit_end_time": "2023-05-05T21:36:21.858396393Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3500766000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-05-02T22:29:25.119995217Z",
+      "voting_end_time": "2023-05-07T22:29:25.119995217Z"
     }
   ],
   "pagination": {
