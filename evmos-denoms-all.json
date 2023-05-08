@@ -48,6 +48,29 @@
       "uri_hash": ""
     },
     {
+      "description": "Cosmos coin token representation of 0x655ecB57432CC1370f65e5dc2309588b71b473A9",
+      "denom_units": [
+        {
+          "denom": "erc20/0x655ecB57432CC1370f65e5dc2309588b71b473A9",
+          "exponent": 0,
+          "aliases": [
+          ]
+        },
+        {
+          "denom": "NEOKingdomDAO",
+          "exponent": 18,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "erc20/0x655ecB57432CC1370f65e5dc2309588b71b473A9",
+      "display": "NEOKingdomDAO",
+      "name": "erc20/0x655ecB57432CC1370f65e5dc2309588b71b473A9",
+      "symbol": "NEOK",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
       "description": "Cosmos coin token representation of 0x940dAAbA3F713abFabD79CdD991466fe698CBe54",
       "denom_units": [
         {
