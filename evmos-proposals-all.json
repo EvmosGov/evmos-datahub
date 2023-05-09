@@ -4125,6 +4125,249 @@
       ],
       "voting_start_time": "2023-05-02T22:29:25.119995217Z",
       "voting_end_time": "2023-05-07T22:29:25.119995217Z"
+    },
+    {
+      "proposal_id": "145",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "ERC20 registration for rETH, wstETH, Pepe, stINJ, QCK, qATOM, qOSMO, SCRT, AXL",
+        "description": "# Mass Token Registration Proposal\\n\\n## Author\\n\\n- Evmos DAO ([Telegram](https://t.me/evmosdao), [Twitter](https://twitter.com/EvmosDAO))\\n\\n## ERC20 registration for rETH, wstETH, Pepe, stINJ, QCK, qATOM, qOSMO, SCRT, AXL\\n\\nWhen a proposal is initiated for an existing native Cosmos Coin, the erc20 module will deploy a factory ERC20 contract, representing the ERC20 token for the token pair. This enable access to DeFi protocols, NFT and new applications that are based on ERC-20.\\n\\n## Before Voting\\n\\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https://commonwealth.im/evmos/discussion/9787-multiple-registrations-for-erc20-including-assets-from-stride-secret-and-crescent-network)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/modules/erc20/)\\n\\n## Verify Metadata\\n\\nBefore you cast your vote please review the following [metadata](https://evmos-dao.notion.site/Mass-Token-Registration-Proposal-a6f10089391f4b8ba3bf9b111e7174b0). If you cannot verify the correctness of this proposal, please abstain. Click [here](https://evmos-dao.notion.site/Mass-Token-Registration-Proposal-a6f10089391f4b8ba3bf9b111e7174b0) to open the full metadata.",
+        "metadata": [
+          {
+            "description": "Rocket Pool staking derivative rETH for staked ETH on Axelar",
+            "denom_units": [
+              {
+                "denom": "ibc/6A3538834873D16F00D0268B295A8D6FD9B005952787AA14726D0013A51042AC",
+                "exponent": 0,
+                "aliases": [
+                  "reth-wei"
+                ]
+              },
+              {
+                "denom": "axlreth",
+                "exponent": 18,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/6A3538834873D16F00D0268B295A8D6FD9B005952787AA14726D0013A51042AC",
+            "display": "axlreth",
+            "name": "Rocket Pool staked ETH on Axelar",
+            "symbol": "axlRETH",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "Lido staking derivative wstETH for staked ETH on Axelar",
+            "denom_units": [
+              {
+                "denom": "ibc/43BD3A576550CDCD183BC093AEB610B3C2057AD12BA3C27D67AE9F4BCA74F2C8",
+                "exponent": 0,
+                "aliases": [
+                  "wsteth-wei"
+                ]
+              },
+              {
+                "denom": "axlwsteth",
+                "exponent": 18,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/43BD3A576550CDCD183BC093AEB610B3C2057AD12BA3C27D67AE9F4BCA74F2C8",
+            "display": "axlwsteth",
+            "name": "Lido staked ETH on Axelar",
+            "symbol": "axlWSTETH",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "Pepe on Axelar",
+            "denom_units": [
+              {
+                "denom": "ibc/26E6508A1757E12B15A087E951F5D35E73CF036F0D97BC809E1598D1DD870BED",
+                "exponent": 0,
+                "aliases": [
+                  "pepe-wei"
+                ]
+              },
+              {
+                "denom": "axlpepe",
+                "exponent": 18,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/26E6508A1757E12B15A087E951F5D35E73CF036F0D97BC809E1598D1DD870BED",
+            "display": "axlpepe",
+            "name": "Pepe on Axelar",
+            "symbol": "axlPEPE",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "Staking derivative stINJ for staked INJ by Stride",
+            "denom_units": [
+              {
+                "denom": "ibc/4FCDD6D71CAB4F6BBEAB781D036977E1158075297671345055BC342D46819640",
+                "exponent": 0,
+                "aliases": [
+                  "stinj"
+                ]
+              },
+              {
+                "denom": "stINJ",
+                "exponent": 18,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/4FCDD6D71CAB4F6BBEAB781D036977E1158075297671345055BC342D46819640",
+            "display": "stINJ",
+            "name": "Stride Staked Inj",
+            "symbol": "stINJ",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "QCK - native token of Quicksilver",
+            "denom_units": [
+              {
+                "denom": "ibc/FCA18B0C0D1236E203D1AE09634A3F33E8AC31707CD59A74A437A903231C653C",
+                "exponent": 0,
+                "aliases": [
+                  "uqck"
+                ]
+              },
+              {
+                "denom": "qck",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/FCA18B0C0D1236E203D1AE09634A3F33E8AC31707CD59A74A437A903231C653C",
+            "display": "qck",
+            "name": "Quicksilver",
+            "symbol": "QCK",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "Quicksilver Liquid Staked ATOM",
+            "denom_units": [
+              {
+                "denom": "ibc/28F9F0420534AE42F7D220B04518A3A45A7F40A0855A1C353CB4BB7223A70F5A",
+                "exponent": 0,
+                "aliases": [
+                  "uqatom"
+                ]
+              },
+              {
+                "denom": "qatom",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/28F9F0420534AE42F7D220B04518A3A45A7F40A0855A1C353CB4BB7223A70F5A",
+            "display": "qatom",
+            "name": "Quicksilver Liquid Staked ATOM",
+            "symbol": "qATOM",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "Quicksilver Liquid Staked OSMO",
+            "denom_units": [
+              {
+                "denom": "ibc/6230C2923C20C318C1002CE04856118621FE2A220F99EBA0EC2066D5DDFF2152",
+                "exponent": 0,
+                "aliases": [
+                  "uqosmo"
+                ]
+              },
+              {
+                "denom": "qosmo",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/6230C2923C20C318C1002CE04856118621FE2A220F99EBA0EC2066D5DDFF2152",
+            "display": "qosmo",
+            "name": "Quicksilver Liquid Staked OSMO",
+            "symbol": "qOSMO",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "The native token of Secret Network",
+            "denom_units": [
+              {
+                "denom": "ibc/DC74BE775F57FF32C3C6E14ACD86339DB50632246F6482C81CF5FCE64C0AC5C7",
+                "exponent": 0,
+                "aliases": [
+                  "uscrt"
+                ]
+              },
+              {
+                "denom": "scrt",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/DC74BE775F57FF32C3C6E14ACD86339DB50632246F6482C81CF5FCE64C0AC5C7",
+            "display": "scrt",
+            "name": "Secret Network",
+            "symbol": "SCRT",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "The native token of Axelar",
+            "denom_units": [
+              {
+                "denom": "ibc/473351B37CC9D7BA7B247800EF04D255E442C4C9C93976E3631B190A8F3C5570",
+                "exponent": 0,
+                "aliases": [
+                  "uaxl"
+                ]
+              },
+              {
+                "denom": "axl",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/473351B37CC9D7BA7B247800EF04D255E442C4C9C93976E3631B190A8F3C5570",
+            "display": "axl",
+            "name": "Axelar",
+            "symbol": "AXL",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-05-08T17:24:57.962187906Z",
+      "deposit_end_time": "2023-05-11T17:24:57.962187906Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3501000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-05-08T17:44:17.068533115Z",
+      "voting_end_time": "2023-05-13T17:44:17.068533115Z"
     }
   ],
   "pagination": {
