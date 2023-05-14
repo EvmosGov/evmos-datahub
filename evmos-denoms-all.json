@@ -259,6 +259,54 @@
       "uri_hash": ""
     },
     {
+      "description": "Pepe on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/26E6508A1757E12B15A087E951F5D35E73CF036F0D97BC809E1598D1DD870BED",
+          "exponent": 0,
+          "aliases": [
+            "pepe-wei"
+          ]
+        },
+        {
+          "denom": "axlpepe",
+          "exponent": 18,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/26E6508A1757E12B15A087E951F5D35E73CF036F0D97BC809E1598D1DD870BED",
+      "display": "axlpepe",
+      "name": "Pepe on Axelar",
+      "symbol": "axlPEPE",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
+      "description": "Quicksilver Liquid Staked ATOM",
+      "denom_units": [
+        {
+          "denom": "ibc/28F9F0420534AE42F7D220B04518A3A45A7F40A0855A1C353CB4BB7223A70F5A",
+          "exponent": 0,
+          "aliases": [
+            "uqatom"
+          ]
+        },
+        {
+          "denom": "qatom",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/28F9F0420534AE42F7D220B04518A3A45A7F40A0855A1C353CB4BB7223A70F5A",
+      "display": "qatom",
+      "name": "Quicksilver Liquid Staked ATOM",
+      "symbol": "qATOM",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
       "description": "Staking derivative stATOM for staked ATOM by Stride",
       "denom_units": [
         {
@@ -355,6 +403,30 @@
       "uri_hash": ""
     },
     {
+      "description": "Lido staking derivative wstETH for staked ETH on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/43BD3A576550CDCD183BC093AEB610B3C2057AD12BA3C27D67AE9F4BCA74F2C8",
+          "exponent": 0,
+          "aliases": [
+            "wsteth-wei"
+          ]
+        },
+        {
+          "denom": "axlwsteth",
+          "exponent": 18,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/43BD3A576550CDCD183BC093AEB610B3C2057AD12BA3C27D67AE9F4BCA74F2C8",
+      "display": "axlwsteth",
+      "name": "Lido staked ETH on Axelar",
+      "symbol": "axlWSTETH",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
       "description": "The native token of JUNO Chain",
       "denom_units": [
         {
@@ -403,6 +475,30 @@
       "uri_hash": ""
     },
     {
+      "description": "The native token of Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/473351B37CC9D7BA7B247800EF04D255E442C4C9C93976E3631B190A8F3C5570",
+          "exponent": 0,
+          "aliases": [
+            "uaxl"
+          ]
+        },
+        {
+          "denom": "axl",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/473351B37CC9D7BA7B247800EF04D255E442C4C9C93976E3631B190A8F3C5570",
+      "display": "axl",
+      "name": "Axelar",
+      "symbol": "AXL",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
       "description": "An over-collateralized soft-pegged token to the USD on the Kujira chain",
       "denom_units": [
         {
@@ -427,6 +523,30 @@
       "uri_hash": ""
     },
     {
+      "description": "Staking derivative stINJ for staked INJ by Stride",
+      "denom_units": [
+        {
+          "denom": "ibc/4FCDD6D71CAB4F6BBEAB781D036977E1158075297671345055BC342D46819640",
+          "exponent": 0,
+          "aliases": [
+            "stinj"
+          ]
+        },
+        {
+          "denom": "stINJ",
+          "exponent": 18,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/4FCDD6D71CAB4F6BBEAB781D036977E1158075297671345055BC342D46819640",
+      "display": "stINJ",
+      "name": "Stride Staked Inj",
+      "symbol": "stINJ",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
       "description": "The native token of Comdex Platform",
       "denom_units": [
         {
@@ -447,6 +567,30 @@
       "display": "cmdx",
       "name": "Comdex",
       "symbol": "CMDX",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
+      "description": "Quicksilver Liquid Staked OSMO",
+      "denom_units": [
+        {
+          "denom": "ibc/6230C2923C20C318C1002CE04856118621FE2A220F99EBA0EC2066D5DDFF2152",
+          "exponent": 0,
+          "aliases": [
+            "uqosmo"
+          ]
+        },
+        {
+          "denom": "qosmo",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/6230C2923C20C318C1002CE04856118621FE2A220F99EBA0EC2066D5DDFF2152",
+      "display": "qosmo",
+      "name": "Quicksilver Liquid Staked OSMO",
+      "symbol": "qOSMO",
       "uri": "",
       "uri_hash": ""
     },
@@ -495,6 +639,30 @@
       "display": "G-USDC",
       "name": "USD Coin channel-8",
       "symbol": "ibc G-USDC",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
+      "description": "Rocket Pool staking derivative rETH for staked ETH on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/6A3538834873D16F00D0268B295A8D6FD9B005952787AA14726D0013A51042AC",
+          "exponent": 0,
+          "aliases": [
+            "reth-wei"
+          ]
+        },
+        {
+          "denom": "axlreth",
+          "exponent": 18,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/6A3538834873D16F00D0268B295A8D6FD9B005952787AA14726D0013A51042AC",
+      "display": "axlreth",
+      "name": "Rocket Pool staked ETH on Axelar",
+      "symbol": "axlRETH",
       "uri": "",
       "uri_hash": ""
     },
@@ -786,6 +954,30 @@
       "uri_hash": ""
     },
     {
+      "description": "The native token of Secret Network",
+      "denom_units": [
+        {
+          "denom": "ibc/DC74BE775F57FF32C3C6E14ACD86339DB50632246F6482C81CF5FCE64C0AC5C7",
+          "exponent": 0,
+          "aliases": [
+            "uscrt"
+          ]
+        },
+        {
+          "denom": "scrt",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/DC74BE775F57FF32C3C6E14ACD86339DB50632246F6482C81CF5FCE64C0AC5C7",
+      "display": "scrt",
+      "name": "Secret Network",
+      "symbol": "SCRT",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
       "description": "Tether USD via Gravity Bridge",
       "denom_units": [
         {
@@ -878,6 +1070,30 @@
       "display": "G-DAI",
       "name": "Dai Stablecoin channel-8",
       "symbol": "ibc G-DAI",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
+      "description": "QCK - native token of Quicksilver",
+      "denom_units": [
+        {
+          "denom": "ibc/FCA18B0C0D1236E203D1AE09634A3F33E8AC31707CD59A74A437A903231C653C",
+          "exponent": 0,
+          "aliases": [
+            "uqck"
+          ]
+        },
+        {
+          "denom": "qck",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/FCA18B0C0D1236E203D1AE09634A3F33E8AC31707CD59A74A437A903231C653C",
+      "display": "qck",
+      "name": "Quicksilver",
+      "symbol": "QCK",
       "uri": "",
       "uri_hash": ""
     }
