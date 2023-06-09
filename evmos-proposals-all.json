@@ -4415,12 +4415,12 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_REJECTED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "38010390234694875913846757",
+        "abstain": "33445973593377225784239444",
+        "no": "102500440464762921360001774",
+        "no_with_veto": "560734681579728084865119"
       },
       "submit_time": "2023-06-03T17:31:14.131468181Z",
       "deposit_end_time": "2023-06-06T17:31:14.131468181Z",
