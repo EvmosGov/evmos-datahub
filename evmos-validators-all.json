@@ -5634,8 +5634,8 @@
       },
       "jailed": false,
       "status": "BOND_STATUS_BONDED",
-      "tokens": "480811638157593822856809",
-      "delegator_shares": "480811638157593822856809.000000000000000000",
+      "tokens": "480817899434734397130004",
+      "delegator_shares": "480817899434734397130004.000000000000000000",
       "description": {
         "moniker": "LMECripto",
         "identity": "",
