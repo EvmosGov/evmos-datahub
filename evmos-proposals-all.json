@@ -4434,38 +4434,6 @@
       "voting_end_time": "2023-06-08T18:02:54.027667002Z"
     },
     {
-      "proposal_id": "148",
-      "content": {
-        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
-        "title": "Evmos Mainnet v13.0.2 (Apeiron) Upgrade",
-        "description": "# Description\\n\\n## Author\\n\\nMalte Herrmann, Evmos Core Team\\n\\n## Software upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos mainnet software upgrade at block height [14492000](https://www.mintscan.io/evmos/blocks/14492000) (around 4pm UTC Mon., 10th July 2023) from its current version [v12.1.6](https://github.com/evmos/evmos/releases/v12.1.6) to [v13.0.2](https://github.com/evmos/evmos/releases/v13.0.2) (Apeiron). This proposal has a voting time of 120 hours.\\n\\n## Motivation\\n\\nBy proposing a scheduled upgrade, we want to implement a smooth and transparent upgrade process, that is first proposed on testnet and then on mainnet. Software upgrades generally aim to improve current performance and add new features to the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validate/upgrades).\\n\\n## Impact\\n\\nEvmos v13.0.2 (Apeiron) contains the following changes and enhancements:\\n\\n- Introduce EVM extensions for staking, distribution and IBC transfers\\n- Upgrade CometBFT to [v0.34.29](https://github.com/cometbft/cometbft/releases/tag/v0.34.29) and Cosmos SDK to [v0.46.11](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.46.11)\\n- Many small improvements and refactors\\n\\nA full changelog can be found [here](https://github.com/evmos/evmos/releases/v13.0.2).\\n\\n## Testing\\n\\nThe Evmos core team created an End-to-End testing suite that performs the software upgrade locally. These tests have been completed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/evmos/evmos/blob/main/tests/e2e/README.md). Additionally, the upgrade has been manually performed on a local node.\\nOn top of the upgrade tests, the Evmos team runs performance tests to monitor the impact of new versions.\\n\\n## Discussion\\n\\nPlease follow and discuss this proposal using the official [discussion on Commonwealth](https://commonwealth.im/evmos/discussion/12023-evmos-mainnet-v1302-upgrade).",
-        "plan": {
-          "name": "v13.0.2",
-          "time": "0001-01-01T00:00:00Z",
-          "height": "14492000",
-          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/evmos/evmos/releases/download/v13.0.2/evmos_13.0.2_Darwin_arm64.tar.gz?checksum=00b2e42e0acdf19e77251e74a09efda08f6b168dc0a552897c9289c347d832c8\",\"darwin/amd64\":\"https://github.com/evmos/evmos/releases/download/v13.0.2/evmos_13.0.2_Darwin_amd64.tar.gz?checksum=d037c09ef19e8a54902573cf8fe3822215f9f4b4c215f5536640ff218e307fc6\",\"linux/arm64\":\"https://github.com/evmos/evmos/releases/download/v13.0.2/evmos_13.0.2_Linux_arm64.tar.gz?checksum=530a5a722c5a9c8cd742daf416fc99f3c42d53004224f00fab2ce650acd2eda6\",\"linux/amd64\":\"https://github.com/evmos/evmos/releases/download/v13.0.2/evmos_13.0.2_Linux_amd64.tar.gz?checksum=d3cdab47d6130e97f76465db1b310f3903b225bbfff5fb05f8f29e7181f86115\"}}",
-          "upgraded_client_state": null
-        }
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-07-05T13:17:27.259668503Z",
-      "deposit_end_time": "2023-07-08T13:17:27.259668503Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "2000000000000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
       "proposal_id": "149",
       "content": {
         "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
