@@ -4447,11 +4447,11 @@
           "upgraded_client_state": null
         }
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
+        "yes": "179136280824820319269538613",
+        "abstain": "1475218100728846447473197",
+        "no": "265288369641049763201800",
         "no_with_veto": "0"
       },
       "submit_time": "2023-07-06T08:36:17.204085146Z",
