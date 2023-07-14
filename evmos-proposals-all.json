@@ -4464,6 +4464,31 @@
       ],
       "voting_start_time": "2023-07-06T09:25:43.619637523Z",
       "voting_end_time": "2023-07-11T09:25:43.619637523Z"
+    },
+    {
+      "proposal_id": "150",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "a",
+        "description": "a"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-07-13T19:20:31.755614265Z",
+      "deposit_end_time": "2023-07-16T19:20:31.755614265Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
     }
   ],
   "pagination": {
