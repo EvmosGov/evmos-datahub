@@ -834,6 +834,30 @@
       "uri_hash": ""
     },
     {
+      "description": "The native staking and governance token of the CrescentNetwork",
+      "denom_units": [
+        {
+          "denom": "ibc/B5AB26FB63C08E1C14B91B4DDC15CA4FE59737052B4432D8A3B328B66F6FE7A1",
+          "exponent": 0,
+          "aliases": [
+            "ucre"
+          ]
+        },
+        {
+          "denom": "CRE",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/B5AB26FB63C08E1C14B91B4DDC15CA4FE59737052B4432D8A3B328B66F6FE7A1",
+      "display": "CRE",
+      "name": "Crescent Network",
+      "symbol": "CRE",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
       "description": "Staking derivative stEVMOS for staked EVMOS by Stride",
       "denom_units": [
         {
