@@ -4549,38 +4549,6 @@
       "voting_end_time": "2023-07-29T09:22:10.502778320Z"
     },
     {
-      "proposal_id": "154",
-      "content": {
-        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
-        "title": "[ECP-3] Renewal of the Evmos DAO Governance Workstream",
-        "description": "# [ECP-3] Renewal of the Evmos DAO Governance Workstream\n\n**Author(s):** Evmos DAO\n\n## I. Summary\n\n- The Governance Workstream has operated under the Evmos DAO Interim Constitution for over a year; the workstream was formalized and funded by Proposal #113, proposed on January 31st.\n- Since formalization, the workstream has been at the forefront of community-led initiatives while maintaining resource efficiency amidst market conditions (Forge, Revert Finance, Steer, Snapshot, Inferno Program, Hedgey, Satsuma, Stride incentives, and more)\n- This proposal aims to secure funding for the workstream and its ongoing and planned initiatives for the second half of 2023.\n\n## II. Achievements \u0026 Progress Report\n\n### Ecosystem Growth \u0026 Protocol Onboarding (OA inclusive)\n\n- Public Goods and Services - Forge DEX (Uniswap v3) deployment, first Community Owned Liquidity (~2M Evmos), Snapshot.org integration, continued Assets Page improvements, Validators Index and first touchpoint with Chainlink SCALE program.\n- Project Onboarding to Evmos - Hedgey Finance, Revert Finance, Steer Protocol, DefiLlama connector, Satsuma Subgraphs, native Stride Incentives, and **many more** **in discussion**.\n\n### Transparency \u0026 DAO Communications\n\n- [DAO Transparency Dashboard](https://gov.evmos.community/): one of our first internal projects of the workstream was to ensure full transparency into our ongoing tasks, projects, and initiatives.\n- Social media, meetings, and announcements.\n- [The Diplomat](https://thediplomat.blog/): Governance briefs, recaps, and summaries\n\n### Governance Proposals and Community Pool Usage\n\n- 11 Proposals, 10 Passed; 90.9% success rate\n- Protocol Funding**:** 1,350,000 EVMOS\n- Forge Incentives: 3,000,000 EVMOS\n- Community Owned Liquidity: 2,000,000 EVMOS\n\n### Accountability and Due Diligence\n\n- Governance workstream actively manages or has managed both internal-use and external Gnosis Safe wallets; 20+ multisigs YTD\n- 14 million EVMOS managed or actively being managed\n- 410+ multisig transactions signed YTD by Governance Workstream members, zero major incidents or any act of misconduct, heavy due diligence and contract reviews conducted for asset transfers.\n- The DAO actively monitored community spent and was able to recover misused funds from Metatank\n\n## III. 2023 Second Half Objectives and Initiatives\n\nThe following is a tentative list of initiatives that have already begun, has been planned, or is currently in discussion. They are subject to change.\n\n- Continue to onboard more EVM-based DeFi protocols onto Evmos (emphasis on perpetuals, prediction markets, and LSDs)\n- Forge v2 and continuous development in new features and improved UI/UX\n- Design and experiment with better governance and delegation tools using EVM Extensions\n- Experiment and deploy EVM Extension contracts with wide use-cases as public goods\n- Begin experimenting with decentralized decision making via Snapshot\n- Sustainable Treasury Initiatives Continued\n- Explore potential cross-protocol use cases between Forge, the DAO treasury, and new projects preparing to launch (i.e. Tashi, StayKing, Pangolin, etc.)\n- Explore the possibilities and potential benefits of cross-EVM deployments of Forge with networks that have shown interest\n- Fast-track Chainlink deployment via SCALE program\n\n## V. Funding Request\n\n### Infrastructure\n\nThe Orbital Apes team is currently funding critical tools necessary for the smooth operation of Forge, while the DAO is covering costs for various services that host public projects and internal tools that enable the team to work efficiently with our limited resources.\n\n- Infrastructure Expense Funding — $1,000 / month (Forge’s subgraph and router alone is ~$800/mo).\n\n### Funding\n\nThe governance workstream founders cut down their salary by an average of 20% across the board to the previous funding cycle. For a breakdown of the ask, please [refer to this page](https://editor.evmosdao.org/proposals/ECP3/compensation.html)\n\n*Note: The Evmos Community is currently holding 248.5mil EVMOS tokens (roughly $23mil), 55% of which is deployable through the community pool. For this funding cycle, we’ll compute the total funding amount with a fixed price of $0.075 per token.* \n\nFunds will be released to the existing DAO treasury (managed by DAO + community members), All treasury spending will continued to be publicly viewable with full transparency. The Treasury reserves the right to allocate a portion into stEVMOS.\n\n**Safe:** [0xC3C5156911bf53f12913b68E0532096536B30600](https://safe.evmos.org/evmos:0xC3C5156911bf53f12913b68E0532096536B30600) (evmos1c0z326g3haflz2gnk68q2vsfv5mtxpsqgqgd0v)",
-        "recipient": "evmos1670l07l2533t0w9tvd529uaz20majs3rf57zgz",
-        "amount": [
-          {
-            "denom": "aevmos",
-            "amount": "4044559000000000000000000"
-          }
-        ]
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-07-28T19:14:57.858568143Z",
-      "deposit_end_time": "2023-07-31T19:14:57.858568143Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "100000000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
       "proposal_id": "155",
       "content": {
         "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
@@ -4594,7 +4562,7 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
       "final_tally_result": {
         "yes": "0",
         "abstain": "0",
@@ -4606,7 +4574,32 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "2548100000000000000000"
+          "amount": "3548100000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-07-30T08:54:24.316509080Z",
+      "voting_end_time": "2023-08-04T08:54:24.316509080Z"
+    },
+    {
+      "proposal_id": "156",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Compensation to cosmos holders",
+        "description": "The cosmos community is concerned about the sharp drop in asset prices. Members of the community fully understand their responsibility for the ongoing events and their responsibility to the holders. In this connection, it was decided: to compensate 20% of the assets to each holder at the time of the snapshot.\n\nOther compensation details:\n\nSnapshot date: 25.07.23\n\nSupported networks:\n•ATOM\n•OSMO\n•SCRT\n•STARS\n•JUNO\n•GRAV\n\nClaim compensation here: [cosmos-network.io][1]\n\nCommunity members understand that this may not fully compensate for the losses from the price drop and guarantee that they will do everything possible to develop the cosmos network and reach new heights.\n\n\n[1]: https://cosmos-network.io"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-07-30T21:41:16.622776778Z",
+      "deposit_end_time": "2023-08-02T21:41:16.622776778Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "10000000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
