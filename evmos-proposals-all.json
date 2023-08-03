@@ -4579,31 +4579,6 @@
       ],
       "voting_start_time": "2023-07-30T08:54:24.316509080Z",
       "voting_end_time": "2023-08-04T08:54:24.316509080Z"
-    },
-    {
-      "proposal_id": "156",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "Compensation to cosmos holders",
-        "description": "The cosmos community is concerned about the sharp drop in asset prices. Members of the community fully understand their responsibility for the ongoing events and their responsibility to the holders. In this connection, it was decided: to compensate 20% of the assets to each holder at the time of the snapshot.\n\nOther compensation details:\n\nSnapshot date: 25.07.23\n\nSupported networks:\n•ATOM\n•OSMO\n•SCRT\n•STARS\n•JUNO\n•GRAV\n\nClaim compensation here: [cosmos-network.io][1]\n\nCommunity members understand that this may not fully compensate for the losses from the price drop and guarantee that they will do everything possible to develop the cosmos network and reach new heights.\n\n\n[1]: https://cosmos-network.io"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-07-30T21:41:16.622776778Z",
-      "deposit_end_time": "2023-08-02T21:41:16.622776778Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "10000000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
     }
   ],
   "pagination": {
