@@ -4579,6 +4579,57 @@
       ],
       "voting_start_time": "2023-07-30T08:54:24.316509080Z",
       "voting_end_time": "2023-08-04T08:54:24.316509080Z"
+    },
+    {
+      "proposal_id": "157",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "ERC20 registration for (native) USDT issued on Kava",
+        "description": "## Author\\n\\n- Nick\\n- Evmos DAO ([Telegram](https://t.me/evmosdao),  [Twitter](https://twitter.com/EvmosDAO))\\n\\n## ERC20 registration for (native) USDT issued on Kava\\n\\nThe vigilant Cosmos ecosystem participants under us will already know that Tether started issuing USDT on Kava a bit over a month ago. Announcement tweet [here](https://twitter.com/Tether_to/status/1671445095965499393?s=20). \\n\\n## **Before Voting**\\n\\n- Please follow and discuss this proposal using the official discussion on [commonwealth](https://commonwealth.im/evmos/discussion/12593-erc20-registration-for-kavanative-usdt)\\n- For technical details, please referer to the Evmos [Docs](https://docs.evmos.org/protocol/modules/erc20)\\n\\n## Verify Metadata\\n\\n- base: ibc/95F4898F70B1E3765715808C57E955034419200A7BB6DDECBEAA5FD3AA3DF7D5\\n- display: USDT\\n- name: USDT on Kava\\n- symbol: USDT",
+        "metadata": [
+          {
+            "description": "Native USDT issued on Kava",
+            "denom_units": [
+              {
+                "denom": "ibc/95F4898F70B1E3765715808C57E955034419200A7BB6DDECBEAA5FD3AA3DF7D5",
+                "exponent": 0,
+                "aliases": [
+                  "erc20/tether/usdt"
+                ]
+              },
+              {
+                "denom": "USDT",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/95F4898F70B1E3765715808C57E955034419200A7BB6DDECBEAA5FD3AA3DF7D5",
+            "display": "USDT",
+            "name": "USDT on Kava",
+            "symbol": "USDT",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-08-14T14:33:34.778327782Z",
+      "deposit_end_time": "2023-08-17T14:33:34.778327782Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1001000000000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
     }
   ],
   "pagination": {
