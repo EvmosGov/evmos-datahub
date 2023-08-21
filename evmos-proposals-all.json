@@ -4613,12 +4613,12 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "168980317661686907725314621",
+        "abstain": "6326842746728888317365096",
+        "no": "235220945379536832917317",
+        "no_with_veto": "3972642330040036086861"
       },
       "submit_time": "2023-08-14T14:33:34.778327782Z",
       "deposit_end_time": "2023-08-17T14:33:34.778327782Z",
@@ -4630,38 +4630,6 @@
       ],
       "voting_start_time": "2023-08-15T17:22:18.458187927Z",
       "voting_end_time": "2023-08-20T17:22:18.458187927Z"
-    },
-    {
-      "proposal_id": "158",
-      "content": {
-        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
-        "title": "Incentive Program for Steer's capital-efficient trading strategies",
-        "description": "## **Authors**\n\n- Evmos DAO ([Telegram](https://t.me/evmosdao), [Twitter](https://twitter.com/EvmosDAO))\n- Steer Protocol ([Website](https://steer.finance/), [Twitter](https://twitter.com/steerprotocol))\n- Forge ([Telegram](http://t.me/forgedex), [Twitter](https://twitter.com/forgedex))\n\n### **Summary**\n\nThe Forge team requests 3,000,000 EVMOS to fund a 12-week-long incentive program in partnership with Steer Protocol to further attract liquidity to Evmos DeFi.\n\nForge’s successful Inferno incentives program continues to thrive in partnership with Revert. To further enhance Inferno’s impact, the Forge team proposes to extend the incentives program to Steer Protocol. Steer, a complementary dApp to Forge, unlocks new possibilities for Liquidity Providers, including automated position management and a strategy marketplace. This program strengthens Forge’s mission to be the most capital and incentive-efficient DEX within the Cosmos.\n\n### **Goal**\n\nWith Steer’s capital-efficient position management strategies, the goal is to foster pools with high APR and deeper, more concentrated liquidity. This new approach requires fewer stEVMOS incentives, demonstrating an optimized use of resources.\n\n- **Primary Objective:** Grow sustainable liquidity and volume on Forge.\n- **Secondary Objective:** Attract new DeFi protocols to deploy solidity-based applications in the Cosmos.\n\n### **Overview**\n\n**Motivation**\n\nForge is leading the way as the first DEX in the Cosmos to incentivize staked assets (such as stEVMOS, stATOM, and rETH), enabling participants to earn staking rewards while contributing liquidity. Due to Inferno, Forge has shown significant growth, with an average daily volume of $1,138,917. The inclusion of Steer is meant as a catalyst to further its growth.\n\n**Unique strengths of Steer**\n\n- Offers user-friendly entry into various LP strategies.\n- Facilitates responsiveness to market movements due to automation.\n- Ability to self-launch automated pools for any asset.\n- Multi-position strategies, for increasing capital allocation efficiency.\n\n**Impact on Forge**\n\n- **Deep and Dynamic Liquidity:** Steer running on top of Forge enables deep, concentrated, and dynamic liquidity.\n- **Incentive Efficiency:** This program creates the most incentive-efficient DEX, effectively reducing community pool spending to achieve liquidity goals.\n- **Healthy Rewards:** Ensures that liquidity providers receive competitive rewards.\n\nBy adding Steer to Forge’s incentives program, we aim to leverage unique strengths and synergies to build a more robust, flexible, and efficient ecosystem. The Forge team strives to innovate by seeking partnerships with complementary DeFi protocols. This collaboration is a practical step in enhancing DeFi within the Cosmos ecosystem.\n\n**Action Plan and Pools**\n\nThe total proposed incentives amount to 3,000,000 EVMOS, distributed over a program length of 84 days.\n\nWe selected 3 pools to encourage deeper base liquidity growth on Evmos.\n\n**Request:** 3,000,000 EVMOS to be distributed as Stride liquid-staked stEVMOS over 12 weeks. The strategies to be employed are linked below.\n\n**~14,285 EVMOS daily emission**\n\n- [stEVMOS/axlUSDC](https://app.steer.finance/app/0x8/vault/0x581366984221cb599ef1877bd787a9d05bf33ead?engine=MultiPositionForge\u0026chainId=9001)\n\n**~10,714 EVMOS daily emission**\n\n- [stEVMOS/stATOM](https://app.steer.finance/app/0x8/vault/0x1ed12675871c43e25cca4e2c1ec612abf7cc8687?engine=MultiPositionForge\u0026chainId=9001)\n\n**~10,714 EVMOS daily emission**\n\n- [stEVMOS/axlRETH](https://app.steer.finance/app/0x8/vault/0x75a2623366e3de24ceaf9ef9dcaef1b10fe62d32?engine=MultiPositionForge\u0026chainId=9001)\n\n**Timeline**\n\nIncentives can begin once they’re approved through governance. Steer has fully deployed on Evmos.\n\n**Adjustments**\n\nIf the liquidity of a pool does not match our expectations, we might adjust the allocation per pool as we learn during this program. Each change will be discussed on [Forge’s social channel](https://t.me/forgeDEX) and communicated upfront.\n\n## Multisig 3/6\n\nThe same mSig will be used as Revert. \n\nSafe Deployment Address: [0x3d7E191cABba892CEa2E00D06C67aF08dfd58CdD](https://safe.evmos.org/home?safe=evmos:0x3d7E191cABba892CEa2E00D06C67aF08dfd58CdD\u0026showCreationModal=true)",
-        "recipient": "evmos184lpj89th2yje63wqrgxcea0pr0atrxavjt08z",
-        "amount": [
-          {
-            "denom": "aevmos",
-            "amount": "3000000000000000000000000"
-          }
-        ]
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-08-17T04:03:54.286392181Z",
-      "deposit_end_time": "2023-08-20T04:03:54.286392181Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "100000000000000000"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
     },
     {
       "proposal_id": "159",

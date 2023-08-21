@@ -739,6 +739,30 @@
       "uri_hash": ""
     },
     {
+      "description": "Native USDT issued on Kava",
+      "denom_units": [
+        {
+          "denom": "ibc/95F4898F70B1E3765715808C57E955034419200A7BB6DDECBEAA5FD3AA3DF7D5",
+          "exponent": 0,
+          "aliases": [
+            "erc20/tether/usdt"
+          ]
+        },
+        {
+          "denom": "USDT",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/95F4898F70B1E3765715808C57E955034419200A7BB6DDECBEAA5FD3AA3DF7D5",
+      "display": "USDT",
+      "name": "USDT on Kava",
+      "symbol": "USDT",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
       "description": "CMST is the interchain stablecoin built on the Comdex chain",
       "denom_units": [
         {
