@@ -4645,12 +4645,12 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
+        "yes": "134854082129265793807153534",
+        "abstain": "15410779060425309429274918",
+        "no": "1162423610256011682019480",
+        "no_with_veto": "6523041118647409545500"
       },
       "submit_time": "2023-08-17T04:13:40.085628842Z",
       "deposit_end_time": "2023-08-20T04:13:40.085628842Z",
@@ -4734,6 +4734,82 @@
           "denom": "aevmos",
           "amount": "1000000000000000000"
         }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "163",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterERC20Proposal",
+        "title": "ERC-20 Registration for ",
+        "description": "Description: https://docs.google.com/document/d/1zxyZh3Yl0BOGyk6PnOEfRRxxUWups82edAGcs6Nejc0/view",
+        "erc20addresses": [
+          "0x98fAFD9F714CE0B4bB2870527076F2F314aAed82"
+        ]
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-08-23T05:40:04.998804598Z",
+      "deposit_end_time": "2023-08-26T05:40:04.998804598Z",
+      "total_deposit": [
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "164",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterERC20Proposal",
+        "title": "ERC-20 Registration for TASHI",
+        "description": "Description: https://docs.google.com/document/d/1zxyZh3Yl0BOGyk6PnOEfRRxxUWups82edAGcs6Nejc0/view",
+        "erc20addresses": [
+          "0x98fAFD9F714CE0B4bB2870527076F2F314aAed82"
+        ]
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-08-23T05:43:49.251589358Z",
+      "deposit_end_time": "2023-08-26T05:43:49.251589358Z",
+      "total_deposit": [
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "165",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Lunar Launch – Tashi Launch Liquidity Incentives",
+        "description": "discussion: https://commonwealth.im/evmos/discussion/12605-lunar-launch-tashi-launch-liquidity-incentives",
+        "recipient": "evmos1z54wsj9tj7wgjpshtevfpk8jpxaw9l6vjfvu4t",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "1032000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-08-23T19:51:21.318505654Z",
+      "deposit_end_time": "2023-08-26T19:51:21.318505654Z",
+      "total_deposit": [
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
       "voting_end_time": "0001-01-01T00:00:00Z"
