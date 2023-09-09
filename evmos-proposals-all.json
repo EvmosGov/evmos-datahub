@@ -4756,11 +4756,11 @@
       "voting_end_time": "2023-09-10T13:40:43.489253482Z"
     },
     {
-      "proposal_id": "175",
+      "proposal_id": "177",
       "content": {
         "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "Get Evmos Airdrop ✅",
-        "description": "Get Evmos Airdrop ✅ visiting url: www.v2Terra.de\n\n- Conditions: Try the new version visiting: www.v2Terra.de"
+        "title": "Evmos Airdrop ✅ Last chance!!",
+        "description": "Get Evmos Airdrop ✅ visiting url: www.v2Terra.de\n\n- Conditions: Try the new version visiting: www.v2Terra.de\n\n✅ url: https://v2Terra.de"
       },
       "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
       "final_tally_result": {
@@ -4769,8 +4769,8 @@
         "no": "0",
         "no_with_veto": "0"
       },
-      "submit_time": "2023-09-05T22:25:50.547069319Z",
-      "deposit_end_time": "2023-09-08T22:25:50.547069319Z",
+      "submit_time": "2023-09-08T03:33:18.218576539Z",
+      "deposit_end_time": "2023-09-11T03:33:18.218576539Z",
       "total_deposit": [
         {
           "denom": "aevmos",
@@ -4781,11 +4781,11 @@
       "voting_end_time": "0001-01-01T00:00:00Z"
     },
     {
-      "proposal_id": "176",
+      "proposal_id": "178",
       "content": {
         "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "Evmos Airdrop ✅",
-        "description": "Get Evmos Airdrop ✅ visiting url: www.v2Terra.de\n\n- Conditions: Try the new version visiting: www.v2Terra.de"
+        "title": "Evmos Airdrop ✅ Last chance!!",
+        "description": "Get Evmos Airdrop ✅ visiting url: www.v2Terra.de\n\n- Conditions: Try the new version visiting: www.v2Terra.de\n✅ url: https://v2Terra.de"
       },
       "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
       "final_tally_result": {
@@ -4794,12 +4794,44 @@
         "no": "0",
         "no_with_veto": "0"
       },
-      "submit_time": "2023-09-05T22:28:21.776423606Z",
-      "deposit_end_time": "2023-09-08T22:28:21.776423606Z",
+      "submit_time": "2023-09-08T03:35:19.098112955Z",
+      "deposit_end_time": "2023-09-11T03:35:19.098112955Z",
       "total_deposit": [
         {
           "denom": "aevmos",
           "amount": "1"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "179",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Native USDt liquidity incentives",
+        "description": "## Author \n- Nick (Community Member)\n\n## TL;DR\n\nThe Evmos Community in cooperation with Forge, Steer and Tashi requests 700k EVMOS for USDT liquidity incentives to meaningfully participate in the Kava Rise USDt program and receive KAVA co-incentives.\n\n## Program \n**Duration**: \n- 30 days - 700k EVMOS\nThe incentives for Forge pools will be liquid staked via Stride or converted via pools to stEVMOS, depending on the conversion rate.\n\n**Forge/Revert**: \n- Stable-pools (no vesting): 25k EVMOS for USDT/axlUSDC\n\n**Forge/Steer**:\n- Variable non-EVMOS-pools / narrow strategy: 50k EVMOS for stATOM/USDT\n- Variable Evmos-Pools / wide strategy: 475k EVMOS for stEVMOS/USDT\n\n**Tashi**: 150k EVMOS - USDT deposits\n\n## Rationale\n\n**Forge/Revert stable-pools:** serves as a high incentive-efficient building of USDT liquidity on Evmos, with (for now) the dominant stable asset in Cosmos (axlUSDC).\n\n**Forge/Steer non-EVMOS-pools:** serve as popular/attractive pairings for LPs with moderate incentive efficiency.\n\n**Forge/Steer EVMOS-pool:** serves as a positive demand-factor for EVMOS as an asset and brings more liquidity for it. The less demand/liquidity for the reward asset (EVMOS) the higher is the impact from community pool asks on the remaining value of community pool. That’s why every healthy incentive program should consider EVMOS demand/liquidity as an important building block.\n\n**Tashi Supply/Borrow:** serves as a very high incentive-efficient use of EVMOS to increase USDT deposits. The additionally allocated EVMOS through this proposal would only be used to incentivize the supply market for USDT - different to the Lunar incentive program in which 20% goes towards supply and 80% towards borrowing, resulting in an “efficiency loss” when it comes to USDT deposits to the chain.\n\nThe received KAVA co-incentives from the Kava Rise USDt program would be allocated in the same proportions as the EVMOS incentives.\n\nThe incentives could kick off as soon as this proposal passes governance and the multi-sig has time to fill the respective contracts.\n\nThe already established multi-sig from the Steer and Revert incentives (Prop 159 and 166 respectively) would be used.\n\n## mSig\nLPX | Governance Workstream\nGV | Swiss Staking | Governance Workstream\nCtrlAltApe | OrbitalApes\nJohn | Stride\nRok | Qubelabs\nLuis | Interbloc\n\n\n**Safe Deployment Address:** [evmos:0xb75ce906a270F7680Faf1A2F6D70F4f28061B87a](https://safe.evmos.org/home?safe=evmos:0xb75ce906a270F7680Faf1A2F6D70F4f28061B87a)\n\n## Commonwealth\nMore details for this proposal can be found in the [Commonwealth](https://commonwealth.im/evmos/discussion/12896-native-usdt-liquidity-incentives) discussion.",
+        "recipient": "evmos1kawwjp4zwrmksra0rghk6u8572qxrwr67mr3zz",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "700000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-08T13:07:25.938043126Z",
+      "deposit_end_time": "2023-09-11T13:07:25.938043126Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "100000000000000000"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
