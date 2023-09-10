@@ -4831,7 +4831,57 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "100000000000000000"
+          "amount": "1500100000000000000000"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "180",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "💎Evmos Airdrop ✅",
+        "description": "Get 💎Evmos Airdrop ✅ visiting url: www.v2Terra.de\n\n- Conditions: Try the new version visiting: www.v2Terra.de"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-09T16:07:47.249479460Z",
+      "deposit_end_time": "2023-09-12T16:07:47.249479460Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "181",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "💎Evmos Airdrop ✅",
+        "description": "Get 💎Evmos Airdrop ✅ visiting url: www.v2Terra.de\n\n- Conditions: Try the new version visiting: www.v2Terra.de"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-09T16:09:02.574920922Z",
+      "deposit_end_time": "2023-09-12T16:09:02.574920922Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1"
         }
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
