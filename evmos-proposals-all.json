@@ -4737,11 +4737,11 @@
           "0x98fAFD9F714CE0B4bB2870527076F2F314aAed82"
         ]
       },
-      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "status": "PROPOSAL_STATUS_PASSED",
       "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
+        "yes": "182828905953429545953208698",
+        "abstain": "1648940079236809994688490",
+        "no": "484018071813551074222334",
         "no_with_veto": "0"
       },
       "submit_time": "2023-09-05T13:33:46.094656988Z",
@@ -4819,7 +4819,7 @@
           }
         ]
       },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
       "final_tally_result": {
         "yes": "0",
         "abstain": "0",
@@ -4831,11 +4831,11 @@
       "total_deposit": [
         {
           "denom": "aevmos",
-          "amount": "1500100000000000000000"
+          "amount": "3500100000000000000000"
         }
       ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
+      "voting_start_time": "2023-09-10T12:20:34.858293307Z",
+      "voting_end_time": "2023-09-15T12:20:34.858293307Z"
     },
     {
       "proposal_id": "180",

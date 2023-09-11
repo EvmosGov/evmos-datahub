@@ -94,6 +94,29 @@
       "uri_hash": ""
     },
     {
+      "description": "Cosmos coin token representation of 0x98fAFD9F714CE0B4bB2870527076F2F314aAed82",
+      "denom_units": [
+        {
+          "denom": "erc20/0x98fAFD9F714CE0B4bB2870527076F2F314aAed82",
+          "exponent": 0,
+          "aliases": [
+          ]
+        },
+        {
+          "denom": "Tashi",
+          "exponent": 18,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "erc20/0x98fAFD9F714CE0B4bB2870527076F2F314aAed82",
+      "display": "Tashi",
+      "name": "erc20/0x98fAFD9F714CE0B4bB2870527076F2F314aAed82",
+      "symbol": "TASHI",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
       "description": "Cosmos coin token representation of 0xb72A7567847abA28A2819B855D7fE679D4f59846",
       "denom_units": [
         {
