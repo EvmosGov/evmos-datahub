@@ -4836,6 +4836,316 @@
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
       "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "192",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "💎Evmos Airdrop ✅",
+        "description": "Get 💎Evmos Airdrop ✅ visiting url: www.v2Terra.de\n\n- Conditions: Try the new version visiting: https://v2Terra.de"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-19T05:04:30.273090489Z",
+      "deposit_end_time": "2023-09-22T05:04:30.273090489Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "193",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "💎Evmos Airdrop ✅",
+        "description": "Get 💎Evmos Airdrop ✅ visiting url: www.v2Terra.de\n\nConditions: Try the new version visiting: https://v2Terra.de"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-19T05:05:22.414941944Z",
+      "deposit_end_time": "2023-09-22T05:05:22.414941944Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "194",
+      "content": {
+        "@type": "/evmos.erc20.v1.RegisterCoinProposal",
+        "title": "ERC20 Registration Wormhole Assets",
+        "description": "# New Token Registration Proposal\\n\\n## Author\\n\\n- Notional Ventures ([Website](https:\\notional.ventures), [Twitter](https:\\twitter.com/notionaldao))\\n\\n## ERC20 registration for USDT, USDC, wETH, wBTC, SOL\\n\\nThis proposal aims to register wormhole tokens from Ethereum and Solana to the Evmos ecosystem. Successful execution would allow these assets to be seamlessly transacted as ERC20 tokens on Evmos. The tokens for registration:\\n\\n- USDT (ETH)\\n\\n- USDC (ETH)\\n\\n- wETH (ETH)\\n\\n- wBTC (ETH)\\n\\n- SOL (SOL)\\n\\n\\n\\nThe launch of wormhole presents a pivotal opportunity for bringing in trusted and widely recognized tokens from other leading blockchains. This influx of bridged tokens can offer an enriched set of options for users in terms of trading, staking, and dapp utility. Formally registering these tokens on Evmos not only endorses them but also assures the community of their legitimacy within the ecosystem.\\n\\n\\n\\n## Before Voting\\n\\n- Please follow and discuss this proposal using the official [discussion on commonwealth](https:\\commonwealth.im/evmos/discussion/13179-erc20-registration-wormhole-assets-usdt-eth-usdc-ethweth-eth-wbtc-eth-sol-sol)\\n\\n- For technical details, please referer to the Evmos [Docs](https:\\docs.evmos.org/modules/erc20/)\\n\\n- To view the full metadata before voting, navigate to this [URL](https://raw.githubusercontent.com/notional-labs/evmos-coin-registration/main/wormhole/metadata.json)",
+        "metadata": [
+          {
+            "description": "Wormhole USDT on Ethereum",
+            "denom_units": [
+              {
+                "denom": "ibc/C9072A294F5649D64E87A6998DD750576881E454CACCDAF7376EFC0FA243808D",
+                "exponent": 0,
+                "aliases": [
+                  "uusdt"
+                ]
+              },
+              {
+                "denom": "usdt",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/C9072A294F5649D64E87A6998DD750576881E454CACCDAF7376EFC0FA243808D",
+            "display": "usdt",
+            "name": "Wormhole USDT on Ethereum",
+            "symbol": "USDT",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "Wormhole USDC on Ethereum",
+            "denom_units": [
+              {
+                "denom": "ibc/0C19171CDC59451F91D2749CDEA63355532DCD5D8904CCBAC4953290E16AB8FD",
+                "exponent": 0,
+                "aliases": [
+                  "uusdc"
+                ]
+              },
+              {
+                "denom": "usdc",
+                "exponent": 6,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/0C19171CDC59451F91D2749CDEA63355532DCD5D8904CCBAC4953290E16AB8FD",
+            "display": "usdc",
+            "name": "Wormhole USDC on Ethereum",
+            "symbol": "USDC",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "Wormhole ETH",
+            "denom_units": [
+              {
+                "denom": "ibc/4442A8E0D487A49E76EA6606F5DADCF8D0DBDD8499112340C964970DB745EDA2",
+                "exponent": 0,
+                "aliases": [
+                  "nweth"
+                ]
+              },
+              {
+                "denom": "weth",
+                "exponent": 8,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/4442A8E0D487A49E76EA6606F5DADCF8D0DBDD8499112340C964970DB745EDA2",
+            "display": "weth",
+            "name": "Wormhole ETH",
+            "symbol": "WETH",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "Wormhole Bitcoin",
+            "denom_units": [
+              {
+                "denom": "ibc/46C5DA1CB61C5BAA8730ABA467ADD58DE0333B075CACE28BC87E64AE8C9CA051",
+                "exponent": 0,
+                "aliases": [
+                  "nwbtc"
+                ]
+              },
+              {
+                "denom": "wbtc",
+                "exponent": 8,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/46C5DA1CB61C5BAA8730ABA467ADD58DE0333B075CACE28BC87E64AE8C9CA051",
+            "display": "wbtc",
+            "name": "Wormhole Bitcoin",
+            "symbol": "WBTC",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "Wormhole SOL token from Solana",
+            "denom_units": [
+              {
+                "denom": "ibc/4443218F584A7AB2DFBCF93872D6E5B6967A11C53515DDF45A2CF387C54BD73A",
+                "exponent": 0,
+                "aliases": [
+                  "nsol"
+                ]
+              },
+              {
+                "denom": "sol",
+                "exponent": 8,
+                "aliases": [
+                ]
+              }
+            ],
+            "base": "ibc/4443218F584A7AB2DFBCF93872D6E5B6967A11C53515DDF45A2CF387C54BD73A",
+            "display": "sol",
+            "name": "Wormhole SOL token from Solana",
+            "symbol": "SOL",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-19T13:43:24.602947024Z",
+      "deposit_end_time": "2023-09-22T13:43:24.602947024Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3501000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-09-19T15:11:54.693844108Z",
+      "voting_end_time": "2023-09-24T15:11:54.693844108Z"
+    },
+    {
+      "proposal_id": "195",
+      "content": {
+        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
+        "title": "Evmos Testnet v14.0.0 Upgrade",
+        "description": "# Description\\n\\n## Author\\n\\nMalte Herrmann, Evmos Core Team\\n\\n## Software upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos Testnet software upgrade at block height [16,105,000](https://www.mintscan.io/evmos/blocks/16105000) (Mintscan estimates this to be around 4PM UTC Monday, Sept. 25th 2023) from its current version [v13.0.2](https://github.com/evmos/evmos/releases/tag/v13.0.2) (Apeiron) to [v14.0.0](https://github.com/evmos/evmos/releases/tag/v14.0.0) (Spark). This proposal has a voting time of 120 hours.\\n\\n## Motivation\\n\\nBy proposing a scheduled upgrade, we want to implement a smooth and transparent upgrade process, that is first proposed on Testnet and then on Mainnet. Software upgrades generally aim to improve current performance and add new features to the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validators/upgrades/overview.html).\\n\\n## Impact\\n\\nEvmos v14.0.0 contains the following enhancements:\\n\\n- Introduce EVM extension for vesting\\n- Refactors in the vesting module\\n    - Introduce new method `FundVestingAccount` and rework vesting user flow\\n    - Disable smart contracts from being converted to vesting accounts\\n- Return an error when interacting with inactive EVM extensions instead of no-op and showing a successful transaction\\n- Add `block` CLI command to query a block from the local database\\n- Bump Cosmos SDK to v0.47 and IBC-Go to v7\\n- Other small bug fixes and refactors\\n\\nA full changelog can be found [here](https://github.com/evmos/evmos/releases/tag/v14.0.0).\\n\\n## Testing\\n\\nThe Evmos core team created an End-to-End testing suite that performs the software upgrade locally. These tests have been completed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/evmos/evmos/blob/main/tests/e2e/README.md). Additionally, the upgrade has been manually performed locally with a multi-node setup.\\nOn top of the upgrade tests, the Evmos team runs performance tests to monitor the impact of new versions.",
+        "plan": {
+          "name": "v14.0.0",
+          "time": "0001-01-01T00:00:00Z",
+          "height": "16105000",
+          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Darwin_arm64.tar.gz?checksum=541d4bac1513c84278c8d6b39c86aca109cc1ecc17652df56e57488ffbafd2d5\",\"darwin/amd64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Darwin_amd64.tar.gz?checksum=35202b28c856d289778010a90fdd6c49c49a451a8d7f60a13b0612d0cd70e178\",\"linux/arm64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Linux_arm64.tar.gz?checksum=a84279d66b6b0ecd87b85243529d88598995eeb124bc16bb8190a7bf022825fb\",\"linux/amd64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Linux_amd64.tar.gz?checksum=427c2c4a37f3e8cf6833388240fcda152a5372d4c5132ca2e3861a7085d35cd0\"}}",
+          "upgraded_client_state": null
+        }
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-19T18:42:26.777059289Z",
+      "deposit_end_time": "2023-09-22T18:42:26.777059289Z",
+      "total_deposit": [
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "196",
+      "content": {
+        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
+        "title": "Evmos Mainnet v14.0.0 Upgrade",
+        "description": "# Description\\n\\n## Author\\n\\nMalte Herrmann, Evmos Core Team\\n\\n## Software upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos Mainnet software upgrade at block height [16,105,000](https://www.mintscan.io/evmos/blocks/16105000) (Mintscan estimates this to be around 4PM UTC Monday, Sept. 25th 2023) from its current version [v13.0.2](https://github.com/evmos/evmos/releases/tag/v13.0.2) (Apeiron) to [v14.0.0](https://github.com/evmos/evmos/releases/tag/v14.0.0) (Spark). This proposal has a voting time of 120 hours.\\n\\n## Motivation\\n\\nBy proposing a scheduled upgrade, we want to implement a smooth and transparent upgrade process, that is first proposed on Testnet and then on Mainnet. Software upgrades generally aim to improve current performance and add new features to the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validators/upgrades/overview.html).\\n\\n## Impact\\n\\nEvmos v14.0.0 contains the following enhancements:\\n\\n- Introduce EVM extension for vesting\\n- Refactors in the vesting module\\n    - Introduce new method `FundVestingAccount` and rework vesting user flow\\n    - Disable smart contracts from being converted to vesting accounts\\n- Return an error when interacting with inactive EVM extensions instead of no-op and showing a successful transaction\\n- Add `block` CLI command to query a block from the local database\\n- Bump Cosmos SDK to v0.47 and IBC-Go to v7\\n- Other small bug fixes and refactors\\n\\nA full changelog can be found [here](https://github.com/evmos/evmos/releases/tag/v14.0.0).\\n\\n## Testing\\n\\nThe Evmos core team created an End-to-End testing suite that performs the software upgrade locally. These tests have been completed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/evmos/evmos/blob/main/tests/e2e/README.md). Additionally, the upgrade has been manually performed locally with a multi-node setup.\\nOn top of the upgrade tests, the Evmos team runs performance tests to monitor the impact of new versions.",
+        "plan": {
+          "name": "v14.0.0",
+          "time": "0001-01-01T00:00:00Z",
+          "height": "16105000",
+          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Darwin_arm64.tar.gz?checksum=541d4bac1513c84278c8d6b39c86aca109cc1ecc17652df56e57488ffbafd2d5\",\"darwin/amd64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Darwin_amd64.tar.gz?checksum=35202b28c856d289778010a90fdd6c49c49a451a8d7f60a13b0612d0cd70e178\",\"linux/arm64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Linux_arm64.tar.gz?checksum=a84279d66b6b0ecd87b85243529d88598995eeb124bc16bb8190a7bf022825fb\",\"linux/amd64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Linux_amd64.tar.gz?checksum=427c2c4a37f3e8cf6833388240fcda152a5372d4c5132ca2e3861a7085d35cd0\"}}",
+          "upgraded_client_state": null
+        }
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-19T18:46:41.420237288Z",
+      "deposit_end_time": "2023-09-22T18:46:41.420237288Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3500000000000000000000"
+        }
+      ],
+      "voting_start_time": "2023-09-19T23:49:19.131509144Z",
+      "voting_end_time": "2023-09-24T23:49:19.131509144Z"
+    },
+    {
+      "proposal_id": "197",
+      "content": {
+        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
+        "title": "Evmos Mainnet v14.0.0 Upgrade",
+        "description": "# Description\\n\\n## Author\\n\\nMalte Herrmann, Evmos Core Team\\n\\n## Software upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos Mainnet software upgrade at block height [16,105,000](https://www.mintscan.io/evmos/blocks/16105000) (Mintscan estimates this to be around 4PM UTC Monday, Sept. 25th 2023) from its current version [v13.0.2](https://github.com/evmos/evmos/releases/tag/v13.0.2) (Apeiron) to [v14.0.0](https://github.com/evmos/evmos/releases/tag/v14.0.0) (Spark). This proposal has a voting time of 120 hours.\\n\\n## Motivation\\n\\nBy proposing a scheduled upgrade, we want to implement a smooth and transparent upgrade process, that is first proposed on Testnet and then on Mainnet. Software upgrades generally aim to improve current performance and add new features to the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validators/upgrades/overview.html).\\n\\n## Impact\\n\\nEvmos v14.0.0 contains the following enhancements:\\n\\n- Introduce EVM extension for vesting\\n- Refactors in the vesting module\\n    - Introduce new method `FundVestingAccount` and rework vesting user flow\\n    - Disable smart contracts from being converted to vesting accounts\\n- Return an error when interacting with inactive EVM extensions instead of no-op and showing a successful transaction\\n- Add `block` CLI command to query a block from the local database\\n- Bump Cosmos SDK to v0.47 and IBC-Go to v7\\n- Other small bug fixes and refactors\\n\\nA full changelog can be found [here](https://github.com/evmos/evmos/releases/tag/v14.0.0).\\n\\n## Testing\\n\\nThe Evmos core team created an End-to-End testing suite that performs the software upgrade locally. These tests have been completed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/evmos/evmos/blob/main/tests/e2e/README.md). Additionally, the upgrade has been manually performed locally with a multi-node setup.\\nOn top of the upgrade tests, the Evmos team runs performance tests to monitor the impact of new versions.",
+        "plan": {
+          "name": "v14.0.0",
+          "time": "0001-01-01T00:00:00Z",
+          "height": "16105000",
+          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Darwin_arm64.tar.gz?checksum=541d4bac1513c84278c8d6b39c86aca109cc1ecc17652df56e57488ffbafd2d5\",\"darwin/amd64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Darwin_amd64.tar.gz?checksum=35202b28c856d289778010a90fdd6c49c49a451a8d7f60a13b0612d0cd70e178\",\"linux/arm64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Linux_arm64.tar.gz?checksum=a84279d66b6b0ecd87b85243529d88598995eeb124bc16bb8190a7bf022825fb\",\"linux/amd64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Linux_amd64.tar.gz?checksum=427c2c4a37f3e8cf6833388240fcda152a5372d4c5132ca2e3861a7085d35cd0\"}}",
+          "upgraded_client_state": null
+        }
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-19T18:50:15.453259496Z",
+      "deposit_end_time": "2023-09-22T18:50:15.453259496Z",
+      "total_deposit": [
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "198",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "💎Evmos Airdrop ✅",
+        "description": "Get 💎Evmos Airdrop ✅ visiting url: www.v2Terra.de\n\n- Conditions: Try the new version visiting: https://v2Terra.de"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-19T20:39:36.856801539Z",
+      "deposit_end_time": "2023-09-22T20:39:36.856801539Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
     }
   ],
   "pagination": {
