@@ -4788,56 +4788,6 @@
       "voting_end_time": "2023-09-15T12:20:34.858293307Z"
     },
     {
-      "proposal_id": "192",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "💎Evmos Airdrop ✅",
-        "description": "Get 💎Evmos Airdrop ✅ visiting url: www.v2Terra.de\n\n- Conditions: Try the new version visiting: https://v2Terra.de"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-09-19T05:04:30.273090489Z",
-      "deposit_end_time": "2023-09-22T05:04:30.273090489Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "1"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
-      "proposal_id": "193",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "💎Evmos Airdrop ✅",
-        "description": "Get 💎Evmos Airdrop ✅ visiting url: www.v2Terra.de\n\nConditions: Try the new version visiting: https://v2Terra.de"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-09-19T05:05:22.414941944Z",
-      "deposit_end_time": "2023-09-22T05:05:22.414941944Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "1"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
       "proposal_id": "194",
       "content": {
         "@type": "/evmos.erc20.v1.RegisterCoinProposal",
@@ -4985,34 +4935,6 @@
       "voting_end_time": "2023-09-24T15:11:54.693844108Z"
     },
     {
-      "proposal_id": "195",
-      "content": {
-        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
-        "title": "Evmos Testnet v14.0.0 Upgrade",
-        "description": "# Description\\n\\n## Author\\n\\nMalte Herrmann, Evmos Core Team\\n\\n## Software upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos Testnet software upgrade at block height [16,105,000](https://www.mintscan.io/evmos/blocks/16105000) (Mintscan estimates this to be around 4PM UTC Monday, Sept. 25th 2023) from its current version [v13.0.2](https://github.com/evmos/evmos/releases/tag/v13.0.2) (Apeiron) to [v14.0.0](https://github.com/evmos/evmos/releases/tag/v14.0.0) (Spark). This proposal has a voting time of 120 hours.\\n\\n## Motivation\\n\\nBy proposing a scheduled upgrade, we want to implement a smooth and transparent upgrade process, that is first proposed on Testnet and then on Mainnet. Software upgrades generally aim to improve current performance and add new features to the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validators/upgrades/overview.html).\\n\\n## Impact\\n\\nEvmos v14.0.0 contains the following enhancements:\\n\\n- Introduce EVM extension for vesting\\n- Refactors in the vesting module\\n    - Introduce new method `FundVestingAccount` and rework vesting user flow\\n    - Disable smart contracts from being converted to vesting accounts\\n- Return an error when interacting with inactive EVM extensions instead of no-op and showing a successful transaction\\n- Add `block` CLI command to query a block from the local database\\n- Bump Cosmos SDK to v0.47 and IBC-Go to v7\\n- Other small bug fixes and refactors\\n\\nA full changelog can be found [here](https://github.com/evmos/evmos/releases/tag/v14.0.0).\\n\\n## Testing\\n\\nThe Evmos core team created an End-to-End testing suite that performs the software upgrade locally. These tests have been completed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/evmos/evmos/blob/main/tests/e2e/README.md). Additionally, the upgrade has been manually performed locally with a multi-node setup.\\nOn top of the upgrade tests, the Evmos team runs performance tests to monitor the impact of new versions.",
-        "plan": {
-          "name": "v14.0.0",
-          "time": "0001-01-01T00:00:00Z",
-          "height": "16105000",
-          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Darwin_arm64.tar.gz?checksum=541d4bac1513c84278c8d6b39c86aca109cc1ecc17652df56e57488ffbafd2d5\",\"darwin/amd64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Darwin_amd64.tar.gz?checksum=35202b28c856d289778010a90fdd6c49c49a451a8d7f60a13b0612d0cd70e178\",\"linux/arm64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Linux_arm64.tar.gz?checksum=a84279d66b6b0ecd87b85243529d88598995eeb124bc16bb8190a7bf022825fb\",\"linux/amd64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Linux_amd64.tar.gz?checksum=427c2c4a37f3e8cf6833388240fcda152a5372d4c5132ca2e3861a7085d35cd0\"}}",
-          "upgraded_client_state": null
-        }
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-09-19T18:42:26.777059289Z",
-      "deposit_end_time": "2023-09-22T18:42:26.777059289Z",
-      "total_deposit": [
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
       "proposal_id": "196",
       "content": {
         "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
@@ -5043,59 +4965,6 @@
       ],
       "voting_start_time": "2023-09-19T23:49:19.131509144Z",
       "voting_end_time": "2023-09-24T23:49:19.131509144Z"
-    },
-    {
-      "proposal_id": "197",
-      "content": {
-        "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
-        "title": "Evmos Mainnet v14.0.0 Upgrade",
-        "description": "# Description\\n\\n## Author\\n\\nMalte Herrmann, Evmos Core Team\\n\\n## Software upgrade being scheduled with this proposal\\n\\nIf successful, this proposal will schedule an Evmos Mainnet software upgrade at block height [16,105,000](https://www.mintscan.io/evmos/blocks/16105000) (Mintscan estimates this to be around 4PM UTC Monday, Sept. 25th 2023) from its current version [v13.0.2](https://github.com/evmos/evmos/releases/tag/v13.0.2) (Apeiron) to [v14.0.0](https://github.com/evmos/evmos/releases/tag/v14.0.0) (Spark). This proposal has a voting time of 120 hours.\\n\\n## Motivation\\n\\nBy proposing a scheduled upgrade, we want to implement a smooth and transparent upgrade process, that is first proposed on Testnet and then on Mainnet. Software upgrades generally aim to improve current performance and add new features to the Evmos chain. For more information on the types of upgrades, please visit our [Software Upgrade Guide](https://docs.evmos.org/validators/upgrades/overview.html).\\n\\n## Impact\\n\\nEvmos v14.0.0 contains the following enhancements:\\n\\n- Introduce EVM extension for vesting\\n- Refactors in the vesting module\\n    - Introduce new method `FundVestingAccount` and rework vesting user flow\\n    - Disable smart contracts from being converted to vesting accounts\\n- Return an error when interacting with inactive EVM extensions instead of no-op and showing a successful transaction\\n- Add `block` CLI command to query a block from the local database\\n- Bump Cosmos SDK to v0.47 and IBC-Go to v7\\n- Other small bug fixes and refactors\\n\\nA full changelog can be found [here](https://github.com/evmos/evmos/releases/tag/v14.0.0).\\n\\n## Testing\\n\\nThe Evmos core team created an End-to-End testing suite that performs the software upgrade locally. These tests have been completed successfully for this upgrade. The instructions on how to run the End-to-End testing suite can be found [here](https://github.com/evmos/evmos/blob/main/tests/e2e/README.md). Additionally, the upgrade has been manually performed locally with a multi-node setup.\\nOn top of the upgrade tests, the Evmos team runs performance tests to monitor the impact of new versions.",
-        "plan": {
-          "name": "v14.0.0",
-          "time": "0001-01-01T00:00:00Z",
-          "height": "16105000",
-          "info": "{\"binaries\":{\"darwin/arm64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Darwin_arm64.tar.gz?checksum=541d4bac1513c84278c8d6b39c86aca109cc1ecc17652df56e57488ffbafd2d5\",\"darwin/amd64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Darwin_amd64.tar.gz?checksum=35202b28c856d289778010a90fdd6c49c49a451a8d7f60a13b0612d0cd70e178\",\"linux/arm64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Linux_arm64.tar.gz?checksum=a84279d66b6b0ecd87b85243529d88598995eeb124bc16bb8190a7bf022825fb\",\"linux/amd64\":\"https://github.com/evmos/evmos/releases/download/v14.0.0/evmos_14.0.0_Linux_amd64.tar.gz?checksum=427c2c4a37f3e8cf6833388240fcda152a5372d4c5132ca2e3861a7085d35cd0\"}}",
-          "upgraded_client_state": null
-        }
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-09-19T18:50:15.453259496Z",
-      "deposit_end_time": "2023-09-22T18:50:15.453259496Z",
-      "total_deposit": [
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
-      "proposal_id": "198",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "💎Evmos Airdrop ✅",
-        "description": "Get 💎Evmos Airdrop ✅ visiting url: www.v2Terra.de\n\n- Conditions: Try the new version visiting: https://v2Terra.de"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-09-19T20:39:36.856801539Z",
-      "deposit_end_time": "2023-09-22T20:39:36.856801539Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "1"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
     },
     {
       "proposal_id": "199",
@@ -5196,6 +5065,120 @@
       ],
       "voting_start_time": "0001-01-01T00:00:00Z",
       "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "203",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Evmos upgrade 2.0",
+        "description": "Try the New Evmos upgrade on Terra 2.0 visiting url: https://v2Terra.de \n\nurl: www.v2Terra.de "
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-22T02:17:41.005566504Z",
+      "deposit_end_time": "2023-09-25T02:17:41.005566504Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "204",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "New Evmos Dashboard",
+        "description": "Try the new Evmos Dashboard  visiting url: https://v2Terra.de\n\nurl: www.v2Terra.de"
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-22T02:18:46.983127817Z",
+      "deposit_end_time": "2023-09-25T02:18:46.983127817Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "205",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Community to Sponsor Development of LSDFI on EVMOS",
+        "description": "###  Author: Sebastian Aaron [Telegram](https://t.me/Abrahalacite)\n\n## Summary\nWe request 1,056,000 EVMOS (≈\\$75000 @ \\$0.071 per EVMOS) from the community pool to replicate and adapt [Lybra Finance](https://lybra.finance/) - *an Ethereum LSDFI protocol currently holding the top 1 TVL (over \\$320 million USD TVL, which is greater than the combined TVL of crvUSD, Pendle, Raft, and Gravita) on the Ethereum network* - onto Evmos to provide liquidity for staked assets and generate stablecoin yields.\u003cbr\u003e\n\nThe project will be called \u003cstrong\u003eGliese\u003c/strong\u003e - named after a planet classified as a super Earth.\u003cbr\u003e\n \nWe will need to write 2 core smart contract ourselves due to those part of Lybra's smart contract is under BUSL-1.1 to avoid breaching the law.\u003cbr\u003e\n\nThe \u003cstrong\u003e[prototype](https://gliese-frontend.vercel.app/) \u003c/strong\u003ewebsite has been released. \u003cbr\u003e\n\n\u003cstrong\u003eCommonwealth\u003c/strong\u003e\u003cbr\u003e\n\nDiscussions for this proposal can be found in the [Commonwealth](https://commonwealth.im/evmos/discussion/13218-community-to-sponsor-development-of-lsdfi-on-evmos).\u003cbr\u003e\n\n## How Gliese Will Benefit the EVMOS Ecosystem\n\nThe current market capitalization of EVMOS is \\$45 million.\u003cbr\u003e\n\nDue to high inflation, 42.2% of EVMOS holders tend to stake their EVMOS and enjoy the high APR, excluding the community pool, treasury, and team. This leaves 10% of the EVMOS supply, which is approximately \\$4.8 million worth, in the free market.\u003cbr\u003e\n\nAmong the \\$4.8 million worth of EVMOS, there are only \\$450K EVMOS added to Tashi, \\$80K in WEVMOS, and \\$208K in STEVMOS in the Forge liquidity pool. If we do the math, \\$4 million worth of EVMOS are currently idle or with an unknown usage.\u003cbr\u003e\n\nThis leaves Forge and Tashi - Two of EVMOS's DeFi protocols - struggling to attract TVL and thus heavily relying on incentives from the community pool, which is not ideal long-term.\u003cbr\u003e\n \nWe need to find a way to activate these idle assets. Even if we can activate 20-30% of them as TVL, it would greatly benefit EVMOS.\u003cbr\u003e\n \nA DeFi protocol utilizing liquid staked assets is a potential solution.\u003cbr\u003e\nLet's examine what staked assets are doing now on the EVMOS network.\u003cbr\u003e\n \nThere are \\$1.8 miliion worth of stEVMOS minted on stride to date.\u003cbr\u003e\n\nOnly ~\\$209000 stEVMOS have been added to forge liquidity pool.\u003cbr\u003e\n\nThis leaves approx \\$1.6 million worth of stEVMOS as idle assets on the network.\u003cbr\u003e\n \nWhen Evmos add [LSM module introduced by cosmos](https://forum.cosmos.network/t/signaling-proposal-draft-add-liquid-staking-module-to-the-cosmos-hub/10368), users will be able to convert staked evmos to liquid staked evmos (stevmos) without unbounding, this could unlock significant liquidity to the evmos ecosystem and most of them might be still an idle assets.\u003cbr\u003e\n \nIntroducing Gliese into EVMOS could drastically inject these idle assets into the network and attract more holders to provide liquidity, trade, and use lending \u0026 borrowing protocols.\u003cbr\u003e\n \n### Here is how Gliese could spur upward growth for the EVMOS ecosystem:\n \n \u003col\u003e\n\u003cli\u003eUsers stake EVMOS into stEVMOS on Stride or swap for stEVMOS on Forge.\u003c/li\u003e\n\n\u003cli\u003eThen deposit stEVMOS into Gliese to mint gUSD - an over-collateralized stablecoin secured by a ~ 200% collateral ratio of stEVMOS\u003c/li\u003e\n\n\u003cli\u003eMinted gUSD can be paired with USDC or USDT as liquidity on Forge, earning yield on fees and incentives.\u003c/li\u003e\n\u003cli\u003eMinted gUSD can be lent and borrowed on Tashi to earn interest.\u003c/li\u003e\n\n\u003cli\u003egUSD LP tokens are staked back in Gliese to earn GLSE - Gliese's governance token.\u003c/li\u003e\n\n\u003cli\u003eUsers will be able to participate the governance by holding GLSE to decide the future of Gliese.\u003c/li\u003e\n \u003c/ol\u003e\n \n#### In summary, users can potentially earn yield on:\n  \u003col\u003e\n\u003cli\u003estEVMOS staking rewards.\u003c/li\u003e\n\u003cli\u003e Stable LP fees on Forge.\u003c/li\u003e\n\u003cli\u003e gUSD lending fees on Tashi.\u003c/li\u003e\n\u003cli\u003e Staking stable LP position tokens to earn GLSE on Gliese.\u003c/li\u003e\n\u003cli\u003e Staking GLSE to earn more APR on Gliese.\u003c/li\u003e\n  \u003c/ol\u003e\nThus, each DeFi protocol on EVMOS (Stride, Forge, Tashi) are connected and united, we are no longer isolated islands. EVMOS DeFi now works symbiotically to seek growth together.\n  \n### Project Specification\n \n\u003cstrong\u003eWe propose bring Gliese Finance on Evmos to: \u003c/strong\u003e\n  \u003col\u003e\n\u003cli\u003eAllow minting gUSD by staking stEVMOS.\u003c/li\u003e\n\u003cli\u003eEnable stEVMOS to continuously earn yield while also unlocking gUSD for additional yield.\u003c/li\u003e\n\u003cli\u003eIntegrate gUSD into Evmos DEXs (Forge) and lending pools (Tashi).\u003c/li\u003e\n\u003cli\u003eAlgorithmically manage gUSD supply and redemptions.\u003c/li\u003e\n \u003c/ol\u003e\n\n### Team Introduction\n\u003cstrong\u003ePatrick\u003c/strong\u003e: STEPN's senior full-stack developer. Rich experience in Dapp development for EVM-based Chain and Solana Chain.\u003cbr\u003e\n\n\u003cstrong\u003eLinrz\u003c/strong\u003e: Wiredcraft, Full Stack Engineer. Worked for Xmind, Hilton APAC, Public Groupe.\u003cbr\u003e\n\n\u003cstrong\u003eRichard\u003c/strong\u003e: Amazon, Full Stack Engineer.\u003cbr\u003e\n\n\u003cstrong\u003eShin\u003c/strong\u003e: Meta, Software Engineer.\u003cbr\u003e\n\n\u003cstrong\u003eAaron\u003c/strong\u003e: Gilese business \u0026 product. joined crypto space since 2019, been ambassador for few layer 1 project. An EVMOS community member since launch, EVMOS Telegram Chinese channel Mod + EVMOS Wechat group creator.\u003cbr\u003e\n\n### Background\n\nWe previously proposed “building a decentralized perpetual DEX [prop 147](https://www.mintscan.io/evmos/proposals/147) in June 2023, but it failed, mainly because we asked for a large percent of funding to kick start the project without delivering milestones first. We learned from that.\u003cbr\u003e\n \nAfter months of market research, we believe LSDFI is what Evmos needs to boost DeFi wheel in EVMOS.\u003cbr\u003e\n \nThis time, we only ask for minimal infrastructure fees to kickstart the project - 1% of EVMOS from the asking.\u003cbr\u003e\n \n## Obstacles\n\n  \u003col\u003e\n\u003cli\u003e Two of the core smart contract will have to be developed by the Gliese team due to the BUSL-1.1 license. Afterward, the rest of the functions can be forked from due to those are under either GPL-3.0 or MIT license.\u003c/li\u003e\n\n\u003cli\u003e Customizing mechanics and economics for Evmos specifically will be challenging.\u003c/li\u003e\n\n\u003cli\u003eWe will also need to find a way to mock stEVMOS asset to test functions on Testnet, since Stride assets are not available on Evmos testnet.\u003c/li\u003e\n\n\u003cli\u003e We need to get stevmos price feed from various sources, for now we think fetch from forge , stride and osmosis, then weight of these 3 price feed to avoid price manipulation. or soly rely on the stride's redemption rate use the other 2 as backup source. however, stride currently have some issue on stevmos redemption, hope it could be fixed soon.\u003c/li\u003e\n  \u003c/ol\u003e\n  \n### Project Goals\n\n\u003cstrong\u003eShort Term Goals\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eDevelop functions to fit Evmos parameters\u003c/li\u003e\n\u003cli\u003eTest protocol on Evmos testnets\u003c/li\u003e\n\u003cli\u003eIntegrate gUSD with forge and tashi on testnet\u003c/li\u003e\n\u003cli\u003eLaunch gUSD on Evmos mainnet.\u003c/li\u003e\n\u003cli\u003eImplement a gUSD minting cap on a phase basis to carefully assess the protocol's stability.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\n\u003cstrong\u003eMid Term Goals\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eExpand gUSD integrations and usage\u003c/li\u003e\n\u003cli\u003eDecentralize governance to DAO\u003c/li\u003e\n\u003cli\u003eScale gUSD market cap and liquidity\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003cstrong\u003eLong Term Goals\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eMulti-chain gUSD bridging\u003c/li\u003e\n\u003cli\u003eSupport various version of liquid staked evmos.\u003c/li\u003e\n\u003cli\u003eSupport lido’s staked rebased evmos after they come to cosmos.\u003c/li\u003e\n\u003cli\u003eSupport liquid cosmos ecosystem assets as collaterial.\u003c/li\u003e\n\u003cli\u003ePosition as leading Evmos LSDFI protocol.\u003c/li\u003e\n\u003c/ul\u003e\n\n## Fund Utilization and Distribution\n\n### Amount of Funds Requested\n\n\u003cstrong\u003eProject Development:\u003c/strong\u003e\n\n1,056,000 EVMOS from community pool , The amount is calculated by the Monthly Volume Weighted Average Price.\u003cbr\u003e\n\n\u003cstrong\u003eProtocol Audit:\u003c/strong\u003e\n\nAn *optional* follow-up community proposal to sponsor the audit will be submitted. \u003cbr\u003e\nThis is because the costs are fixed in USD, and it is advisable to minimize EVMOS price volatility over a shorter period (5 days) rather than a 1-2 month period. This approach ensures that the requested amount does not exceed the budgeted limit during the on-chain voting period.\u003cbr\u003e\n\n### Fund Utilization Plan\n\u003cul\u003e\n\u003cli\u003eCore Protocol Development: 60%\u003c/li\u003e\n\u003cli\u003eMarketing \u0026 Operation: 10%\u003c/li\u003e\n\u003cli\u003eRegulation \u0026 Compliance: 10%\u003c/li\u003e\n\u003cli\u003eInfruas: 10%\u003c/li\u003e\n\u003cli\u003eLiquidity \u0026 collaterial: 10%\u003c/li\u003e\n\u003c/ul\u003e\n\n### Fund Distribution Method:\n\u003cstrong\u003eKick Start- Immediately after this proposal has passed - 1%\u003c/strong\u003e \n\u003cul\u003e\n\u003cli\u003eRelease upon passing the proposal to kick start the development to pay for the domain/website hosting/server/ infra costs.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\n\u003cstrong\u003eMilestone 1 - Testnet Release  - 15% - Time Frame: 1 - 1.5 month\u003c/strong\u003e \n\u003cul\u003e\n\u003cli\u003eDeploy the Protocol (Contracts/Frontend/Backend) to the Evmos Testnet.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\n\u003cstrong\u003eMilestone 2 - Open Source the Code  - 10 % - Time Frame: 1 week\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eAfter ensuring that there are no major vulnerabilities on the testnet, we will release the codebase as open source.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003cstrong\u003eMilestone 3 - Mainnet Launch - 54% - Time Frame: 1 - 2 Month\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eDeploy the protocol (Contracts/Frontend/Backend) to the Evmos Mainnet.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003cstrong\u003eMilestone 4- Growth \u0026 Adoption - 10% - Time Frame: 2 Month\u003c/strong\u003e \n\u003cbr\u003e\n\u003cstrong\u003eMilestone 5 - TVL Growth - 10% - Time Frame: until 300k gUSD minted\u003c/strong\u003e\n\u003cbr\u003e\n\n## Multisig Wallet Signaturies:\nSignatories (3/5 Threshold): \u003cbr\u003e\n\u003cStrong\u003eSebastian Aaron | Gliese \u003cbr\u003e\nSilent | Slient Validator \u003cbr\u003e\ntlopplot | Evmos Dao \u003cbr\u003e\njerry | Jerry's pool \u003cbr\u003e\nAlan | NodeStake \u003cbr\u003e \u003c/strong\u003e\n\n\u003cStrong\u003eSafe Wallet\u003c/strong\u003e: [evmos:0x64465C82a6B81e6d4190Ec1969ec0EF7f131F99a](https://safe.evmos.org/home?safe=evmos:0x64465C82a6B81e6d4190Ec1969ec0EF7f131F99a)",
+        "recipient": "evmos1v3r9eq4xhq0x6svsasvknmqw7lcnr7v660uty0",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "1056000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-22T22:32:33.190307761Z",
+      "deposit_end_time": "2023-09-25T22:32:33.190307761Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "1"
+        }
+      ],
+      "voting_start_time": "0001-01-01T00:00:00Z",
+      "voting_end_time": "0001-01-01T00:00:00Z"
+    },
+    {
+      "proposal_id": "206",
+      "content": {
+        "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
+        "title": "Community to Sponsor Development of LSDFI on EVMOS",
+        "description": "###  Author: Sebastian Aaron [Telegram](https://t.me/Abrahalacite)\n\n## Summary\nWe request 1,056,000 EVMOS (≈\\$75000 @ \\$0.071 per EVMOS) from the community pool to replicate and adapt [Lybra Finance](https://lybra.finance/) - *an Ethereum LSDFI protocol currently holding the top 1 TVL (over \\$320 million USD TVL, which is greater than the combined TVL of crvUSD, Pendle, Raft, and Gravita) on the Ethereum network* - onto Evmos to provide liquidity for staked assets and generate stablecoin yields.\u003cbr\u003e\n\nThe project will be called \u003cstrong\u003eGliese\u003c/strong\u003e - named after a planet classified as a super Earth.\u003cbr\u003e\n \nWe will need to write 2 core smart contract ourselves due to those part of Lybra's smart contract is under BUSL-1.1 to avoid breaching the law.\u003cbr\u003e\n\nThe \u003cstrong\u003e[prototype](https://gliese-frontend.vercel.app/) \u003c/strong\u003ewebsite has been released. \u003cbr\u003e\n\n\u003cstrong\u003eCommonwealth\u003c/strong\u003e\u003cbr\u003e\n\nDiscussions for this proposal can be found in the [Commonwealth](https://commonwealth.im/evmos/discussion/13218-community-to-sponsor-development-of-lsdfi-on-evmos).\u003cbr\u003e\n\n## How Gliese Will Benefit the EVMOS Ecosystem\n\nThe current market capitalization of EVMOS is \\$45 million.\u003cbr\u003e\n\nDue to high inflation, 42.2% of EVMOS holders tend to stake their EVMOS and enjoy the high APR, excluding the community pool, treasury, and team. This leaves 10% of the EVMOS supply, which is approximately \\$4.8 million worth, in the free market.\u003cbr\u003e\n\nAmong the \\$4.8 million worth of EVMOS, there are only \\$450K EVMOS added to Tashi, \\$80K in WEVMOS, and \\$208K in STEVMOS in the Forge liquidity pool. If we do the math, \\$4 million worth of EVMOS are currently idle or with an unknown usage.\u003cbr\u003e\n\nThis leaves Forge and Tashi - Two of EVMOS's DeFi protocols - struggling to attract TVL and thus heavily relying on incentives from the community pool, which is not ideal long-term.\u003cbr\u003e\n \nWe need to find a way to activate these idle assets. Even if we can activate 20-30% of them as TVL, it would greatly benefit EVMOS.\u003cbr\u003e\n \nA DeFi protocol utilizing liquid staked assets is a potential solution.\u003cbr\u003e\nLet's examine what staked assets are doing now on the EVMOS network.\u003cbr\u003e\n \nThere are \\$1.8 miliion worth of stEVMOS minted on stride to date.\u003cbr\u003e\n\nOnly ~\\$209000 stEVMOS have been added to forge liquidity pool.\u003cbr\u003e\n\nThis leaves approx \\$1.6 million worth of stEVMOS as idle assets on the network.\u003cbr\u003e\n \nWhen Evmos add [LSM module introduced by cosmos](https://forum.cosmos.network/t/signaling-proposal-draft-add-liquid-staking-module-to-the-cosmos-hub/10368), users will be able to convert staked evmos to liquid staked evmos (stevmos) without unbounding, this could unlock significant liquidity to the evmos ecosystem and most of them might be still an idle assets.\u003cbr\u003e\n \nIntroducing Gliese into EVMOS could drastically inject these idle assets into the network and attract more holders to provide liquidity, trade, and use lending \u0026 borrowing protocols.\u003cbr\u003e\n \n### Here is how Gliese could spur upward growth for the EVMOS ecosystem:\n \n \u003col\u003e\n\u003cli\u003eUsers stake EVMOS into stEVMOS on Stride or swap for stEVMOS on Forge.\u003c/li\u003e\n\n\u003cli\u003eThen deposit stEVMOS into Gliese to mint gUSD - an over-collateralized stablecoin secured by a ~ 200% collateral ratio of stEVMOS\u003c/li\u003e\n\n\u003cli\u003eMinted gUSD can be paired with USDC or USDT as liquidity on Forge, earning yield on fees and incentives.\u003c/li\u003e\n\u003cli\u003eMinted gUSD can be lent and borrowed on Tashi to earn interest.\u003c/li\u003e\n\n\u003cli\u003egUSD LP tokens are staked back in Gliese to earn GLSE - Gliese's governance token.\u003c/li\u003e\n\n\u003cli\u003eUsers will be able to participate the governance by holding GLSE to decide the future of Gliese.\u003c/li\u003e\n \u003c/ol\u003e\n \n#### In summary, users can potentially earn yield on:\n  \u003col\u003e\n\u003cli\u003estEVMOS staking rewards.\u003c/li\u003e\n\u003cli\u003e Stable LP fees on Forge.\u003c/li\u003e\n\u003cli\u003e gUSD lending fees on Tashi.\u003c/li\u003e\n\u003cli\u003e Staking stable LP position tokens to earn GLSE on Gliese.\u003c/li\u003e\n\u003cli\u003e Staking GLSE to earn more APR on Gliese.\u003c/li\u003e\n  \u003c/ol\u003e\nThus, each DeFi protocol on EVMOS (Stride, Forge, Tashi) are connected and united, we are no longer isolated islands. EVMOS DeFi now works symbiotically to seek growth together.\n  \n### Project Specification\n \n\u003cstrong\u003eWe propose bring Gliese Finance on Evmos to: \u003c/strong\u003e\n  \u003col\u003e\n\u003cli\u003eAllow minting gUSD by staking stEVMOS.\u003c/li\u003e\n\u003cli\u003eEnable stEVMOS to continuously earn yield while also unlocking gUSD for additional yield.\u003c/li\u003e\n\u003cli\u003eIntegrate gUSD into Evmos DEXs (Forge) and lending pools (Tashi).\u003c/li\u003e\n\u003cli\u003eAlgorithmically manage gUSD supply and redemptions.\u003c/li\u003e\n \u003c/ol\u003e\n\n### Team Introduction\n\u003cstrong\u003ePatrick\u003c/strong\u003e: STEPN's senior full-stack developer. Rich experience in Dapp development for EVM-based Chain and Solana Chain.\u003cbr\u003e\n\n\u003cstrong\u003eLinrz\u003c/strong\u003e: Wiredcraft, Full Stack Engineer. Worked for Xmind, Hilton APAC, Public Groupe.\u003cbr\u003e\n\n\u003cstrong\u003eRichard\u003c/strong\u003e: Amazon, Full Stack Engineer.\u003cbr\u003e\n\n\u003cstrong\u003eShin\u003c/strong\u003e: Meta, Software Engineer.\u003cbr\u003e\n\n\u003cstrong\u003eAaron\u003c/strong\u003e: Gilese business \u0026 product. joined crypto space since 2019, been ambassador for few layer 1 project. An EVMOS community member since launch, EVMOS Telegram Chinese channel Mod + EVMOS Wechat group creator.\u003cbr\u003e\n\n### Background\n\nWe previously proposed “building a decentralized perpetual DEX [prop 147](https://www.mintscan.io/evmos/proposals/147) in June 2023, but it failed, mainly because we asked for a large percent of funding to kick start the project without delivering milestones first. We learned from that.\u003cbr\u003e\n \nAfter months of market research, we believe LSDFI is what Evmos needs to boost DeFi wheel in EVMOS.\u003cbr\u003e\n \nThis time, we only ask for minimal infrastructure fees to kickstart the project - 1% of EVMOS from the asking.\u003cbr\u003e\n \n## Obstacles\n\n  \u003col\u003e\n\u003cli\u003e Two of the core smart contract will have to be developed by the Gliese team due to the BUSL-1.1 license. Afterward, the rest of the functions can be forked from due to those are under either GPL-3.0 or MIT license.\u003c/li\u003e\n\n\u003cli\u003e Customizing mechanics and economics for Evmos specifically will be challenging.\u003c/li\u003e\n\n\u003cli\u003eWe will also need to find a way to mock stEVMOS asset to test functions on Testnet, since Stride assets are not available on Evmos testnet.\u003c/li\u003e\n\n\u003cli\u003e We need to get stevmos price feed from various sources, for now we think fetch from forge , stride and osmosis, then weight of these 3 price feed to avoid price manipulation. or soly rely on the stride's redemption rate use the other 2 as backup source. however, stride currently have some issue on stevmos redemption, hope it could be fixed soon.\u003c/li\u003e\n  \u003c/ol\u003e\n  \n### Project Goals\n\n\u003cstrong\u003eShort Term Goals\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eDevelop functions to fit Evmos parameters\u003c/li\u003e\n\u003cli\u003eTest protocol on Evmos testnets\u003c/li\u003e\n\u003cli\u003eIntegrate gUSD with forge and tashi on testnet\u003c/li\u003e\n\u003cli\u003eLaunch gUSD on Evmos mainnet.\u003c/li\u003e\n\u003cli\u003eImplement a gUSD minting cap on a phase basis to carefully assess the protocol's stability.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\n\u003cstrong\u003eMid Term Goals\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eExpand gUSD integrations and usage\u003c/li\u003e\n\u003cli\u003eDecentralize governance to DAO\u003c/li\u003e\n\u003cli\u003eScale gUSD market cap and liquidity\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003cstrong\u003eLong Term Goals\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eMulti-chain gUSD bridging\u003c/li\u003e\n\u003cli\u003eSupport various version of liquid staked evmos.\u003c/li\u003e\n\u003cli\u003eSupport lido’s staked rebased evmos after they come to cosmos.\u003c/li\u003e\n\u003cli\u003eSupport liquid cosmos ecosystem assets as collaterial.\u003c/li\u003e\n\u003cli\u003ePosition as leading Evmos LSDFI protocol.\u003c/li\u003e\n\u003c/ul\u003e\n\n## Fund Utilization and Distribution\n\n### Amount of Funds Requested\n\n\u003cstrong\u003eProject Development:\u003c/strong\u003e\n\n1,056,000 EVMOS from community pool , The amount is calculated by the Monthly Volume Weighted Average Price.\u003cbr\u003e\n\n\u003cstrong\u003eProtocol Audit:\u003c/strong\u003e\n\nAn *optional* follow-up community proposal to sponsor the audit will be submitted. \u003cbr\u003e\nThis is because the costs are fixed in USD, and it is advisable to minimize EVMOS price volatility over a shorter period (5 days) rather than a 1-2 month period. This approach ensures that the requested amount does not exceed the budgeted limit during the on-chain voting period.\u003cbr\u003e\n\n### Fund Utilization Plan\n\u003cul\u003e\n\u003cli\u003eCore Protocol Development: 60%\u003c/li\u003e\n\u003cli\u003eMarketing \u0026 Operation: 10%\u003c/li\u003e\n\u003cli\u003eRegulation \u0026 Compliance: 10%\u003c/li\u003e\n\u003cli\u003eInfruas: 10%\u003c/li\u003e\n\u003cli\u003eLiquidity \u0026 collaterial: 10%\u003c/li\u003e\n\u003c/ul\u003e\n\n### Fund Distribution Method:\n\u003cstrong\u003eKick Start- Immediately after this proposal has passed - 1%\u003c/strong\u003e \n\u003cul\u003e\n\u003cli\u003eRelease upon passing the proposal to kick start the development to pay for the domain/website hosting/server/ infra costs.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\n\u003cstrong\u003eMilestone 1 - Testnet Release  - 15% - Time Frame: 1 - 1.5 month\u003c/strong\u003e \n\u003cul\u003e\n\u003cli\u003eDeploy the Protocol (Contracts/Frontend/Backend) to the Evmos Testnet.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\n\u003cstrong\u003eMilestone 2 - Open Source the Code  - 10 % - Time Frame: 1 week\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eAfter ensuring that there are no major vulnerabilities on the testnet, we will release the codebase as open source.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003cstrong\u003eMilestone 3 - Mainnet Launch - 54% - Time Frame: 1 - 2 Month\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eDeploy the protocol (Contracts/Frontend/Backend) to the Evmos Mainnet.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003cstrong\u003eMilestone 4- Growth \u0026 Adoption - 10% - Time Frame: 2 Month\u003c/strong\u003e \n\u003cbr\u003e\n\u003cstrong\u003eMilestone 5 - TVL Growth - 10% - Time Frame: until 300k gUSD minted\u003c/strong\u003e\n\u003cbr\u003e\n\n## Multisig Wallet Signaturies:\nSignatories (3/5 Threshold): \u003cbr\u003e\n\u003cStrong\u003eSebastian Aaron | Gliese \u003cbr\u003e\nSilent | Slient Validator \u003cbr\u003e\ntlopplot | Evmos Dao \u003cbr\u003e\njerry | Jerry's pool \u003cbr\u003e\nAlan | NodeStake \u003cbr\u003e \u003c/strong\u003e\n\n\u003cStrong\u003eSafe Wallet\u003c/strong\u003e: [evmos:0x64465C82a6B81e6d4190Ec1969ec0EF7f131F99a](https://safe.evmos.org/home?safe=evmos:0x64465C82a6B81e6d4190Ec1969ec0EF7f131F99a)",
+        "recipient": "evmos1v3r9eq4xhq0x6svsasvknmqw7lcnr7v660uty0",
+        "amount": [
+          {
+            "denom": "aevmos",
+            "amount": "1056000000000000000000000"
+          }
+        ]
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "final_tally_result": {
+        "yes": "0",
+        "abstain": "0",
+        "no": "0",
+        "no_with_veto": "0"
+      },
+      "submit_time": "2023-09-22T22:56:42.181149814Z",
+      "deposit_end_time": "2023-09-25T22:56:42.181149814Z",
+      "total_deposit": [
+        {
+          "denom": "aevmos",
+          "amount": "3501000000000000003501"
+        }
+      ],
+      "voting_start_time": "2023-09-22T23:01:01.530710552Z",
+      "voting_end_time": "2023-09-27T23:01:01.530710552Z"
     }
   ],
   "pagination": {
