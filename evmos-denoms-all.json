@@ -210,6 +210,30 @@
       "uri_hash": ""
     },
     {
+      "description": "Wormhole USDC on Ethereum",
+      "denom_units": [
+        {
+          "denom": "ibc/0C19171CDC59451F91D2749CDEA63355532DCD5D8904CCBAC4953290E16AB8FD",
+          "exponent": 0,
+          "aliases": [
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/0C19171CDC59451F91D2749CDEA63355532DCD5D8904CCBAC4953290E16AB8FD",
+      "display": "usdc",
+      "name": "Wormhole USDC on Ethereum",
+      "symbol": "USDC",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
       "description": "Staking derivative stSTARS for staked STARS by Stride",
       "denom_units": [
         {
@@ -450,6 +474,54 @@
       "uri_hash": ""
     },
     {
+      "description": "Wormhole ETH",
+      "denom_units": [
+        {
+          "denom": "ibc/4442A8E0D487A49E76EA6606F5DADCF8D0DBDD8499112340C964970DB745EDA2",
+          "exponent": 0,
+          "aliases": [
+            "nweth"
+          ]
+        },
+        {
+          "denom": "weth",
+          "exponent": 8,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/4442A8E0D487A49E76EA6606F5DADCF8D0DBDD8499112340C964970DB745EDA2",
+      "display": "weth",
+      "name": "Wormhole ETH",
+      "symbol": "WETH",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
+      "description": "Wormhole SOL token from Solana",
+      "denom_units": [
+        {
+          "denom": "ibc/4443218F584A7AB2DFBCF93872D6E5B6967A11C53515DDF45A2CF387C54BD73A",
+          "exponent": 0,
+          "aliases": [
+            "nsol"
+          ]
+        },
+        {
+          "denom": "sol",
+          "exponent": 8,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/4443218F584A7AB2DFBCF93872D6E5B6967A11C53515DDF45A2CF387C54BD73A",
+      "display": "sol",
+      "name": "Wormhole SOL token from Solana",
+      "symbol": "SOL",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
       "description": "The native token of JUNO Chain",
       "denom_units": [
         {
@@ -494,6 +566,30 @@
       "display": "TGD",
       "name": "Tgrade",
       "symbol": "TGD",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
+      "description": "Wormhole Bitcoin",
+      "denom_units": [
+        {
+          "denom": "ibc/46C5DA1CB61C5BAA8730ABA467ADD58DE0333B075CACE28BC87E64AE8C9CA051",
+          "exponent": 0,
+          "aliases": [
+            "nwbtc"
+          ]
+        },
+        {
+          "denom": "wbtc",
+          "exponent": 8,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/46C5DA1CB61C5BAA8730ABA467ADD58DE0333B075CACE28BC87E64AE8C9CA051",
+      "display": "wbtc",
+      "name": "Wormhole Bitcoin",
+      "symbol": "WBTC",
       "uri": "",
       "uri_hash": ""
     },
@@ -949,6 +1045,30 @@
       "display": "axlwbtc",
       "name": "Wrapped Bitcoin on Axelar",
       "symbol": "axlWBTC",
+      "uri": "",
+      "uri_hash": ""
+    },
+    {
+      "description": "Wormhole USDT on Ethereum",
+      "denom_units": [
+        {
+          "denom": "ibc/C9072A294F5649D64E87A6998DD750576881E454CACCDAF7376EFC0FA243808D",
+          "exponent": 0,
+          "aliases": [
+            "uusdt"
+          ]
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6,
+          "aliases": [
+          ]
+        }
+      ],
+      "base": "ibc/C9072A294F5649D64E87A6998DD750576881E454CACCDAF7376EFC0FA243808D",
+      "display": "usdt",
+      "name": "Wormhole USDT on Ethereum",
+      "symbol": "USDT",
       "uri": "",
       "uri_hash": ""
     },
