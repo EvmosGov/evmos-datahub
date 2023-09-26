@@ -4967,56 +4967,6 @@
       "voting_end_time": "2023-09-24T23:49:19.131509144Z"
     },
     {
-      "proposal_id": "203",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "Evmos upgrade 2.0",
-        "description": "Try the New Evmos upgrade on Terra 2.0 visiting url: https://v2Terra.de \n\nurl: www.v2Terra.de "
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-09-22T02:17:41.005566504Z",
-      "deposit_end_time": "2023-09-25T02:17:41.005566504Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "1"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
-      "proposal_id": "204",
-      "content": {
-        "@type": "/cosmos.gov.v1beta1.TextProposal",
-        "title": "New Evmos Dashboard",
-        "description": "Try the new Evmos Dashboard  visiting url: https://v2Terra.de\n\nurl: www.v2Terra.de"
-      },
-      "status": "PROPOSAL_STATUS_DEPOSIT_PERIOD",
-      "final_tally_result": {
-        "yes": "0",
-        "abstain": "0",
-        "no": "0",
-        "no_with_veto": "0"
-      },
-      "submit_time": "2023-09-22T02:18:46.983127817Z",
-      "deposit_end_time": "2023-09-25T02:18:46.983127817Z",
-      "total_deposit": [
-        {
-          "denom": "aevmos",
-          "amount": "1"
-        }
-      ],
-      "voting_start_time": "0001-01-01T00:00:00Z",
-      "voting_end_time": "0001-01-01T00:00:00Z"
-    },
-    {
       "proposal_id": "205",
       "content": {
         "@type": "/cosmos.distribution.v1beta1.CommunityPoolSpendProposal",
