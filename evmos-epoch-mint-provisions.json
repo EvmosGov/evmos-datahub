@@ -1,6 +1,1 @@
-{
-  "epoch_mint_provision": {
-    "denom": "aevmos",
-    "amount": "436643835616438356164384.000000000000000000"
-  }
-}
+{"epoch_mint_provision":{"denom":"aevmos","amount":"436643835616438356164384.000000000000000000"}}
