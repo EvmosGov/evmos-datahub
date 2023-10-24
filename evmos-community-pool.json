@@ -1,1 +1,1 @@
-{"code":2,"message":"codespace sdk code 26: invalid height: cannot query with height in the future; please provide a valid height","details":[]}
+{"balances":[{"denom":"aevmos","amount":"117372107802577930246056737"},{"denom":"ibc/BF25D70C6347C21597B23469BD91DD5E9493E973E7FC853A6DA57A6D6CFAEBDF","amount":"20000"}],"pagination":{"next_key":null,"total":"2"}}
